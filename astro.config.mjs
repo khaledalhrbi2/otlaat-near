@@ -5,4 +5,5 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   integrations: [sitemap()],
+  build: { inlineStylesheets: 'always' },
 });
