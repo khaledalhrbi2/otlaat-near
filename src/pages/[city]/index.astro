@@ -1,7 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
-import MapRing from '../../components/MapRing.astro';
 import { cities, loadCity } from '../../lib/data.js';
 export function getStaticPaths(){ return cities.map(c => ({ params:{ city:c.slug } })); }
 const city = loadCity(Astro.params.city);
@@ -24,7 +23,6 @@ const Section = ({t, list}) => null;
       <p class="lede">ابدأ من المكان الذي تريد أن تكون قريباً منه، ونعرض لك الفنادق ضمن نطاقه فقط. {city.poi_count} معلماً ومنطقة في {city.name_ar}.</p>
       <div class="chips">{city.pois.slice(0,6).map(p => <a class="chip" href={`/${city.slug}/near/${p.slug}/`}>{p.name_ar}</a>)}</div>
     </div>
-    <MapRing lat={city.lat} lng={city.lng} prox={city.default_prox} label={city.name_ar} neighbours={city.pois.map(p=>({lat:p.lat,lng:p.lng,name_ar:p.name_ar}))} />
   </div>
   <BookingBar city={city} />
   {events.length > 0 && <section><h2>الأحداث والمواسم</h2><div class="grid">{events.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>{p.event ? `${p.event.start} → ${p.event.end}` : `ضمن ${p.prox_km} كم`}</small></a>)}</div></section>}

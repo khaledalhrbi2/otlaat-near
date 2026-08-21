@@ -1,7 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import BookingBar from '../../../components/BookingBar.astro';
-import MapRing from '../../../components/MapRing.astro';
 import { cities, loadCity, loadContent, fallbackContent } from '../../../lib/data.js';
 export function getStaticPaths(){
   return cities.flatMap(c => loadCity(c.slug).pois.map(p => ({ params:{ city:c.slug, poi:p.slug } })));
@@ -36,7 +35,6 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
         {poi.intents.slice(0,3).map(i => <span class="chip">{({family:'للعوائل',apartments:'شقق فندقية','5-star':'5 نجوم',budget:'اقتصادي',couples:'للأزواج',corporate:'رجال أعمال',transit:'ترانزيت',beach:'شاطئ',villa:'فلل',shopping:'تسوق','haram-view':'مطل على الحرم','bosphorus-view':'مطل على البسفور',halal:'حلال',nature:'طبيعة',cliff:'جرف',b2b:'مجموعات'})[i] ?? i}</span>)}
       </div>
     </div>
-    <MapRing lat={poi.lat} lng={poi.lng} prox={poi.prox_km} label={poi.name_ar} neighbours={nb} />
   </div>
   <BookingBar city={city} poi={poi} intent={intent} />
   <section class="prose">
