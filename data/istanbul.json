@@ -38,24 +38,24 @@
           "km": 0.7
         },
         {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 0.9
+        },
+        {
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
           "km": 1.4
         },
         {
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 1.7
+        },
+        {
           "slug": "besiktas",
           "name_ar": "بشكتاش",
           "km": 2.0
-        },
-        {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 2.2
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 2.5
         }
       ]
     },
@@ -81,29 +81,29 @@
       ],
       "neighbours": [
         {
+          "slug": "hagia-sophia",
+          "name_ar": "آيا صوفيا",
+          "km": 0.4
+        },
+        {
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 0.9
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.0
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 1.1
+        },
+        {
           "slug": "eminonu",
           "name_ar": "أمينونو",
           "km": 1.3
-        },
-        {
-          "slug": "laleli",
-          "name_ar": "لالالي",
-          "km": 1.8
-        },
-        {
-          "slug": "fatih",
-          "name_ar": "الفاتح",
-          "km": 2.8
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 3.1
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 3.6
         }
       ]
     },
@@ -129,6 +129,21 @@
       ],
       "neighbours": [
         {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 0.5
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 0.8
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 1.1
+        },
+        {
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
           "km": 1.5
@@ -137,21 +152,6 @@
           "slug": "taksim",
           "name_ar": "تقسيم",
           "km": 2.6
-        },
-        {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 2.6
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 2.7
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 3.1
         }
       ]
     },
@@ -195,9 +195,9 @@
           "km": 1.5
         },
         {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 2.1
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 1.7
         }
       ]
     },
@@ -232,6 +232,11 @@
           "km": 1.4
         },
         {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 1.7
+        },
+        {
           "slug": "uskudar",
           "name_ar": "أوسكودار",
           "km": 1.9
@@ -240,11 +245,6 @@
           "slug": "taksim",
           "name_ar": "تقسيم",
           "km": 2.0
-        },
-        {
-          "slug": "sisli",
-          "name_ar": "شيشلي",
-          "km": 2.7
         }
       ]
     },
@@ -275,6 +275,11 @@
           "km": 0.3
         },
         {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 1.4
+        },
+        {
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
           "km": 1.4
@@ -288,11 +293,6 @@
           "slug": "taksim",
           "name_ar": "تقسيم",
           "km": 2.2
-        },
-        {
-          "slug": "sisli",
-          "name_ar": "شيشلي",
-          "km": 2.6
         }
       ]
     },
@@ -316,29 +316,29 @@
       ],
       "neighbours": [
         {
-          "slug": "istinye-park",
-          "name_ar": "إستينيا بارك",
-          "km": 29.7
+          "slug": "basaksehir",
+          "name_ar": "بشاك شهير",
+          "km": 20.7
         },
         {
-          "slug": "sisli",
-          "name_ar": "شيشلي",
-          "km": 31.0
+          "slug": "mall-of-istanbul",
+          "name_ar": "مول أوف إسطنبول",
+          "km": 23.9
         },
         {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 32.4
+          "slug": "esenyurt",
+          "name_ar": "إسنيورت",
+          "km": 27.5
         },
         {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 32.9
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 28.2
         },
         {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 32.9
+          "slug": "eyup",
+          "name_ar": "السلطان أيوب",
+          "km": 29.5
         }
       ]
     },
@@ -362,29 +362,29 @@
       ],
       "neighbours": [
         {
+          "slug": "princes-islands",
+          "name_ar": "جزر الأميرات",
+          "km": 15.5
+        },
+        {
+          "slug": "emaar-square",
+          "name_ar": "إعمار سكوير",
+          "km": 23.0
+        },
+        {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 25.9
+        },
+        {
           "slug": "uskudar",
           "name_ar": "أوسكودار",
           "km": 28.5
         },
         {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 29.9
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 29.9
-        },
-        {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 30.3
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 31.2
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 29.0
         }
       ]
     },
@@ -409,9 +409,19 @@
       ],
       "neighbours": [
         {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 0.1
+        },
+        {
           "slug": "taksim",
           "name_ar": "تقسيم",
           "km": 0.7
+        },
+        {
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 1.1
         },
         {
           "slug": "eminonu",
@@ -419,19 +429,9 @@
           "km": 1.8
         },
         {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 2.1
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 2.7
-        },
-        {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 2.9
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 1.9
         }
       ]
     },
@@ -455,9 +455,19 @@
       ],
       "neighbours": [
         {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.0
+        },
+        {
           "slug": "fatih",
           "name_ar": "الفاتح",
           "km": 1.1
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 1.4
         },
         {
           "slug": "eminonu",
@@ -468,16 +478,6 @@
           "slug": "sultanahmet",
           "name_ar": "السلطان أحمد",
           "km": 1.8
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 3.2
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 3.9
         }
       ]
     },
@@ -506,24 +506,24 @@
           "km": 1.1
         },
         {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.9
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 1.9
+        },
+        {
           "slug": "eminonu",
           "name_ar": "أمينونو",
           "km": 2.0
         },
         {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 2.8
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 3.0
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 3.8
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 2.5
         }
       ]
     },
@@ -548,29 +548,29 @@
       ],
       "neighbours": [
         {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 1.3
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 0.1
         },
         {
-          "slug": "laleli",
-          "name_ar": "لالالي",
-          "km": 1.6
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.5
         },
         {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 1.8
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.8
         },
         {
-          "slug": "fatih",
-          "name_ar": "الفاتح",
-          "km": 2.0
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 0.8
         },
         {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 2.5
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 1.1
         }
       ]
     },
@@ -604,19 +604,19 @@
           "km": 2.0
         },
         {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 2.6
+        },
+        {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 2.6
+        },
+        {
           "slug": "taksim",
           "name_ar": "تقسيم",
           "km": 2.8
-        },
-        {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 3.0
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 3.2
         }
       ]
     },
@@ -641,6 +641,11 @@
       ],
       "neighbours": [
         {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 7.6
+        },
+        {
           "slug": "fatih",
           "name_ar": "الفاتح",
           "km": 7.7
@@ -651,19 +656,14 @@
           "km": 7.8
         },
         {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 9.3
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 8.8
         },
         {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 9.3
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 10.7
+          "slug": "eyup",
+          "name_ar": "السلطان أيوب",
+          "km": 9.2
         }
       ]
     },
@@ -687,32 +687,1020 @@
       ],
       "neighbours": [
         {
-          "slug": "sisli",
-          "name_ar": "شيشلي",
-          "km": 6.7
+          "slug": "akmerkez",
+          "name_ar": "أكمركز",
+          "km": 3.8
         },
         {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 7.5
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 4.9
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 5.7
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 5.8
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 6.2
+        }
+      ]
+    },
+    {
+      "slug": "cevahir-mall",
+      "name_ar": "جواهر مول",
+      "name_en": "Cevahir Mall",
+      "lat": 41.063,
+      "lng": 28.992,
+      "prox_km": 2,
+      "q": "جواهر مول",
+      "poi_label": "جواهر مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": "شيشلي-محيدار كوي",
+      "keywords": [
+        "فنادق قريبة من جواهر مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 0.3
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 0.5
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 0.8
         },
         {
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
-          "km": 7.6
+          "km": 1.7
+        },
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "mall-of-istanbul",
+      "name_ar": "مول أوف إسطنبول",
+      "name_en": "Mall of Istanbul",
+      "lat": 41.064,
+      "lng": 28.806,
+      "prox_km": 4,
+      "q": "مول اوف اسطنبول",
+      "poi_label": "مول أوف إسطنبول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "basaksehir",
+          "name_ar": "بشاك شهير",
+          "km": 3.2
+        },
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 7.8
+        },
+        {
+          "slug": "bakirkoy",
+          "name_ar": "بكركوي",
+          "km": 10.9
+        },
+        {
+          "slug": "eyup",
+          "name_ar": "السلطان أيوب",
+          "km": 10.9
+        },
+        {
+          "slug": "esenyurt",
+          "name_ar": "إسنيورت",
+          "km": 11.1
+        }
+      ]
+    },
+    {
+      "slug": "zorlu-center",
+      "name_ar": "زورلو سنتر",
+      "name_en": "Zorlu Center",
+      "lat": 41.067,
+      "lng": 29.017,
+      "prox_km": 2,
+      "q": "زورلو سنتر",
+      "poi_label": "زورلو سنتر",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "akmerkez",
+          "name_ar": "أكمركز",
+          "km": 1.2
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 2.0
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 2.1
+        },
+        {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 2.2
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "emaar-square",
+      "name_ar": "إعمار سكوير",
+      "name_en": "Emaar Square Mall",
+      "lat": 40.999,
+      "lng": 29.07,
+      "prox_km": 4,
+      "q": "اعمار سكوير",
+      "poi_label": "إعمار سكوير",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 3.0
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 5.5
+        },
+        {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 6.6
         },
         {
           "slug": "besiktas",
           "name_ar": "بشكتاش",
-          "km": 7.8
+          "km": 7.1
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 7.1
+        }
+      ]
+    },
+    {
+      "slug": "akmerkez",
+      "name_ar": "أكمركز",
+      "name_en": "Akmerkez",
+      "lat": 41.077,
+      "lng": 29.021,
+      "prox_km": 2,
+      "q": "اكمركز",
+      "poi_label": "أكمركز",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 1.2
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 2.6
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 2.9
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 2.9
+        },
+        {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "forum-istanbul",
+      "name_ar": "فوروم إسطنبول",
+      "name_en": "Forum Istanbul",
+      "lat": 41.046,
+      "lng": 28.896,
+      "prox_km": 3,
+      "q": "فوروم اسطنبول",
+      "poi_label": "فوروم إسطنبول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "eyup",
+          "name_ar": "السلطان أيوب",
+          "km": 3.2
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 5.4
+        },
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 6.4
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 7.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 7.0
+        }
+      ]
+    },
+    {
+      "slug": "eyup",
+      "name_ar": "السلطان أيوب",
+      "name_en": "Eyup",
+      "lat": 41.048,
+      "lng": 28.934,
+      "prox_km": 3,
+      "q": "السلطان ايوب",
+      "poi_label": "السلطان أيوب",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 3.2
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 3.5
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 4.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 4.0
         },
         {
           "slug": "taksim",
           "name_ar": "تقسيم",
-          "km": 9.0
+          "km": 4.4
+        }
+      ]
+    },
+    {
+      "slug": "karakoy",
+      "name_ar": "كاراكوي",
+      "name_en": "Karakoy",
+      "lat": 41.023,
+      "lng": 28.977,
+      "prox_km": 1.5,
+      "q": "كاراكوي",
+      "poi_label": "كاراكوي",
+      "type": "district",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 0.8
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.9
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 0.9
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 1.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "ortakoy",
+      "name_ar": "أورتاكوي",
+      "name_en": "Ortakoy",
+      "lat": 41.048,
+      "lng": 29.026,
+      "prox_km": 2,
+      "q": "اورتاكوي",
+      "poi_label": "أورتاكوي",
+      "type": "district",
+      "intents": [
+        "couples",
+        "bosphorus-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 1.4
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 1.7
+        },
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 2.2
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 2.6
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "sirkeci",
+      "name_ar": "سيركجي",
+      "name_en": "Sirkeci",
+      "lat": 41.015,
+      "lng": 28.977,
+      "prox_km": 1.5,
+      "q": "سيركجي",
+      "poi_label": "سيركجي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 0.5
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 0.6
+        },
+        {
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 0.7
+        },
+        {
+          "slug": "hagia-sophia",
+          "name_ar": "آيا صوفيا",
+          "km": 0.8
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "mecidiyekoy",
+      "name_ar": "مجيدية كوي",
+      "name_en": "Mecidiyekoy",
+      "lat": 41.066,
+      "lng": 28.993,
+      "prox_km": 2,
+      "q": "مجيدية كوي",
+      "poi_label": "مجيدية كوي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "مجيدية كوي",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 0.3
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 0.6
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 0.8
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 2.0
+        },
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "esenyurt",
+      "name_ar": "إسنيورت",
+      "name_en": "Esenyurt",
+      "lat": 41.034,
+      "lng": 28.68,
+      "prox_km": 5,
+      "q": "اسنيورت",
+      "poi_label": "إسنيورت",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "beylikduzu",
+          "name_ar": "بيليك دوزو",
+          "km": 4.7
+        },
+        {
+          "slug": "mall-of-istanbul",
+          "name_ar": "مول أوف إسطنبول",
+          "km": 11.1
+        },
+        {
+          "slug": "basaksehir",
+          "name_ar": "بشاك شهير",
+          "km": 12.2
+        },
+        {
+          "slug": "bakirkoy",
+          "name_ar": "بكركوي",
+          "km": 17.2
+        },
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 18.2
+        }
+      ]
+    },
+    {
+      "slug": "basaksehir",
+      "name_ar": "بشاك شهير",
+      "name_en": "Basaksehir",
+      "lat": 41.093,
+      "lng": 28.802,
+      "prox_km": 5,
+      "q": "بشاك شهير",
+      "poi_label": "بشاك شهير",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mall-of-istanbul",
+          "name_ar": "مول أوف إسطنبول",
+          "km": 3.2
+        },
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 9.5
+        },
+        {
+          "slug": "eyup",
+          "name_ar": "السلطان أيوب",
+          "km": 12.1
+        },
+        {
+          "slug": "esenyurt",
+          "name_ar": "إسنيورت",
+          "km": 12.2
+        },
+        {
+          "slug": "bakirkoy",
+          "name_ar": "بكركوي",
+          "km": 13.9
+        }
+      ]
+    },
+    {
+      "slug": "beylikduzu",
+      "name_ar": "بيليك دوزو",
+      "name_en": "Beylikduzu",
+      "lat": 41.003,
+      "lng": 28.642,
+      "prox_km": 5,
+      "q": "بيليك دوزو",
+      "poi_label": "بيليك دوزو",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "esenyurt",
+          "name_ar": "إسنيورت",
+          "km": 4.7
+        },
+        {
+          "slug": "mall-of-istanbul",
+          "name_ar": "مول أوف إسطنبول",
+          "km": 15.3
+        },
+        {
+          "slug": "basaksehir",
+          "name_ar": "بشاك شهير",
+          "km": 16.7
+        },
+        {
+          "slug": "bakirkoy",
+          "name_ar": "بكركوي",
+          "km": 19.5
+        },
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 21.8
+        }
+      ]
+    },
+    {
+      "slug": "beyoglu",
+      "name_ar": "بيوغلو",
+      "name_en": "Beyoglu",
+      "lat": 41.032,
+      "lng": 28.977,
+      "prox_km": 2,
+      "q": "بيوغلو",
+      "poi_label": "بيوغلو",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 0.1
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.9
+        },
+        {
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 1.0
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.7
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "hagia-sophia",
+      "name_ar": "آيا صوفيا",
+      "name_en": "Hagia Sophia",
+      "lat": 41.0086,
+      "lng": 28.9802,
+      "prox_km": 1.5,
+      "q": "ايا صوفيا",
+      "poi_label": "آيا صوفيا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ايا صوفيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 0.4
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 0.4
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.8
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.1
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "slug": "grand-bazaar",
+      "name_ar": "البازار الكبير",
+      "name_en": "Grand Bazaar",
+      "lat": 41.0108,
+      "lng": 28.968,
+      "prox_km": 1.5,
+      "q": "البازار الكبير",
+      "poi_label": "البازار الكبير",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 0.7
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 0.8
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.9
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 1.0
+        },
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "spice-bazaar",
+      "name_ar": "السوق المصري",
+      "name_en": "Spice Bazaar",
+      "lat": 41.0166,
+      "lng": 28.9704,
+      "prox_km": 1.5,
+      "q": "السوق المصري",
+      "poi_label": "السوق المصري",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 0.1
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.6
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.7
+        },
+        {
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 0.9
+        },
+        {
+          "slug": "hagia-sophia",
+          "name_ar": "آيا صوفيا",
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "slug": "topkapi-palace",
+      "name_ar": "قصر توبكابي",
+      "name_en": "Topkapi Palace",
+      "lat": 41.0115,
+      "lng": 28.9833,
+      "prox_km": 1.5,
+      "q": "قصر توبكابي",
+      "poi_label": "توبكابي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "hagia-sophia",
+          "name_ar": "آيا صوفيا",
+          "km": 0.4
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.7
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 0.9
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.1
+        },
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "slug": "princes-islands",
+      "name_ar": "جزر الأميرات",
+      "name_en": "Princes' Islands",
+      "lat": 40.876,
+      "lng": 29.127,
+      "prox_km": 5,
+      "q": "جزر الاميرات",
+      "poi_label": "جزر الأميرات",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "emaar-square",
+          "name_ar": "إعمار سكوير",
+          "km": 14.5
+        },
+        {
+          "slug": "sabiha-gokcen",
+          "name_ar": "مطار صبيحة",
+          "km": 15.5
+        },
+        {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 17.1
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 19.1
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 19.1
+        }
+      ]
+    },
+    {
+      "slug": "acibadem-hospital",
+      "name_ar": "مستشفى آجيبادم",
+      "name_en": "Acibadem Hospital",
+      "lat": 41.016,
+      "lng": 29.043,
+      "prox_km": 3,
+      "q": "مستشفى اجيبادم",
+      "poi_label": "آجيبادم",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مستشفى اجيبادم"
+      ],
+      "neighbours": [
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 2.6
+        },
+        {
+          "slug": "emaar-square",
+          "name_ar": "إعمار سكوير",
+          "km": 3.0
+        },
+        {
+          "slug": "ortakoy",
+          "name_ar": "أورتاكوي",
+          "km": 3.8
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 4.1
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 4.2
+        }
+      ]
+    },
+    {
+      "slug": "memorial-hospital",
+      "name_ar": "مستشفى ميموريال",
+      "name_en": "Memorial Sisli Hospital",
+      "lat": 41.07,
+      "lng": 28.988,
+      "prox_km": 3,
+      "q": "مستشفى ميموريال",
+      "poi_label": "ميموريال",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 0.6
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 0.8
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 1.1
+        },
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 2.5
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 2.5
         }
       ]
     }
   ],
-  "poi_count": 15
+  "poi_count": 37
 }

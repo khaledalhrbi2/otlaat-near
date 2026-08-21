@@ -41,6 +41,11 @@
           "km": 0.7
         },
         {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 1.4
+        },
+        {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 1.4
@@ -49,11 +54,6 @@
           "slug": "barceloneta",
           "name_ar": "شاطئ برشلونيتا",
           "km": 1.6
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 2.5
         }
       ]
     },
@@ -83,24 +83,24 @@
           "km": 1.5
         },
         {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 1.6
+        },
+        {
           "slug": "plaza-catalunya",
           "name_ar": "ساحة كاتالونيا",
           "km": 1.9
         },
         {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 2.2
+        },
+        {
           "slug": "gothic-quarter",
           "name_ar": "الحي القوطي",
           "km": 2.3
-        },
-        {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 2.5
-        },
-        {
-          "slug": "barceloneta",
-          "name_ar": "شاطئ برشلونيتا",
-          "km": 3.2
         }
       ]
     },
@@ -124,9 +124,19 @@
       ],
       "neighbours": [
         {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 0.1
+        },
+        {
           "slug": "plaza-catalunya",
           "name_ar": "ساحة كاتالونيا",
           "km": 0.7
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 1.3
         },
         {
           "slug": "gothic-quarter",
@@ -137,16 +147,6 @@
           "slug": "la-rambla",
           "name_ar": "لا رامبلا",
           "km": 1.4
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 1.5
-        },
-        {
-          "slug": "barceloneta",
-          "name_ar": "شاطئ برشلونيتا",
-          "km": 2.7
         }
       ]
     },
@@ -170,6 +170,11 @@
       ],
       "neighbours": [
         {
+          "slug": "port-olimpic",
+          "name_ar": "بورت أوليمبيك",
+          "km": 1.1
+        },
+        {
           "slug": "gothic-quarter",
           "name_ar": "الحي القوطي",
           "km": 1.4
@@ -188,11 +193,6 @@
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 2.7
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 3.2
         }
       ]
     },
@@ -217,29 +217,29 @@
       ],
       "neighbours": [
         {
+          "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 1.5
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 2.8
+        },
+        {
+          "slug": "montjuic",
+          "name_ar": "مونجويك",
+          "km": 3.5
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 3.6
+        },
+        {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 3.7
-        },
-        {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 4.0
-        },
-        {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 4.2
-        },
-        {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 4.4
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 5.0
         }
       ]
     },
@@ -263,6 +263,11 @@
       ],
       "neighbours": [
         {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 0.7
+        },
+        {
           "slug": "gothic-quarter",
           "name_ar": "الحي القوطي",
           "km": 0.7
@@ -281,11 +286,6 @@
           "slug": "sagrada-familia",
           "name_ar": "ساغرادا فاميليا",
           "km": 1.9
-        },
-        {
-          "slug": "barceloneta",
-          "name_ar": "شاطئ برشلونيتا",
-          "km": 2.1
         }
       ]
     },
@@ -319,6 +319,11 @@
           "km": 0.7
         },
         {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 1.3
+        },
+        {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 1.4
@@ -327,11 +332,6 @@
           "slug": "barceloneta",
           "name_ar": "شاطئ برشلونيتا",
           "km": 1.4
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 2.3
         }
       ]
     },
@@ -354,9 +354,19 @@
       ],
       "neighbours": [
         {
+          "slug": "montjuic",
+          "name_ar": "مونجويك",
+          "km": 9.7
+        },
+        {
           "slug": "camp-nou",
           "name_ar": "كامب نو",
           "km": 9.9
+        },
+        {
+          "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 10.2
         },
         {
           "slug": "la-rambla",
@@ -364,22 +374,277 @@
           "km": 11.9
         },
         {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 12.3
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 12.2
+        }
+      ]
+    },
+    {
+      "slug": "la-roca-village",
+      "name_ar": "لا روكا فيليدج",
+      "name_en": "La Roca Village",
+      "lat": 41.61,
+      "lng": 2.338,
+      "prox_km": 8,
+      "q": "لا روكا فيليدج",
+      "poi_label": "لا روكا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 26.7
         },
         {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 12.3
+          "slug": "port-olimpic",
+          "name_ar": "بورت أوليمبيك",
+          "km": 27.4
         },
         {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
-          "km": 12.5
+          "km": 28.2
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 28.3
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 28.5
+        }
+      ]
+    },
+    {
+      "slug": "diagonal",
+      "name_ar": "أفينيدا دياغونال",
+      "name_en": "Avinguda Diagonal",
+      "lat": 41.395,
+      "lng": 2.15,
+      "prox_km": 1.5,
+      "q": "دياغونال",
+      "poi_label": "دياغونال",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 1.2
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 1.3
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 1.9
+        },
+        {
+          "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 2.0
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "eixample",
+      "name_ar": "إيشامبلي",
+      "name_en": "Eixample",
+      "lat": 41.391,
+      "lng": 2.164,
+      "prox_km": 1.5,
+      "q": "ايشامبلي",
+      "poi_label": "إيشامبلي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.1
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 1.2
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 1.3
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "port-olimpic",
+      "name_ar": "بورت أوليمبيك",
+      "name_en": "Port Olimpic",
+      "lat": 41.387,
+      "lng": 2.198,
+      "prox_km": 1.5,
+      "q": "بورت اوليمبيك",
+      "poi_label": "بورت أوليمبيك",
+      "type": "district",
+      "intents": [
+        "beach",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 1.1
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 1.9
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 2.2
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 2.3
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "sants",
+      "name_ar": "محطة سانتس",
+      "name_en": "Sants Station",
+      "lat": 41.379,
+      "lng": 2.14,
+      "prox_km": 1.5,
+      "q": "محطة سانتس",
+      "poi_label": "سانتس",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "camp-nou",
+          "name_ar": "كامب نو",
+          "km": 1.5
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 2.0
+        },
+        {
+          "slug": "montjuic",
+          "name_ar": "مونجويك",
+          "km": 2.2
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 2.4
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "montjuic",
+      "name_ar": "مونجويك",
+      "name_en": "Montjuic",
+      "lat": 41.364,
+      "lng": 2.158,
+      "prox_km": 2,
+      "q": "مونجويك",
+      "poi_label": "مونجويك",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 2.2
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 2.3
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 2.6
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 2.7
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 3.0
         }
       ]
     }
   ],
-  "poi_count": 8
+  "poi_count": 14
 }

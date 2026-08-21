@@ -182,6 +182,16 @@
       ],
       "neighbours": [
         {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 2.3
+        },
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 2.7
+        },
+        {
           "slug": "riyadh-park",
           "name_ar": "الرياض بارك",
           "km": 2.8
@@ -195,16 +205,6 @@
           "slug": "hittin",
           "name_ar": "حطين",
           "km": 4.2
-        },
-        {
-          "slug": "al-malqa",
-          "name_ar": "الملقا",
-          "km": 5.3
-        },
-        {
-          "slug": "boulevard-world",
-          "name_ar": "بوليفارد وورلد",
-          "km": 5.9
         }
       ]
     },
@@ -230,29 +230,29 @@
       ],
       "neighbours": [
         {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 0.3
+        },
+        {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 2.0
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 2.2
+        },
+        {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 2.5
         },
         {
-          "slug": "diplomatic-quarter",
-          "name_ar": "حي السفارات",
-          "km": 6.1
-        },
-        {
-          "slug": "via-riyadh",
-          "name_ar": "فيا الرياض",
-          "km": 6.2
-        },
-        {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 9.4
-        },
-        {
-          "slug": "riyadh-park",
-          "name_ar": "الرياض بارك",
-          "km": 9.9
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 2.5
         }
       ]
     },
@@ -277,29 +277,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 1.7
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.3
+        },
+        {
           "slug": "olaya",
           "name_ar": "العليا",
           "km": 2.5
         },
         {
-          "slug": "diplomatic-quarter",
-          "name_ar": "حي السفارات",
-          "km": 6.0
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 2.8
         },
         {
-          "slug": "via-riyadh",
-          "name_ar": "فيا الرياض",
-          "km": 6.0
-        },
-        {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 6.9
-        },
-        {
-          "slug": "riyadh-park",
-          "name_ar": "الرياض بارك",
-          "km": 7.6
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 3.7
         }
       ]
     },
@@ -376,24 +376,24 @@
           "km": 11.9
         },
         {
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 13.2
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 14.3
+        },
+        {
           "slug": "winter-wonderland",
           "name_ar": "ونتر وندرلاند",
           "km": 15.4
         },
         {
-          "slug": "al-malqa",
-          "name_ar": "الملقا",
-          "km": 18.5
-        },
-        {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 22.1
-        },
-        {
-          "slug": "boulevard-city",
-          "name_ar": "بوليفارد سيتي",
-          "km": 23.0
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 15.7
         }
       ]
     },
@@ -422,6 +422,11 @@
           "km": 0.2
         },
         {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 4.7
+        },
+        {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 6.0
@@ -432,14 +437,9 @@
           "km": 6.1
         },
         {
-          "slug": "diriyah",
-          "name_ar": "الدرعية",
-          "km": 7.5
-        },
-        {
-          "slug": "boulevard-world",
-          "name_ar": "بوليفارد وورلد",
-          "km": 8.0
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 6.4
         }
       ]
     },
@@ -468,6 +468,11 @@
           "km": 0.2
         },
         {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 4.8
+        },
+        {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 6.0
@@ -478,14 +483,9 @@
           "km": 6.2
         },
         {
-          "slug": "diriyah",
-          "name_ar": "الدرعية",
-          "km": 7.3
-        },
-        {
-          "slug": "boulevard-world",
-          "name_ar": "بوليفارد وورلد",
-          "km": 7.8
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 6.4
         }
       ]
     },
@@ -510,29 +510,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 3.9
+        },
+        {
           "slug": "winter-wonderland",
           "name_ar": "ونتر وندرلاند",
           "km": 4.1
         },
         {
-          "slug": "al-malqa",
-          "name_ar": "الملقا",
-          "km": 10.5
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 4.7
         },
         {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 11.7
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 6.4
         },
         {
-          "slug": "king-khalid-airport",
-          "name_ar": "مطار الملك خالد",
-          "km": 11.9
-        },
-        {
-          "slug": "boulevard-city",
-          "name_ar": "بوليفارد سيتي",
-          "km": 14.1
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 7.0
         }
       ]
     },
@@ -557,29 +557,29 @@
       ],
       "neighbours": [
         {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 0.6
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 1.6
+        },
+        {
           "slug": "riyadh-front",
           "name_ar": "واجهة الرياض",
           "km": 4.1
         },
         {
-          "slug": "al-malqa",
-          "name_ar": "الملقا",
-          "km": 7.4
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 4.3
         },
         {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 7.6
-        },
-        {
-          "slug": "riyadh-park",
-          "name_ar": "الرياض بارك",
-          "km": 10.2
-        },
-        {
-          "slug": "boulevard-city",
-          "name_ar": "بوليفارد سيتي",
-          "km": 10.2
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 4.9
         }
       ]
     },
@@ -652,29 +652,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 2.3
+        },
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 3.5
+        },
+        {
           "slug": "boulevard-city",
           "name_ar": "بوليفارد سيتي",
           "km": 4.5
         },
         {
-          "slug": "hittin",
-          "name_ar": "حطين",
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
           "km": 4.9
         },
         {
-          "slug": "kafd",
-          "name_ar": "مركز الملك عبدالله المالي",
-          "km": 5.3
-        },
-        {
-          "slug": "riyadh-park",
-          "name_ar": "الرياض بارك",
-          "km": 5.8
-        },
-        {
-          "slug": "winter-wonderland",
-          "name_ar": "ونتر وندرلاند",
-          "km": 7.4
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 4.9
         }
       ]
     },
@@ -724,7 +724,776 @@
           "km": 4.9
         }
       ]
+    },
+    {
+      "slug": "granada-mall",
+      "name_ar": "غرناطة مول",
+      "name_en": "Granada Mall",
+      "lat": 24.7725,
+      "lng": 46.738,
+      "prox_km": 3,
+      "q": "غرناطة مول",
+      "poi_label": "غرناطة مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من غرناطة مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "riyadh-exhibition-center",
+          "name_ar": "مركز الرياض الدولي للمعارض",
+          "km": 1.9
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 7.1
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 7.1
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 7.1
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 7.5
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-gallery",
+      "name_ar": "الرياض جاليري",
+      "name_en": "Riyadh Gallery",
+      "lat": 24.77,
+      "lng": 46.664,
+      "prox_km": 3,
+      "q": "الرياض جاليري",
+      "poi_label": "الرياض جاليري",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 1.7
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 2.3
+        },
+        {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 5.0
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 5.0
+        },
+        {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "centria-mall",
+      "name_ar": "سنتريا مول",
+      "name_en": "Centria Mall",
+      "lat": 24.693,
+      "lng": 46.686,
+      "prox_km": 2,
+      "q": "سنتريا مول",
+      "poi_label": "سنتريا مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": "محطة العليا",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 0.3
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 2.1
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 2.2
+        },
+        {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 2.3
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "nakheel-mall",
+      "name_ar": "النخيل مول",
+      "name_en": "Al Nakheel Mall",
+      "lat": 24.785,
+      "lng": 46.659,
+      "prox_km": 3,
+      "q": "النخيل مول",
+      "poi_label": "النخيل مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 1.7
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 2.7
+        },
+        {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 3.3
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 4.3
+        },
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "kfsh",
+      "name_ar": "مستشفى الملك فيصل التخصصي",
+      "name_en": "KFSH&RC",
+      "lat": 24.678,
+      "lng": 46.67,
+      "prox_km": 3,
+      "q": "مستشفى الملك فيصل التخصصي",
+      "poi_label": "مستشفى التخصصي",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مستشفى الملك فيصل التخصصي",
+        "شقق فندقية قريبة من التخصصي"
+      ],
+      "neighbours": [
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 2.0
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.3
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 3.7
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 3.8
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "kfmc",
+      "name_ar": "مدينة الملك فهد الطبية",
+      "name_en": "King Fahad Medical City",
+      "lat": 24.688,
+      "lng": 46.706,
+      "prox_km": 3,
+      "q": "مدينة الملك فهد الطبية",
+      "poi_label": "مدينة الملك فهد الطبية",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 2.0
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.1
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 2.2
+        },
+        {
+          "slug": "king-abdullah-park",
+          "name_ar": "حديقة الملك عبدالله",
+          "km": 2.6
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 3.6
+        }
+      ]
+    },
+    {
+      "slug": "kingdom-arena",
+      "name_ar": "المملكة أرينا",
+      "name_en": "Kingdom Arena",
+      "lat": 24.815,
+      "lng": 46.686,
+      "prox_km": 5,
+      "q": "المملكة أرينا",
+      "poi_label": "المملكة أرينا",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من المملكة أرينا"
+      ],
+      "neighbours": [
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 0.6
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 1.8
+        },
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 4.0
+        },
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 4.3
+        },
+        {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 4.6
+        }
+      ]
+    },
+    {
+      "slug": "king-fahd-stadium",
+      "name_ar": "استاد الملك فهد",
+      "name_en": "King Fahd Stadium",
+      "lat": 24.764,
+      "lng": 46.844,
+      "prox_km": 6,
+      "q": "استاد الملك فهد",
+      "poi_label": "استاد الملك فهد",
+      "type": "stadium",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "granada-mall",
+          "name_ar": "غرناطة مول",
+          "km": 10.7
+        },
+        {
+          "slug": "riyadh-exhibition-center",
+          "name_ar": "مركز الرياض الدولي للمعارض",
+          "km": 12.7
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 12.8
+        },
+        {
+          "slug": "king-abdullah-park",
+          "name_ar": "حديقة الملك عبدالله",
+          "km": 14.7
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 15.7
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-train-station",
+      "name_ar": "محطة قطار الرياض",
+      "name_en": "Riyadh Train Station (SAR)",
+      "lat": 24.709,
+      "lng": 46.733,
+      "prox_km": 3,
+      "q": "محطة قطار الرياض",
+      "poi_label": "محطة القطار",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "king-abdullah-park",
+          "name_ar": "حديقة الملك عبدالله",
+          "km": 3.1
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 3.1
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 3.6
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 5.1
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 5.4
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-exhibition-center",
+      "name_ar": "مركز الرياض الدولي للمعارض",
+      "name_en": "RICEC",
+      "lat": 24.775,
+      "lng": 46.719,
+      "prox_km": 4,
+      "q": "مركز الرياض الدولي للمؤتمرات والمعارض",
+      "poi_label": "مركز المعارض",
+      "type": "landmark",
+      "intents": [
+        "corporate",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مركز الرياض للمعارض"
+      ],
+      "neighbours": [
+        {
+          "slug": "granada-mall",
+          "name_ar": "غرناطة مول",
+          "km": 1.9
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 5.6
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 5.6
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 5.7
+        },
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 6.2
+        }
+      ]
+    },
+    {
+      "slug": "al-rabie",
+      "name_ar": "الربيع",
+      "name_en": "Al Rabie",
+      "lat": 24.824,
+      "lng": 46.648,
+      "prox_km": 4,
+      "q": "الربيع",
+      "poi_label": "الربيع",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 1.7
+        },
+        {
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 2.7
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 3.3
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 3.5
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "al-sahafa",
+      "name_ar": "الصحافة",
+      "name_en": "Al Sahafa",
+      "lat": 24.81,
+      "lng": 46.641,
+      "prox_km": 3,
+      "q": "الصحافة",
+      "poi_label": "الصحافة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 1.7
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 2.3
+        },
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 3.3
+        },
+        {
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 4.3
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "al-narjis",
+      "name_ar": "النرجس",
+      "name_en": "Al Narjis",
+      "lat": 24.848,
+      "lng": 46.648,
+      "prox_km": 4,
+      "q": "النرجس",
+      "poi_label": "النرجس",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 2.7
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 3.8
+        },
+        {
+          "slug": "al-sahafa",
+          "name_ar": "الصحافة",
+          "km": 4.3
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 5.3
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 5.3
+        }
+      ]
+    },
+    {
+      "slug": "al-yasmin",
+      "name_ar": "الياسمين",
+      "name_en": "Al Yasmin",
+      "lat": 24.83,
+      "lng": 46.68,
+      "prox_km": 4,
+      "q": "الياسمين",
+      "poi_label": "الياسمين",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 1.6
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 1.8
+        },
+        {
+          "slug": "al-rabie",
+          "name_ar": "الربيع",
+          "km": 3.3
+        },
+        {
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 3.8
+        },
+        {
+          "slug": "riyadh-front",
+          "name_ar": "واجهة الرياض",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "al-sulimaniyah",
+      "name_ar": "السليمانية",
+      "name_en": "Al Sulimaniyah",
+      "lat": 24.706,
+      "lng": 46.702,
+      "prox_km": 3,
+      "q": "السليمانية",
+      "poi_label": "السليمانية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 2.0
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.2
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 2.5
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 2.8
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 3.1
+        }
+      ]
+    },
+    {
+      "slug": "al-wurud",
+      "name_ar": "الورود",
+      "name_en": "Al Wurud",
+      "lat": 24.726,
+      "lng": 46.672,
+      "prox_km": 3,
+      "q": "الورود",
+      "poi_label": "الورود",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 1.7
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 3.8
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 3.9
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 4.1
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "king-abdullah-park",
+      "name_ar": "حديقة الملك عبدالله",
+      "name_en": "King Abdullah Park",
+      "lat": 24.681,
+      "lng": 46.731,
+      "prox_km": 3,
+      "q": "حديقة الملك عبدالله",
+      "poi_label": "حديقة الملك عبدالله",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 2.6
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 3.1
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 4.0
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 4.7
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 4.9
+        }
+      ]
     }
   ],
-  "poi_count": 15
+  "poi_count": 32
 }

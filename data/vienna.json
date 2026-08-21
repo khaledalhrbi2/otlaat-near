@@ -32,29 +32,29 @@
       ],
       "neighbours": [
         {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 0.2
+        },
+        {
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 0.5
         },
         {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.7
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.3
+        },
+        {
           "slug": "prater",
           "name_ar": "براتر",
           "km": 1.9
-        },
-        {
-          "slug": "mariahilfer",
-          "name_ar": "ماريا هيلفر",
-          "km": 2.1
-        },
-        {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 2.6
-        },
-        {
-          "slug": "donau",
-          "name_ar": "الدانوب",
-          "km": 3.9
         }
       ]
     },
@@ -77,29 +77,29 @@
       ],
       "neighbours": [
         {
+          "slug": "westbahnhof",
+          "name_ar": "ويست بانهوف",
+          "km": 2.4
+        },
+        {
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
           "km": 3.2
         },
         {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 4.1
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 4.6
+        },
+        {
+          "slug": "akh-hospital",
+          "name_ar": "مستشفى AKH",
           "km": 4.7
-        },
-        {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 4.9
-        },
-        {
-          "slug": "stephansplatz",
-          "name_ar": "كاتدرائية القديس ستيفان",
-          "km": 5.2
-        },
-        {
-          "slug": "prater",
-          "name_ar": "براتر",
-          "km": 7.2
         }
       ]
     },
@@ -132,19 +132,19 @@
           "km": 2.1
         },
         {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 2.1
+        },
+        {
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 2.3
         },
         {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 3.8
-        },
-        {
-          "slug": "mariahilfer",
-          "name_ar": "ماريا هيلفر",
-          "km": 4.0
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 2.6
         }
       ]
     },
@@ -167,29 +167,29 @@
       ],
       "neighbours": [
         {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.4
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 0.4
+        },
+        {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 0.5
         },
         {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 0.8
+        },
+        {
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
           "km": 1.7
-        },
-        {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 2.3
-        },
-        {
-          "slug": "prater",
-          "name_ar": "براتر",
-          "km": 2.3
-        },
-        {
-          "slug": "donau",
-          "name_ar": "الدانوب",
-          "km": 4.3
         }
       ]
     },
@@ -214,29 +214,29 @@
       ],
       "neighbours": [
         {
+          "slug": "westbahnhof",
+          "name_ar": "ويست بانهوف",
+          "km": 0.9
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.0
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 1.4
+        },
+        {
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 1.7
         },
         {
-          "slug": "stephansplatz",
-          "name_ar": "كاتدرائية القديس ستيفان",
-          "km": 2.1
-        },
-        {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 2.4
-        },
-        {
-          "slug": "schonbrunn",
-          "name_ar": "قصر شونبرون",
-          "km": 3.2
-        },
-        {
-          "slug": "prater",
-          "name_ar": "براتر",
-          "km": 4.0
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 1.9
         }
       ]
     },
@@ -260,6 +260,11 @@
       ],
       "neighbours": [
         {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.8
+        },
+        {
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 2.3
@@ -270,19 +275,14 @@
           "km": 2.4
         },
         {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 2.5
+        },
+        {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 2.6
-        },
-        {
-          "slug": "prater",
-          "name_ar": "براتر",
-          "km": 3.8
-        },
-        {
-          "slug": "schonbrunn",
-          "name_ar": "قصر شونبرون",
-          "km": 4.7
         }
       ]
     },
@@ -361,22 +361,288 @@
           "km": 3.9
         },
         {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 4.0
+        },
+        {
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 4.3
         },
         {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "parndorf-outlet",
+      "name_ar": "أوتلت بارندورف",
+      "name_en": "Designer Outlet Parndorf",
+      "lat": 47.998,
+      "lng": 16.852,
+      "prox_km": 10,
+      "q": "اوتلت بارندورف",
+      "poi_label": "بارندورف",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "vienna-airport",
+          "name_ar": "مطار فيينا",
+          "km": 24.4
+        },
+        {
           "slug": "hauptbahnhof",
           "name_ar": "المحطة الرئيسية",
-          "km": 5.9
+          "km": 41.0
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 41.7
+        },
+        {
+          "slug": "donau",
+          "name_ar": "الدانوب",
+          "km": 41.9
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 42.6
+        }
+      ]
+    },
+    {
+      "slug": "graben",
+      "name_ar": "غرابن",
+      "name_en": "Graben",
+      "lat": 48.209,
+      "lng": 16.37,
+      "prox_km": 1,
+      "q": "غرابن",
+      "poi_label": "غرابن",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 0.2
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.4
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.5
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.2
         },
         {
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
-          "km": 5.9
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "westbahnhof",
+      "name_ar": "ويست بانهوف",
+      "name_en": "Westbahnhof",
+      "lat": 48.197,
+      "lng": 16.338,
+      "prox_km": 1.5,
+      "q": "ويست بانهوف",
+      "poi_label": "ويست بانهوف",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 0.9
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.9
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 2.2
+        },
+        {
+          "slug": "schonbrunn",
+          "name_ar": "قصر شونبرون",
+          "km": 2.4
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "naschmarkt",
+      "name_ar": "ناش ماركت",
+      "name_en": "Naschmarkt",
+      "lat": 48.199,
+      "lng": 16.363,
+      "prox_km": 1.5,
+      "q": "ناش ماركت",
+      "poi_label": "ناش ماركت",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.8
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.8
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 1.0
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 1.2
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "ringstrasse",
+      "name_ar": "الرينغ",
+      "name_en": "Ringstrasse",
+      "lat": 48.206,
+      "lng": 16.365,
+      "prox_km": 1.5,
+      "q": "الرينغ فيينا",
+      "poi_label": "الرينغ",
+      "type": "landmark",
+      "intents": [
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.4
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 0.5
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 0.7
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 0.8
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "akh-hospital",
+      "name_ar": "مستشفى AKH",
+      "name_en": "AKH Vienna",
+      "lat": 48.22,
+      "lng": 16.347,
+      "prox_km": 3,
+      "q": "مستشفى فيينا العام",
+      "poi_label": "AKH",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 2.0
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 2.1
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 2.3
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 2.4
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 2.5
         }
       ]
     }
   ],
-  "poi_count": 8
+  "poi_count": 14
 }

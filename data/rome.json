@@ -31,6 +31,21 @@
       ],
       "neighbours": [
         {
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 0.6
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 1.0
+        },
+        {
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 1.0
+        },
+        {
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
           "km": 1.4
@@ -39,21 +54,6 @@
           "slug": "termini",
           "name_ar": "محطة تيرميني",
           "km": 1.4
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 1.6
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.7
-        },
-        {
-          "slug": "trastevere",
-          "name_ar": "تراستيفيري",
-          "km": 1.8
         }
       ]
     },
@@ -78,29 +78,29 @@
       ],
       "neighbours": [
         {
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 0.1
+        },
+        {
           "slug": "prati",
           "name_ar": "براتي",
           "km": 1.0
         },
         {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.1
+        },
+        {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 1.8
+        },
+        {
           "slug": "pantheon-navona",
           "name_ar": "البانثيون ونافونا",
           "km": 2.0
-        },
-        {
-          "slug": "trastevere",
-          "name_ar": "تراستيفيري",
-          "km": 2.1
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 2.2
-        },
-        {
-          "slug": "spanish-steps",
-          "name_ar": "الدرج الإسباني",
-          "km": 2.4
         }
       ]
     },
@@ -125,6 +125,21 @@
       ],
       "neighbours": [
         {
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 0.6
+        },
+        {
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 1.2
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 1.3
+        },
+        {
           "slug": "colosseum",
           "name_ar": "الكولوسيوم",
           "km": 1.4
@@ -133,21 +148,6 @@
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
           "km": 1.5
-        },
-        {
-          "slug": "spanish-steps",
-          "name_ar": "الدرج الإسباني",
-          "km": 1.7
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.8
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 2.1
         }
       ]
     },
@@ -177,6 +177,11 @@
           "km": 0.3
         },
         {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 0.5
+        },
+        {
           "slug": "spanish-steps",
           "name_ar": "الدرج الإسباني",
           "km": 0.6
@@ -187,14 +192,9 @@
           "km": 0.6
         },
         {
-          "slug": "colosseum",
-          "name_ar": "الكولوسيوم",
-          "km": 1.4
-        },
-        {
-          "slug": "termini",
-          "name_ar": "محطة تيرميني",
-          "km": 1.5
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 0.9
         }
       ]
     },
@@ -223,6 +223,16 @@
           "km": 0.5
         },
         {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 0.5
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 0.6
+        },
+        {
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
           "km": 0.6
@@ -231,16 +241,6 @@
           "slug": "spanish-steps",
           "name_ar": "الدرج الإسباني",
           "km": 0.9
-        },
-        {
-          "slug": "trastevere",
-          "name_ar": "تراستيفيري",
-          "km": 1.2
-        },
-        {
-          "slug": "colosseum",
-          "name_ar": "الكولوسيوم",
-          "km": 1.6
         }
       ]
     },
@@ -275,19 +275,19 @@
           "km": 0.6
         },
         {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 0.6
+        },
+        {
+          "slug": "piazza-del-popolo",
+          "name_ar": "ساحة ديل بوبولو",
+          "km": 0.7
+        },
+        {
           "slug": "pantheon-navona",
           "name_ar": "البانثيون ونافونا",
           "km": 0.9
-        },
-        {
-          "slug": "termini",
-          "name_ar": "محطة تيرميني",
-          "km": 1.7
-        },
-        {
-          "slug": "prati",
-          "name_ar": "براتي",
-          "km": 1.9
         }
       ]
     },
@@ -311,29 +311,29 @@
       ],
       "neighbours": [
         {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 0.7
+        },
+        {
           "slug": "pantheon-navona",
           "name_ar": "البانثيون ونافونا",
           "km": 1.2
         },
         {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 1.3
+        },
+        {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.6
+        },
+        {
           "slug": "via-del-corso",
           "name_ar": "فيا ديل كورسو",
           "km": 1.7
-        },
-        {
-          "slug": "trevi",
-          "name_ar": "نافورة تريفي",
-          "km": 1.7
-        },
-        {
-          "slug": "colosseum",
-          "name_ar": "الكولوسيوم",
-          "km": 1.8
-        },
-        {
-          "slug": "vatican",
-          "name_ar": "الفاتيكان",
-          "km": 2.1
         }
       ]
     },
@@ -357,6 +357,16 @@
       ],
       "neighbours": [
         {
+          "slug": "castel-romano-outlet",
+          "name_ar": "أوتلت كاستل رومانو",
+          "km": 18.5
+        },
+        {
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 21.1
+        },
+        {
           "slug": "vatican",
           "name_ar": "الفاتيكان",
           "km": 21.1
@@ -370,16 +380,6 @@
           "slug": "prati",
           "name_ar": "براتي",
           "km": 22.0
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 22.5
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 22.9
         }
       ]
     },
@@ -417,14 +417,14 @@
           "km": 0.5
         },
         {
-          "slug": "colosseum",
-          "name_ar": "الكولوسيوم",
-          "km": 1.7
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 0.7
         },
         {
-          "slug": "trastevere",
-          "name_ar": "تراستيفيري",
-          "km": 1.7
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 1.0
         }
       ]
     },
@@ -448,32 +448,476 @@
       ],
       "neighbours": [
         {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 0.9
+        },
+        {
           "slug": "vatican",
           "name_ar": "الفاتيكان",
           "km": 1.0
         },
         {
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 1.0
+        },
+        {
+          "slug": "piazza-del-popolo",
+          "name_ar": "ساحة ديل بوبولو",
+          "km": 1.4
+        },
+        {
           "slug": "via-del-corso",
           "name_ar": "فيا ديل كورسو",
           "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "via-veneto",
+      "name_ar": "فيا فينيتو",
+      "name_en": "Via Veneto",
+      "lat": 41.9075,
+      "lng": 12.489,
+      "prox_km": 1,
+      "q": "فيا فينيتو",
+      "poi_label": "فيا فينيتو",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.6
+        },
+        {
+          "slug": "villa-borghese",
+          "name_ar": "فيلا بورغيزي",
+          "km": 0.8
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.9
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.0
+        },
+        {
+          "slug": "piazza-del-popolo",
+          "name_ar": "ساحة ديل بوبولو",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "piazza-venezia",
+      "name_ar": "ساحة فينيسيا",
+      "name_en": "Piazza Venezia",
+      "lat": 41.896,
+      "lng": 12.4826,
+      "prox_km": 1,
+      "q": "ساحة فينيسيا",
+      "poi_label": "ساحة فينيسيا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.5
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 0.6
+        },
+        {
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 0.6
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.7
+        },
+        {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "castel-sant-angelo",
+      "name_ar": "قلعة سانت أنجلو",
+      "name_en": "Castel Sant'Angelo",
+      "lat": 41.9031,
+      "lng": 12.4663,
+      "prox_km": 1,
+      "q": "قلعة سانت انجلو",
+      "poi_label": "سانت أنجلو",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 0.9
+        },
+        {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 1.0
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 1.0
+        },
+        {
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 1.0
+        },
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "villa-borghese",
+      "name_ar": "فيلا بورغيزي",
+      "name_en": "Villa Borghese",
+      "lat": 41.914,
+      "lng": 12.492,
+      "prox_km": 1.5,
+      "q": "فيلا بورغيزي",
+      "poi_label": "فيلا بورغيزي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 0.8
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 1.2
+        },
+        {
+          "slug": "piazza-del-popolo",
+          "name_ar": "ساحة ديل بوبولو",
+          "km": 1.3
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 1.6
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.7
+        }
+      ]
+    },
+    {
+      "slug": "monti",
+      "name_ar": "مونتي",
+      "name_en": "Monti",
+      "lat": 41.895,
+      "lng": 12.49,
+      "prox_km": 1,
+      "q": "مونتي",
+      "poi_label": "مونتي",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 0.6
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 0.6
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.9
+        },
+        {
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 1.0
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "esquilino",
+      "name_ar": "إسكويلينو",
+      "name_en": "Esquilino",
+      "lat": 41.896,
+      "lng": 12.502,
+      "prox_km": 1.5,
+      "q": "اسكويلينو",
+      "poi_label": "إسكويلينو",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 0.6
+        },
+        {
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 1.0
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.0
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 1.6
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "campo-de-fiori",
+      "name_ar": "كامبو دي فيوري",
+      "name_en": "Campo de' Fiori",
+      "lat": 41.8955,
+      "lng": 12.4722,
+      "prox_km": 1,
+      "q": "كامبو دي فيوري",
+      "poi_label": "كامبو دي فيوري",
+      "type": "landmark",
+      "intents": [
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 0.5
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 0.7
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 0.9
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.0
+        },
+        {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "castel-romano-outlet",
+      "name_ar": "أوتلت كاستل رومانو",
+      "name_en": "Castel Romano Designer Outlet",
+      "lat": 41.718,
+      "lng": 12.433,
+      "prox_km": 8,
+      "q": "كاستل رومانو اوتلت",
+      "poi_label": "أوتلت كاستل رومانو",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "fiumicino",
+          "name_ar": "مطار فيوميتشينو",
+          "km": 18.5
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 19.3
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 19.8
+        },
+        {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 20.0
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 20.2
+        }
+      ]
+    },
+    {
+      "slug": "st-peters",
+      "name_ar": "كاتدرائية القديس بطرس",
+      "name_en": "St. Peter's Basilica",
+      "lat": 41.9022,
+      "lng": 12.4539,
+      "prox_km": 1,
+      "q": "القديس بطرس",
+      "poi_label": "القديس بطرس",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 0.1
+        },
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 1.0
+        },
+        {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.0
+        },
+        {
+          "slug": "campo-de-fiori",
+          "name_ar": "كامبو دي فيوري",
+          "km": 1.7
         },
         {
           "slug": "pantheon-navona",
           "name_ar": "البانثيون ونافونا",
           "km": 1.9
-        },
+        }
+      ]
+    },
+    {
+      "slug": "piazza-del-popolo",
+      "name_ar": "ساحة ديل بوبولو",
+      "name_en": "Piazza del Popolo",
+      "lat": 41.9107,
+      "lng": 12.4764,
+      "prox_km": 1,
+      "q": "ساحة ديل بوبولو",
+      "poi_label": "ديل بوبولو",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
         {
           "slug": "spanish-steps",
           "name_ar": "الدرج الإسباني",
-          "km": 1.9
+          "km": 0.7
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.0
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 1.1
+        },
+        {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.2
         },
         {
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
-          "km": 2.2
+          "km": 1.2
         }
       ]
     }
   ],
-  "poi_count": 10
+  "poi_count": 20
 }

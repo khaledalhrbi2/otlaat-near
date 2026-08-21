@@ -7,6 +7,8 @@ const city = loadCity(Astro.params.city);
 const by = t => city.pois.filter(p => p.type === t);
 const events = by('event').concat(by('event_zone'));
 const landmarks = city.pois.filter(p => ['landmark','stadium'].includes(p.type));
+const hospitals = by('hospital');
+const hubs = by('intent_hub');
 const districts = by('district');
 const transport = by('airport').concat(by('transport'));
 const title = `فنادق ${city.name_ar} حسب المعلم والمنطقة — عطلات`;
@@ -28,5 +30,7 @@ const Section = ({t, list}) => null;
   {events.length > 0 && <section><h2>الأحداث والمواسم</h2><div class="grid">{events.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>{p.event ? `${p.event.start} → ${p.event.end}` : `ضمن ${p.prox_km} كم`}</small></a>)}</div></section>}
   {landmarks.length > 0 && <section><h2>قريب من المعالم</h2><div class="grid">{landmarks.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
   {districts.length > 0 && <section><h2>حسب الحي والمنطقة</h2><div class="grid">{districts.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  {hospitals.length > 0 && <section><h2>قريب من المستشفيات</h2><div class="grid">{hospitals.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  {hubs.length > 0 && <section><h2>حسب نوع الإقامة</h2><div class="grid">{hubs.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>كل {city.name_ar}</small></a>)}</div></section>}
   {transport.length > 0 && <section><h2>المطارات والمحطات</h2><div class="grid">{transport.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
 </Base>

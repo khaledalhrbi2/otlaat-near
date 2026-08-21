@@ -32,6 +32,11 @@
       ],
       "neighbours": [
         {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 0.6
+        },
+        {
           "slug": "champs-elysees",
           "name_ar": "الشانزليزيه",
           "km": 1.6
@@ -42,19 +47,14 @@
           "km": 1.7
         },
         {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 2.9
+          "slug": "montparnasse",
+          "name_ar": "مونبارناس",
+          "km": 2.6
         },
         {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 3.1
-        },
-        {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 3.2
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 2.8
         }
       ]
     },
@@ -88,19 +88,19 @@
           "km": 1.6
         },
         {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.6
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 1.7
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 1.8
-        },
-        {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 2.4
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 2.6
         }
       ]
     },
@@ -130,24 +130,24 @@
           "km": 1.0
         },
         {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 1.4
+        },
+        {
           "slug": "eiffel-tower",
           "name_ar": "برج إيفل",
           "km": 1.7
         },
         {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 2.6
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 2.7
-        },
-        {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 3.4
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 3.5
         }
       ]
     },
@@ -172,9 +172,19 @@
       ],
       "neighbours": [
         {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 0.3
+        },
+        {
           "slug": "saint-germain",
           "name_ar": "سان جيرمان",
           "km": 0.8
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.0
         },
         {
           "slug": "opera-lafayette",
@@ -182,19 +192,9 @@
           "km": 1.3
         },
         {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 2.4
-        },
-        {
-          "slug": "montmartre",
-          "name_ar": "مونمارتر",
-          "km": 2.9
-        },
-        {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
-          "km": 3.2
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 1.8
         }
       ]
     },
@@ -218,9 +218,19 @@
       ],
       "neighbours": [
         {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 0.5
+        },
+        {
           "slug": "louvre",
           "name_ar": "اللوفر",
           "km": 1.3
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 1.4
         },
         {
           "slug": "champs-elysees",
@@ -231,16 +241,6 @@
           "slug": "montmartre",
           "name_ar": "مونمارتر",
           "km": 1.8
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 2.0
-        },
-        {
-          "slug": "arc-de-triomphe",
-          "name_ar": "قوس النصر",
-          "km": 2.7
         }
       ]
     },
@@ -263,29 +263,29 @@
       ],
       "neighbours": [
         {
+          "slug": "la-vallee-village",
+          "name_ar": "لا فالي فيلاج",
+          "km": 1.4
+        },
+        {
           "slug": "cdg",
           "name_ar": "مطار شارل ديغول",
           "km": 23.4
         },
         {
-          "slug": "montmartre",
-          "name_ar": "مونمارتر",
-          "km": 32.3
+          "slug": "bastille",
+          "name_ar": "الباستيل",
+          "km": 30.4
         },
         {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 32.6
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 30.9
         },
         {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 33.0
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 33.0
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 31.4
         }
       ]
     },
@@ -309,29 +309,29 @@
       ],
       "neighbours": [
         {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 1.1
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 1.8
         },
         {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 2.4
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
           "km": 2.9
         },
         {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 3.2
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 3.7
-        },
-        {
-          "slug": "arc-de-triomphe",
-          "name_ar": "قوس النصر",
-          "km": 3.8
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 2.9
         }
       ]
     },
@@ -355,9 +355,19 @@
       ],
       "neighbours": [
         {
+          "slug": "american-hospital",
+          "name_ar": "المستشفى الأميركي",
+          "km": 1.8
+        },
+        {
           "slug": "arc-de-triomphe",
           "name_ar": "قوس النصر",
           "km": 4.8
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 5.0
         },
         {
           "slug": "eiffel-tower",
@@ -368,16 +378,6 @@
           "slug": "champs-elysees",
           "name_ar": "الشانزليزيه",
           "km": 5.8
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 7.4
-        },
-        {
-          "slug": "montmartre",
-          "name_ar": "مونمارتر",
-          "km": 7.9
         }
       ]
     },
@@ -401,29 +401,29 @@
       ],
       "neighbours": [
         {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 20.1
+        },
+        {
           "slug": "montmartre",
           "name_ar": "مونمارتر",
           "km": 20.3
         },
         {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 21.6
+        },
+        {
+          "slug": "bastille",
+          "name_ar": "الباستيل",
+          "km": 21.8
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 22.0
-        },
-        {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 22.6
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 23.4
-        },
-        {
-          "slug": "disneyland",
-          "name_ar": "ديزني لاند باريس",
-          "km": 23.4
         }
       ]
     },
@@ -452,27 +452,474 @@
           "km": 0.8
         },
         {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 1.0
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.5
+        },
+        {
+          "slug": "montparnasse",
+          "name_ar": "مونبارناس",
+          "km": 1.6
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "la-vallee-village",
+      "name_ar": "لا فالي فيلاج",
+      "name_en": "La Vallee Village",
+      "lat": 48.855,
+      "lng": 2.778,
+      "prox_km": 6,
+      "q": "لا فالي فيلاج",
+      "poi_label": "لا فالي فيلاج",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "disneyland",
+          "name_ar": "ديزني لاند باريس",
+          "km": 1.4
+        },
+        {
+          "slug": "cdg",
+          "name_ar": "مطار شارل ديغول",
+          "km": 24.1
+        },
+        {
+          "slug": "bastille",
+          "name_ar": "الباستيل",
+          "km": 29.9
+        },
+        {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 30.4
+        },
+        {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 31.1
+        }
+      ]
+    },
+    {
+      "slug": "le-marais",
+      "name_ar": "لو ماريه",
+      "name_en": "Le Marais",
+      "lat": 48.859,
+      "lng": 2.362,
+      "prox_km": 1.5,
+      "q": "لو ماريه",
+      "poi_label": "لو ماريه",
+      "type": "district",
+      "intents": [
+        "couples",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "bastille",
+          "name_ar": "الباستيل",
+          "km": 0.8
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 1.5
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 1.8
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 2.2
+        },
+        {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "place-vendome",
+      "name_ar": "بلاس فاندوم",
+      "name_en": "Place Vendome",
+      "lat": 48.8675,
+      "lng": 2.3295,
+      "prox_km": 1,
+      "q": "بلاس فاندوم",
+      "poi_label": "فاندوم",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 0.5
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 1.0
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 1.2
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 1.5
         },
         {
           "slug": "champs-elysees",
           "name_ar": "الشانزليزيه",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "bastille",
+      "name_ar": "الباستيل",
+      "name_en": "Bastille",
+      "lat": 48.8532,
+      "lng": 2.3692,
+      "prox_km": 1.5,
+      "q": "الباستيل",
+      "poi_label": "الباستيل",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 0.8
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 2.2
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 2.5
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 2.7
+        },
+        {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "montparnasse",
+      "name_ar": "مونبارناس",
+      "name_en": "Montparnasse",
+      "lat": 48.8422,
+      "lng": 2.321,
+      "prox_km": 1.5,
+      "q": "مونبارناس",
+      "poi_label": "مونبارناس",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 1.6
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 2.4
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
           "km": 2.6
         },
         {
           "slug": "eiffel-tower",
           "name_ar": "برج إيفل",
+          "km": 2.6
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
           "km": 2.9
+        }
+      ]
+    },
+    {
+      "slug": "trocadero",
+      "name_ar": "تروكاديرو",
+      "name_en": "Trocadero",
+      "lat": 48.862,
+      "lng": 2.2875,
+      "prox_km": 1,
+      "q": "تروكاديرو",
+      "poi_label": "تروكاديرو",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مطلة على برج ايفل تروكاديرو"
+      ],
+      "neighbours": [
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 0.6
         },
         {
           "slug": "arc-de-triomphe",
           "name_ar": "قوس النصر",
+          "km": 1.4
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.7
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 3.1
+        },
+        {
+          "slug": "montparnasse",
+          "name_ar": "مونبارناس",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "versailles",
+      "name_ar": "قصر فرساي",
+      "name_en": "Versailles",
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "prox_km": 5,
+      "q": "فرساي",
+      "poi_label": "فرساي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "la-defense",
+          "name_ar": "لا ديفانس",
+          "km": 12.9
+        },
+        {
+          "slug": "american-hospital",
+          "name_ar": "المستشفى الأميركي",
+          "km": 13.8
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 13.8
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 14.1
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 14.9
+        }
+      ]
+    },
+    {
+      "slug": "rue-de-rivoli",
+      "name_ar": "شارع ريفولي",
+      "name_en": "Rue de Rivoli",
+      "lat": 48.861,
+      "lng": 2.342,
+      "prox_km": 1,
+      "q": "شارع ريفولي",
+      "poi_label": "ريفولي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 0.3
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 1.0
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.2
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 1.4
+        },
+        {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "american-hospital",
+      "name_ar": "المستشفى الأميركي",
+      "name_en": "American Hospital of Paris",
+      "lat": 48.888,
+      "lng": 2.26,
+      "prox_km": 3,
+      "q": "المستشفى الامريكي باريس",
+      "poi_label": "المستشفى الأميركي",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "la-defense",
+          "name_ar": "لا ديفانس",
+          "km": 1.8
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 3.0
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
           "km": 3.5
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 4.0
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 4.1
+        }
+      ]
+    },
+    {
+      "slug": "gare-du-nord",
+      "name_ar": "محطة الشمال",
+      "name_en": "Gare du Nord",
+      "lat": 48.8809,
+      "lng": 2.3553,
+      "prox_km": 1.5,
+      "q": "محطة الشمال",
+      "poi_label": "محطة الشمال",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 1.1
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 2.0
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 2.4
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 2.4
+        },
+        {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 2.5
         }
       ]
     }
   ],
-  "poi_count": 10
+  "poi_count": 20
 }

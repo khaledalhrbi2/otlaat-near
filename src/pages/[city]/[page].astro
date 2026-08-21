@@ -32,7 +32,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
         <span class="chip ring">نطاق {poi.prox_km} كم</span>
         {poi.nearest_metro && <span class="chip">🚇 {poi.nearest_metro}</span>}
         {poi.event && <span class="chip">📅 {poi.event.start} → {poi.event.end}</span>}
-        {poi.intents.slice(0,3).map(i => <span class="chip">{({family:'للعوائل',apartments:'شقق فندقية','5-star':'5 نجوم',budget:'اقتصادي',couples:'للأزواج',corporate:'رجال أعمال',transit:'ترانزيت',beach:'شاطئ',villa:'فلل',shopping:'تسوق','haram-view':'مطل على الحرم','bosphorus-view':'مطل على البسفور',halal:'حلال',nature:'طبيعة',cliff:'جرف',b2b:'مجموعات'})[i] ?? i}</span>)}
+        {poi.intents.slice(0,3).map(i => <span class="chip">{({family:'للعوائل',apartments:'شقق فندقية','5-star':'5 نجوم',budget:'اقتصادي',couples:'للأزواج',corporate:'رجال أعمال',transit:'ترانزيت',beach:'شاطئ',villa:'فلل',shopping:'تسوق','haram-view':'مطل على الحرم','bosphorus-view':'مطل على البسفور',halal:'حلال',nature:'طبيعة',cliff:'جرف',b2b:'مجموعات',medical:'مرافقة مرضى'})[i] ?? i}</span>)}
       </div>
     </div>
   </div>

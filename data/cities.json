@@ -10,7 +10,7 @@
     "default_prox": 15,
     "date_profile": "weekend_thu_sat",
     "default_nights": 2,
-    "poi_count": 15,
+    "poi_count": 32,
     "priority": 1
   },
   {
@@ -24,7 +24,7 @@
     "default_prox": 8,
     "date_profile": "tomorrow_plus",
     "default_nights": 3,
-    "poi_count": 12,
+    "poi_count": 26,
     "priority": 1
   },
   {
@@ -38,7 +38,7 @@
     "default_prox": 8,
     "date_profile": "tomorrow_plus",
     "default_nights": 2,
-    "poi_count": 9,
+    "poi_count": 19,
     "priority": 1
   },
   {
@@ -52,7 +52,7 @@
     "default_prox": 15,
     "date_profile": "next_weekend",
     "default_nights": 4,
-    "poi_count": 14,
+    "poi_count": 39,
     "priority": 1
   },
   {
@@ -66,7 +66,7 @@
     "default_prox": 15,
     "date_profile": "next_weekend",
     "default_nights": 4,
-    "poi_count": 15,
+    "poi_count": 37,
     "priority": 1
   },
   {
@@ -80,7 +80,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 10,
+    "poi_count": 20,
     "priority": 1
   },
   {
@@ -94,7 +94,7 @@
     "default_prox": 25,
     "date_profile": "two_weeks_out",
     "default_nights": 5,
-    "poi_count": 11,
+    "poi_count": 24,
     "priority": 1
   },
   {
@@ -108,7 +108,7 @@
     "default_prox": 12,
     "date_profile": "two_weeks_out",
     "default_nights": 5,
-    "poi_count": 11,
+    "poi_count": 29,
     "priority": 1
   },
   {
@@ -122,7 +122,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 10,
+    "poi_count": 20,
     "priority": 1
   },
   {
@@ -136,7 +136,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 3,
-    "poi_count": 9,
+    "poi_count": 15,
     "priority": 1
   },
   {
@@ -150,7 +150,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 8,
+    "poi_count": 14,
     "priority": 1
   },
   {
@@ -164,7 +164,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 3,
-    "poi_count": 5,
+    "poi_count": 10,
     "priority": 1
   },
   {
@@ -178,7 +178,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 3,
-    "poi_count": 5,
+    "poi_count": 10,
     "priority": 1
   },
   {
@@ -192,7 +192,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 6,
+    "poi_count": 11,
     "priority": 1
   },
   {
@@ -206,7 +206,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 8,
+    "poi_count": 14,
     "priority": 1
   },
   {
@@ -220,7 +220,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 3,
-    "poi_count": 8,
+    "poi_count": 13,
     "priority": 1
   }
 ]

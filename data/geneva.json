@@ -35,6 +35,11 @@
           "km": 0.5
         },
         {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 0.7
+        },
+        {
           "slug": "rue-du-rhone",
           "name_ar": "شارع الرون",
           "km": 0.8
@@ -45,9 +50,9 @@
           "km": 1.1
         },
         {
-          "slug": "geneva-airport",
-          "name_ar": "مطار جنيف",
-          "km": 5.0
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 1.7
         }
       ]
     },
@@ -71,6 +76,11 @@
       ],
       "neighbours": [
         {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 0.2
+        },
+        {
           "slug": "jet-d-eau",
           "name_ar": "نافورة جنيف",
           "km": 0.5
@@ -86,9 +96,9 @@
           "km": 0.8
         },
         {
-          "slug": "geneva-airport",
-          "name_ar": "مطار جنيف",
-          "km": 4.4
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 1.9
         }
       ]
     },
@@ -113,6 +123,11 @@
       ],
       "neighbours": [
         {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 0.6
+        },
+        {
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 0.6
@@ -128,9 +143,9 @@
           "km": 1.1
         },
         {
-          "slug": "geneva-airport",
-          "name_ar": "مطار جنيف",
-          "km": 4.0
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 2.0
         }
       ]
     },
@@ -169,9 +184,14 @@
           "km": 0.9
         },
         {
-          "slug": "geneva-airport",
-          "name_ar": "مطار جنيف",
-          "km": 4.9
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 1.0
+        },
+        {
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 1.1
         }
       ]
     },
@@ -199,6 +219,11 @@
           "km": 4.0
         },
         {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 4.2
+        },
+        {
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 4.4
@@ -214,7 +239,233 @@
           "km": 5.0
         }
       ]
+    },
+    {
+      "slug": "montreux",
+      "name_ar": "مونترو",
+      "name_en": "Montreux",
+      "lat": 46.4312,
+      "lng": 6.9107,
+      "prox_km": 8,
+      "q": "مونترو",
+      "poi_label": "مونترو",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "5-star",
+        "nature"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مونترو"
+      ],
+      "neighbours": [
+        {
+          "slug": "lausanne",
+          "name_ar": "لوزان",
+          "km": 23.5
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 63.1
+        },
+        {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 63.4
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 63.4
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 63.8
+        }
+      ]
+    },
+    {
+      "slug": "lausanne",
+      "name_ar": "لوزان",
+      "name_en": "Lausanne",
+      "lat": 46.5197,
+      "lng": 6.6323,
+      "prox_km": 6,
+      "q": "لوزان",
+      "poi_label": "لوزان",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "montreux",
+          "name_ar": "مونترو",
+          "km": 23.5
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 50.4
+        },
+        {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 50.5
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 50.6
+        },
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 50.9
+        }
+      ]
+    },
+    {
+      "slug": "paquis",
+      "name_ar": "باكي",
+      "name_en": "Paquis",
+      "lat": 46.212,
+      "lng": 6.149,
+      "prox_km": 1.5,
+      "q": "باكي",
+      "poi_label": "باكي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 0.2
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 0.6
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 0.7
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 1.0
+        },
+        {
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "carouge",
+      "name_ar": "كاروج",
+      "name_en": "Carouge",
+      "lat": 46.182,
+      "lng": 6.139,
+      "prox_km": 2,
+      "q": "كاروج",
+      "poi_label": "كاروج",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 1.5
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 2.4
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 3.1
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 3.1
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "hug-hospital",
+      "name_ar": "مستشفى جنيف الجامعي",
+      "name_en": "HUG Geneva",
+      "lat": 46.193,
+      "lng": 6.15,
+      "prox_km": 3,
+      "q": "مستشفى جنيف",
+      "poi_label": "HUG",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 1.1
+        },
+        {
+          "slug": "carouge",
+          "name_ar": "كاروج",
+          "km": 1.5
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 1.7
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 1.9
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 2.0
+        }
+      ]
     }
   ],
-  "poi_count": 5
+  "poi_count": 10
 }

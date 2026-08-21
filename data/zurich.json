@@ -45,9 +45,14 @@
           "km": 0.8
         },
         {
-          "slug": "zurich-airport",
-          "name_ar": "مطار زيورخ",
-          "km": 10.3
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 2.6
+        },
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 4.4
         }
       ]
     },
@@ -86,9 +91,14 @@
           "km": 1.4
         },
         {
-          "slug": "zurich-airport",
-          "name_ar": "مطار زيورخ",
-          "km": 9.7
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 2.1
+        },
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 3.7
         }
       ]
     },
@@ -127,9 +137,14 @@
           "km": 1.4
         },
         {
-          "slug": "zurich-airport",
-          "name_ar": "مطار زيورخ",
-          "km": 11.0
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 3.3
+        },
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 5.0
         }
       ]
     },
@@ -169,9 +184,14 @@
           "km": 0.7
         },
         {
-          "slug": "zurich-airport",
-          "name_ar": "مطار زيورخ",
-          "km": 10.4
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 2.7
+        },
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 4.4
         }
       ]
     },
@@ -194,6 +214,16 @@
       ],
       "neighbours": [
         {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 6.0
+        },
+        {
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 8.6
+        },
+        {
           "slug": "hauptbahnhof",
           "name_ar": "المحطة الرئيسية",
           "km": 9.7
@@ -207,14 +237,237 @@
           "slug": "old-town",
           "name_ar": "البلدة القديمة",
           "km": 10.4
+        }
+      ]
+    },
+    {
+      "slug": "foxtown-outlet",
+      "name_ar": "فوكس تاون أوتلت",
+      "name_en": "FoxTown Mendrisio",
+      "lat": 45.872,
+      "lng": 8.98,
+      "prox_km": 10,
+      "q": "فوكس تاون",
+      "poi_label": "فوكس تاون",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "interlaken",
+          "name_ar": "إنترلاكن",
+          "km": 124.8
+        },
+        {
+          "slug": "lucerne",
+          "name_ar": "لوسيرن",
+          "km": 140.7
         },
         {
           "slug": "lake-zurich",
           "name_ar": "بحيرة زيورخ",
-          "km": 11.0
+          "km": 169.4
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 170.1
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 170.2
+        }
+      ]
+    },
+    {
+      "slug": "lucerne",
+      "name_ar": "لوسيرن",
+      "name_en": "Lucerne",
+      "lat": 47.0502,
+      "lng": 8.3093,
+      "prox_km": 8,
+      "q": "لوسيرن",
+      "poi_label": "لوسيرن",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "couples",
+        "nature"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق لوسيرن"
+      ],
+      "neighbours": [
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 39.3
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 39.8
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 39.8
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 40.4
+        },
+        {
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 40.9
+        }
+      ]
+    },
+    {
+      "slug": "interlaken",
+      "name_ar": "إنترلاكن",
+      "name_en": "Interlaken",
+      "lat": 46.6863,
+      "lng": 7.8632,
+      "prox_km": 10,
+      "q": "انترلاكن",
+      "poi_label": "إنترلاكن",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "couples",
+        "nature"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق انترلاكن"
+      ],
+      "neighbours": [
+        {
+          "slug": "lucerne",
+          "name_ar": "لوسيرن",
+          "km": 52.8
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 91.5
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 91.9
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 92.0
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 92.4
+        }
+      ]
+    },
+    {
+      "slug": "zurich-west",
+      "name_ar": "زيورخ ويست",
+      "name_en": "Zurich West",
+      "lat": 47.39,
+      "lng": 8.518,
+      "prox_km": 2,
+      "q": "زيورخ ويست",
+      "poi_label": "زيورخ ويست",
+      "type": "district",
+      "intents": [
+        "apartments",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 2.1
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 2.6
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 2.7
+        },
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 3.0
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "oerlikon",
+      "name_ar": "أورليكون",
+      "name_en": "Oerlikon",
+      "lat": 47.411,
+      "lng": 8.544,
+      "prox_km": 2,
+      "q": "اورليكون",
+      "poi_label": "أورليكون",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 3.0
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 3.7
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 4.4
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 4.4
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 5.0
         }
       ]
     }
   ],
-  "poi_count": 5
+  "poi_count": 10
 }

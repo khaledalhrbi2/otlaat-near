@@ -32,11 +32,6 @@
       ],
       "neighbours": [
         {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
-          "km": 0.0
-        },
-        {
           "slug": "legian",
           "name_ar": "ليغيان",
           "km": 1.5
@@ -55,6 +50,11 @@
           "slug": "ngurah-rai-airport",
           "name_ar": "مطار بالي",
           "km": 6.3
+        },
+        {
+          "slug": "pererenan",
+          "name_ar": "بيريرينان",
+          "km": 7.7
         }
       ]
     },
@@ -81,29 +81,29 @@
       ],
       "neighbours": [
         {
+          "slug": "monkey-forest",
+          "name_ar": "غابة القرود أوبود",
+          "km": 1.4
+        },
+        {
+          "slug": "tegenungan-waterfall",
+          "name_ar": "شلال تيجينونجان",
+          "km": 8.2
+        },
+        {
+          "slug": "tegalalang",
+          "name_ar": "مدرجات أرز تيجالالانج",
+          "km": 8.6
+        },
+        {
+          "slug": "keramas",
+          "name_ar": "كيراماس",
+          "km": 12.0
+        },
+        {
           "slug": "sanur",
           "name_ar": "سانور",
           "km": 20.0
-        },
-        {
-          "slug": "canggu",
-          "name_ar": "تشانغو",
-          "km": 20.8
-        },
-        {
-          "slug": "seminyak",
-          "name_ar": "سمينياك",
-          "km": 23.0
-        },
-        {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
-          "km": 23.0
-        },
-        {
-          "slug": "legian",
-          "name_ar": "ليغيان",
-          "km": 24.3
         }
       ]
     },
@@ -129,6 +129,11 @@
       ],
       "neighbours": [
         {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 4.6
+        },
+        {
           "slug": "jimbaran",
           "name_ar": "جيمباران",
           "km": 7.8
@@ -139,19 +144,14 @@
           "km": 9.0
         },
         {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 9.5
+        },
+        {
           "slug": "kuta",
           "name_ar": "كوتا",
           "km": 11.3
-        },
-        {
-          "slug": "legian",
-          "name_ar": "ليغيان",
-          "km": 12.5
-        },
-        {
-          "slug": "sanur",
-          "name_ar": "سانور",
-          "km": 13.0
         }
       ]
     },
@@ -186,14 +186,14 @@
           "km": 3.0
         },
         {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
-          "km": 3.0
-        },
-        {
           "slug": "ngurah-rai-airport",
           "name_ar": "مطار بالي",
           "km": 3.4
+        },
+        {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 7.3
         },
         {
           "slug": "jimbaran",
@@ -232,11 +232,6 @@
           "km": 1.5
         },
         {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
-          "km": 1.5
-        },
-        {
           "slug": "ngurah-rai-airport",
           "name_ar": "مطار بالي",
           "km": 4.8
@@ -245,6 +240,11 @@
           "slug": "canggu",
           "name_ar": "تشانغو",
           "km": 7.2
+        },
+        {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 8.2
         }
       ]
     },
@@ -274,24 +274,24 @@
           "km": 4.7
         },
         {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 6.5
+        },
+        {
+          "slug": "padang-padang",
+          "name_ar": "شاطئ بادانج بادانج",
+          "km": 6.6
+        },
+        {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 7.4
+        },
+        {
           "slug": "nusa-dua",
           "name_ar": "نوسا دوا",
           "km": 7.8
-        },
-        {
-          "slug": "kuta",
-          "name_ar": "كوتا",
-          "km": 8.1
-        },
-        {
-          "slug": "uluwatu",
-          "name_ar": "أولواتو",
-          "km": 9.3
-        },
-        {
-          "slug": "legian",
-          "name_ar": "ليغيان",
-          "km": 9.5
         }
       ]
     },
@@ -316,6 +316,21 @@
       ],
       "neighbours": [
         {
+          "slug": "uluwatu-temple",
+          "name_ar": "معبد أولواتو",
+          "km": 0.0
+        },
+        {
+          "slug": "padang-padang",
+          "name_ar": "شاطئ بادانج بادانج",
+          "km": 2.9
+        },
+        {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 8.3
+        },
+        {
           "slug": "jimbaran",
           "name_ar": "جيمباران",
           "km": 9.3
@@ -324,21 +339,6 @@
           "slug": "ngurah-rai-airport",
           "name_ar": "مطار بالي",
           "km": 12.7
-        },
-        {
-          "slug": "kuta",
-          "name_ar": "كوتا",
-          "km": 15.4
-        },
-        {
-          "slug": "nusa-dua",
-          "name_ar": "نوسا دوا",
-          "km": 16.3
-        },
-        {
-          "slug": "legian",
-          "name_ar": "ليغيان",
-          "km": 16.7
         }
       ]
     },
@@ -362,14 +362,19 @@
       ],
       "neighbours": [
         {
+          "slug": "pererenan",
+          "name_ar": "بيريرينان",
+          "km": 1.9
+        },
+        {
           "slug": "seminyak",
           "name_ar": "سمينياك",
           "km": 5.8
         },
         {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
-          "km": 5.8
+          "slug": "tanah-lot",
+          "name_ar": "معبد تاناه لوت",
+          "km": 6.4
         },
         {
           "slug": "legian",
@@ -380,11 +385,6 @@
           "slug": "kuta",
           "name_ar": "كوتا",
           "km": 8.5
-        },
-        {
-          "slug": "ngurah-rai-airport",
-          "name_ar": "مطار بالي",
-          "km": 11.6
         }
       ]
     },
@@ -409,6 +409,11 @@
       ],
       "neighbours": [
         {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 9.3
+        },
+        {
           "slug": "legian",
           "name_ar": "ليغيان",
           "km": 10.3
@@ -416,11 +421,6 @@
         {
           "slug": "seminyak",
           "name_ar": "سمينياك",
-          "km": 10.3
-        },
-        {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
           "km": 10.3
         },
         {
@@ -470,13 +470,13 @@
           "km": 4.8
         },
         {
-          "slug": "seminyak",
-          "name_ar": "سمينياك",
-          "km": 6.3
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 5.9
         },
         {
-          "slug": "honeymoon",
-          "name_ar": "شهر العسل بالي",
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
           "km": 6.3
         }
       ]
@@ -528,7 +528,588 @@
           "km": 6.3
         }
       ]
+    },
+    {
+      "slug": "tanah-lot",
+      "name_ar": "معبد تاناه لوت",
+      "name_en": "Tanah Lot",
+      "lat": -8.6212,
+      "lng": 115.0868,
+      "prox_km": 6,
+      "q": "تاناه لوت",
+      "poi_label": "تاناه لوت",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "pererenan",
+          "name_ar": "بيريرينان",
+          "km": 4.5
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 6.4
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 11.9
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 13.1
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 14.1
+        }
+      ]
+    },
+    {
+      "slug": "uluwatu-temple",
+      "name_ar": "معبد أولواتو",
+      "name_en": "Uluwatu Temple",
+      "lat": -8.8291,
+      "lng": 115.0849,
+      "prox_km": 4,
+      "q": "معبد اولواتو",
+      "poi_label": "معبد أولواتو",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "uluwatu",
+          "name_ar": "أولواتو",
+          "km": 0.0
+        },
+        {
+          "slug": "padang-padang",
+          "name_ar": "شاطئ بادانج بادانج",
+          "km": 2.9
+        },
+        {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 8.3
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 9.3
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 12.8
+        }
+      ]
+    },
+    {
+      "slug": "tegenungan-waterfall",
+      "name_ar": "شلال تيجينونجان",
+      "name_en": "Tegenungan Waterfall",
+      "lat": -8.5755,
+      "lng": 115.2889,
+      "prox_km": 6,
+      "q": "شلال تيجينونجان",
+      "poi_label": "تيجينونجان",
+      "type": "landmark",
+      "intents": [
+        "nature",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "keramas",
+          "name_ar": "كيراماس",
+          "km": 5.3
+        },
+        {
+          "slug": "monkey-forest",
+          "name_ar": "غابة القرود أوبود",
+          "km": 7.1
+        },
+        {
+          "slug": "ubud",
+          "name_ar": "أوبود",
+          "km": 8.2
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 12.7
+        },
+        {
+          "slug": "tegalalang",
+          "name_ar": "مدرجات أرز تيجالالانج",
+          "km": 16.1
+        }
+      ]
+    },
+    {
+      "slug": "tegalalang",
+      "name_ar": "مدرجات أرز تيجالالانج",
+      "name_en": "Tegalalang Rice Terrace",
+      "lat": -8.4312,
+      "lng": 115.279,
+      "prox_km": 6,
+      "q": "تيجالالانج",
+      "poi_label": "تيجالالانج",
+      "type": "landmark",
+      "intents": [
+        "nature",
+        "villa",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "ubud",
+          "name_ar": "أوبود",
+          "km": 8.6
+        },
+        {
+          "slug": "monkey-forest",
+          "name_ar": "غابة القرود أوبود",
+          "km": 10.0
+        },
+        {
+          "slug": "tegenungan-waterfall",
+          "name_ar": "شلال تيجينونجان",
+          "km": 16.1
+        },
+        {
+          "slug": "keramas",
+          "name_ar": "كيراماس",
+          "km": 18.5
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 28.5
+        }
+      ]
+    },
+    {
+      "slug": "monkey-forest",
+      "name_ar": "غابة القرود أوبود",
+      "name_en": "Ubud Monkey Forest",
+      "lat": -8.5188,
+      "lng": 115.2588,
+      "prox_km": 3,
+      "q": "غابة القرود",
+      "poi_label": "غابة القرود",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "nature"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "ubud",
+          "name_ar": "أوبود",
+          "km": 1.4
+        },
+        {
+          "slug": "tegenungan-waterfall",
+          "name_ar": "شلال تيجينونجان",
+          "km": 7.1
+        },
+        {
+          "slug": "tegalalang",
+          "name_ar": "مدرجات أرز تيجالالانج",
+          "km": 10.0
+        },
+        {
+          "slug": "keramas",
+          "name_ar": "كيراماس",
+          "km": 11.4
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 18.7
+        }
+      ]
+    },
+    {
+      "slug": "melasti-beach",
+      "name_ar": "شاطئ ملاستي",
+      "name_en": "Melasti Beach",
+      "lat": -8.848,
+      "lng": 115.158,
+      "prox_km": 4,
+      "q": "شاطئ ملاستي",
+      "poi_label": "ملاستي",
+      "type": "landmark",
+      "intents": [
+        "beach",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 6.5
+        },
+        {
+          "slug": "padang-padang",
+          "name_ar": "شاطئ بادانج بادانج",
+          "km": 7.2
+        },
+        {
+          "slug": "uluwatu",
+          "name_ar": "أولواتو",
+          "km": 8.3
+        },
+        {
+          "slug": "uluwatu-temple",
+          "name_ar": "معبد أولواتو",
+          "km": 8.3
+        },
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 9.5
+        }
+      ]
+    },
+    {
+      "slug": "nusa-penida",
+      "name_ar": "نوسا بينيدا",
+      "name_en": "Nusa Penida",
+      "lat": -8.7275,
+      "lng": 115.5444,
+      "prox_km": 10,
+      "q": "نوسا بينيدا",
+      "poi_label": "نوسا بينيدا",
+      "type": "district",
+      "intents": [
+        "nature",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "keramas",
+          "name_ar": "كيراماس",
+          "km": 27.8
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 31.4
+        },
+        {
+          "slug": "tegenungan-waterfall",
+          "name_ar": "شلال تيجينونجان",
+          "km": 32.8
+        },
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 35.5
+        },
+        {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 35.8
+        }
+      ]
+    },
+    {
+      "slug": "pererenan",
+      "name_ar": "بيريرينان",
+      "name_en": "Pererenan",
+      "lat": -8.638,
+      "lng": 115.124,
+      "prox_km": 3,
+      "q": "بيريرينان",
+      "poi_label": "بيريرينان",
+      "type": "district",
+      "intents": [
+        "villa",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 1.9
+        },
+        {
+          "slug": "tanah-lot",
+          "name_ar": "معبد تاناه لوت",
+          "km": 4.5
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 7.7
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 9.0
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 10.2
+        }
+      ]
+    },
+    {
+      "slug": "padang-padang",
+      "name_ar": "شاطئ بادانج بادانج",
+      "name_en": "Padang Padang Beach",
+      "lat": -8.811,
+      "lng": 115.104,
+      "prox_km": 4,
+      "q": "بادانج بادانج",
+      "poi_label": "بادانج بادانج",
+      "type": "landmark",
+      "intents": [
+        "beach",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "uluwatu",
+          "name_ar": "أولواتو",
+          "km": 2.9
+        },
+        {
+          "slug": "uluwatu-temple",
+          "name_ar": "معبد أولواتو",
+          "km": 2.9
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 6.6
+        },
+        {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 7.2
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 9.8
+        }
+      ]
+    },
+    {
+      "slug": "keramas",
+      "name_ar": "كيراماس",
+      "name_en": "Keramas",
+      "lat": -8.588,
+      "lng": 115.335,
+      "prox_km": 5,
+      "q": "كيراماس",
+      "poi_label": "كيراماس",
+      "type": "district",
+      "intents": [
+        "villa",
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "tegenungan-waterfall",
+          "name_ar": "شلال تيجينونجان",
+          "km": 5.3
+        },
+        {
+          "slug": "monkey-forest",
+          "name_ar": "غابة القرود أوبود",
+          "km": 11.4
+        },
+        {
+          "slug": "ubud",
+          "name_ar": "أوبود",
+          "km": 12.0
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 13.6
+        },
+        {
+          "slug": "tegalalang",
+          "name_ar": "مدرجات أرز تيجالالانج",
+          "km": 18.5
+        }
+      ]
+    },
+    {
+      "slug": "benoa",
+      "name_ar": "بينوا",
+      "name_en": "Benoa",
+      "lat": -8.76,
+      "lng": 115.22,
+      "prox_km": 4,
+      "q": "بينوا",
+      "poi_label": "بينوا",
+      "type": "district",
+      "intents": [
+        "family",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 4.6
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 5.9
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 7.3
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 7.4
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 8.2
+        }
+      ]
+    },
+    {
+      "slug": "family",
+      "name_ar": "فنادق بالي للعوائل",
+      "name_en": "Bali for families",
+      "lat": -8.8,
+      "lng": 115.23,
+      "prox_km": 30,
+      "q": "بالي",
+      "poi_label": "بالي",
+      "type": "intent_hub",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بالي للعوائل",
+        "منتجعات بالي للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 0.0
+        },
+        {
+          "slug": "benoa",
+          "name_ar": "بينوا",
+          "km": 4.6
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 7.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 9.0
+        },
+        {
+          "slug": "melasti-beach",
+          "name_ar": "شاطئ ملاستي",
+          "km": 9.5
+        }
+      ]
+    },
+    {
+      "slug": "private-pool",
+      "name_ar": "فنادق بالي مع مسبح خاص",
+      "name_en": "Bali private pool",
+      "lat": -8.6913,
+      "lng": 115.1682,
+      "prox_km": 30,
+      "q": "بالي",
+      "poi_label": "بالي",
+      "type": "intent_hub",
+      "intents": [
+        "villa",
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بالي مع مسبح خاص",
+        "فلل بالي مسبح خاص"
+      ],
+      "neighbours": [
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 0.0
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 1.5
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 3.0
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 5.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 6.3
+        }
+      ]
     }
   ],
-  "poi_count": 11
+  "poi_count": 24
 }

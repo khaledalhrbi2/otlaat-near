@@ -47,14 +47,14 @@
           "km": 1.5
         },
         {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 3.7
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 1.6
         },
         {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 6.6
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 1.7
         }
       ]
     },
@@ -95,14 +95,14 @@
           "km": 2.0
         },
         {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 4.1
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.0
         },
         {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 6.3
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 2.1
         }
       ]
     },
@@ -142,14 +142,14 @@
           "km": 1.2
         },
         {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 3.5
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 1.6
         },
         {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 6.9
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 1.7
         }
       ]
     },
@@ -180,24 +180,24 @@
           "km": 0.8
         },
         {
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 1.8
+        },
+        {
           "slug": "palm-jumeirah",
           "name_ar": "نخلة جميرا",
           "km": 3.5
         },
         {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 4.4
+        },
+        {
           "slug": "al-barsha",
           "name_ar": "البرشاء",
           "km": 6.7
-        },
-        {
-          "slug": "global-village",
-          "name_ar": "القرية العالمية",
-          "km": 16.7
-        },
-        {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 17.0
         }
       ]
     },
@@ -228,24 +228,24 @@
           "km": 0.8
         },
         {
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 1.0
+        },
+        {
           "slug": "palm-jumeirah",
           "name_ar": "نخلة جميرا",
           "km": 3.9
         },
         {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 5.0
+        },
+        {
           "slug": "al-barsha",
           "name_ar": "البرشاء",
           "km": 7.4
-        },
-        {
-          "slug": "global-village",
-          "name_ar": "القرية العالمية",
-          "km": 17.4
-        },
-        {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 17.7
         }
       ]
     },
@@ -281,19 +281,19 @@
           "km": 3.9
         },
         {
-          "slug": "al-barsha",
-          "name_ar": "البرشاء",
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 4.0
+        },
+        {
+          "slug": "burj-al-arab",
+          "name_ar": "برج العرب",
           "km": 5.7
         },
         {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 14.4
-        },
-        {
-          "slug": "business-bay",
-          "name_ar": "الخليج التجاري",
-          "km": 15.2
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 5.7
         }
       ]
     },
@@ -322,29 +322,29 @@
       },
       "neighbours": [
         {
-          "slug": "al-barsha",
-          "name_ar": "البرشاء",
-          "km": 12.1
+          "slug": "img-worlds",
+          "name_ar": "آي إم جي",
+          "km": 2.9
         },
         {
-          "slug": "business-bay",
-          "name_ar": "الخليج التجاري",
-          "km": 13.5
+          "slug": "miracle-garden",
+          "name_ar": "حديقة الزهور",
+          "km": 6.3
         },
         {
-          "slug": "downtown",
-          "name_ar": "داون تاون دبي",
-          "km": 14.3
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 7.2
         },
         {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 14.5
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 9.2
         },
         {
-          "slug": "dubai-mall",
-          "name_ar": "دبي مول",
-          "km": 14.5
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 11.2
         }
       ]
     },
@@ -368,29 +368,29 @@
       ],
       "neighbours": [
         {
-          "slug": "dubai-creek-harbour",
-          "name_ar": "خور دبي",
-          "km": 5.4
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 3.3
         },
         {
-          "slug": "deira",
-          "name_ar": "ديرة",
-          "km": 5.9
+          "slug": "al-qusais",
+          "name_ar": "القصيص",
+          "km": 3.3
         },
         {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 6.9
+          "slug": "dubai-festival-city",
+          "name_ar": "دبي فستيفال سيتي",
+          "km": 3.7
         },
         {
-          "slug": "dubai-mall",
-          "name_ar": "دبي مول",
-          "km": 10.6
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 5.1
         },
         {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 11.1
+          "slug": "al-mamzar",
+          "name_ar": "الممزر",
+          "km": 5.3
         }
       ]
     },
@@ -421,24 +421,24 @@
           "km": 2.3
         },
         {
-          "slug": "dxb-airport",
-          "name_ar": "مطار دبي الدولي",
-          "km": 5.9
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 3.1
         },
         {
-          "slug": "dubai-creek-harbour",
-          "name_ar": "خور دبي",
-          "km": 7.8
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 3.1
         },
         {
-          "slug": "dubai-mall",
-          "name_ar": "دبي مول",
-          "km": 8.5
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 3.8
         },
         {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 8.9
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 4.0
         }
       ]
     },
@@ -463,29 +463,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 1.3
+        },
+        {
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 2.0
+        },
+        {
           "slug": "deira",
           "name_ar": "ديرة",
           "km": 2.3
         },
         {
-          "slug": "dubai-mall",
-          "name_ar": "دبي مول",
-          "km": 6.3
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 2.3
         },
         {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 6.6
-        },
-        {
-          "slug": "dxb-airport",
-          "name_ar": "مطار دبي الدولي",
-          "km": 6.9
-        },
-        {
-          "slug": "downtown",
-          "name_ar": "داون تاون دبي",
-          "km": 6.9
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 3.2
         }
       ]
     },
@@ -510,29 +510,29 @@
       ],
       "neighbours": [
         {
+          "slug": "mall-of-the-emirates",
+          "name_ar": "مول الإمارات",
+          "km": 0.7
+        },
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 0.9
+        },
+        {
+          "slug": "burj-al-arab",
+          "name_ar": "برج العرب",
+          "km": 3.3
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 4.9
+        },
+        {
           "slug": "palm-jumeirah",
           "name_ar": "نخلة جميرا",
           "km": 5.7
-        },
-        {
-          "slug": "dubai-marina",
-          "name_ar": "مارينا دبي",
-          "km": 6.7
-        },
-        {
-          "slug": "jbr",
-          "name_ar": "جي بي آر",
-          "km": 7.4
-        },
-        {
-          "slug": "business-bay",
-          "name_ar": "الخليج التجاري",
-          "km": 10.7
-        },
-        {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 11.1
         }
       ]
     },
@@ -571,14 +571,14 @@
           "km": 2.0
         },
         {
-          "slug": "jumeirah",
-          "name_ar": "جميرا",
-          "km": 3.4
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.3
         },
         {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 8.1
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 2.3
         }
       ]
     },
@@ -603,6 +603,21 @@
       ],
       "neighbours": [
         {
+          "slug": "jumeirah-beach",
+          "name_ar": "شاطئ جميرا",
+          "km": 1.5
+        },
+        {
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 2.1
+        },
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.3
+        },
+        {
           "slug": "business-bay",
           "name_ar": "الخليج التجاري",
           "km": 3.4
@@ -611,21 +626,6 @@
           "slug": "downtown",
           "name_ar": "داون تاون دبي",
           "km": 3.5
-        },
-        {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 3.7
-        },
-        {
-          "slug": "dubai-mall",
-          "name_ar": "دبي مول",
-          "km": 4.1
-        },
-        {
-          "slug": "bur-dubai",
-          "name_ar": "بر دبي",
-          "km": 7.9
         }
       ]
     },
@@ -650,32 +650,1162 @@
       ],
       "neighbours": [
         {
+          "slug": "dubai-festival-city",
+          "name_ar": "دبي فستيفال سيتي",
+          "km": 1.6
+        },
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 3.9
+        },
+        {
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 4.9
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 5.1
+        },
+        {
           "slug": "dxb-airport",
           "name_ar": "مطار دبي الدولي",
           "km": 5.4
+        }
+      ]
+    },
+    {
+      "slug": "mall-of-the-emirates",
+      "name_ar": "مول الإمارات",
+      "name_en": "Mall of the Emirates",
+      "lat": 25.1181,
+      "lng": 55.2005,
+      "prox_km": 2,
+      "q": "مول الامارات",
+      "poi_label": "مول الإمارات",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": "مول الإمارات",
+      "keywords": [
+        "فنادق قريبة من مول الامارات",
+        "فنادق متصلة بمول الامارات"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 0.7
+        },
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 0.7
+        },
+        {
+          "slug": "burj-al-arab",
+          "name_ar": "برج العرب",
+          "km": 3.0
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 4.7
+        },
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 6.2
+        }
+      ]
+    },
+    {
+      "slug": "dubai-festival-city",
+      "name_ar": "دبي فستيفال سيتي",
+      "name_en": "Dubai Festival City",
+      "lat": 25.222,
+      "lng": 55.352,
+      "prox_km": 3,
+      "q": "دبي فستيفال سيتي",
+      "poi_label": "فستيفال سيتي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dubai-creek-harbour",
+          "name_ar": "خور دبي",
+          "km": 1.6
+        },
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 3.4
+        },
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 3.7
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 3.8
+        },
+        {
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "dubai-hills-mall",
+      "name_ar": "دبي هيلز مول",
+      "name_en": "Dubai Hills Mall",
+      "lat": 25.1,
+      "lng": 55.243,
+      "prox_km": 3,
+      "q": "دبي هيلز مول",
+      "poi_label": "دبي هيلز",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 4.1
+        },
+        {
+          "slug": "miracle-garden",
+          "name_ar": "حديقة الزهور",
+          "km": 4.4
+        },
+        {
+          "slug": "mall-of-the-emirates",
+          "name_ar": "مول الإمارات",
+          "km": 4.7
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 4.9
+        },
+        {
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 6.7
+        }
+      ]
+    },
+    {
+      "slug": "city-walk",
+      "name_ar": "سيتي ووك",
+      "name_en": "City Walk",
+      "lat": 25.206,
+      "lng": 55.262,
+      "prox_km": 2,
+      "q": "سيتي ووك",
+      "poi_label": "سيتي ووك",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 0.2
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 1.6
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 1.6
         },
         {
           "slug": "dubai-mall",
           "name_ar": "دبي مول",
-          "km": 6.9
+          "km": 2.0
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "city-centre-deira",
+      "name_ar": "سيتي سنتر ديرة",
+      "name_en": "City Centre Deira",
+      "lat": 25.252,
+      "lng": 55.333,
+      "prox_km": 2,
+      "q": "سيتي سنتر ديرة",
+      "poi_label": "سيتي سنتر ديرة",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": "سيتي سنتر ديرة",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 2.5
+        },
+        {
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 2.9
+        },
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 3.1
+        },
+        {
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 3.2
+        },
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "outlet-village",
+      "name_ar": "ذا أوتلت فيليدج",
+      "name_en": "The Outlet Village",
+      "lat": 25.06,
+      "lng": 55.178,
+      "prox_km": 4,
+      "q": "اوتلت فيليدج",
+      "poi_label": "الأوتلت فيليدج",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 4.4
+        },
+        {
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 4.6
+        },
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 5.0
+        },
+        {
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 5.9
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 6.2
+        }
+      ]
+    },
+    {
+      "slug": "dubai-parks",
+      "name_ar": "دبي باركس آند ريزورتس",
+      "name_en": "Dubai Parks and Resorts",
+      "lat": 24.92,
+      "lng": 55.006,
+      "prox_km": 6,
+      "q": "دبي باركس",
+      "poi_label": "دبي باركس",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من دبي باركس",
+        "فنادق قريبة من موشن جيت"
+      ],
+      "neighbours": [
+        {
+          "slug": "expo-city",
+          "name_ar": "إكسبو سيتي",
+          "km": 15.3
+        },
+        {
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 21.3
+        },
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 21.7
+        },
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 22.4
+        },
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 23.3
+        }
+      ]
+    },
+    {
+      "slug": "img-worlds",
+      "name_ar": "آي إم جي",
+      "name_en": "IMG Worlds of Adventure",
+      "lat": 25.087,
+      "lng": 55.328,
+      "prox_km": 5,
+      "q": "اي ام جي",
+      "poi_label": "IMG",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "global-village",
+          "name_ar": "القرية العالمية",
+          "km": 2.9
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 8.7
+        },
+        {
+          "slug": "miracle-garden",
+          "name_ar": "حديقة الزهور",
+          "km": 9.0
+        },
+        {
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 11.9
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 12.7
+        }
+      ]
+    },
+    {
+      "slug": "dubai-frame",
+      "name_ar": "برواز دبي",
+      "name_en": "Dubai Frame",
+      "lat": 25.235,
+      "lng": 55.3,
+      "prox_km": 2,
+      "q": "برواز دبي",
+      "poi_label": "برواز دبي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 0.9
+        },
+        {
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 1.0
+        },
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 2.0
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 2.0
+        },
+        {
+          "slug": "museum-of-the-future",
+          "name_ar": "متحف المستقبل",
+          "km": 2.6
+        }
+      ]
+    },
+    {
+      "slug": "museum-of-the-future",
+      "name_ar": "متحف المستقبل",
+      "name_en": "Museum of the Future",
+      "lat": 25.219,
+      "lng": 55.281,
+      "prox_km": 2,
+      "q": "متحف المستقبل",
+      "poi_label": "متحف المستقبل",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": "الإمارات تاورز",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-satwa",
+          "name_ar": "السطوة",
+          "km": 1.0
+        },
+        {
+          "slug": "la-mer",
+          "name_ar": "لامير",
+          "km": 2.0
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 2.3
+        },
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.4
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "miracle-garden",
+      "name_ar": "حديقة الزهور",
+      "name_en": "Miracle Garden",
+      "lat": 25.06,
+      "lng": 55.244,
+      "prox_km": 5,
+      "q": "ميراكل جاردن",
+      "poi_label": "حديقة الزهور",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-11-01",
+        "end": "2027-05-01",
+        "note": "موسم الحديقة تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 3.1
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 4.4
+        },
+        {
+          "slug": "global-village",
+          "name_ar": "القرية العالمية",
+          "km": 6.3
+        },
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 6.6
+        },
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 7.1
+        }
+      ]
+    },
+    {
+      "slug": "la-mer",
+      "name_ar": "لامير",
+      "name_en": "La Mer",
+      "lat": 25.228,
+      "lng": 55.264,
+      "prox_km": 2,
+      "q": "لامير",
+      "poi_label": "لامير",
+      "type": "landmark",
+      "intents": [
+        "beach",
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-satwa",
+          "name_ar": "السطوة",
+          "km": 1.1
+        },
+        {
+          "slug": "museum-of-the-future",
+          "name_ar": "متحف المستقبل",
+          "km": 2.0
+        },
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.5
+        },
+        {
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 2.5
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 3.6
+        }
+      ]
+    },
+    {
+      "slug": "bluewaters",
+      "name_ar": "بلو ووترز - عين دبي",
+      "name_en": "Bluewaters / Ain Dubai",
+      "lat": 25.079,
+      "lng": 55.123,
+      "prox_km": 2,
+      "q": "بلو ووترز",
+      "poi_label": "بلو ووترز",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من عين دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 1.0
+        },
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 1.8
+        },
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 4.0
+        },
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 5.9
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 8.3
+        }
+      ]
+    },
+    {
+      "slug": "al-qusais",
+      "name_ar": "القصيص",
+      "name_en": "Al Qusais",
+      "lat": 25.28,
+      "lng": 55.38,
+      "prox_km": 3,
+      "q": "القصيص",
+      "poi_label": "القصيص",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "القصيص",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 3.3
+        },
+        {
+          "slug": "al-mamzar",
+          "name_ar": "الممزر",
+          "km": 3.9
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 5.7
+        },
+        {
+          "slug": "dubai-festival-city",
+          "name_ar": "دبي فستيفال سيتي",
+          "km": 7.0
+        },
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 7.1
+        }
+      ]
+    },
+    {
+      "slug": "al-mamzar",
+      "name_ar": "الممزر",
+      "name_en": "Al Mamzar",
+      "lat": 25.298,
+      "lng": 55.347,
+      "prox_km": 3,
+      "q": "الممزر",
+      "poi_label": "الممزر",
+      "type": "district",
+      "intents": [
+        "family",
+        "beach",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-qusais",
+          "name_ar": "القصيص",
+          "km": 3.9
+        },
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 4.9
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 5.3
+        },
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 5.3
         },
         {
           "slug": "bur-dubai",
           "name_ar": "بر دبي",
           "km": 7.1
+        }
+      ]
+    },
+    {
+      "slug": "al-karama",
+      "name_ar": "الكرامة",
+      "name_en": "Al Karama",
+      "lat": 25.243,
+      "lng": 55.303,
+      "prox_km": 2,
+      "q": "الكرامة",
+      "poi_label": "الكرامة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "ADCB",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 0.9
         },
         {
-          "slug": "burj-khalifa",
-          "name_ar": "برج خليفة",
-          "km": 7.4
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 1.0
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 1.3
+        },
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 2.0
+        },
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 3.1
+        }
+      ]
+    },
+    {
+      "slug": "oud-metha",
+      "name_ar": "عود ميثاء",
+      "name_en": "Oud Metha",
+      "lat": 25.236,
+      "lng": 55.31,
+      "prox_km": 2,
+      "q": "عود ميثاء",
+      "poi_label": "عود ميثاء",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "عود ميثاء",
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 1.0
+        },
+        {
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 1.0
+        },
+        {
+          "slug": "al-jalila-hospital",
+          "name_ar": "مستشفى الجليلة",
+          "km": 1.1
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 2.3
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 2.9
+        }
+      ]
+    },
+    {
+      "slug": "al-satwa",
+      "name_ar": "السطوة",
+      "name_en": "Al Satwa",
+      "lat": 25.225,
+      "lng": 55.274,
+      "prox_km": 2,
+      "q": "السطوة",
+      "poi_label": "السطوة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "museum-of-the-future",
+          "name_ar": "متحف المستقبل",
+          "km": 1.0
+        },
+        {
+          "slug": "la-mer",
+          "name_ar": "لامير",
+          "km": 1.1
+        },
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 2.4
+        },
+        {
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 2.5
+        },
+        {
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 2.8
+        }
+      ]
+    },
+    {
+      "slug": "jumeirah-beach",
+      "name_ar": "شاطئ جميرا",
+      "name_en": "Jumeirah Beach",
+      "lat": 25.193,
+      "lng": 55.233,
+      "prox_km": 3,
+      "q": "شاطئ جميرا",
+      "poi_label": "شاطئ جميرا",
+      "type": "landmark",
+      "intents": [
+        "beach",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 1.5
+        },
+        {
+          "slug": "coca-cola-arena",
+          "name_ar": "كوكاكولا أرينا",
+          "km": 3.1
+        },
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 3.3
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 3.4
         },
         {
           "slug": "downtown",
           "name_ar": "داون تاون دبي",
-          "km": 7.7
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "expo-city",
+      "name_ar": "إكسبو سيتي",
+      "name_en": "Expo City Dubai",
+      "lat": 24.962,
+      "lng": 55.151,
+      "prox_km": 6,
+      "q": "اكسبو سيتي",
+      "poi_label": "إكسبو سيتي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "corporate"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 11.2
+        },
+        {
+          "slug": "dubai-sports-city",
+          "name_ar": "مدينة دبي الرياضية",
+          "km": 11.4
+        },
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 13.0
+        },
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 13.2
+        },
+        {
+          "slug": "bluewaters",
+          "name_ar": "بلو ووترز - عين دبي",
+          "km": 13.3
+        }
+      ]
+    },
+    {
+      "slug": "burj-al-arab",
+      "name_ar": "برج العرب",
+      "name_en": "Burj Al Arab",
+      "lat": 25.1412,
+      "lng": 55.1853,
+      "prox_km": 3,
+      "q": "برج العرب",
+      "poi_label": "برج العرب",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "beach",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من برج العرب"
+      ],
+      "neighbours": [
+        {
+          "slug": "mall-of-the-emirates",
+          "name_ar": "مول الإمارات",
+          "km": 3.0
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 3.3
+        },
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 3.7
+        },
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 5.7
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 7.4
+        }
+      ]
+    },
+    {
+      "slug": "dubai-sports-city",
+      "name_ar": "مدينة دبي الرياضية",
+      "name_en": "Dubai Sports City",
+      "lat": 25.043,
+      "lng": 55.22,
+      "prox_km": 4,
+      "q": "مدينة دبي الرياضية",
+      "poi_label": "دبي الرياضية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "miracle-garden",
+          "name_ar": "حديقة الزهور",
+          "km": 3.1
+        },
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 4.6
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 6.7
+        },
+        {
+          "slug": "saudi-german-hospital",
+          "name_ar": "المستشفى السعودي الألماني",
+          "km": 7.9
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 8.2
+        }
+      ]
+    },
+    {
+      "slug": "coca-cola-arena",
+      "name_ar": "كوكاكولا أرينا",
+      "name_en": "Coca-Cola Arena",
+      "lat": 25.206,
+      "lng": 55.26,
+      "prox_km": 2,
+      "q": "كوكاكولا ارينا",
+      "poi_label": "كوكاكولا أرينا",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "city-walk",
+          "name_ar": "سيتي ووك",
+          "km": 0.2
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 1.7
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 1.7
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 2.1
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "al-jalila-hospital",
+      "name_ar": "مستشفى الجليلة",
+      "name_en": "Al Jalila Hospital",
+      "lat": 25.233,
+      "lng": 55.32,
+      "prox_km": 3,
+      "q": "مستشفى الجليلة",
+      "poi_label": "مستشفى الجليلة",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "oud-metha",
+          "name_ar": "عود ميثاء",
+          "km": 1.1
+        },
+        {
+          "slug": "dubai-frame",
+          "name_ar": "برواز دبي",
+          "km": 2.0
+        },
+        {
+          "slug": "al-karama",
+          "name_ar": "الكرامة",
+          "km": 2.0
+        },
+        {
+          "slug": "city-centre-deira",
+          "name_ar": "سيتي سنتر ديرة",
+          "km": 2.5
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "saudi-german-hospital",
+      "name_ar": "المستشفى السعودي الألماني",
+      "name_en": "Saudi German Hospital",
+      "lat": 25.113,
+      "lng": 55.205,
+      "prox_km": 3,
+      "q": "المستشفى السعودي الالماني دبي",
+      "poi_label": "السعودي الألماني",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mall-of-the-emirates",
+          "name_ar": "مول الإمارات",
+          "km": 0.7
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 0.9
+        },
+        {
+          "slug": "burj-al-arab",
+          "name_ar": "برج العرب",
+          "km": 3.7
+        },
+        {
+          "slug": "dubai-hills-mall",
+          "name_ar": "دبي هيلز مول",
+          "km": 4.1
+        },
+        {
+          "slug": "outlet-village",
+          "name_ar": "ذا أوتلت فيليدج",
+          "km": 6.5
         }
       ]
     }
   ],
-  "poi_count": 14
+  "poi_count": 39
 }

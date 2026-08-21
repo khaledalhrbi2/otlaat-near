@@ -34,29 +34,29 @@
       ],
       "neighbours": [
         {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 0.0
+        },
+        {
           "slug": "central-area",
           "name_ar": "المنطقة المركزية",
           "km": 0.3
         },
         {
-          "slug": "al-noor-mall",
-          "name_ar": "النور مول",
-          "km": 2.6
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 0.4
         },
         {
-          "slug": "quba-mosque",
-          "name_ar": "مسجد قباء",
-          "km": 3.1
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.6
         },
         {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 3.8
-        },
-        {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 3.9
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 1.6
         }
       ]
     },
@@ -85,24 +85,24 @@
           "km": 0.3
         },
         {
-          "slug": "al-noor-mall",
-          "name_ar": "النور مول",
-          "km": 2.9
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 0.3
         },
         {
-          "slug": "quba-mosque",
-          "name_ar": "مسجد قباء",
-          "km": 3.4
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 0.6
         },
         {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 3.5
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 1.3
         },
         {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 3.7
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.6
         }
       ]
     },
@@ -126,29 +126,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-aliya-mall",
+          "name_ar": "العالية مول",
+          "km": 1.1
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 2.9
+        },
+        {
+          "slug": "al-aziziyah",
+          "name_ar": "العزيزية",
+          "km": 3.0
+        },
+        {
           "slug": "al-noor-mall",
           "name_ar": "النور مول",
           "km": 3.1
         },
         {
-          "slug": "prophet-mosque",
-          "name_ar": "المسجد النبوي",
+          "slug": "baqi",
+          "name_ar": "البقيع",
           "km": 3.1
-        },
-        {
-          "slug": "central-area",
-          "name_ar": "المنطقة المركزية",
-          "km": 3.4
-        },
-        {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 6.3
-        },
-        {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 7.0
         }
       ]
     },
@@ -177,24 +177,24 @@
           "km": 10.8
         },
         {
+          "slug": "rashid-mall",
+          "name_ar": "الراشد مول",
+          "km": 11.3
+        },
+        {
           "slug": "al-noor-mall",
           "name_ar": "النور مول",
           "km": 12.4
         },
         {
-          "slug": "prophet-mosque",
-          "name_ar": "المسجد النبوي",
-          "km": 13.5
+          "slug": "al-aziziyah",
+          "name_ar": "العزيزية",
+          "km": 12.6
         },
         {
-          "slug": "central-area",
-          "name_ar": "المنطقة المركزية",
-          "km": 13.5
-        },
-        {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 14.9
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 13.2
         }
       ]
     },
@@ -217,29 +217,29 @@
       ],
       "neighbours": [
         {
+          "slug": "taibah-university",
+          "name_ar": "جامعة طيبة",
+          "km": 0.9
+        },
+        {
           "slug": "qiblatain",
           "name_ar": "مسجد القبلتين",
           "km": 2.7
         },
         {
-          "slug": "central-area",
-          "name_ar": "المنطقة المركزية",
-          "km": 6.1
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
+          "km": 3.0
         },
         {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 6.3
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 3.9
         },
         {
-          "slug": "prophet-mosque",
-          "name_ar": "المسجد النبوي",
-          "km": 6.4
-        },
-        {
-          "slug": "quba-mosque",
-          "name_ar": "مسجد قباء",
-          "km": 8.5
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 4.8
         }
       ]
     },
@@ -264,29 +264,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-aziziyah",
+          "name_ar": "العزيزية",
+          "km": 0.4
+        },
+        {
+          "slug": "rashid-mall",
+          "name_ar": "الراشد مول",
+          "km": 1.6
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 2.2
+        },
+        {
+          "slug": "al-aliya-mall",
+          "name_ar": "العالية مول",
+          "km": 2.4
+        },
+        {
           "slug": "prophet-mosque",
           "name_ar": "المسجد النبوي",
           "km": 2.6
-        },
-        {
-          "slug": "central-area",
-          "name_ar": "المنطقة المركزية",
-          "km": 2.9
-        },
-        {
-          "slug": "quba-mosque",
-          "name_ar": "مسجد قباء",
-          "km": 3.1
-        },
-        {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 5.1
-        },
-        {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 6.3
         }
       ]
     },
@@ -310,29 +310,29 @@
       ],
       "neighbours": [
         {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 3.2
+        },
+        {
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 3.6
+        },
+        {
+          "slug": "rashid-mall",
+          "name_ar": "الراشد مول",
+          "km": 3.6
+        },
+        {
           "slug": "central-area",
           "name_ar": "المنطقة المركزية",
           "km": 3.7
         },
         {
-          "slug": "prophet-mosque",
-          "name_ar": "المسجد النبوي",
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
           "km": 3.9
-        },
-        {
-          "slug": "qiblatain",
-          "name_ar": "مسجد القبلتين",
-          "km": 4.1
-        },
-        {
-          "slug": "al-noor-mall",
-          "name_ar": "النور مول",
-          "km": 5.1
-        },
-        {
-          "slug": "haramain-station-madinah",
-          "name_ar": "محطة قطار الحرمين",
-          "km": 6.3
         }
       ]
     },
@@ -357,29 +357,29 @@
       ],
       "neighbours": [
         {
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
+          "km": 0.3
+        },
+        {
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 1.3
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 2.2
+        },
+        {
           "slug": "haramain-station-madinah",
           "name_ar": "محطة قطار الحرمين",
           "km": 2.7
         },
         {
-          "slug": "central-area",
-          "name_ar": "المنطقة المركزية",
-          "km": 3.5
-        },
-        {
-          "slug": "prophet-mosque",
-          "name_ar": "المسجد النبوي",
-          "km": 3.8
-        },
-        {
-          "slug": "uhud",
-          "name_ar": "جبل أحد",
-          "km": 4.1
-        },
-        {
-          "slug": "quba-mosque",
-          "name_ar": "مسجد قباء",
-          "km": 6.3
+          "slug": "taibah-university",
+          "name_ar": "جامعة طيبة",
+          "km": 3.2
         }
       ]
     },
@@ -414,27 +414,477 @@
           "km": 0.0
         },
         {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 0.0
+        },
+        {
           "slug": "central-area",
           "name_ar": "المنطقة المركزية",
           "km": 0.3
         },
         {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 0.4
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "haram-nabawi",
+      "name_ar": "الحرم النبوي",
+      "name_en": "Al Haram Al Nabawi",
+      "lat": 24.4672,
+      "lng": 39.6112,
+      "prox_km": 1,
+      "q": "الحرم النبوي",
+      "poi_label": "الحرم النبوي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "haram-view",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الحرم النبوي",
+        "فنادق الحرم المدينة"
+      ],
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 0.4
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.6
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "rashid-mall",
+      "name_ar": "الراشد مول",
+      "name_en": "Al Rashid Mega Mall",
+      "lat": 24.475,
+      "lng": 39.634,
+      "prox_km": 3,
+      "q": "الراشد مول",
+      "poi_label": "الراشد مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
           "slug": "al-noor-mall",
           "name_ar": "النور مول",
-          "km": 2.6
+          "km": 1.6
         },
+        {
+          "slug": "al-aziziyah",
+          "name_ar": "العزيزية",
+          "km": 1.9
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 2.1
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 2.5
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "al-aliya-mall",
+      "name_ar": "العالية مول",
+      "name_en": "Aliyah Mall",
+      "lat": 24.449,
+      "lng": 39.616,
+      "prox_km": 3,
+      "q": "العالية مول",
+      "poi_label": "العالية مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
         {
           "slug": "quba-mosque",
           "name_ar": "مسجد قباء",
-          "km": 3.1
+          "km": 1.1
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 2.0
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 2.1
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 2.1
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "al-aziziyah",
+      "name_ar": "العزيزية",
+      "name_en": "Al Aziziyah",
+      "lat": 24.458,
+      "lng": 39.638,
+      "prox_km": 3,
+      "q": "العزيزية المدينة",
+      "poi_label": "العزيزية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 0.4
+        },
+        {
+          "slug": "rashid-mall",
+          "name_ar": "الراشد مول",
+          "km": 1.9
+        },
+        {
+          "slug": "al-aliya-mall",
+          "name_ar": "العالية مول",
+          "km": 2.4
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 2.5
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 2.9
+        }
+      ]
+    },
+    {
+      "slug": "sultanah",
+      "name_ar": "سلطانة",
+      "name_en": "Sultanah",
+      "lat": 24.459,
+      "lng": 39.598,
+      "prox_km": 2,
+      "q": "سلطانة",
+      "poi_label": "سلطانة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 1.6
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 1.6
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 1.6
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 1.9
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "al-khalidiyah",
+      "name_ar": "الخالدية",
+      "name_en": "Al Khalidiyah",
+      "lat": 24.478,
+      "lng": 39.59,
+      "prox_km": 3,
+      "q": "الخالدية",
+      "poi_label": "الخالدية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 0.9
+        },
+        {
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
+          "km": 1.0
         },
         {
           "slug": "qiblatain",
           "name_ar": "مسجد القبلتين",
-          "km": 3.8
+          "km": 1.3
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 2.2
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "seven-mosques",
+      "name_ar": "المساجد السبعة",
+      "name_en": "Seven Mosques",
+      "lat": 24.477,
+      "lng": 39.599,
+      "prox_km": 2,
+      "q": "المساجد السبعة",
+      "poi_label": "المساجد السبعة",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 0.9
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 1.3
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 1.6
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 1.6
+        },
+        {
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "baqi",
+      "name_ar": "البقيع",
+      "name_en": "Al Baqi",
+      "lat": 24.467,
+      "lng": 39.615,
+      "prox_km": 1,
+      "q": "البقيع",
+      "poi_label": "البقيع",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 0.4
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 0.4
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.6
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.9
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "taibah-university",
+      "name_ar": "جامعة طيبة",
+      "name_en": "Taibah University",
+      "lat": 24.483,
+      "lng": 39.547,
+      "prox_km": 4,
+      "q": "جامعة طيبة",
+      "poi_label": "جامعة طيبة",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "haramain-station-madinah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 0.9
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 3.2
+        },
+        {
+          "slug": "king-fahd-hospital",
+          "name_ar": "مستشفى الملك فهد",
+          "km": 3.5
+        },
+        {
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 4.4
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 5.3
+        }
+      ]
+    },
+    {
+      "slug": "king-fahd-hospital",
+      "name_ar": "مستشفى الملك فهد",
+      "name_en": "King Fahd Hospital Madinah",
+      "lat": 24.483,
+      "lng": 39.582,
+      "prox_km": 3,
+      "q": "مستشفى الملك فهد المدينة",
+      "poi_label": "مستشفى الملك فهد",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 0.3
+        },
+        {
+          "slug": "al-khalidiyah",
+          "name_ar": "الخالدية",
+          "km": 1.0
+        },
+        {
+          "slug": "seven-mosques",
+          "name_ar": "المساجد السبعة",
+          "km": 1.8
+        },
+        {
+          "slug": "haramain-station-madinah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 3.0
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 3.1
         }
       ]
     }
   ],
-  "poi_count": 9
+  "poi_count": 19
 }

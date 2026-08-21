@@ -41,19 +41,19 @@
           "km": 0.6
         },
         {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.0
+        },
+        {
           "slug": "navigli",
           "name_ar": "نافيلي",
           "km": 2.0
         },
         {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 2.6
-        },
-        {
-          "slug": "san-siro",
-          "name_ar": "سان سيرو",
-          "km": 5.5
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 2.1
         }
       ]
     },
@@ -87,19 +87,19 @@
           "km": 0.5
         },
         {
-          "slug": "navigli",
-          "name_ar": "نافيلي",
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 0.7
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 2.0
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
           "km": 2.1
-        },
-        {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 2.5
-        },
-        {
-          "slug": "san-siro",
-          "name_ar": "سان سيرو",
-          "km": 5.3
         }
       ]
     },
@@ -133,19 +133,19 @@
           "km": 0.6
         },
         {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 2.1
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 0.7
         },
         {
-          "slug": "navigli",
-          "name_ar": "نافيلي",
-          "km": 2.6
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.6
         },
         {
-          "slug": "san-siro",
-          "name_ar": "سان سيرو",
-          "km": 5.7
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 1.8
         }
       ]
     },
@@ -170,6 +170,21 @@
       ],
       "neighbours": [
         {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.0
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 1.0
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 2.0
+        },
+        {
           "slug": "monte-napoleone",
           "name_ar": "مونتي نابليوني",
           "km": 2.1
@@ -178,21 +193,6 @@
           "slug": "galleria",
           "name_ar": "غاليريا فيتوريو",
           "km": 2.5
-        },
-        {
-          "slug": "duomo",
-          "name_ar": "الدومو",
-          "km": 2.6
-        },
-        {
-          "slug": "navigli",
-          "name_ar": "نافيلي",
-          "km": 4.5
-        },
-        {
-          "slug": "san-siro",
-          "name_ar": "سان سيرو",
-          "km": 6.3
         }
       ]
     },
@@ -217,29 +217,29 @@
       ],
       "neighbours": [
         {
+          "slug": "citylife",
+          "name_ar": "سيتي لايف",
+          "km": 2.5
+        },
+        {
           "slug": "navigli",
           "name_ar": "نافيلي",
           "km": 4.9
         },
         {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 5.0
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
           "km": 5.3
         },
         {
-          "slug": "duomo",
-          "name_ar": "الدومو",
-          "km": 5.5
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 5.7
-        },
-        {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 6.3
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 5.3
         }
       ]
     },
@@ -273,19 +273,19 @@
           "km": 2.1
         },
         {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 2.5
+        },
+        {
           "slug": "monte-napoleone",
           "name_ar": "مونتي نابليوني",
           "km": 2.6
         },
         {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 4.5
-        },
-        {
-          "slug": "san-siro",
-          "name_ar": "سان سيرو",
-          "km": 4.9
+          "slug": "citylife",
+          "name_ar": "سيتي لايف",
+          "km": 3.3
         }
       ]
     },
@@ -318,19 +318,19 @@
           "km": 35.2
         },
         {
-          "slug": "navigli",
-          "name_ar": "نافيلي",
-          "km": 40.1
+          "slug": "citylife",
+          "name_ar": "سيتي لايف",
+          "km": 37.4
         },
         {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 40.4
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 39.6
         },
         {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 40.4
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 39.8
         }
       ]
     },
@@ -410,22 +410,289 @@
           "km": 37.0
         },
         {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 37.2
+        },
+        {
           "slug": "centrale",
           "name_ar": "محطة ميلانو المركزية",
           "km": 37.2
         },
         {
+          "slug": "citylife",
+          "name_ar": "سيتي لايف",
+          "km": 37.3
+        }
+      ]
+    },
+    {
+      "slug": "fidenza-village",
+      "name_ar": "فيدينزا فيلاج",
+      "name_en": "Fidenza Village",
+      "lat": 44.868,
+      "lng": 10.05,
+      "prox_km": 10,
+      "q": "فيدينزا فيلاج",
+      "poi_label": "فيدينزا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "linate",
+          "name_ar": "مطار ليناتي",
+          "km": 88.8
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 94.4
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 94.4
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 94.5
+        },
+        {
           "slug": "monte-napoleone",
           "name_ar": "مونتي نابليوني",
-          "km": 38.9
+          "km": 94.6
+        }
+      ]
+    },
+    {
+      "slug": "corso-buenos-aires",
+      "name_ar": "كورسو بوينس آيرس",
+      "name_en": "Corso Buenos Aires",
+      "lat": 45.478,
+      "lng": 9.21,
+      "prox_km": 1.5,
+      "q": "كورسو بوينس ايرس",
+      "poi_label": "كورسو بوينس آيرس",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 1.0
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 1.6
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 1.6
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.9
         },
         {
           "slug": "galleria",
           "name_ar": "غاليريا فيتوريو",
-          "km": 39.1
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "brera",
+      "name_ar": "بريرا",
+      "name_en": "Brera",
+      "lat": 45.472,
+      "lng": 9.187,
+      "prox_km": 1,
+      "q": "بريرا",
+      "poi_label": "بريرا",
+      "type": "district",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 0.7
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 0.7
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 1.0
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 1.4
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "porta-nuova",
+      "name_ar": "بورتا نوفا",
+      "name_en": "Porta Nuova",
+      "lat": 45.484,
+      "lng": 9.191,
+      "prox_km": 1.5,
+      "q": "بورتا نوفا",
+      "poi_label": "بورتا نوفا",
+      "type": "district",
+      "intents": [
+        "corporate",
+        "5-star",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 1.0
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.4
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.6
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 1.8
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "linate",
+      "name_ar": "مطار ليناتي",
+      "name_en": "Linate Airport",
+      "lat": 45.451,
+      "lng": 9.276,
+      "prox_km": 5,
+      "q": "ليناتي",
+      "poi_label": "ليناتي",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 6.0
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 6.6
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 6.7
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 6.8
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "citylife",
+      "name_ar": "سيتي لايف",
+      "name_en": "CityLife",
+      "lat": 45.478,
+      "lng": 9.156,
+      "prox_km": 2,
+      "q": "سيتي لايف",
+      "poi_label": "سيتي لايف",
+      "type": "district",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 2.5
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 2.5
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 2.8
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 3.0
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 3.2
         }
       ]
     }
   ],
-  "poi_count": 9
+  "poi_count": 15
 }

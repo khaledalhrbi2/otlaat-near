@@ -40,24 +40,24 @@
           "km": 0.0
         },
         {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
           "slug": "abraj-al-bait",
           "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
           "km": 0.4
         },
         {
           "slug": "ajyad",
           "name_ar": "أجياد",
           "km": 0.9
-        },
-        {
-          "slug": "jabal-omar",
-          "name_ar": "جبل عمر",
-          "km": 1.0
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 1.3
         }
       ]
     },
@@ -87,24 +87,24 @@
           "km": 0.0
         },
         {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
           "slug": "abraj-al-bait",
           "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
           "km": 0.4
         },
         {
           "slug": "ajyad",
           "name_ar": "أجياد",
           "km": 0.9
-        },
-        {
-          "slug": "jabal-omar",
-          "name_ar": "جبل عمر",
-          "km": 1.0
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 1.3
         }
       ]
     },
@@ -129,6 +129,16 @@
       ],
       "neighbours": [
         {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
           "slug": "haram",
           "name_ar": "المسجد الحرام",
           "km": 0.4
@@ -142,16 +152,6 @@
           "slug": "ajyad",
           "name_ar": "أجياد",
           "km": 0.5
-        },
-        {
-          "slug": "jabal-omar",
-          "name_ar": "جبل عمر",
-          "km": 0.7
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 0.9
         }
       ]
     },
@@ -180,24 +180,24 @@
           "km": 0.6
         },
         {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.6
+        },
+        {
           "slug": "abraj-al-bait",
           "name_ar": "أبراج البيت",
+          "km": 0.7
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
           "km": 0.7
         },
         {
           "slug": "ajyad",
           "name_ar": "أجياد",
           "km": 0.9
-        },
-        {
-          "slug": "haram",
-          "name_ar": "المسجد الحرام",
-          "km": 1.0
-        },
-        {
-          "slug": "haram-500m",
-          "name_ar": "الحرم - أقل من 500 متر",
-          "km": 1.0
         }
       ]
     },
@@ -227,23 +227,23 @@
           "km": 0.5
         },
         {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.5
+        },
+        {
           "slug": "misfalah",
           "name_ar": "المسفلة",
           "km": 0.8
         },
         {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.8
+        },
+        {
           "slug": "haram",
           "name_ar": "المسجد الحرام",
-          "km": 0.9
-        },
-        {
-          "slug": "haram-500m",
-          "name_ar": "الحرم - أقل من 500 متر",
-          "km": 0.9
-        },
-        {
-          "slug": "jabal-omar",
-          "name_ar": "جبل عمر",
           "km": 0.9
         }
       ]
@@ -284,14 +284,14 @@
           "km": 0.9
         },
         {
-          "slug": "kudai",
-          "name_ar": "كدي",
-          "km": 1.1
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.9
         },
         {
-          "slug": "haram",
-          "name_ar": "المسجد الحرام",
-          "km": 1.3
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 1.1
         }
       ]
     },
@@ -322,24 +322,24 @@
           "km": 0.5
         },
         {
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 1.9
+        },
+        {
+          "slug": "al-noor-hospital",
+          "name_ar": "مستشفى النور",
+          "km": 2.1
+        },
+        {
+          "slug": "al-naseem",
+          "name_ar": "النسيم",
+          "km": 2.2
+        },
+        {
           "slug": "haramain-station",
           "name_ar": "محطة قطار الحرمين",
           "km": 2.6
-        },
-        {
-          "slug": "ajyad",
-          "name_ar": "أجياد",
-          "km": 3.7
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 4.0
-        },
-        {
-          "slug": "abraj-al-bait",
-          "name_ar": "أبراج البيت",
-          "km": 4.3
         }
       ]
     },
@@ -363,29 +363,29 @@
       ],
       "neighbours": [
         {
+          "slug": "al-rusaifah",
+          "name_ar": "الرصيفة",
+          "km": 0.9
+        },
+        {
           "slug": "kudai",
           "name_ar": "كدي",
           "km": 2.3
         },
         {
+          "slug": "al-awali",
+          "name_ar": "العوالي",
+          "km": 2.7
+        },
+        {
+          "slug": "al-hijrah",
+          "name_ar": "الهجرة",
+          "km": 2.8
+        },
+        {
           "slug": "misfalah",
           "name_ar": "المسفلة",
           "km": 3.3
-        },
-        {
-          "slug": "jabal-omar",
-          "name_ar": "جبل عمر",
-          "km": 3.4
-        },
-        {
-          "slug": "abraj-al-bait",
-          "name_ar": "أبراج البيت",
-          "km": 4.1
-        },
-        {
-          "slug": "ajyad",
-          "name_ar": "أجياد",
-          "km": 4.1
         }
       ]
     },
@@ -418,19 +418,19 @@
           "km": 1.4
         },
         {
+          "slug": "al-awali",
+          "name_ar": "العوالي",
+          "km": 1.6
+        },
+        {
+          "slug": "al-rusaifah",
+          "name_ar": "الرصيفة",
+          "km": 1.7
+        },
+        {
           "slug": "ajyad",
           "name_ar": "أجياد",
           "km": 1.8
-        },
-        {
-          "slug": "abraj-al-bait",
-          "name_ar": "أبراج البيت",
-          "km": 1.9
-        },
-        {
-          "slug": "haram",
-          "name_ar": "المسجد الحرام",
-          "km": 2.3
         }
       ]
     },
@@ -454,6 +454,16 @@
       ],
       "neighbours": [
         {
+          "slug": "al-naseem",
+          "name_ar": "النسيم",
+          "km": 0.5
+        },
+        {
+          "slug": "al-noor-hospital",
+          "name_ar": "مستشفى النور",
+          "km": 2.5
+        },
+        {
           "slug": "aziziyah",
           "name_ar": "العزيزية",
           "km": 2.6
@@ -464,19 +474,9 @@
           "km": 3.0
         },
         {
-          "slug": "ajyad",
-          "name_ar": "أجياد",
-          "km": 6.2
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 6.5
-        },
-        {
-          "slug": "abraj-al-bait",
-          "name_ar": "أبراج البيت",
-          "km": 6.7
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 3.6
         }
       ]
     },
@@ -506,24 +506,24 @@
           "km": 0.5
         },
         {
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 2.1
+        },
+        {
+          "slug": "al-noor-hospital",
+          "name_ar": "مستشفى النور",
+          "km": 2.1
+        },
+        {
+          "slug": "al-naseem",
+          "name_ar": "النسيم",
+          "km": 2.6
+        },
+        {
           "slug": "haramain-station",
           "name_ar": "محطة قطار الحرمين",
           "km": 3.0
-        },
-        {
-          "slug": "ajyad",
-          "name_ar": "أجياد",
-          "km": 3.3
-        },
-        {
-          "slug": "misfalah",
-          "name_ar": "المسفلة",
-          "km": 3.5
-        },
-        {
-          "slug": "abraj-al-bait",
-          "name_ar": "أبراج البيت",
-          "km": 3.8
         }
       ]
     },
@@ -563,22 +563,661 @@
           "km": 0.0
         },
         {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
           "slug": "abraj-al-bait",
           "name_ar": "أبراج البيت",
           "km": 0.4
         },
         {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.4
+        }
+      ]
+    },
+    {
+      "slug": "clock-tower",
+      "name_ar": "برج الساعة",
+      "name_en": "Makkah Clock Tower",
+      "lat": 21.4187,
+      "lng": 39.8256,
+      "prox_km": 0.8,
+      "q": "برج الساعة",
+      "poi_label": "برج الساعة",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق برج الساعة مكة",
+        "فنادق قريبة من برج الساعة"
+      ],
+      "neighbours": [
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.4
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.4
+        },
+        {
           "slug": "ajyad",
           "name_ar": "أجياد",
-          "km": 0.9
+          "km": 0.5
+        }
+      ]
+    },
+    {
+      "slug": "central-area",
+      "name_ar": "المنطقة المركزية",
+      "name_en": "Central Area",
+      "lat": 21.4205,
+      "lng": 39.824,
+      "prox_km": 1,
+      "q": "المنطقة المركزية مكة",
+      "poi_label": "المنطقة المركزية",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "family",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.3
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.3
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.3
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.3
         },
         {
           "slug": "jabal-omar",
           "name_ar": "جبل عمر",
-          "km": 1.0
+          "km": 0.6
+        }
+      ]
+    },
+    {
+      "slug": "al-rusaifah",
+      "name_ar": "الرصيفة",
+      "name_en": "Al Rusaifah",
+      "lat": 21.403,
+      "lng": 39.8,
+      "prox_km": 3,
+      "q": "الرصيفة",
+      "poi_label": "الرصيفة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "shawqiyah",
+          "name_ar": "الشوقية",
+          "km": 0.9
+        },
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 1.7
+        },
+        {
+          "slug": "al-hijrah",
+          "name_ar": "الهجرة",
+          "km": 2.5
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 2.5
+        },
+        {
+          "slug": "al-awali",
+          "name_ar": "العوالي",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "al-naseem",
+      "name_ar": "النسيم",
+      "name_en": "Al Naseem",
+      "lat": 21.39,
+      "lng": 39.877,
+      "prox_km": 3,
+      "q": "النسيم",
+      "poi_label": "النسيم",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "haramain-station",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 0.5
+        },
+        {
+          "slug": "al-noor-hospital",
+          "name_ar": "مستشفى النور",
+          "km": 2.2
+        },
+        {
+          "slug": "aziziyah",
+          "name_ar": "العزيزية",
+          "km": 2.2
+        },
+        {
+          "slug": "makkah-mall",
+          "name_ar": "مكة مول",
+          "km": 2.6
+        },
+        {
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "al-kakiyah",
+      "name_ar": "الكعكية",
+      "name_en": "Al Kakiyah",
+      "lat": 21.374,
+      "lng": 39.821,
+      "prox_km": 3,
+      "q": "الكعكية",
+      "poi_label": "الكعكية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-awali",
+          "name_ar": "العوالي",
+          "km": 1.8
+        },
+        {
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 2.8
+        },
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 3.4
+        },
+        {
+          "slug": "shawqiyah",
+          "name_ar": "الشوقية",
+          "km": 3.6
+        },
+        {
+          "slug": "al-rusaifah",
+          "name_ar": "الرصيفة",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "al-hijrah",
+      "name_ar": "الهجرة",
+      "name_en": "Al Hijrah",
+      "lat": 21.419,
+      "lng": 39.783,
+      "prox_km": 3,
+      "q": "الهجرة",
+      "poi_label": "الهجرة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-rusaifah",
+          "name_ar": "الرصيفة",
+          "km": 2.5
+        },
+        {
+          "slug": "shawqiyah",
+          "name_ar": "الشوقية",
+          "km": 2.8
+        },
+        {
+          "slug": "al-zahir",
+          "name_ar": "الزاهر",
+          "km": 3.2
+        },
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 3.8
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "al-maabdah",
+      "name_ar": "المعابدة",
+      "name_en": "Al Maabdah",
+      "lat": 21.437,
+      "lng": 39.844,
+      "prox_km": 2,
+      "q": "المعابدة",
+      "poi_label": "المعابدة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 2.4
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 2.4
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 2.8
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 2.8
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 2.8
+        }
+      ]
+    },
+    {
+      "slug": "al-awali",
+      "name_ar": "العوالي",
+      "name_en": "Al Awali",
+      "lat": 21.39,
+      "lng": 39.82,
+      "prox_km": 3,
+      "q": "العوالي",
+      "poi_label": "العوالي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 1.6
+        },
+        {
+          "slug": "al-kakiyah",
+          "name_ar": "الكعكية",
+          "km": 1.8
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 2.4
+        },
+        {
+          "slug": "al-rusaifah",
+          "name_ar": "الرصيفة",
+          "km": 2.5
+        },
+        {
+          "slug": "shawqiyah",
+          "name_ar": "الشوقية",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "al-zahir",
+      "name_ar": "الزاهر",
+      "name_en": "Al Zahir",
+      "lat": 21.433,
+      "lng": 39.81,
+      "prox_km": 2,
+      "q": "الزاهر",
+      "poi_label": "الزاهر",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 2.0
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 2.0
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 2.0
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 2.2
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "jabal-al-nour",
+      "name_ar": "جبل النور",
+      "name_en": "Jabal Al Nour",
+      "lat": 21.458,
+      "lng": 39.86,
+      "prox_km": 3,
+      "q": "جبل النور",
+      "poi_label": "جبل النور",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من جبل النور غار حراء"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-maabdah",
+          "name_ar": "المعابدة",
+          "km": 2.9
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 5.3
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 5.3
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 5.6
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 5.6
+        }
+      ]
+    },
+    {
+      "slug": "jabal-thawr",
+      "name_ar": "جبل ثور",
+      "name_en": "Jabal Thawr",
+      "lat": 21.378,
+      "lng": 39.848,
+      "prox_km": 4,
+      "q": "جبل ثور",
+      "poi_label": "جبل ثور",
+      "type": "landmark",
+      "intents": [
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "aziziyah",
+          "name_ar": "العزيزية",
+          "km": 1.9
+        },
+        {
+          "slug": "makkah-mall",
+          "name_ar": "مكة مول",
+          "km": 2.1
+        },
+        {
+          "slug": "al-kakiyah",
+          "name_ar": "الكعكية",
+          "km": 2.8
+        },
+        {
+          "slug": "al-awali",
+          "name_ar": "العوالي",
+          "km": 3.2
+        },
+        {
+          "slug": "al-naseem",
+          "name_ar": "النسيم",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "aisha-mosque",
+      "name_ar": "مسجد عائشة - التنعيم",
+      "name_en": "Aisha Mosque (Tan'eem)",
+      "lat": 21.48,
+      "lng": 39.806,
+      "prox_km": 3,
+      "q": "مسجد عائشة التنعيم",
+      "poi_label": "مسجد عائشة",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مسجد عائشة التنعيم"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-zahir",
+          "name_ar": "الزاهر",
+          "km": 5.2
+        },
+        {
+          "slug": "jabal-al-nour",
+          "name_ar": "جبل النور",
+          "km": 6.1
+        },
+        {
+          "slug": "al-maabdah",
+          "name_ar": "المعابدة",
+          "km": 6.2
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 6.7
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 6.7
+        }
+      ]
+    },
+    {
+      "slug": "al-noor-hospital",
+      "name_ar": "مستشفى النور",
+      "name_en": "Al Noor Hospital",
+      "lat": 21.408,
+      "lng": 39.869,
+      "prox_km": 3,
+      "q": "مستشفى النور التخصصي",
+      "poi_label": "مستشفى النور",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "makkah-mall",
+          "name_ar": "مكة مول",
+          "km": 2.1
+        },
+        {
+          "slug": "aziziyah",
+          "name_ar": "العزيزية",
+          "km": 2.1
+        },
+        {
+          "slug": "al-naseem",
+          "name_ar": "النسيم",
+          "km": 2.2
+        },
+        {
+          "slug": "haramain-station",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 2.5
+        },
+        {
+          "slug": "jabal-thawr",
+          "name_ar": "جبل ثور",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "hajj-2027",
+      "name_ar": "فنادق مكة حج 2027",
+      "name_en": "Makkah Hajj 2027",
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "prox_km": 3,
+      "q": "الحرم المكي",
+      "poi_label": "الحرم",
+      "type": "event",
+      "intents": [
+        "family",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مكة حج 2027",
+        "حجز فنادق الحج"
+      ],
+      "event": {
+        "start": "2027-05-14",
+        "end": "2027-05-22",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.0
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.4
         }
       ]
     }
   ],
-  "poi_count": 12
+  "poi_count": 26
 }
