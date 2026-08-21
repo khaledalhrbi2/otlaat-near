@@ -72,3 +72,19 @@ export function variantContent(city, poi, key) {
     ],
   };
 }
+
+export function loadHotels(citySlug) {
+  const f = path.join(root, 'hotels', `${citySlug}.json`);
+  return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')).hotels : [];
+}
+/** فنادق قريبة من معلم: ضمن النطاق، مع فلتر نية اختياري، مرتبة بالمسافة */
+export function hotelsNear(citySlug, poi, { tag = null, limit = 10, maxKm = null } = {}) {
+  const km = maxKm ?? Math.max(poi.prox_km, 2);
+  return loadHotels(citySlug).map(h => ({ ...h, km: hav(h, poi) }))
+    .filter(h => h.km <= km && (!tag || h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3) || (tag === '3-star' && h.stars === 3) || (tag === '4-star' && h.stars === 4)))
+    .sort((a,b) => a.km - b.km).slice(0, limit);
+}
+/** فنادق المدينة حسب الفئة (ترتيب الملف = ترتيب التقييم) */
+export function hotelsByTag(citySlug, tag, limit = 10) {
+  return loadHotels(citySlug).filter(h => h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3) || (tag === '3-star' && h.stars === 3) || (tag === '4-star' && h.stars === 4)).slice(0, limit);
+}

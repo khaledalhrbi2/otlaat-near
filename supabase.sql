@@ -2,7 +2,7 @@
 create table if not exists go_clicks (
   id bigint generated always as identity primary key,
   ts timestamptz default now(),
-  city text, poi text, intent text,
+  city text, poi text, intent text, hotel text,
   checkin date, checkout date, roompax int,
   referer text, ua text, country text
 );

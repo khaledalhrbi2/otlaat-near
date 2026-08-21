@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
-import { cities, loadCity, loadContent, fallbackContent, poiPath, intents, variantPath, variantContent } from '../../lib/data.js';
+import HotelList from '../../components/HotelList.astro';
+import { cities, loadCity, loadContent, fallbackContent, poiPath, intents, variantPath, variantContent, hotelsNear } from '../../lib/data.js';
 export function getStaticPaths(){
   return cities.flatMap(c => {
     const city = loadCity(c.slug);
@@ -19,6 +20,8 @@ const content = variant ? (loadContent(city.slug, `${intents.variants[variant].p
 const nb = poi.neighbours.map(n => ({ ...n, ...city.pois.find(p => p.slug === n.slug) }));
 const intent = variant ? intents.variants[variant].intent : poi.intents.includes('family') ? 'family' : 'default';
 const tops = intents.top[city.slug] ?? [];
+const hotels = hotelsNear(city.slug, poi, { tag: variant ?? null, limit: 10 });
+const hotelsHeading = variant ? `أفضل ${intents.variants[variant].label} ${poi.name_ar}` : `أفضل 10 فنادق قريبة من ${poi.name_ar}`;
 const url = `${Astro.site}${(variant ? variantPath(city,poi,variant) : poiPath(city,poi)).slice(1)}`;
 const jsonld = [
   { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -51,6 +54,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     {variant && <a class="chip" href={poiPath(city,poi)}>كل الفنادق قريبة من {poi.name_ar}</a>}
     {Object.entries(intents.variants).filter(([k]) => k !== variant).map(([k,v]) => <a class="chip" href={variantPath(city,poi,k)}>{v.label} {poi.name_ar}</a>)}
   </div>}
+  <HotelList city={city} hotels={hotels} poi={poi} heading={hotelsHeading} intent={intent} />
   <section class="prose">
     <h2>عن {poi.name_ar}</h2>
     <p>{content.about}</p>

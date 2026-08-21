@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
-import { cities, loadCity, poiPath, intents, variantPath } from '../../lib/data.js';
+import HotelList from '../../components/HotelList.astro';
+import { cities, loadCity, poiPath, intents, variantPath, hotelsByTag } from '../../lib/data.js';
 export function getStaticPaths(){
   return cities.flatMap(c => Object.entries(intents.city_categories).filter(([k,v]) => !v.only || v.only.includes(c.slug)).map(([k,v]) => ({ params:{ city:c.slug, category:v.slug }, props:{ key:k } })));
 }
@@ -17,6 +18,7 @@ const tops = (intents.top[city.slug] ?? []).map(s => city.pois.find(p => p.slug 
 const vkey = { cheap:'cheap', '5-star':'5-star', apartments:'apartments', family:'family' }[key];
 const others = Object.entries(intents.city_categories).filter(([k,x]) => k !== key && (!x.only || x.only.includes(city.slug)));
 const title = `أفضل 10 ${L}`;
+const hotels = hotelsByTag(city.slug, key === 'cheap-near-haram' ? 'cheap' : key, 10);
 const seo_title = `أفضل ${L} ${new Date().getFullYear()} | أسعار شاملة الضرائب وتقسيط تابي وتمارا — عطلات`;
 const desc = `${L}: ${v.desc}. قارن حسب المنطقة والمسافة من المعالم، أسعار شاملة الضرائب، إلغاء مجاني، وتقسيط على 4 دفعات.`;
 const jsonld = [
@@ -35,6 +37,7 @@ const jsonld = [
     <div class="chips">{others.map(([k,x]) => <a class="chip" href={`/${city.slug}/${x.slug}/`}>{x.short}</a>)}</div>
   </div>
   <BookingBar city={city} intent={v.intent} />
+  <HotelList city={city} hotels={hotels} heading={`${title} حسب تقييمات النزلاء`} intent={v.intent} />
   <section><h2>{v.q} في {city.name_ar} حسب المنطقة</h2>
     <div class="grid">{areas.map(p => <a class="card" href={vkey && tops.includes(p) ? variantPath(city,p,vkey) : poiPath(city,p)}><b>{v.q} قريبة من {p.name_ar}</b><small>ضمن {p.prox_km} كم{p.nearest_metro ? ` · 🚇 ${p.nearest_metro}` : ''}</small></a>)}</div>
   </section>
