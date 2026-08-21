@@ -2,9 +2,9 @@
 const { title, description, canonical, jsonld = [] } = Astro.props;
 const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
 const url = canonical ?? site + Astro.url.pathname;
-const nav = [
-  ['https://www.otlaat.com/','الرئيسية'],['https://hotels.otlaat.com/home','احجز فندق'],['https://www.otlaat.com/packages','الباقات السياحية'],
-  ['https://www.otlaat.com/destinations','الوجهات'],['https://www.otlaat.com/touristmaps','الخرائط السياحية'],['https://blog.otlaat.com/best/','أفضل الفنادق'],['https://blog.otlaat.com/','المدونة']];
+import { cities } from '../lib/data.js';
+const navCities = ['riyadh','makkah','madinah','dubai','istanbul','london','paris'].map(s => cities.find(c => c.slug === s));
+const cols = { 'السعودية والخليج': cities.filter(c => ['السعودية','الإمارات'].includes(c.country)), 'تركيا وآسيا': cities.filter(c => ['تركيا','إندونيسيا'].includes(c.country)), 'أوروبا': cities.filter(c => !['السعودية','الإمارات','تركيا','إندونيسيا'].includes(c.country)) };
 ---
 <!doctype html>
 <html lang="ar" dir="rtl">
@@ -20,8 +20,6 @@ const nav = [
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
 <meta property="og:site_name" content="عطلات" />
-<meta property="og:image" content="https://www.otlaat.com/assets/otlaat-logo-card.jpg" />
-<link rel="icon" href="https://www.otlaat.com/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -114,20 +112,18 @@ footer img{height:40px;margin-bottom:10px}
   <a href="tel:+966920033839">+966 920 033 839</a>
 </div></div>
 <header><div class="wrap">
-  <a href="https://www.otlaat.com/"><img src="https://www.otlaat.com/assets/logo.svg" alt="عطلات — احجز كيفك" /></a>
-  <nav>{nav.map(([h,t]) => <a href={h}>{t}</a>)}</nav>
-  <a class="cta" href="https://wa.me/966920033839" style="padding:9px 18px;font-size:.9rem">واتساب</a>
+  <a href="/"><img src="/logo.svg" alt="عطلات — فنادق قريبة من" /></a>
+  <nav>{navCities.map(c => <a href={`/${c.slug}/`}>{c.name_ar}</a>)}<a href="/#cities">كل المدن</a></nav>
+  <a class="cta" href="https://wa.me/966920033839" rel="nofollow" style="padding:9px 18px;font-size:.9rem">واتساب</a>
 </div></header>
 <main class="wrap"><slot />
-<div class="support"><div><b>تحتاج مساعدة؟</b> دعم 24/7 على مدار الساعة</div><div><a href="tel:920033839">اتصل 920 033 839</a><a href="https://wa.me/966920033839">واتساب</a></div></div>
+<div class="support"><div><b>تحتاج مساعدة؟</b> دعم 24/7 على مدار الساعة</div><div><a href="tel:920033839">اتصل 920 033 839</a><a href="https://wa.me/966920033839" rel="nofollow">واتساب</a></div></div>
 </main>
 <footer><div class="wrap">
   <div class="cols">
-    <div><img src="https://www.otlaat.com/assets/footer-logo.svg" alt="عطلات" /><p style="margin:0 0 8px">منصة سعودية للحجوزات الفندقية وتجارب السفر. مرخصة من وزارة السياحة منذ 2023.</p>
-      <div class="pay">{['visa','mastercard','mada','apple-pay','stc-pay','tabby','tamara'].map(p => <img src={`https://www.otlaat.com/assets/pay/${p}.svg`} alt={p} />)}</div></div>
-    <div><h5>الباقات السياحية</h5><a href="https://www.otlaat.com/packages">صمّم باقتك بنفسك</a><a href="https://www.otlaat.com/packages/istanbul">باقات اسطنبول</a><a href="https://www.otlaat.com/packages/bali">باقات جزيرة بالي</a><a href="https://www.otlaat.com/packages/georgia">باقات جورجيا</a><a href="https://www.otlaat.com/packages/mauritius">باقات موريشيوس</a></div>
-    <div><h5>تعرّف علينا أكثر</h5><a href="https://www.otlaat.com/about">من نحن</a><a href="https://www.otlaat.com/reviews">تقييمات العملاء</a><a href="https://www.otlaat.com/faq">الأسئلة المتكررة</a><a href="https://www.otlaat.com/contact">تواصل معنا</a></div>
-    <div><h5>عطلات</h5><a href="https://hotels.otlaat.com/home">احجز فندق</a><a href="https://www.otlaat.com/touristmaps">الخرائط السياحية</a><a href="https://blog.otlaat.com/best/">أفضل الفنادق</a><a href="https://www.otlaat.com/rahal">رحّال — مساعد السفر الذكي</a></div>
+    <div><img src="/logo.svg" alt="عطلات" /><p style="margin:0 0 8px">دليل الفنادق القريبة من المعالم والأحداث — من عطلات، منصة سعودية للحجوزات الفندقية مرخصة من وزارة السياحة منذ 2023.</p>
+      <div class="pay">{['visa','mastercard','mada','apple-pay','tabby','tamara'].map(p => <img src={`/pay/${p}.svg`} alt={p} />)}</div></div>
+    {Object.entries(cols).map(([t, list]) => <div><h5>{t}</h5>{list.map(c => <a href={`/${c.slug}/`}>فنادق {c.name_ar}</a>)}</div>)}
   </div>
   <div class="legal"><div>ترخيص وزارة السياحة 73105299 · السجل التجاري 1010857948 · الرقم الضريبي 302237464400003</div><div>© 2026 عطلات. جميع الحقوق محفوظة.</div></div>
 </div></footer>

@@ -13,6 +13,7 @@ cities.forEach(c => (groups[c.country] ??= []).push(c));
       <div class="chips">{cities.slice(0,7).map(c => <a class="chip" href={`/${c.slug}/`}>{c.name_ar}</a>)}</div>
     </div>
   </div>
+  <div id="cities"></div>
   {Object.entries(groups).map(([country, list]) => (
     <section>
       <h2>{country}</h2>
