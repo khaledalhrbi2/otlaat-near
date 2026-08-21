@@ -1,8 +1,9 @@
 {
   "framework": "astro",
-  "trailingSlash": true,
   "rewrites": [
+    { "source": "/go/:city/:poi/", "destination": "/api/go?city=:city&poi=:poi" },
     { "source": "/go/:city/:poi", "destination": "/api/go?city=:city&poi=:poi" },
+    { "source": "/go/:city/", "destination": "/api/go?city=:city" },
     { "source": "/go/:city", "destination": "/api/go?city=:city" }
   ],
   "functions": { "api/go.js": { "includeFiles": "data/**" } },
