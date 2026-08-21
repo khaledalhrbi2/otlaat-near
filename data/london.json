@@ -2009,7 +2009,56 @@
           "km": 1.1
         }
       ]
+    },
+    {
+      "slug": "summer-2027",
+      "name_ar": "فنادق لندن الصيف 2027",
+      "name_en": "London Summer",
+      "lat": 51.519,
+      "lng": -0.168,
+      "prox_km": 6,
+      "q": "لندن",
+      "poi_label": "لندن",
+      "type": "event",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-06-20",
+        "end": "2027-08-31",
+        "note": ""
+      },
+      "neighbours": [
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.0
+        },
+        {
+          "slug": "edgware-road-station",
+          "name_ar": "محطة إدجوير رود",
+          "km": 0.1
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
+          "km": 0.9
+        }
+      ]
     }
   ],
-  "poi_count": 43
+  "poi_count": 44
 }

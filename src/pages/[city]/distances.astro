@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { cities, loadCity, poiPath, hav } from '../../lib/data.js';
+export function getStaticPaths(){ return cities.map(c => ({ params:{ city:c.slug } })); }
+const city = loadCity(Astro.params.city);
+const pts = city.pois.filter(p => !['event','intent_hub','metro'].includes(p.type)).slice(0, 18);
+const uber = km => `${Math.max(5, Math.round(km * 2.2 + 4))} د`;
+const title = `المسافات بين معالم ${city.name_ar} — كم يبعد كل مكان عن الآخر`;
+const desc = `جدول المسافات بالكيلومتر ووقت السيارة التقريبي بين ${pts.length} معلماً في ${city.name_ar}: ${pts.slice(0,5).map(p=>p.name_ar).join('، ')} وغيرها.`;
+const pairs = []; for (let i=0;i<pts.length;i++) for (let j=i+1;j<pts.length;j++) pairs.push([pts[i],pts[j],hav(pts[i],pts[j])]);
+const top = pairs.sort((a,b)=>a[2]-b[2]).slice(0,6);
+const jsonld=[{ "@context":"https://schema.org","@type":"FAQPage","mainEntity":top.map(([a,b,d])=>({"@type":"Question","name":`كم يبعد ${a.name_ar} عن ${b.name_ar}؟`,"acceptedAnswer":{"@type":"Answer","text":`حوالي ${d.toFixed(1)} كم، أي ${uber(d)} بالسيارة تقريباً.`}})) }];
+---
+<Base title={`${title} — عطلات`} description={desc} jsonld={jsonld} citySlug={city.slug}>
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>المسافات</nav>
+  <div class="hero"><span class="eyebrow">{city.name_ar}</span><h1>كم يبعد كل معلم عن الآخر في {city.name_ar}؟</h1><p class="lede">المسافة المباشرة بالكيلومتر ووقت السيارة التقريبي. اضغط أي معلم لترى الفنادق القريبة منه.</p></div>
+  <div class="tbl"><table><thead><tr><th></th>{pts.map(p=><th><a href={poiPath(city,p)}>{p.name_ar}</a></th>)}</tr></thead>
+    <tbody>{pts.map(a=><tr><th><a href={poiPath(city,a)}>{a.name_ar}</a></th>{pts.map(b=>{const d=a===b?null:hav(a,b);return <td>{d===null?'—':<span><b>{d.toFixed(1)}</b><small> كم · {uber(d)}</small></span>}</td>})}</tr>)}</tbody></table></div>
+  <section class="faq"><h2>الأكثر بحثاً</h2>{top.map(([a,b,d])=><details><summary>كم يبعد {a.name_ar} عن {b.name_ar}؟</summary><p>حوالي {d.toFixed(1)} كم، أي {uber(d)} بالسيارة تقريباً خارج الذروة. <a href={poiPath(city,a)}>فنادق قريبة من {a.name_ar}</a> · <a href={poiPath(city,b)}>فنادق قريبة من {b.name_ar}</a></p></details>)}</section>
+  <style>.tbl{overflow:auto;border:1px solid var(--line);border-radius:var(--radius);margin-top:10px}table{border-collapse:collapse;font-size:.82rem;min-width:900px}th,td{border:1px solid var(--line);padding:7px 9px;text-align:center;white-space:nowrap}thead th{background:var(--navy-soft);color:var(--navy);position:sticky;top:0}tbody th{background:var(--bg-2);text-align:right;position:sticky;right:0}th a{text-decoration:none;color:var(--navy)}td small{color:var(--ink-2);display:block;font-size:.72rem}</style>
+</Base>

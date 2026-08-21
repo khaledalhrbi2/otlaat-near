@@ -456,6 +456,46 @@
    "permanent": true
   },
   {
+   "source": "/riyadh/near/eid-al-fitr-2027",
+   "destination": "/riyadh/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/eid-al-fitr-2027/",
+   "destination": "/riyadh/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/midyear-break-2027",
+   "destination": "/riyadh/hotels-midyear-break-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/midyear-break-2027/",
+   "destination": "/riyadh/hotels-midyear-break-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/dakar-rally-2027",
+   "destination": "/riyadh/hotels-dakar-rally-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/dakar-rally-2027/",
+   "destination": "/riyadh/hotels-dakar-rally-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-book-fair",
+   "destination": "/riyadh/hotels-riyadh-book-fair/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-book-fair/",
+   "destination": "/riyadh/hotels-riyadh-book-fair/",
+   "permanent": true
+  },
+  {
    "source": "/makkah/near/haram",
    "destination": "/makkah/hotels-near-haram/",
    "permanent": true
@@ -716,6 +756,16 @@
    "permanent": true
   },
   {
+   "source": "/makkah/near/eid-al-fitr-2027",
+   "destination": "/makkah/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/eid-al-fitr-2027/",
+   "destination": "/makkah/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
    "source": "/madinah/near/prophet-mosque",
    "destination": "/madinah/hotels-near-prophet-mosque/",
    "permanent": true
@@ -903,6 +953,16 @@
   {
    "source": "/madinah/near/king-fahd-hospital/",
    "destination": "/madinah/hotels-near-king-fahd-hospital/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/eid-al-fitr-2027",
+   "destination": "/madinah/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/eid-al-fitr-2027/",
+   "destination": "/madinah/hotels-eid-al-fitr-2027/",
    "permanent": true
   },
   {
@@ -1436,6 +1496,46 @@
    "permanent": true
   },
   {
+   "source": "/dubai/near/eid-al-fitr-2027",
+   "destination": "/dubai/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/eid-al-fitr-2027/",
+   "destination": "/dubai/hotels-eid-al-fitr-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-shopping-festival",
+   "destination": "/dubai/hotels-dubai-shopping-festival/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-shopping-festival/",
+   "destination": "/dubai/hotels-dubai-shopping-festival/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/new-year-2027",
+   "destination": "/dubai/hotels-new-year-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/new-year-2027/",
+   "destination": "/dubai/hotels-new-year-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/midyear-break-2027",
+   "destination": "/dubai/hotels-midyear-break-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/midyear-break-2027/",
+   "destination": "/dubai/hotels-midyear-break-2027/",
+   "permanent": true
+  },
+  {
    "source": "/istanbul/near/taksim",
    "destination": "/istanbul/hotels-in-taksim/",
    "permanent": true
@@ -1943,6 +2043,26 @@
   {
    "source": "/istanbul/near/kadikoy-metro/",
    "destination": "/istanbul/hotels-near-kadikoy-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/summer-2027",
+   "destination": "/istanbul/hotels-summer-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/summer-2027/",
+   "destination": "/istanbul/hotels-summer-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eid-al-adha-2027",
+   "destination": "/istanbul/hotels-eid-al-adha-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eid-al-adha-2027/",
+   "destination": "/istanbul/hotels-eid-al-adha-2027/",
    "permanent": true
   },
   {
@@ -2886,6 +3006,16 @@
    "permanent": true
   },
   {
+   "source": "/london/near/summer-2027",
+   "destination": "/london/hotels-summer-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/summer-2027/",
+   "destination": "/london/hotels-summer-2027/",
+   "permanent": true
+  },
+  {
    "source": "/paris/near/eiffel-tower",
    "destination": "/paris/hotels-near-eiffel-tower/",
    "permanent": true
@@ -3193,6 +3323,16 @@
   {
    "source": "/paris/near/franklin-roosevelt-metro/",
    "destination": "/paris/hotels-near-franklin-roosevelt-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/summer-2027",
+   "destination": "/paris/hotels-summer-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/summer-2027/",
+   "destination": "/paris/hotels-summer-2027/",
    "permanent": true
   },
   {
@@ -4473,6 +4613,886 @@
   {
    "source": "/amsterdam/near/de-pijp-metro/",
    "destination": "/amsterdam/hotels-near-de-pijp-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/corniche",
+   "destination": "/jeddah/hotels-near-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/corniche/",
+   "destination": "/jeddah/hotels-near-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/red-sea-mall",
+   "destination": "/jeddah/hotels-near-red-sea-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/red-sea-mall/",
+   "destination": "/jeddah/hotels-near-red-sea-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/the-venue",
+   "destination": "/jeddah/hotels-near-the-venue/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/the-venue/",
+   "destination": "/jeddah/hotels-near-the-venue/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-balad",
+   "destination": "/jeddah/hotels-near-al-balad/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-balad/",
+   "destination": "/jeddah/hotels-near-al-balad/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/mall-of-arabia",
+   "destination": "/jeddah/hotels-near-mall-of-arabia/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/mall-of-arabia/",
+   "destination": "/jeddah/hotels-near-mall-of-arabia/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-airport",
+   "destination": "/jeddah/hotels-near-jeddah-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-airport/",
+   "destination": "/jeddah/hotels-near-jeddah-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/haramain-jeddah",
+   "destination": "/jeddah/hotels-near-haramain-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/haramain-jeddah/",
+   "destination": "/jeddah/hotels-near-haramain-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-hamra",
+   "destination": "/jeddah/hotels-in-al-hamra/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-hamra/",
+   "destination": "/jeddah/hotels-in-al-hamra/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-rawdah",
+   "destination": "/jeddah/hotels-in-al-rawdah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-rawdah/",
+   "destination": "/jeddah/hotels-in-al-rawdah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-shati",
+   "destination": "/jeddah/hotels-in-al-shati/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-shati/",
+   "destination": "/jeddah/hotels-in-al-shati/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/obhur",
+   "destination": "/jeddah/hotels-in-obhur/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/obhur/",
+   "destination": "/jeddah/hotels-in-obhur/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-salamah",
+   "destination": "/jeddah/hotels-in-al-salamah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/al-salamah/",
+   "destination": "/jeddah/hotels-in-al-salamah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/king-abdullah-sports-city",
+   "destination": "/jeddah/hotels-near-king-abdullah-sports-city/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/king-abdullah-sports-city/",
+   "destination": "/jeddah/hotels-near-king-abdullah-sports-city/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-corniche-circuit",
+   "destination": "/jeddah/hotels-near-jeddah-corniche-circuit/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-corniche-circuit/",
+   "destination": "/jeddah/hotels-near-jeddah-corniche-circuit/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/kfsh-jeddah",
+   "destination": "/jeddah/hotels-near-kfsh-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/kfsh-jeddah/",
+   "destination": "/jeddah/hotels-near-kfsh-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-season",
+   "destination": "/jeddah/hotels-jeddah-season/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/jeddah-season/",
+   "destination": "/jeddah/hotels-jeddah-season/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/formula-1-jeddah",
+   "destination": "/jeddah/hotels-formula-1-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/jeddah/near/formula-1-jeddah/",
+   "destination": "/jeddah/hotels-formula-1-jeddah/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-island",
+   "destination": "/abu-dhabi/hotels-in-yas-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-island/",
+   "destination": "/abu-dhabi/hotels-in-yas-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/ferrari-world",
+   "destination": "/abu-dhabi/hotels-near-ferrari-world/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/ferrari-world/",
+   "destination": "/abu-dhabi/hotels-near-ferrari-world/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-waterworld",
+   "destination": "/abu-dhabi/hotels-near-yas-waterworld/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-waterworld/",
+   "destination": "/abu-dhabi/hotels-near-yas-waterworld/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/warner-bros-world",
+   "destination": "/abu-dhabi/hotels-near-warner-bros-world/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/warner-bros-world/",
+   "destination": "/abu-dhabi/hotels-near-warner-bros-world/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-mall",
+   "destination": "/abu-dhabi/hotels-near-yas-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/yas-mall/",
+   "destination": "/abu-dhabi/hotels-near-yas-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/corniche-abu-dhabi",
+   "destination": "/abu-dhabi/hotels-near-corniche-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/corniche-abu-dhabi/",
+   "destination": "/abu-dhabi/hotels-near-corniche-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/sheikh-zayed-mosque",
+   "destination": "/abu-dhabi/hotels-near-sheikh-zayed-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/sheikh-zayed-mosque/",
+   "destination": "/abu-dhabi/hotels-near-sheikh-zayed-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/louvre-abu-dhabi",
+   "destination": "/abu-dhabi/hotels-near-louvre-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/louvre-abu-dhabi/",
+   "destination": "/abu-dhabi/hotels-near-louvre-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/saadiyat-island",
+   "destination": "/abu-dhabi/hotels-in-saadiyat-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/saadiyat-island/",
+   "destination": "/abu-dhabi/hotels-in-saadiyat-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/al-reem-island",
+   "destination": "/abu-dhabi/hotels-in-al-reem-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/al-reem-island/",
+   "destination": "/abu-dhabi/hotels-in-al-reem-island/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/marina-mall",
+   "destination": "/abu-dhabi/hotels-near-marina-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/marina-mall/",
+   "destination": "/abu-dhabi/hotels-near-marina-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/abu-dhabi-mall",
+   "destination": "/abu-dhabi/hotels-near-abu-dhabi-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/abu-dhabi-mall/",
+   "destination": "/abu-dhabi/hotels-near-abu-dhabi-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/auh-airport",
+   "destination": "/abu-dhabi/hotels-near-auh-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/auh-airport/",
+   "destination": "/abu-dhabi/hotels-near-auh-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/al-khalidiyah-ad",
+   "destination": "/abu-dhabi/hotels-in-al-khalidiyah-ad/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/al-khalidiyah-ad/",
+   "destination": "/abu-dhabi/hotels-in-al-khalidiyah-ad/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/cleveland-clinic",
+   "destination": "/abu-dhabi/hotels-near-cleveland-clinic/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/cleveland-clinic/",
+   "destination": "/abu-dhabi/hotels-near-cleveland-clinic/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/etihad-arena",
+   "destination": "/abu-dhabi/hotels-near-etihad-arena/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/etihad-arena/",
+   "destination": "/abu-dhabi/hotels-near-etihad-arena/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/formula-1-abu-dhabi",
+   "destination": "/abu-dhabi/hotels-formula-1-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/abu-dhabi/near/formula-1-abu-dhabi/",
+   "destination": "/abu-dhabi/hotels-formula-1-abu-dhabi/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/khobar-corniche",
+   "destination": "/dammam-khobar/hotels-near-khobar-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/khobar-corniche/",
+   "destination": "/dammam-khobar/hotels-near-khobar-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dhahran-mall",
+   "destination": "/dammam-khobar/hotels-near-dhahran-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dhahran-mall/",
+   "destination": "/dammam-khobar/hotels-near-dhahran-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/al-rashid-mall-khobar",
+   "destination": "/dammam-khobar/hotels-near-al-rashid-mall-khobar/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/al-rashid-mall-khobar/",
+   "destination": "/dammam-khobar/hotels-near-al-rashid-mall-khobar/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/king-fahd-causeway",
+   "destination": "/dammam-khobar/hotels-near-king-fahd-causeway/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/king-fahd-causeway/",
+   "destination": "/dammam-khobar/hotels-near-king-fahd-causeway/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dammam-airport",
+   "destination": "/dammam-khobar/hotels-near-dammam-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dammam-airport/",
+   "destination": "/dammam-khobar/hotels-near-dammam-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/half-moon-bay",
+   "destination": "/dammam-khobar/hotels-near-half-moon-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/half-moon-bay/",
+   "destination": "/dammam-khobar/hotels-near-half-moon-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dammam-corniche",
+   "destination": "/dammam-khobar/hotels-near-dammam-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/dammam-corniche/",
+   "destination": "/dammam-khobar/hotels-near-dammam-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/aramco-dhahran",
+   "destination": "/dammam-khobar/hotels-near-aramco-dhahran/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/aramco-dhahran/",
+   "destination": "/dammam-khobar/hotels-near-aramco-dhahran/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/al-olaya-khobar",
+   "destination": "/dammam-khobar/hotels-in-al-olaya-khobar/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/al-olaya-khobar/",
+   "destination": "/dammam-khobar/hotels-in-al-olaya-khobar/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/kfupm",
+   "destination": "/dammam-khobar/hotels-near-kfupm/",
+   "permanent": true
+  },
+  {
+   "source": "/dammam-khobar/near/kfupm/",
+   "destination": "/dammam-khobar/hotels-near-kfupm/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/seef",
+   "destination": "/manama/hotels-in-seef/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/seef/",
+   "destination": "/manama/hotels-in-seef/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/city-centre-bahrain",
+   "destination": "/manama/hotels-near-city-centre-bahrain/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/city-centre-bahrain/",
+   "destination": "/manama/hotels-near-city-centre-bahrain/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/juffair",
+   "destination": "/manama/hotels-in-juffair/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/juffair/",
+   "destination": "/manama/hotels-in-juffair/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/adliya",
+   "destination": "/manama/hotels-in-adliya/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/adliya/",
+   "destination": "/manama/hotels-in-adliya/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-bay",
+   "destination": "/manama/hotels-in-bahrain-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-bay/",
+   "destination": "/manama/hotels-in-bahrain-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/amwaj-islands",
+   "destination": "/manama/hotels-in-amwaj-islands/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/amwaj-islands/",
+   "destination": "/manama/hotels-in-amwaj-islands/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-airport",
+   "destination": "/manama/hotels-near-bahrain-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-airport/",
+   "destination": "/manama/hotels-near-bahrain-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-circuit",
+   "destination": "/manama/hotels-near-bahrain-circuit/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/bahrain-circuit/",
+   "destination": "/manama/hotels-near-bahrain-circuit/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/manama-souq",
+   "destination": "/manama/hotels-near-manama-souq/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/manama-souq/",
+   "destination": "/manama/hotels-near-manama-souq/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/formula-1-bahrain",
+   "destination": "/manama/hotels-formula-1-bahrain/",
+   "permanent": true
+  },
+  {
+   "source": "/manama/near/formula-1-bahrain/",
+   "destination": "/manama/hotels-formula-1-bahrain/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/the-pearl",
+   "destination": "/doha/hotels-in-the-pearl/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/the-pearl/",
+   "destination": "/doha/hotels-in-the-pearl/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/west-bay",
+   "destination": "/doha/hotels-in-west-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/west-bay/",
+   "destination": "/doha/hotels-in-west-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/souq-waqif",
+   "destination": "/doha/hotels-near-souq-waqif/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/souq-waqif/",
+   "destination": "/doha/hotels-near-souq-waqif/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/doha-corniche",
+   "destination": "/doha/hotels-near-doha-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/doha-corniche/",
+   "destination": "/doha/hotels-near-doha-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/lusail",
+   "destination": "/doha/hotels-in-lusail/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/lusail/",
+   "destination": "/doha/hotels-in-lusail/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/katara",
+   "destination": "/doha/hotels-near-katara/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/katara/",
+   "destination": "/doha/hotels-near-katara/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/villaggio-mall",
+   "destination": "/doha/hotels-near-villaggio-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/villaggio-mall/",
+   "destination": "/doha/hotels-near-villaggio-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/hamad-airport",
+   "destination": "/doha/hotels-near-hamad-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/hamad-airport/",
+   "destination": "/doha/hotels-near-hamad-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/msheireb",
+   "destination": "/doha/hotels-in-msheireb/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/msheireb/",
+   "destination": "/doha/hotels-in-msheireb/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/lusail-stadium",
+   "destination": "/doha/hotels-near-lusail-stadium/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/lusail-stadium/",
+   "destination": "/doha/hotels-near-lusail-stadium/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/place-vendome-qatar",
+   "destination": "/doha/hotels-near-place-vendome-qatar/",
+   "permanent": true
+  },
+  {
+   "source": "/doha/near/place-vendome-qatar/",
+   "destination": "/doha/hotels-near-place-vendome-qatar/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/pyramids",
+   "destination": "/cairo/hotels-near-pyramids/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/pyramids/",
+   "destination": "/cairo/hotels-near-pyramids/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/tahrir",
+   "destination": "/cairo/hotels-near-tahrir/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/tahrir/",
+   "destination": "/cairo/hotels-near-tahrir/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/zamalek",
+   "destination": "/cairo/hotels-in-zamalek/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/zamalek/",
+   "destination": "/cairo/hotels-in-zamalek/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/nile-corniche",
+   "destination": "/cairo/hotels-near-nile-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/nile-corniche/",
+   "destination": "/cairo/hotels-near-nile-corniche/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/new-cairo",
+   "destination": "/cairo/hotels-in-new-cairo/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/new-cairo/",
+   "destination": "/cairo/hotels-in-new-cairo/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/cairo-festival-city",
+   "destination": "/cairo/hotels-near-cairo-festival-city/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/cairo-festival-city/",
+   "destination": "/cairo/hotels-near-cairo-festival-city/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/mall-of-egypt",
+   "destination": "/cairo/hotels-near-mall-of-egypt/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/mall-of-egypt/",
+   "destination": "/cairo/hotels-near-mall-of-egypt/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/cairo-airport",
+   "destination": "/cairo/hotels-near-cairo-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/cairo-airport/",
+   "destination": "/cairo/hotels-near-cairo-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/heliopolis",
+   "destination": "/cairo/hotels-in-heliopolis/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/heliopolis/",
+   "destination": "/cairo/hotels-in-heliopolis/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/maadi",
+   "destination": "/cairo/hotels-in-maadi/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/maadi/",
+   "destination": "/cairo/hotels-in-maadi/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/khan-el-khalili",
+   "destination": "/cairo/hotels-near-khan-el-khalili/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/khan-el-khalili/",
+   "destination": "/cairo/hotels-near-khan-el-khalili/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/grand-egyptian-museum",
+   "destination": "/cairo/hotels-near-grand-egyptian-museum/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/grand-egyptian-museum/",
+   "destination": "/cairo/hotels-near-grand-egyptian-museum/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/sheikh-zayed-city",
+   "destination": "/cairo/hotels-in-sheikh-zayed-city/",
+   "permanent": true
+  },
+  {
+   "source": "/cairo/near/sheikh-zayed-city/",
+   "destination": "/cairo/hotels-in-sheikh-zayed-city/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/the-avenues",
+   "destination": "/kuwait/hotels-near-the-avenues/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/the-avenues/",
+   "destination": "/kuwait/hotels-near-the-avenues/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/salmiya",
+   "destination": "/kuwait/hotels-in-salmiya/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/salmiya/",
+   "destination": "/kuwait/hotels-in-salmiya/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/kuwait-towers",
+   "destination": "/kuwait/hotels-near-kuwait-towers/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/kuwait-towers/",
+   "destination": "/kuwait/hotels-near-kuwait-towers/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/marina-mall-kuwait",
+   "destination": "/kuwait/hotels-near-marina-mall-kuwait/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/marina-mall-kuwait/",
+   "destination": "/kuwait/hotels-near-marina-mall-kuwait/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/360-mall",
+   "destination": "/kuwait/hotels-near-360-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/360-mall/",
+   "destination": "/kuwait/hotels-near-360-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/kuwait-airport",
+   "destination": "/kuwait/hotels-near-kuwait-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/kuwait-airport/",
+   "destination": "/kuwait/hotels-near-kuwait-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/sharq",
+   "destination": "/kuwait/hotels-in-sharq/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/sharq/",
+   "destination": "/kuwait/hotels-in-sharq/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/hawally",
+   "destination": "/kuwait/hotels-in-hawally/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/hawally/",
+   "destination": "/kuwait/hotels-in-hawally/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/mahboula",
+   "destination": "/kuwait/hotels-in-mahboula/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/mahboula/",
+   "destination": "/kuwait/hotels-in-mahboula/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/sabah-al-salem-hospital",
+   "destination": "/kuwait/hotels-near-sabah-al-salem-hospital/",
+   "permanent": true
+  },
+  {
+   "source": "/kuwait/near/sabah-al-salem-hospital/",
+   "destination": "/kuwait/hotels-near-sabah-al-salem-hospital/",
    "permanent": true
   }
  ]

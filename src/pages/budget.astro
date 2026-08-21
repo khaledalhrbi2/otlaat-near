@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { cities } from '../lib/data.js';
+const rates = { riyadh:[220,420,900], jeddah:[230,430,950], makkah:[250,600,1500], madinah:[200,450,1100], "dammam-khobar":[200,380,800], dubai:[260,520,1300], "abu-dhabi":[240,500,1200], doha:[260,500,1100], manama:[180,350,800], kuwait:[220,400,900], cairo:[150,320,800], istanbul:[200,380,850], london:[450,800,1900], paris:[420,780,1800], rome:[380,680,1500], milan:[380,700,1600], vienna:[350,620,1300], zurich:[550,900,1900], geneva:[550,900,1900], prague:[280,500,1100], barcelona:[360,650,1400], amsterdam:[420,750,1600], bali:[180,420,1300] };
+const list = cities.map(c => ({ slug:c.slug, name:c.name_ar, code:c.code, r: rates[c.slug] ?? [250,500,1200] }));
+---
+<Base title="حاسبة ميزانية الفندق: كم تحتاج لرحلتك؟ — عطلات" description="احسب ميزانية الإقامة لأي مدينة حسب عدد الليالي والغرف وفئة الفندق، ثم افتح البحث بالفلتر المناسب مباشرة.">
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span>حاسبة الميزانية</nav>
+  <div class="hero"><span class="eyebrow">أداة</span><h1>كم تحتاج لميزانية الفندق؟</h1><p class="lede">تقدير سريع بناءً على متوسطات الأسعار الفعلية لكل مدينة وفئة. الأرقام شاملة الضرائب وتقريبية — السعر النهائي يظهر بتواريخك.</p></div>
+  <div class="book calc" data-cities={JSON.stringify(list)}>
+    <div><label>المدينة</label><select id="c">{list.map(c=><option value={c.slug}>{c.name}</option>)}</select></div>
+    <div><label>الفئة</label><select id="t"><option value="0">اقتصادي (3 نجوم)</option><option value="1" selected>متوسط (4 نجوم)</option><option value="2">فاخر (5 نجوم)</option></select></div>
+    <div><label>الليالي</label><input id="n" type="number" min="1" max="30" value="4" /></div>
+    <div><label>الغرف</label><input id="r" type="number" min="1" max="5" value="1" /></div>
+    <p class="note" style="font-size:1.1rem"><b id="out"></b> <span id="range"></span></p>
+    <p class="note" id="split"></p>
+    <a class="cta" id="go" href="#" rel="nofollow" target="_blank">شاهد الفنادق الفعلية بهذه الميزانية</a>
+  </div>
+  <section class="prose"><h2>كيف تُحسب؟</h2><p>متوسط سعر الليلة للفئة المختارة في المدينة × عدد الليالي × عدد الغرف، مع هامش ±20٪ للموسم. المواسم العالية (رمضان في مكة، موسم الرياض، الصيف في أوروبا، رأس السنة في دبي) قد تتجاوز الحد الأعلى.</p><h2>كيف تقلل الميزانية؟</h2><ul><li>ابتعد 2–3 كم عن المعلم الرئيسي — الفرق في السعر كبير والمسافة بسيطة.</li><li>اسكن قرب محطة مترو بدل قلب المنطقة السياحية.</li><li>للإقامات من 4 ليالٍ فأكثر، الشقق الفندقية أوفر مع العوائل.</li><li>قسّط عبر تابي أو تمارا على 4 دفعات بدون فوائد.</li></ul></section>
+  <script>
+    const box=document.querySelector('.calc'), L=JSON.parse(box.dataset.cities);
+    const $=id=>document.getElementById(id);
+    const fmt=n=>n.toLocaleString('ar-SA')+' ر.س';
+    function calc(){ const c=L.find(x=>x.slug===$('c').value), t=+$('t').value, n=+$('n').value||1, r=+$('r').value||1; const base=c.r[t]*n*r;
+      $('out').textContent=fmt(base); $('range').textContent=`(من ${fmt(Math.round(base*.8))} إلى ${fmt(Math.round(base*1.2))})`;
+      $('split').textContent=`بالتقسيط عبر تابي أو تمارا: 4 دفعات × ${fmt(Math.round(base/4))}`;
+      const d=new Date(); d.setDate(d.getDate()+14); const ci=d.toISOString().slice(0,10); const co=new Date(d); co.setDate(co.getDate()+n);
+      $('go').href=`/go/${c.slug}?ci=${ci}&co=${co.toISOString().slice(0,10)}&rp=${r}${t===2?'&i=5-star':t===0?'&i=budget':''}`; }
+    ['c','t','n','r'].forEach(id=>$(id).addEventListener('input',calc)); calc();
+  </script>
+</Base>

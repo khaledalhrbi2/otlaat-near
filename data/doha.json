@@ -1,0 +1,502 @@
+{
+  "slug": "doha",
+  "code": null,
+  "name_ar": "الدوحة",
+  "name_en": "Doha",
+  "country": "قطر",
+  "lat": 25.2854,
+  "lng": 51.531,
+  "default_prox": 12,
+  "date_profile": "next_weekend",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "the-pearl",
+      "name_ar": "اللؤلؤة",
+      "name_en": "The Pearl",
+      "lat": 25.369,
+      "lng": 51.546,
+      "prox_km": 4,
+      "q": "اللؤلؤة قطر",
+      "poi_label": "اللؤلؤة",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 2.3
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 5.5
+        },
+        {
+          "slug": "place-vendome-qatar",
+          "name_ar": "بلاس فاندوم",
+          "km": 6.5
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 7.8
+        },
+        {
+          "slug": "lusail-stadium",
+          "name_ar": "استاد لوسيل",
+          "km": 8.1
+        }
+      ]
+    },
+    {
+      "slug": "west-bay",
+      "name_ar": "الخليج الغربي",
+      "name_en": "West Bay",
+      "lat": 25.322,
+      "lng": 51.53,
+      "prox_km": 3,
+      "q": "الخليج الغربي",
+      "poi_label": "الخليج الغربي",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "corporate"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 2.4
+        },
+        {
+          "slug": "souq-waqif",
+          "name_ar": "سوق واقف",
+          "km": 3.8
+        },
+        {
+          "slug": "msheireb",
+          "name_ar": "مشيرب",
+          "km": 4.1
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 4.1
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 5.5
+        }
+      ]
+    },
+    {
+      "slug": "souq-waqif",
+      "name_ar": "سوق واقف",
+      "name_en": "Souq Waqif",
+      "lat": 25.2876,
+      "lng": 51.533,
+      "prox_km": 2,
+      "q": "سوق واقف",
+      "poi_label": "سوق واقف",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "msheireb",
+          "name_ar": "مشيرب",
+          "km": 0.6
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 1.4
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 3.8
+        },
+        {
+          "slug": "hamad-airport",
+          "name_ar": "مطار حمد الدولي",
+          "km": 7.7
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 8.0
+        }
+      ]
+    },
+    {
+      "slug": "doha-corniche",
+      "name_ar": "كورنيش الدوحة",
+      "name_en": "Doha Corniche",
+      "lat": 25.3,
+      "lng": 51.53,
+      "prox_km": 3,
+      "q": "كورنيش الدوحة",
+      "poi_label": "الكورنيش",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "souq-waqif",
+          "name_ar": "سوق واقف",
+          "km": 1.4
+        },
+        {
+          "slug": "msheireb",
+          "name_ar": "مشيرب",
+          "km": 1.7
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 2.4
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 6.6
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 7.8
+        }
+      ]
+    },
+    {
+      "slug": "lusail",
+      "name_ar": "لوسيل",
+      "name_en": "Lusail",
+      "lat": 25.428,
+      "lng": 51.49,
+      "prox_km": 5,
+      "q": "لوسيل",
+      "poi_label": "لوسيل",
+      "type": "district",
+      "intents": [
+        "family",
+        "5-star",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "lusail-stadium",
+          "name_ar": "استاد لوسيل",
+          "km": 0.8
+        },
+        {
+          "slug": "place-vendome-qatar",
+          "name_ar": "بلاس فاندوم",
+          "km": 2.2
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 8.5
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 8.6
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 12.5
+        }
+      ]
+    },
+    {
+      "slug": "katara",
+      "name_ar": "كتارا",
+      "name_en": "Katara",
+      "lat": 25.359,
+      "lng": 51.526,
+      "prox_km": 3,
+      "q": "كتارا",
+      "poi_label": "كتارا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 2.3
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 4.1
+        },
+        {
+          "slug": "place-vendome-qatar",
+          "name_ar": "بلاس فاندوم",
+          "km": 6.2
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 6.6
+        },
+        {
+          "slug": "lusail-stadium",
+          "name_ar": "استاد لوسيل",
+          "km": 7.8
+        }
+      ]
+    },
+    {
+      "slug": "villaggio-mall",
+      "name_ar": "فيلاجيو مول",
+      "name_en": "Villaggio Mall",
+      "lat": 25.26,
+      "lng": 51.442,
+      "prox_km": 3,
+      "q": "فيلاجيو",
+      "poi_label": "فيلاجيو",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "msheireb",
+          "name_ar": "مشيرب",
+          "km": 9.1
+        },
+        {
+          "slug": "souq-waqif",
+          "name_ar": "سوق واقف",
+          "km": 9.7
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 9.9
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 11.2
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 13.9
+        }
+      ]
+    },
+    {
+      "slug": "hamad-airport",
+      "name_ar": "مطار حمد الدولي",
+      "name_en": "Hamad International",
+      "lat": 25.273,
+      "lng": 51.608,
+      "prox_km": 6,
+      "q": "مطار حمد",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "souq-waqif",
+          "name_ar": "سوق واقف",
+          "km": 7.7
+        },
+        {
+          "slug": "msheireb",
+          "name_ar": "مشيرب",
+          "km": 8.2
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 8.4
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 9.5
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 12.4
+        }
+      ]
+    },
+    {
+      "slug": "msheireb",
+      "name_ar": "مشيرب",
+      "name_en": "Msheireb",
+      "lat": 25.285,
+      "lng": 51.528,
+      "prox_km": 2,
+      "q": "مشيرب",
+      "poi_label": "مشيرب",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "souq-waqif",
+          "name_ar": "سوق واقف",
+          "km": 0.6
+        },
+        {
+          "slug": "doha-corniche",
+          "name_ar": "كورنيش الدوحة",
+          "km": 1.7
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 4.1
+        },
+        {
+          "slug": "hamad-airport",
+          "name_ar": "مطار حمد الدولي",
+          "km": 8.2
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 8.2
+        }
+      ]
+    },
+    {
+      "slug": "lusail-stadium",
+      "name_ar": "استاد لوسيل",
+      "name_en": "Lusail Stadium",
+      "lat": 25.421,
+      "lng": 51.49,
+      "prox_km": 5,
+      "q": "استاد لوسيل",
+      "poi_label": "استاد لوسيل",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "lusail",
+          "name_ar": "لوسيل",
+          "km": 0.8
+        },
+        {
+          "slug": "place-vendome-qatar",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.6
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 7.8
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 8.1
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 11.7
+        }
+      ]
+    },
+    {
+      "slug": "place-vendome-qatar",
+      "name_ar": "بلاس فاندوم",
+      "name_en": "Place Vendome Qatar",
+      "lat": 25.41,
+      "lng": 51.5,
+      "prox_km": 3,
+      "q": "بلاس فاندوم قطر",
+      "poi_label": "بلاس فاندوم",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "lusail-stadium",
+          "name_ar": "استاد لوسيل",
+          "km": 1.6
+        },
+        {
+          "slug": "lusail",
+          "name_ar": "لوسيل",
+          "km": 2.2
+        },
+        {
+          "slug": "katara",
+          "name_ar": "كتارا",
+          "km": 6.2
+        },
+        {
+          "slug": "the-pearl",
+          "name_ar": "اللؤلؤة",
+          "km": 6.5
+        },
+        {
+          "slug": "west-bay",
+          "name_ar": "الخليج الغربي",
+          "km": 10.2
+        }
+      ]
+    }
+  ],
+  "poi_count": 11
+}

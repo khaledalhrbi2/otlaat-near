@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { cities, loadCity, poiPath, hav } from '../../lib/data.js';
+export function getStaticPaths(){ return cities.filter(c => loadCity(c.slug).pois.some(p => p.type==='metro')).map(c => ({ params:{ city:c.slug } })); }
+const city = loadCity(Astro.params.city);
+const metros = city.pois.filter(p => p.type==='metro');
+const sights = city.pois.filter(p => ['landmark','district','stadium','hospital','event_zone'].includes(p.type));
+const rows = sights.map(s => { const m = metros.map(x=>[x,hav(s,x)]).sort((a,b)=>a[1]-b[1])[0]; return { s, m:m[0], d:m[1] }; }).filter(r=>r.d<=3).sort((a,b)=>a.d-b.d);
+const lines = [...new Set(metros.flatMap(m => (m.nearest_metro||'').split('·').map(x=>x.trim()).filter(Boolean)))];
+const title = `دليل مترو ${city.name_ar} بالعربي: المحطات وأقرب محطة لكل معلم`;
+const desc = `${metros.length} محطة في ${city.name_ar} مع الخطوط، وأقرب محطة لكل معلم وحي، وأين تسكن لتتنقل بدون سيارة.`;
+const jsonld=[{ "@context":"https://schema.org","@type":"FAQPage","mainEntity":rows.slice(0,8).map(r=>({"@type":"Question","name":`ما أقرب محطة مترو لـ${r.s.name_ar}؟`,"acceptedAnswer":{"@type":"Answer","text":`${r.m.name_ar} (${r.m.nearest_metro}) على بعد ${r.d.toFixed(1)} كم.`}})) }];
+---
+<Base title={`${title} — عطلات`} description={desc} jsonld={jsonld} citySlug={city.slug}>
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>دليل المترو</nav>
+  <div class="hero"><span class="eyebrow">{city.name_ar}</span><h1>دليل مترو {city.name_ar}: أين تسكن لتتنقل بدون سيارة؟</h1><p class="lede">{metros.length} محطة على {lines.length} خطاً. الفندق القريب من محطة يوفر عليك الأوبر يومياً ويقرّبك من كل المعالم.</p></div>
+  <section><h2>المحطات</h2><div class="grid">{metros.map(m=><a class="card" href={poiPath(city,m)}><b>{m.name_ar}</b><small>{m.nearest_metro}</small></a>)}</div></section>
+  <section><h2>أقرب محطة لكل معلم</h2>
+    <div class="tbl"><table><thead><tr><th>المعلم</th><th>أقرب محطة</th><th>الخط</th><th>المسافة</th></tr></thead>
+    <tbody>{rows.map(r=><tr><td><a href={poiPath(city,r.s)}>{r.s.name_ar}</a></td><td><a href={poiPath(city,r.m)}>{r.m.name_ar}</a></td><td>{r.m.nearest_metro}</td><td>{r.d.toFixed(1)} كم</td></tr>)}</tbody></table></div>
+  </section>
+  <section class="prose"><h2>نصائح التنقل</h2><ul><li>اسكن قرب محطة تقاطع (خطان فأكثر) لتصل لأي مكان بتبديل واحد.</li><li>المحطات القريبة من المطار توفر وقت الوصول الأول، لكن المحطات الوسطى أفضل لبقية الأيام.</li><li>أغلب الفنادق على بعد 300–700 متر من المحطة — هذه مسافة مشي مريحة مع الأطفال.</li></ul></section>
+  <style>.tbl{overflow:auto;border:1px solid var(--line);border-radius:var(--radius);margin-top:10px}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{border-bottom:1px solid var(--line);padding:9px 12px;text-align:right}thead th{background:var(--navy-soft);color:var(--navy)}td a{text-decoration:none}</style>
+</Base>

@@ -1458,7 +1458,55 @@
           "km": 1.4
         }
       ]
+    },
+    {
+      "slug": "summer-2027",
+      "name_ar": "فنادق باريس الصيف 2027",
+      "name_en": "Paris Summer",
+      "lat": 48.8698,
+      "lng": 2.3075,
+      "prox_km": 6,
+      "q": "باريس",
+      "poi_label": "باريس",
+      "type": "event",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-06-20",
+        "end": "2027-08-31",
+        "note": ""
+      },
+      "neighbours": [
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 0.0
+        },
+        {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 0.2
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 1.0
+        },
+        {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 1.0
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 1.5
+        }
+      ]
     }
   ],
-  "poi_count": 31
+  "poi_count": 32
 }

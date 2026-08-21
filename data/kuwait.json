@@ -1,0 +1,463 @@
+{
+  "slug": "kuwait",
+  "code": null,
+  "name_ar": "الكويت",
+  "name_en": "Kuwait City",
+  "country": "الكويت",
+  "lat": 29.3759,
+  "lng": 47.9774,
+  "default_prox": 12,
+  "date_profile": "weekend_thu_sat",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "the-avenues",
+      "name_ar": "الأفنيوز",
+      "name_en": "The Avenues",
+      "lat": 29.303,
+      "lng": 47.937,
+      "prox_km": 3,
+      "q": "الافنيوز",
+      "poi_label": "الأفنيوز",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الافنيوز"
+      ],
+      "neighbours": [
+        {
+          "slug": "360-mall",
+          "name_ar": "360 مول",
+          "km": 6.3
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 8.6
+        },
+        {
+          "slug": "kuwait-airport",
+          "name_ar": "مطار الكويت",
+          "km": 9.0
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 9.4
+        },
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 10.0
+        }
+      ]
+    },
+    {
+      "slug": "salmiya",
+      "name_ar": "السالمية",
+      "name_en": "Salmiya",
+      "lat": 29.333,
+      "lng": 48.076,
+      "prox_km": 3,
+      "q": "السالمية",
+      "poi_label": "السالمية",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 0.8
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 4.7
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 5.4
+        },
+        {
+          "slug": "kuwait-towers",
+          "name_ar": "أبراج الكويت",
+          "km": 9.5
+        },
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 9.8
+        }
+      ]
+    },
+    {
+      "slug": "kuwait-towers",
+      "name_ar": "أبراج الكويت",
+      "name_en": "Kuwait Towers",
+      "lat": 29.389,
+      "lng": 48.002,
+      "prox_km": 3,
+      "q": "ابراج الكويت",
+      "poi_label": "أبراج الكويت",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 1.5
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 6.7
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 6.8
+        },
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 8.8
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 9.5
+        }
+      ]
+    },
+    {
+      "slug": "marina-mall-kuwait",
+      "name_ar": "مارينا مول",
+      "name_en": "Marina Mall Kuwait",
+      "lat": 29.339,
+      "lng": 48.072,
+      "prox_km": 2,
+      "q": "مارينا مول الكويت",
+      "poi_label": "مارينا مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 0.8
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 4.3
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 5.1
+        },
+        {
+          "slug": "kuwait-towers",
+          "name_ar": "أبراج الكويت",
+          "km": 8.8
+        },
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 9.2
+        }
+      ]
+    },
+    {
+      "slug": "360-mall",
+      "name_ar": "360 مول",
+      "name_en": "360 Mall",
+      "lat": 29.27,
+      "lng": 47.99,
+      "prox_km": 3,
+      "q": "360 مول",
+      "poi_label": "360 مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kuwait-airport",
+          "name_ar": "مطار الكويت",
+          "km": 5.2
+        },
+        {
+          "slug": "the-avenues",
+          "name_ar": "الأفنيوز",
+          "km": 6.3
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 7.3
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 7.9
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 10.9
+        }
+      ]
+    },
+    {
+      "slug": "kuwait-airport",
+      "name_ar": "مطار الكويت",
+      "name_en": "Kuwait Airport",
+      "lat": 29.2267,
+      "lng": 47.9689,
+      "prox_km": 6,
+      "q": "مطار الكويت",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "360-mall",
+          "name_ar": "360 مول",
+          "km": 5.2
+        },
+        {
+          "slug": "the-avenues",
+          "name_ar": "الأفنيوز",
+          "km": 9.0
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 12.5
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 13.1
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 15.7
+        }
+      ]
+    },
+    {
+      "slug": "sharq",
+      "name_ar": "شرق",
+      "name_en": "Sharq",
+      "lat": 29.38,
+      "lng": 47.99,
+      "prox_km": 2,
+      "q": "شرق الكويت",
+      "poi_label": "شرق",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "corporate"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kuwait-towers",
+          "name_ar": "أبراج الكويت",
+          "km": 1.5
+        },
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 6.3
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 6.4
+        },
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 9.2
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 9.8
+        }
+      ]
+    },
+    {
+      "slug": "hawally",
+      "name_ar": "حولي",
+      "name_en": "Hawally",
+      "lat": 29.333,
+      "lng": 48.028,
+      "prox_km": 2,
+      "q": "حولي",
+      "poi_label": "حولي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "sabah-al-salem-hospital",
+          "name_ar": "مستشفى مبارك الكبير",
+          "km": 0.8
+        },
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 4.3
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 4.7
+        },
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 6.4
+        },
+        {
+          "slug": "kuwait-towers",
+          "name_ar": "أبراج الكويت",
+          "km": 6.7
+        }
+      ]
+    },
+    {
+      "slug": "mahboula",
+      "name_ar": "المهبولة",
+      "name_en": "Mahboula",
+      "lat": 29.14,
+      "lng": 48.13,
+      "prox_km": 3,
+      "q": "المهبولة",
+      "poi_label": "المهبولة",
+      "type": "district",
+      "intents": [
+        "apartments",
+        "budget",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kuwait-airport",
+          "name_ar": "مطار الكويت",
+          "km": 18.4
+        },
+        {
+          "slug": "360-mall",
+          "name_ar": "360 مول",
+          "km": 19.8
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 22.1
+        },
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 22.8
+        },
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 23.6
+        }
+      ]
+    },
+    {
+      "slug": "sabah-al-salem-hospital",
+      "name_ar": "مستشفى مبارك الكبير",
+      "name_en": "Mubarak Al-Kabeer Hospital",
+      "lat": 29.33,
+      "lng": 48.02,
+      "prox_km": 3,
+      "q": "مستشفى مبارك الكبير",
+      "poi_label": "مبارك الكبير",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "hawally",
+          "name_ar": "حولي",
+          "km": 0.8
+        },
+        {
+          "slug": "marina-mall-kuwait",
+          "name_ar": "مارينا مول",
+          "km": 5.1
+        },
+        {
+          "slug": "salmiya",
+          "name_ar": "السالمية",
+          "km": 5.4
+        },
+        {
+          "slug": "sharq",
+          "name_ar": "شرق",
+          "km": 6.3
+        },
+        {
+          "slug": "kuwait-towers",
+          "name_ar": "أبراج الكويت",
+          "km": 6.8
+        }
+      ]
+    }
+  ],
+  "poi_count": 10
+}

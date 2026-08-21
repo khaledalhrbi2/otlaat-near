@@ -23,15 +23,24 @@ export default function handler(req, res) {
   const today = new Date().toISOString().slice(0, 10);
   let checkin = ymd(ci) ? ci : plus(today, 1);
   let checkout = ymd(co) && co > checkin ? co : plus(checkin, city.default_nights || 1);
-  const roompax = Math.min(Math.max(parseInt(rp) || 1, 1), 5);
+  const INTENT = { apartments:{ q:'شقق فندقية', rp:2 }, budget:{ q:'فنادق رخيصة', rp:1 }, '5-star':{ q:'فنادق 5 نجوم', rp:1 }, family:{ q:'', rp:2 } };
+  const iv = INTENT[i] || null;
+  const roompax = Math.min(Math.max(parseInt(rp) || (iv?.rp ?? 1), 1), 5);
 
-  const p = new URLSearchParams({ code: city.code, name: city.name_ar, checkin: checkin.replaceAll('-', ''), checkout: checkout.replaceAll('-', ''), roompax: String(roompax) });
-  if (poi) { p.set('q', poi.q); p.set('lat', poi.lat); p.set('lng', poi.lng); p.set('prox', poi.prox_km); p.set('poi', poi.poi_label); }
+  const p = new URLSearchParams({ name: city.name_ar, checkin: checkin.replaceAll('-', ''), checkout: checkout.replaceAll('-', ''), roompax: String(roompax) });
+  if (city.code) p.set('code', city.code);
+  if (poi) { p.set('q', iv?.q ? `${iv.q} ${poi.q}` : poi.q); p.set('lat', poi.lat); p.set('lng', poi.lng); p.set('prox', poi.prox_km); p.set('poi', poi.poi_label); }
   else { p.set('q', city.name_ar); p.set('lat', city.lat); p.set('lng', city.lng); p.set('prox', city.default_prox); }
   p.set('utm_source', 'hotels-near'); p.set('utm_medium', 'referral');
   p.set('utm_campaign', `${city.slug}-${poi ? poi.slug : 'hub'}${i && i !== 'default' ? '-' + i : ''}`);
 
+  const target = `${BASE}?${p.toString()}`;
+  // قياس: تسجيل الضغطة في Supabase إن وُجدت المفاتيح (لا يعطل التحويل)
+  if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY) {
+    fetch(`${process.env.SUPABASE_URL}/rest/v1/go_clicks`, { method:'POST', headers:{ 'content-type':'application/json', apikey:process.env.SUPABASE_SERVICE_KEY, authorization:`Bearer ${process.env.SUPABASE_SERVICE_KEY}`, prefer:'return=minimal' },
+      body: JSON.stringify({ city: city.slug, poi: poi?.slug ?? null, intent: i ?? null, checkin, checkout, roompax, referer: req.headers.referer ?? null, ua: req.headers['user-agent'] ?? null, country: req.headers['x-vercel-ip-country'] ?? null }) }).catch(() => {});
+  }
   res.setHeader('Cache-Control', 'no-store');
   res.setHeader('X-Robots-Tag', 'noindex, nofollow');
-  res.redirect(302, `${BASE}?${p.toString()}`);
+  res.redirect(302, target);
 }

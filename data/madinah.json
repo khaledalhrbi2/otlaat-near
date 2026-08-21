@@ -884,7 +884,55 @@
           "km": 3.1
         }
       ]
+    },
+    {
+      "slug": "eid-al-fitr-2027",
+      "name_ar": "فنادق المدينة عيد الفطر 2027",
+      "name_en": "Madinah Eid",
+      "lat": 24.4672,
+      "lng": 39.6112,
+      "prox_km": 2,
+      "q": "المسجد النبوي",
+      "poi_label": "المسجد النبوي",
+      "type": "event",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-03-09",
+        "end": "2027-03-14",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 0.0
+        },
+        {
+          "slug": "haram-nabawi",
+          "name_ar": "الحرم النبوي",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "baqi",
+          "name_ar": "البقيع",
+          "km": 0.4
+        },
+        {
+          "slug": "sultanah",
+          "name_ar": "سلطانة",
+          "km": 1.6
+        }
+      ]
     }
   ],
-  "poi_count": 19
+  "poi_count": 20
 }

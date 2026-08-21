@@ -4,8 +4,9 @@ const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
 const url = canonical ?? site + Astro.url.pathname;
 const og = image ?? (citySlug ? `${site}/og/${citySlug}.jpg` : `${site}/og/default.jpg`);
 import { cities } from '../lib/data.js';
-const navCities = ['riyadh','makkah','madinah','dubai','istanbul','london','paris'].map(s => cities.find(c => c.slug === s));
-const cols = { 'السعودية والخليج': cities.filter(c => ['السعودية','الإمارات'].includes(c.country)), 'تركيا وآسيا': cities.filter(c => ['تركيا','إندونيسيا'].includes(c.country)), 'أوروبا': cities.filter(c => !['السعودية','الإمارات','تركيا','إندونيسيا'].includes(c.country)) };
+const navCities = ['riyadh','jeddah','makkah','madinah','dubai','istanbul','london'].map(s => cities.find(c => c.slug === s));
+const GULF = ['السعودية','الإمارات','قطر','البحرين','الكويت','مصر'];
+const cols = { 'السعودية والخليج ومصر': cities.filter(c => GULF.includes(c.country)), 'تركيا وآسيا': cities.filter(c => ['تركيا','إندونيسيا'].includes(c.country)), 'أوروبا': cities.filter(c => !GULF.includes(c.country) && !['تركيا','إندونيسيا'].includes(c.country)) };
 ---
 <!doctype html>
 <html lang="ar" dir="rtl">
@@ -134,7 +135,7 @@ footer img{height:40px;margin-bottom:10px}
 </div></div>
 <header><div class="wrap">
   <a href="/"><img src="/logo.svg" alt="عطلات — فنادق قريبة من" /></a>
-  <nav>{navCities.map(c => <a href={`/${c.slug}/`}>{c.name_ar}</a>)}<a href="/#cities">كل المدن</a></nav>
+  <nav>{navCities.map(c => <a href={`/${c.slug}/`}>{c.name_ar}</a>)}<a href="/#cities">كل المدن</a><a href="/budget/">حاسبة الميزانية</a></nav>
   <a class="cta" href="https://wa.me/966920033839" rel="nofollow" style="padding:9px 18px;font-size:.9rem">واتساب</a>
 </div></header>
 <main class="wrap"><slot />

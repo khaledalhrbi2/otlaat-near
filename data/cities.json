@@ -10,7 +10,7 @@
     "default_prox": 15,
     "date_profile": "weekend_thu_sat",
     "default_nights": 2,
-    "poi_count": 42,
+    "poi_count": 46,
     "priority": 1
   },
   {
@@ -24,7 +24,7 @@
     "default_prox": 8,
     "date_profile": "tomorrow_plus",
     "default_nights": 3,
-    "poi_count": 26,
+    "poi_count": 27,
     "priority": 1
   },
   {
@@ -38,7 +38,7 @@
     "default_prox": 8,
     "date_profile": "tomorrow_plus",
     "default_nights": 2,
-    "poi_count": 19,
+    "poi_count": 20,
     "priority": 1
   },
   {
@@ -52,7 +52,7 @@
     "default_prox": 15,
     "date_profile": "next_weekend",
     "default_nights": 4,
-    "poi_count": 53,
+    "poi_count": 57,
     "priority": 1
   },
   {
@@ -66,7 +66,7 @@
     "default_prox": 15,
     "date_profile": "next_weekend",
     "default_nights": 4,
-    "poi_count": 51,
+    "poi_count": 53,
     "priority": 1
   },
   {
@@ -108,7 +108,7 @@
     "default_prox": 12,
     "date_profile": "two_weeks_out",
     "default_nights": 5,
-    "poi_count": 43,
+    "poi_count": 44,
     "priority": 1
   },
   {
@@ -122,7 +122,7 @@
     "default_prox": 10,
     "date_profile": "two_weeks_out",
     "default_nights": 4,
-    "poi_count": 31,
+    "poi_count": 32,
     "priority": 1
   },
   {
@@ -222,5 +222,103 @@
     "default_nights": 3,
     "poi_count": 19,
     "priority": 1
+  },
+  {
+    "slug": "jeddah",
+    "code": null,
+    "name_ar": "جدة",
+    "name_en": "Jeddah",
+    "country": "السعودية",
+    "lat": 21.5433,
+    "lng": 39.1728,
+    "default_prox": 15,
+    "date_profile": "weekend_thu_sat",
+    "default_nights": 2,
+    "poi_count": 17,
+    "priority": 2
+  },
+  {
+    "slug": "abu-dhabi",
+    "code": null,
+    "name_ar": "أبوظبي",
+    "name_en": "Abu Dhabi",
+    "country": "الإمارات",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "default_prox": 15,
+    "date_profile": "next_weekend",
+    "default_nights": 3,
+    "poi_count": 17,
+    "priority": 2
+  },
+  {
+    "slug": "dammam-khobar",
+    "code": null,
+    "name_ar": "الدمام والخبر",
+    "name_en": "Dammam & Khobar",
+    "country": "السعودية",
+    "lat": 26.28,
+    "lng": 50.2,
+    "default_prox": 20,
+    "date_profile": "weekend_thu_sat",
+    "default_nights": 2,
+    "poi_count": 10,
+    "priority": 2
+  },
+  {
+    "slug": "manama",
+    "code": null,
+    "name_ar": "المنامة",
+    "name_en": "Manama",
+    "country": "البحرين",
+    "lat": 26.2285,
+    "lng": 50.586,
+    "default_prox": 12,
+    "date_profile": "weekend_thu_sat",
+    "default_nights": 2,
+    "poi_count": 10,
+    "priority": 2
+  },
+  {
+    "slug": "doha",
+    "code": null,
+    "name_ar": "الدوحة",
+    "name_en": "Doha",
+    "country": "قطر",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "default_prox": 12,
+    "date_profile": "next_weekend",
+    "default_nights": 3,
+    "poi_count": 11,
+    "priority": 2
+  },
+  {
+    "slug": "cairo",
+    "code": null,
+    "name_ar": "القاهرة",
+    "name_en": "Cairo",
+    "country": "مصر",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "default_prox": 12,
+    "date_profile": "next_weekend",
+    "default_nights": 4,
+    "poi_count": 13,
+    "priority": 2
+  },
+  {
+    "slug": "kuwait",
+    "code": null,
+    "name_ar": "الكويت",
+    "name_en": "Kuwait City",
+    "country": "الكويت",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "default_prox": 12,
+    "date_profile": "weekend_thu_sat",
+    "default_nights": 2,
+    "poi_count": 10,
+    "priority": 2
   }
 ]

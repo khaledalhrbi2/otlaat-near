@@ -19,6 +19,7 @@ export default defineConfig({
         if (depth === 0) { item.priority = 1.0; item.changefreq = 'daily'; }
         else if (depth === 1) { item.priority = 0.9; item.changefreq = 'daily'; }          // hub المدينة
         else if (/\/hotels-(riyadh-season|ramadan|hajj|keukenhof)/.test(path)) { item.priority = 0.9; item.changefreq = 'weekly'; } // موسمي
+        else if (/\/(compare|distances|metro-guide|budget)/.test(path)) { item.priority = 0.8; }
         else if (path.includes('/hotels-near-')) { item.priority = 0.8; }
         else { item.priority = 0.7; }                                                      // أحياء ونوايا
         return item;

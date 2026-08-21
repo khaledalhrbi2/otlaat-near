@@ -1983,7 +1983,202 @@
           "km": 3.6
         }
       ]
+    },
+    {
+      "slug": "eid-al-fitr-2027",
+      "name_ar": "فنادق الرياض عيد الفطر 2027",
+      "name_en": "Riyadh Eid Al Fitr",
+      "lat": 24.7694,
+      "lng": 46.6046,
+      "prox_km": 8,
+      "q": "الرياض",
+      "poi_label": "الرياض",
+      "type": "event",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-03-09",
+        "end": "2027-03-14",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 0.0
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 0.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 1.9
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 3.1
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "midyear-break-2027",
+      "name_ar": "فنادق الرياض إجازة منتصف العام",
+      "name_en": "Riyadh Midyear Break",
+      "lat": 24.7694,
+      "lng": 46.6046,
+      "prox_km": 8,
+      "q": "الرياض",
+      "poi_label": "الرياض",
+      "type": "event",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-11-19",
+        "end": "2026-11-28",
+        "note": "حسب تقويم التعليم"
+      },
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 0.0
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 0.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 1.9
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 3.1
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "dakar-rally-2027",
+      "name_ar": "رالي داكار 2027",
+      "name_en": "Dakar Rally",
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "prox_km": 15,
+      "q": "الرياض",
+      "poi_label": "الرياض",
+      "type": "event",
+      "intents": [
+        "5-star",
+        "corporate"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-01-03",
+        "end": "2027-01-17",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 0.3
+        },
+        {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 0.3
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 1.1
+        },
+        {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 1.4
+        },
+        {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-book-fair",
+      "name_ar": "معرض الرياض للكتاب",
+      "name_en": "Riyadh Book Fair",
+      "lat": 24.775,
+      "lng": 46.719,
+      "prox_km": 5,
+      "q": "مركز الرياض للمعارض",
+      "poi_label": "معرض الكتاب",
+      "type": "event",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-10-01",
+        "end": "2026-10-10",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "riyadh-exhibition-center",
+          "name_ar": "مركز الرياض الدولي للمعارض",
+          "km": 0.0
+        },
+        {
+          "slug": "granada-mall",
+          "name_ar": "غرناطة مول",
+          "km": 1.9
+        },
+        {
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 3.9
+        },
+        {
+          "slug": "kingdom-arena",
+          "name_ar": "المملكة أرينا",
+          "km": 5.6
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 5.6
+        }
+      ]
     }
   ],
-  "poi_count": 42
+  "poi_count": 46
 }

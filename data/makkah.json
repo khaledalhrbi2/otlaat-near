@@ -1217,7 +1217,56 @@
           "km": 0.4
         }
       ]
+    },
+    {
+      "slug": "eid-al-fitr-2027",
+      "name_ar": "فنادق مكة عيد الفطر 2027",
+      "name_en": "Makkah Eid",
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "prox_km": 2,
+      "q": "الحرم المكي",
+      "poi_label": "الحرم",
+      "type": "event",
+      "intents": [
+        "family",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-03-09",
+        "end": "2027-03-14",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.0
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "clock-tower",
+          "name_ar": "برج الساعة",
+          "km": 0.4
+        }
+      ]
     }
   ],
-  "poi_count": 26
+  "poi_count": 27
 }

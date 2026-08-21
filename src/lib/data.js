@@ -42,3 +42,33 @@ export function poiPath(city, poi) {
     : `hotels-near-${poi.slug}`;
   return `/${city.slug}/${seg}/`;
 }
+
+export const intents = JSON.parse(fs.readFileSync(path.join(root, 'intents.json'), 'utf8'));
+export const comparisons = JSON.parse(fs.readFileSync(path.join(root, 'compare.json'), 'utf8'));
+export function hav(a, b) {
+  const R = 6371, p1 = a.lat * Math.PI / 180, p2 = b.lat * Math.PI / 180, d1 = p2 - p1, d2 = (b.lng - a.lng) * Math.PI / 180;
+  const h = Math.sin(d1/2)**2 + Math.cos(p1) * Math.cos(p2) * Math.sin(d2/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+export function variantPath(city, poi, key) { return `/${city.slug}/${intents.variants[key].prefix}-${poi.slug}/`; }
+export function variantContent(city, poi, key) {
+  const v = intents.variants[key];
+  const near = poi.neighbours.slice(0, 3).map(n => `${n.name_ar} (${n.km} كم)`).join('، ');
+  const L = `${v.label} ${poi.name_ar}`;
+  return {
+    title: `${L} في ${city.name_ar}`,
+    seo_title: `${L} | أسعار شاملة الضرائب وتقسيط تابي وتمارا — عطلات`,
+    meta: `${L}: ${v.desc}. ضمن ${poi.prox_km} كم مع المسافة الفعلية، إلغاء مجاني، وتقسيط. احجز عبر عطلات.`,
+    intro: `${L} — ${v.desc}. تعرض هذه الصفحة فقط ${v.q_suffix} الواقعة ضمن ${poi.prox_km} كم من ${poi.name_ar} في ${city.name_ar}، مرتبة بالمسافة، والسعر شاملاً الضرائب. المعالم المجاورة: ${near}.`,
+    about: `${poi.name_ar} ${poi.type === 'district' ? 'من الأحياء' : 'من المعالم'} الأكثر طلباً للإقامة في ${city.name_ar}، و${v.q_suffix} هناك ${key === 'cheap' ? 'تكون غالباً على بعد 1–3 كم من المعلم نفسه، وهو فرق بسيط مقابل توفير ملحوظ' : key === '5-star' ? 'تتركز في الحلقة الأقرب للمعلم وتوفر نقلاً مجانياً أحياناً' : key === 'apartments' ? 'تناسب الإقامة 4 ليالٍ فأكثر لأن فرق السعر مع الفندق يعوضه المطبخ والمساحة' : 'توفر غرفاً متصلة وأسرّة إضافية ومسابح مناسبة للأطفال'}.`,
+    sections: [
+      { h2: `حجز ${L}`, p: `اختر التواريخ وعدد الغرف أعلاه ثم "تحقق من التوفر"؛ النتائج تكون ${v.q_suffix} فقط ضمن النطاق، مع سياسة الإلغاء لكل خيار قبل الدفع.` },
+      { h2: `تقسيط ${L}`, p: `التقسيط على 4 دفعات بدون فوائد عبر تابي وتمارا متاح على أغلب الخيارات، إضافة إلى مدى وApple Pay وSTC Pay والبطاقات الائتمانية.` },
+    ],
+    faq: [
+      { q: `ما أفضل ${v.q_suffix} قريبة من ${poi.name_ar}؟`, a: `الأفضل يعتمد على تواريخك؛ أدخلها أعلاه لتظهر الخيارات المتاحة مرتبة بالمسافة والتقييم مع السعر شاملاً الضرائب.` },
+      { q: `كم تبعد عن ${poi.name_ar}؟`, a: `كل النتائج ضمن ${poi.prox_km} كم، والمسافة الدقيقة تظهر على كل خيار.` },
+      { q: `هل التقسيط متاح؟`, a: `نعم عبر تابي أو تمارا على 4 دفعات بدون فوائد، مع مدى وApple Pay.` },
+    ],
+  };
+}

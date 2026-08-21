@@ -1,0 +1,467 @@
+{
+  "slug": "manama",
+  "code": null,
+  "name_ar": "المنامة",
+  "name_en": "Manama",
+  "country": "البحرين",
+  "lat": 26.2285,
+  "lng": 50.586,
+  "default_prox": 12,
+  "date_profile": "weekend_thu_sat",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "seef",
+      "name_ar": "السيف",
+      "name_en": "Seef",
+      "lat": 26.233,
+      "lng": 50.54,
+      "prox_km": 3,
+      "q": "السيف",
+      "poi_label": "السيف",
+      "type": "district",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق السيف البحرين",
+        "فنادق قريبة من سيتي سنتر البحرين"
+      ],
+      "neighbours": [
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 0.8
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 3.8
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 4.7
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 5.1
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "city-centre-bahrain",
+      "name_ar": "سيتي سنتر البحرين",
+      "name_en": "City Centre Bahrain",
+      "lat": 26.233,
+      "lng": 50.548,
+      "prox_km": 2,
+      "q": "سيتي سنتر البحرين",
+      "poi_label": "سيتي سنتر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 0.8
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 3.0
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 3.9
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 4.3
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "juffair",
+      "name_ar": "الجفير",
+      "name_en": "Juffair",
+      "lat": 26.213,
+      "lng": 50.605,
+      "prox_km": 3,
+      "q": "الجفير",
+      "poi_label": "الجفير",
+      "type": "district",
+      "intents": [
+        "apartments",
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 1.9
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 3.2
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 4.1
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 6.1
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "adliya",
+      "name_ar": "العدلية",
+      "name_en": "Adliya",
+      "lat": 26.214,
+      "lng": 50.586,
+      "prox_km": 2,
+      "q": "العدلية",
+      "poi_label": "العدلية",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 1.8
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 1.9
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 3.4
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 4.3
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 5.1
+        }
+      ]
+    },
+    {
+      "slug": "bahrain-bay",
+      "name_ar": "خليج البحرين",
+      "name_en": "Bahrain Bay",
+      "lat": 26.245,
+      "lng": 50.585,
+      "prox_km": 2,
+      "q": "خليج البحرين",
+      "poi_label": "خليج البحرين",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "corporate"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 1.9
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 3.4
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 3.9
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 4.1
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 4.7
+        }
+      ]
+    },
+    {
+      "slug": "amwaj-islands",
+      "name_ar": "جزر أمواج",
+      "name_en": "Amwaj Islands",
+      "lat": 26.288,
+      "lng": 50.665,
+      "prox_km": 5,
+      "q": "امواج",
+      "poi_label": "أمواج",
+      "type": "district",
+      "intents": [
+        "family",
+        "beach",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "bahrain-airport",
+          "name_ar": "مطار البحرين",
+          "km": 3.8
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 9.3
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 10.3
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 10.9
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 11.4
+        }
+      ]
+    },
+    {
+      "slug": "bahrain-airport",
+      "name_ar": "مطار البحرين",
+      "name_en": "Bahrain Airport",
+      "lat": 26.27,
+      "lng": 50.633,
+      "prox_km": 5,
+      "q": "مطار البحرين",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "amwaj-islands",
+          "name_ar": "جزر أمواج",
+          "km": 3.8
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 5.5
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 6.9
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 7.1
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 7.8
+        }
+      ]
+    },
+    {
+      "slug": "bahrain-circuit",
+      "name_ar": "حلبة البحرين",
+      "name_en": "Bahrain International Circuit",
+      "lat": 26.0325,
+      "lng": 50.5106,
+      "prox_km": 10,
+      "q": "حلبة البحرين",
+      "poi_label": "حلبة البحرين",
+      "type": "stadium",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 21.5
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 22.2
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 22.5
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 22.6
+        },
+        {
+          "slug": "manama-souq",
+          "name_ar": "سوق المنامة",
+          "km": 22.9
+        }
+      ]
+    },
+    {
+      "slug": "manama-souq",
+      "name_ar": "سوق المنامة",
+      "name_en": "Manama Souq",
+      "lat": 26.229,
+      "lng": 50.578,
+      "prox_km": 2,
+      "q": "سوق المنامة",
+      "poi_label": "سوق المنامة",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 1.8
+        },
+        {
+          "slug": "bahrain-bay",
+          "name_ar": "خليج البحرين",
+          "km": 1.9
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 3.0
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 3.2
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "formula-1-bahrain",
+      "name_ar": "فورمولا 1 البحرين",
+      "name_en": "Bahrain Grand Prix",
+      "lat": 26.0325,
+      "lng": 50.5106,
+      "prox_km": 12,
+      "q": "حلبة البحرين",
+      "poi_label": "فورمولا 1",
+      "type": "event",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-03-05",
+        "end": "2027-03-07",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "bahrain-circuit",
+          "name_ar": "حلبة البحرين",
+          "km": 0.0
+        },
+        {
+          "slug": "adliya",
+          "name_ar": "العدلية",
+          "km": 21.5
+        },
+        {
+          "slug": "juffair",
+          "name_ar": "الجفير",
+          "km": 22.2
+        },
+        {
+          "slug": "seef",
+          "name_ar": "السيف",
+          "km": 22.5
+        },
+        {
+          "slug": "city-centre-bahrain",
+          "name_ar": "سيتي سنتر البحرين",
+          "km": 22.6
+        }
+      ]
+    }
+  ],
+  "poi_count": 10
+}

@@ -1,0 +1,789 @@
+{
+  "slug": "jeddah",
+  "code": null,
+  "name_ar": "جدة",
+  "name_en": "Jeddah",
+  "country": "السعودية",
+  "lat": 21.5433,
+  "lng": 39.1728,
+  "default_prox": 15,
+  "date_profile": "weekend_thu_sat",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "corniche",
+      "name_ar": "كورنيش جدة",
+      "name_en": "Jeddah Corniche",
+      "lat": 21.58,
+      "lng": 39.105,
+      "prox_km": 4,
+      "q": "كورنيش جدة",
+      "poi_label": "الكورنيش",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق كورنيش جدة",
+        "فنادق مطلة على البحر جدة"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 2.8
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 4.5
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 4.8
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 5.8
+        },
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "red-sea-mall",
+      "name_ar": "رد سي مول",
+      "name_en": "Red Sea Mall",
+      "lat": 21.621,
+      "lng": 39.12,
+      "prox_km": 3,
+      "q": "رد سي مول",
+      "poi_label": "رد سي مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 2.0
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 2.1
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 2.4
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 3.9
+        },
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 4.7
+        }
+      ]
+    },
+    {
+      "slug": "the-venue",
+      "name_ar": "ذا فينيو",
+      "name_en": "The Venue",
+      "lat": 21.635,
+      "lng": 39.106,
+      "prox_km": 3,
+      "q": "ذا فينيو",
+      "poi_label": "ذا فينيو",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 0.3
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 2.1
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 3.3
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 6.0
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "al-balad",
+      "name_ar": "البلد التاريخية",
+      "name_en": "Al Balad",
+      "lat": 21.485,
+      "lng": 39.187,
+      "prox_km": 2,
+      "q": "البلد جدة",
+      "poi_label": "البلد",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-hamra",
+          "name_ar": "الحمراء",
+          "km": 5.5
+        },
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 8.8
+        },
+        {
+          "slug": "haramain-jeddah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 9.2
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 13.0
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 13.5
+        }
+      ]
+    },
+    {
+      "slug": "mall-of-arabia",
+      "name_ar": "مول العرب",
+      "name_en": "Mall of Arabia",
+      "lat": 21.616,
+      "lng": 39.167,
+      "prox_km": 3,
+      "q": "مول العرب",
+      "poi_label": "مول العرب",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 0.7
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 3.3
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 4.9
+        },
+        {
+          "slug": "jeddah-airport",
+          "name_ar": "مطار الملك عبدالعزيز",
+          "km": 6.1
+        },
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "jeddah-airport",
+      "name_ar": "مطار الملك عبدالعزيز",
+      "name_en": "KAIA",
+      "lat": 21.67,
+      "lng": 39.156,
+      "prox_km": 6,
+      "q": "مطار جدة",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mall-of-arabia",
+          "name_ar": "مول العرب",
+          "km": 6.1
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 6.5
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 6.6
+        },
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 6.7
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 6.8
+        }
+      ]
+    },
+    {
+      "slug": "haramain-jeddah",
+      "name_ar": "محطة قطار الحرمين",
+      "name_en": "Haramain Station Jeddah",
+      "lat": 21.563,
+      "lng": 39.217,
+      "prox_km": 3,
+      "q": "محطة قطار الحرمين جدة",
+      "poi_label": "محطة القطار",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 5.9
+        },
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 7.6
+        },
+        {
+          "slug": "mall-of-arabia",
+          "name_ar": "مول العرب",
+          "km": 7.8
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 8.3
+        },
+        {
+          "slug": "al-hamra",
+          "name_ar": "الحمراء",
+          "km": 8.4
+        }
+      ]
+    },
+    {
+      "slug": "al-hamra",
+      "name_ar": "الحمراء",
+      "name_en": "Al Hamra",
+      "lat": 21.52,
+      "lng": 39.15,
+      "prox_km": 3,
+      "q": "الحمراء جدة",
+      "poi_label": "الحمراء",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 4.6
+        },
+        {
+          "slug": "al-balad",
+          "name_ar": "البلد التاريخية",
+          "km": 5.5
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 8.1
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 8.4
+        },
+        {
+          "slug": "haramain-jeddah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 8.4
+        }
+      ]
+    },
+    {
+      "slug": "al-rawdah",
+      "name_ar": "الروضة",
+      "name_en": "Al Rawdah",
+      "lat": 21.56,
+      "lng": 39.16,
+      "prox_km": 3,
+      "q": "الروضة جدة",
+      "poi_label": "الروضة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 4.2
+        },
+        {
+          "slug": "al-hamra",
+          "name_ar": "الحمراء",
+          "km": 4.6
+        },
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 5.6
+        },
+        {
+          "slug": "haramain-jeddah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 5.9
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "al-shati",
+      "name_ar": "الشاطئ",
+      "name_en": "Al Shati",
+      "lat": 21.605,
+      "lng": 39.105,
+      "prox_km": 3,
+      "q": "الشاطئ جدة",
+      "poi_label": "الشاطئ",
+      "type": "district",
+      "intents": [
+        "family",
+        "5-star",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 2.4
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 2.8
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 3.0
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 3.3
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 4.3
+        }
+      ]
+    },
+    {
+      "slug": "obhur",
+      "name_ar": "أبحر",
+      "name_en": "Obhur",
+      "lat": 21.72,
+      "lng": 39.1,
+      "prox_km": 5,
+      "q": "ابحر",
+      "poi_label": "أبحر",
+      "type": "district",
+      "intents": [
+        "family",
+        "beach",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "king-abdullah-sports-city",
+          "name_ar": "الجوهرة",
+          "km": 5.0
+        },
+        {
+          "slug": "jeddah-airport",
+          "name_ar": "مطار الملك عبدالعزيز",
+          "km": 8.0
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 9.5
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 9.8
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 11.2
+        }
+      ]
+    },
+    {
+      "slug": "al-salamah",
+      "name_ar": "السلامة",
+      "name_en": "Al Salamah",
+      "lat": 21.595,
+      "lng": 39.145,
+      "prox_km": 3,
+      "q": "السلامة جدة",
+      "poi_label": "السلامة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfsh-jeddah",
+          "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+          "km": 2.6
+        },
+        {
+          "slug": "mall-of-arabia",
+          "name_ar": "مول العرب",
+          "km": 3.3
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 3.9
+        },
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 4.2
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 4.3
+        }
+      ]
+    },
+    {
+      "slug": "king-abdullah-sports-city",
+      "name_ar": "الجوهرة",
+      "name_en": "King Abdullah Sports City",
+      "lat": 21.763,
+      "lng": 39.113,
+      "prox_km": 6,
+      "q": "ملعب الجوهرة",
+      "poi_label": "الجوهرة",
+      "type": "stadium",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "obhur",
+          "name_ar": "أبحر",
+          "km": 5.0
+        },
+        {
+          "slug": "jeddah-airport",
+          "name_ar": "مطار الملك عبدالعزيز",
+          "km": 11.3
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 14.3
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 14.6
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 15.8
+        }
+      ]
+    },
+    {
+      "slug": "jeddah-corniche-circuit",
+      "name_ar": "حلبة الكورنيش",
+      "name_en": "Jeddah Corniche Circuit",
+      "lat": 21.632,
+      "lng": 39.105,
+      "prox_km": 5,
+      "q": "حلبة جدة",
+      "poi_label": "حلبة الكورنيش",
+      "type": "stadium",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 0.3
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 2.0
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 3.0
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 5.8
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 5.8
+        }
+      ]
+    },
+    {
+      "slug": "kfsh-jeddah",
+      "name_ar": "مستشفى الملك فيصل التخصصي جدة",
+      "name_en": "KFSH Jeddah",
+      "lat": 21.61,
+      "lng": 39.164,
+      "prox_km": 3,
+      "q": "مستشفى التخصصي جدة",
+      "poi_label": "التخصصي",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mall-of-arabia",
+          "name_ar": "مول العرب",
+          "km": 0.7
+        },
+        {
+          "slug": "al-salamah",
+          "name_ar": "السلامة",
+          "km": 2.6
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 4.7
+        },
+        {
+          "slug": "al-rawdah",
+          "name_ar": "الروضة",
+          "km": 5.6
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 6.1
+        }
+      ]
+    },
+    {
+      "slug": "jeddah-season",
+      "name_ar": "موسم جدة",
+      "name_en": "Jeddah Season",
+      "lat": 21.605,
+      "lng": 39.105,
+      "prox_km": 8,
+      "q": "موسم جدة",
+      "poi_label": "موسم جدة",
+      "type": "event",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق موسم جدة"
+      ],
+      "event": {
+        "start": "2027-05-20",
+        "end": "2027-07-31",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 0.0
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 2.4
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 2.8
+        },
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 3.0
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 3.3
+        }
+      ]
+    },
+    {
+      "slug": "formula-1-jeddah",
+      "name_ar": "فورمولا 1 جدة",
+      "name_en": "Jeddah F1",
+      "lat": 21.632,
+      "lng": 39.105,
+      "prox_km": 6,
+      "q": "حلبة جدة",
+      "poi_label": "فورمولا 1",
+      "type": "event",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق فورمولا 1 جدة"
+      ],
+      "event": {
+        "start": "2027-04-16",
+        "end": "2027-04-19",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "jeddah-corniche-circuit",
+          "name_ar": "حلبة الكورنيش",
+          "km": 0.0
+        },
+        {
+          "slug": "the-venue",
+          "name_ar": "ذا فينيو",
+          "km": 0.3
+        },
+        {
+          "slug": "red-sea-mall",
+          "name_ar": "رد سي مول",
+          "km": 2.0
+        },
+        {
+          "slug": "al-shati",
+          "name_ar": "الشاطئ",
+          "km": 3.0
+        },
+        {
+          "slug": "corniche",
+          "name_ar": "كورنيش جدة",
+          "km": 5.8
+        }
+      ]
+    }
+  ],
+  "poi_count": 17
+}

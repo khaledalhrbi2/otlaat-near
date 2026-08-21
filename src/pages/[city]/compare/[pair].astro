@@ -1,0 +1,45 @@
+---
+import Base from '../../../layouts/Base.astro';
+import BookingBar from '../../../components/BookingBar.astro';
+import { cities, loadCity, comparisons, poiPath, hav } from '../../../lib/data.js';
+export function getStaticPaths(){ return comparisons.map(c => ({ params:{ city:c.city, pair:`${c.a}-vs-${c.b}` }, props:{ cmp:c } })); }
+const { cmp } = Astro.props;
+const city = loadCity(cmp.city);
+const A = city.pois.find(p => p.slug === cmp.a), B = city.pois.find(p => p.slug === cmp.b);
+const dist = hav(A,B).toFixed(1);
+const title = cmp.q;
+const desc = `${cmp.angle} مقارنة عملية بين ${A.name_ar} و${B.name_ar} في ${city.name_ar}: المسافة، المترو، الأسعار، ومن يناسب كل منطقة.`;
+const row = (p) => ({ name:p.name_ar, metro:p.nearest_metro ?? '—', prox:`${p.prox_km} كم`, near:p.neighbours.slice(0,3).map(n=>n.name_ar).join('، '), fit:(p.intents||[]).map(i=>({family:'عوائل',apartments:'شقق',"5-star":'5 نجوم',budget:'اقتصادي',couples:'أزواج',shopping:'تسوق',beach:'شاطئ',corporate:'أعمال',transit:'ترانزيت',villa:'فلل',medical:'مرافقة مرضى',nature:'طبيعة','haram-view':'مطل على الحرم','bosphorus-view':'مطل على البسفور'})[i]??i).join(' · ') });
+const ra = row(A), rb = row(B);
+const jsonld = [
+ { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":Astro.site},{"@type":"ListItem","position":2,"name":city.name_ar,"item":`${Astro.site}${city.slug}/`},{"@type":"ListItem","position":3,"name":title}]},
+ { "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+   {"@type":"Question","name":cmp.q,"acceptedAnswer":{"@type":"Answer","text":cmp.angle}},
+   {"@type":"Question","name":`كم المسافة بين ${A.name_ar} و${B.name_ar}؟`,"acceptedAnswer":{"@type":"Answer","text":`حوالي ${dist} كم.`}}]}
+];
+---
+<Base title={`${title} مقارنة السكن في ${city.name_ar} — عطلات`} description={desc} jsonld={jsonld} citySlug={city.slug}>
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>مقارنة</nav>
+  <div class="hero"><span class="eyebrow">مقارنة مناطق · {city.name_ar}</span><h1>{title}</h1><p class="lede">{cmp.angle} المسافة بينهما حوالي {dist} كم.</p></div>
+  <section>
+    <h2>{A.name_ar} مقابل {B.name_ar}</h2>
+    <div class="cmp">
+      <table>
+        <thead><tr><th></th><th><a href={poiPath(city,A)}>{A.name_ar}</a></th><th><a href={poiPath(city,B)}>{B.name_ar}</a></th></tr></thead>
+        <tbody>
+          <tr><td>يناسب</td><td>{ra.fit}</td><td>{rb.fit}</td></tr>
+          <tr><td>أقرب محطة</td><td>{ra.metro}</td><td>{rb.metro}</td></tr>
+          <tr><td>نطاق البحث</td><td>{ra.prox}</td><td>{rb.prox}</td></tr>
+          <tr><td>قريب من</td><td>{ra.near}</td><td>{rb.near}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="prose"><h2>متى تختار {A.name_ar}؟</h2><p>{A.name_ar} خيارك إذا كانت أولويتك {ra.fit.split(' · ')[0]} وقربك من {ra.near.split('، ')[0]}. {A.nearest_metro ? `يخدمه ${A.nearest_metro} فلا تحتاج سيارة.` : ''}</p>
+  <h2>متى تختار {B.name_ar}؟</h2><p>{B.name_ar} أنسب إذا كنت تبحث عن {rb.fit.split(' · ')[0]} وتفضل القرب من {rb.near.split('، ')[0]}. {B.nearest_metro ? `يخدمه ${B.nearest_metro}.` : ''}</p></section>
+  <section><h2>قارن الأسعار الفعلية بتواريخك</h2>
+    <h3 style="margin-top:18px">فنادق قريبة من {A.name_ar}</h3><BookingBar city={city} poi={A} />
+    <h3 style="margin-top:18px">فنادق قريبة من {B.name_ar}</h3><BookingBar city={city} poi={B} />
+  </section>
+  <style>.cmp table{width:100%;border-collapse:collapse;font-size:.95rem}.cmp th,.cmp td{border:1px solid var(--line);padding:10px 12px;text-align:right;vertical-align:top}.cmp th{background:var(--navy-soft);color:var(--navy)}.cmp td:first-child{color:var(--ink-2);width:120px;background:var(--bg-2)}</style>
+</Base>

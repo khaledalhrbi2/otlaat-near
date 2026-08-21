@@ -30,3 +30,11 @@ node scripts/generate-content.mjs riyadh   # مدينة واحدة
 - `src/pages/[city]/near/[poi].astro` — صفحة المعلم (خريطة + شريط حجز + محتوى + FAQ + روابط السايلو)
 - `src/lib/bookingLink.js` — منطق الرابط والتواريخ وUTM
 - `src/components/BookingBar.astro`, `MapRing.astro`
+
+## الإضافات الجديدة
+- **صفحات النية** لأعلى المعالم: `/dubai/apartments-near-burj-khalifa/` · `cheap-hotels-near-` · `5-star-hotels-near-` · `family-hotels-near-` (قائمة المعالم في `data/intents.json`)
+- **مقارنات** `/riyadh/compare/olaya-vs-hittin/` (الأزواج في `data/compare.json`)
+- **المسافات** `/dubai/distances/` · **دليل المترو** `/dubai/metro-guide/` · **حاسبة الميزانية** `/budget/`
+- **مدن جديدة** جدة، أبوظبي، الدمام/الخبر، المنامة، الدوحة، القاهرة، الكويت — `code: null` حتى تُضاف الأكواد في `data/cities.json` (التحويل يعمل بالاسم مؤقتاً)
+- **صور OG لكل صفحة** في `public/og/` (تُولَّد بـ `python3 scripts/og-images.py --pois`)
+- **قياس /go/**: نفّذ `supabase.sql` وأضف `SUPABASE_URL` و`SUPABASE_SERVICE_KEY` في Vercel → Environment Variables

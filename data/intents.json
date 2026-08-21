@@ -1,0 +1,25 @@
+{
+ "variants": {
+  "apartments": {"prefix":"apartments-near","label":"شقق فندقية قريبة من","q_suffix":"شقق فندقية","roompax":2,"intent":"apartments","desc":"شقق مفروشة بمطبخ وغرف منفصلة تناسب العوائل والإقامات الطويلة"},
+  "cheap":      {"prefix":"cheap-hotels-near","label":"فنادق رخيصة قريبة من","q_suffix":"فنادق رخيصة","roompax":1,"intent":"budget","desc":"خيارات اقتصادية نظيفة بأسعار تبدأ من الأقل دون التنازل عن قرب الموقع"},
+  "5-star":     {"prefix":"5-star-hotels-near","label":"فنادق 5 نجوم قريبة من","q_suffix":"فنادق 5 نجوم","roompax":1,"intent":"5-star","desc":"فنادق فاخرة بخدمة كاملة، مسابح وسبا ومطاعم، على بعد دقائق"},
+  "family":     {"prefix":"family-hotels-near","label":"فنادق للعوائل قريبة من","q_suffix":"فنادق للعوائل","roompax":2,"intent":"family","desc":"غرف عائلية متصلة، مسابح للأطفال، وإفطار مجاني للصغار"}
+ },
+ "top": {
+  "riyadh":["boulevard-city","kafd","olaya","kingdom-centre","riyadh-season-2026","king-khalid-airport"],
+  "makkah":["haram","abraj-al-bait","aziziyah","jabal-omar"],
+  "madinah":["prophet-mosque","central-area"],
+  "dubai":["burj-khalifa","dubai-mall","dubai-marina","jbr","downtown","deira","global-village","mall-of-the-emirates"],
+  "istanbul":["taksim","sultanahmet","sisli","bosphorus","istanbul-airport"],
+  "london":["edgware-road","hyde-park","oxford-street","harrods"],
+  "paris":["eiffel-tower","champs-elysees","disneyland"],
+  "jeddah":["corniche","red-sea-mall"],
+  "abu-dhabi":["yas-island","corniche-abu-dhabi"],
+  "bali":["seminyak","nusa-dua","ubud"],
+  "rome":["termini","vatican"],
+  "cairo":["pyramids","zamalek"],
+  "doha":["the-pearl","west-bay"],
+  "manama":["seef","juffair"],
+  "kuwait":["the-avenues","salmiya"]
+ }
+}

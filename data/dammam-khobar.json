@@ -1,0 +1,459 @@
+{
+  "slug": "dammam-khobar",
+  "code": null,
+  "name_ar": "الدمام والخبر",
+  "name_en": "Dammam & Khobar",
+  "country": "السعودية",
+  "lat": 26.28,
+  "lng": 50.2,
+  "default_prox": 20,
+  "date_profile": "weekend_thu_sat",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "khobar-corniche",
+      "name_ar": "كورنيش الخبر",
+      "name_en": "Khobar Corniche",
+      "lat": 26.29,
+      "lng": 50.22,
+      "prox_km": 3,
+      "q": "كورنيش الخبر",
+      "poi_label": "كورنيش الخبر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 2.0
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 2.4
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 3.2
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 7.7
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 8.3
+        }
+      ]
+    },
+    {
+      "slug": "dhahran-mall",
+      "name_ar": "الظهران مول",
+      "name_en": "Dhahran Mall",
+      "lat": 26.281,
+      "lng": 50.189,
+      "prox_km": 3,
+      "q": "الظهران مول",
+      "poi_label": "الظهران مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 1.3
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 3.0
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 3.2
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 5.3
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 5.4
+        }
+      ]
+    },
+    {
+      "slug": "al-rashid-mall-khobar",
+      "name_ar": "الراشد مول الخبر",
+      "name_en": "Al Rashid Mall",
+      "lat": 26.305,
+      "lng": 50.202,
+      "prox_km": 3,
+      "q": "الراشد مول الخبر",
+      "poi_label": "الراشد مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 2.0
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 2.4
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 3.0
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 5.7
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 6.6
+        }
+      ]
+    },
+    {
+      "slug": "king-fahd-causeway",
+      "name_ar": "جسر الملك فهد",
+      "name_en": "King Fahd Causeway",
+      "lat": 26.208,
+      "lng": 50.205,
+      "prox_km": 5,
+      "q": "جسر الملك فهد",
+      "poi_label": "الجسر",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 8.3
+        },
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 8.8
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 9.2
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 10.8
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 11.8
+        }
+      ]
+    },
+    {
+      "slug": "dammam-airport",
+      "name_ar": "مطار الملك فهد",
+      "name_en": "King Fahd Airport",
+      "lat": 26.471,
+      "lng": 49.798,
+      "prox_km": 10,
+      "q": "مطار الدمام",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dammam-corniche",
+          "name_ar": "كورنيش الدمام",
+          "km": 31.3
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 39.0
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 39.1
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 44.3
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 44.3
+        }
+      ]
+    },
+    {
+      "slug": "half-moon-bay",
+      "name_ar": "الخليج نصف القمر",
+      "name_en": "Half Moon Bay",
+      "lat": 26.085,
+      "lng": 50.04,
+      "prox_km": 6,
+      "q": "نصف القمر",
+      "poi_label": "نصف القمر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "beach",
+        "villa"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "king-fahd-causeway",
+          "name_ar": "جسر الملك فهد",
+          "km": 21.4
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 25.3
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 26.4
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 26.8
+        },
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 27.6
+        }
+      ]
+    },
+    {
+      "slug": "dammam-corniche",
+      "name_ar": "كورنيش الدمام",
+      "name_en": "Dammam Corniche",
+      "lat": 26.44,
+      "lng": 50.11,
+      "prox_km": 3,
+      "q": "كورنيش الدمام",
+      "poi_label": "كورنيش الدمام",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 15.2
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 16.3
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 17.6
+        },
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 19.2
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 19.4
+        }
+      ]
+    },
+    {
+      "slug": "aramco-dhahran",
+      "name_ar": "أرامكو الظهران",
+      "name_en": "Aramco Dhahran",
+      "lat": 26.295,
+      "lng": 50.137,
+      "prox_km": 4,
+      "q": "ارامكو الظهران",
+      "poi_label": "أرامكو",
+      "type": "landmark",
+      "intents": [
+        "corporate",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 1.6
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 5.4
+        },
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 6.3
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 6.6
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 8.3
+        }
+      ]
+    },
+    {
+      "slug": "al-olaya-khobar",
+      "name_ar": "العليا الخبر",
+      "name_en": "Al Olaya Khobar",
+      "lat": 26.287,
+      "lng": 50.2,
+      "prox_km": 2,
+      "q": "العليا الخبر",
+      "poi_label": "العليا",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 1.3
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 2.0
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 2.0
+        },
+        {
+          "slug": "kfupm",
+          "name_ar": "جامعة الملك فهد للبترول",
+          "km": 5.9
+        },
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "kfupm",
+      "name_ar": "جامعة الملك فهد للبترول",
+      "name_en": "KFUPM",
+      "lat": 26.307,
+      "lng": 50.145,
+      "prox_km": 3,
+      "q": "جامعة الملك فهد للبترول",
+      "poi_label": "جامعة البترول",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "aramco-dhahran",
+          "name_ar": "أرامكو الظهران",
+          "km": 1.6
+        },
+        {
+          "slug": "dhahran-mall",
+          "name_ar": "الظهران مول",
+          "km": 5.3
+        },
+        {
+          "slug": "al-rashid-mall-khobar",
+          "name_ar": "الراشد مول الخبر",
+          "km": 5.7
+        },
+        {
+          "slug": "al-olaya-khobar",
+          "name_ar": "العليا الخبر",
+          "km": 5.9
+        },
+        {
+          "slug": "khobar-corniche",
+          "name_ar": "كورنيش الخبر",
+          "km": 7.7
+        }
+      ]
+    }
+  ],
+  "poi_count": 10
+}

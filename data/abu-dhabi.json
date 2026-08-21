@@ -1,0 +1,776 @@
+{
+  "slug": "abu-dhabi",
+  "code": null,
+  "name_ar": "أبوظبي",
+  "name_en": "Abu Dhabi",
+  "country": "الإمارات",
+  "lat": 24.4539,
+  "lng": 54.3773,
+  "default_prox": 15,
+  "date_profile": "next_weekend",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "yas-island",
+      "name_ar": "جزيرة ياس",
+      "name_en": "Yas Island",
+      "lat": 24.488,
+      "lng": 54.603,
+      "prox_km": 5,
+      "q": "جزيرة ياس",
+      "poi_label": "ياس",
+      "type": "district",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق جزيرة ياس",
+        "فنادق ياس للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 0.5
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 0.6
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 0.6
+        },
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 0.7
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "ferrari-world",
+      "name_ar": "فيراري وورلد",
+      "name_en": "Ferrari World",
+      "lat": 24.484,
+      "lng": 54.607,
+      "prox_km": 4,
+      "q": "فيراري وورلد",
+      "poi_label": "فيراري وورلد",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 0.6
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 0.6
+        },
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 0.6
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 1.1
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "yas-waterworld",
+      "name_ar": "ياس ووتر وورلد",
+      "name_en": "Yas Waterworld",
+      "lat": 24.487,
+      "lng": 54.597,
+      "prox_km": 4,
+      "q": "ياس ووتر وورلد",
+      "poi_label": "ياس ووتر وورلد",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 0.6
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 1.1
+        },
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 1.1
+        },
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 1.3
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "warner-bros-world",
+      "name_ar": "وارنر براذرز",
+      "name_en": "Warner Bros World",
+      "lat": 24.489,
+      "lng": 54.61,
+      "prox_km": 4,
+      "q": "وارنر براذرز ابوظبي",
+      "poi_label": "وارنر براذرز",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 0.2
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 0.6
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 0.7
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 1.3
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "yas-mall",
+      "name_ar": "ياس مول",
+      "name_en": "Yas Mall",
+      "lat": 24.489,
+      "lng": 54.608,
+      "prox_km": 3,
+      "q": "ياس مول",
+      "poi_label": "ياس مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 0.2
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 0.5
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 0.6
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 1.1
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 1.7
+        }
+      ]
+    },
+    {
+      "slug": "corniche-abu-dhabi",
+      "name_ar": "كورنيش أبوظبي",
+      "name_en": "Abu Dhabi Corniche",
+      "lat": 24.478,
+      "lng": 54.34,
+      "prox_km": 3,
+      "q": "كورنيش ابوظبي",
+      "poi_label": "الكورنيش",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 1.0
+        },
+        {
+          "slug": "marina-mall",
+          "name_ar": "مارينا مول",
+          "km": 1.8
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 4.9
+        },
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 5.7
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "sheikh-zayed-mosque",
+      "name_ar": "جامع الشيخ زايد",
+      "name_en": "Sheikh Zayed Grand Mosque",
+      "lat": 24.4128,
+      "lng": 54.475,
+      "prox_km": 4,
+      "q": "جامع الشيخ زايد",
+      "poi_label": "جامع الشيخ زايد",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 11.8
+        },
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 13.0
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 13.1
+        },
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 14.6
+        },
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 14.6
+        }
+      ]
+    },
+    {
+      "slug": "louvre-abu-dhabi",
+      "name_ar": "اللوفر أبوظبي",
+      "name_en": "Louvre Abu Dhabi",
+      "lat": 24.5338,
+      "lng": 54.3983,
+      "prox_km": 3,
+      "q": "اللوفر ابوظبي",
+      "poi_label": "اللوفر",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 3.7
+        },
+        {
+          "slug": "saadiyat-island",
+          "name_ar": "جزيرة السعديات",
+          "km": 3.9
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 4.0
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 4.4
+        },
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 8.6
+        }
+      ]
+    },
+    {
+      "slug": "saadiyat-island",
+      "name_ar": "جزيرة السعديات",
+      "name_en": "Saadiyat Island",
+      "lat": 24.545,
+      "lng": 54.435,
+      "prox_km": 5,
+      "q": "السعديات",
+      "poi_label": "السعديات",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "beach",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "louvre-abu-dhabi",
+          "name_ar": "اللوفر أبوظبي",
+          "km": 3.9
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 6.0
+        },
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 6.7
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 7.5
+        },
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 12.2
+        }
+      ]
+    },
+    {
+      "slug": "al-reem-island",
+      "name_ar": "جزيرة الريم",
+      "name_en": "Al Reem Island",
+      "lat": 24.498,
+      "lng": 54.405,
+      "prox_km": 3,
+      "q": "جزيرة الريم",
+      "poi_label": "الريم",
+      "type": "district",
+      "intents": [
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 1.6
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 2.1
+        },
+        {
+          "slug": "louvre-abu-dhabi",
+          "name_ar": "اللوفر أبوظبي",
+          "km": 4.0
+        },
+        {
+          "slug": "saadiyat-island",
+          "name_ar": "جزيرة السعديات",
+          "km": 6.0
+        },
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 6.8
+        }
+      ]
+    },
+    {
+      "slug": "marina-mall",
+      "name_ar": "مارينا مول",
+      "name_en": "Marina Mall",
+      "lat": 24.476,
+      "lng": 54.322,
+      "prox_km": 3,
+      "q": "مارينا مول ابوظبي",
+      "poi_label": "مارينا مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 1.8
+        },
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 2.4
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 6.7
+        },
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 7.4
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 8.7
+        }
+      ]
+    },
+    {
+      "slug": "abu-dhabi-mall",
+      "name_ar": "أبوظبي مول",
+      "name_en": "Abu Dhabi Mall",
+      "lat": 24.496,
+      "lng": 54.384,
+      "prox_km": 2,
+      "q": "ابوظبي مول",
+      "poi_label": "أبوظبي مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 0.8
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 2.1
+        },
+        {
+          "slug": "louvre-abu-dhabi",
+          "name_ar": "اللوفر أبوظبي",
+          "km": 4.4
+        },
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 4.9
+        },
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 4.9
+        }
+      ]
+    },
+    {
+      "slug": "auh-airport",
+      "name_ar": "مطار زايد الدولي",
+      "name_en": "Zayed International Airport",
+      "lat": 24.433,
+      "lng": 54.651,
+      "prox_km": 6,
+      "q": "مطار ابوظبي",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 6.8
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 7.2
+        },
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 7.5
+        },
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 7.6
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 7.8
+        }
+      ]
+    },
+    {
+      "slug": "al-khalidiyah-ad",
+      "name_ar": "الخالدية",
+      "name_en": "Al Khalidiyah",
+      "lat": 24.47,
+      "lng": 54.345,
+      "prox_km": 2,
+      "q": "الخالدية ابوظبي",
+      "poi_label": "الخالدية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 1.0
+        },
+        {
+          "slug": "marina-mall",
+          "name_ar": "مارينا مول",
+          "km": 2.4
+        },
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 4.9
+        },
+        {
+          "slug": "cleveland-clinic",
+          "name_ar": "كليفلاند كلينك",
+          "km": 5.7
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 6.8
+        }
+      ]
+    },
+    {
+      "slug": "cleveland-clinic",
+      "name_ar": "كليفلاند كلينك",
+      "name_en": "Cleveland Clinic Abu Dhabi",
+      "lat": 24.501,
+      "lng": 54.39,
+      "prox_km": 3,
+      "q": "كليفلاند كلينك ابوظبي",
+      "poi_label": "كليفلاند كلينك",
+      "type": "hospital",
+      "intents": [
+        "family",
+        "medical",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "abu-dhabi-mall",
+          "name_ar": "أبوظبي مول",
+          "km": 0.8
+        },
+        {
+          "slug": "al-reem-island",
+          "name_ar": "جزيرة الريم",
+          "km": 1.6
+        },
+        {
+          "slug": "louvre-abu-dhabi",
+          "name_ar": "اللوفر أبوظبي",
+          "km": 3.7
+        },
+        {
+          "slug": "corniche-abu-dhabi",
+          "name_ar": "كورنيش أبوظبي",
+          "km": 5.7
+        },
+        {
+          "slug": "al-khalidiyah-ad",
+          "name_ar": "الخالدية",
+          "km": 5.7
+        }
+      ]
+    },
+    {
+      "slug": "etihad-arena",
+      "name_ar": "اتحاد أرينا",
+      "name_en": "Etihad Arena",
+      "lat": 24.475,
+      "lng": 54.602,
+      "prox_km": 4,
+      "q": "اتحاد ارينا",
+      "poi_label": "اتحاد أرينا",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 1.1
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 1.4
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 1.4
+        },
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 1.7
+        },
+        {
+          "slug": "warner-bros-world",
+          "name_ar": "وارنر براذرز",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "formula-1-abu-dhabi",
+      "name_ar": "فورمولا 1 أبوظبي",
+      "name_en": "Abu Dhabi Grand Prix",
+      "lat": 24.467,
+      "lng": 54.603,
+      "prox_km": 6,
+      "q": "حلبة ياس مارينا",
+      "poi_label": "فورمولا 1",
+      "type": "event",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-12-03",
+        "end": "2026-12-06",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "etihad-arena",
+          "name_ar": "اتحاد أرينا",
+          "km": 0.9
+        },
+        {
+          "slug": "ferrari-world",
+          "name_ar": "فيراري وورلد",
+          "km": 1.9
+        },
+        {
+          "slug": "yas-waterworld",
+          "name_ar": "ياس ووتر وورلد",
+          "km": 2.3
+        },
+        {
+          "slug": "yas-island",
+          "name_ar": "جزيرة ياس",
+          "km": 2.3
+        },
+        {
+          "slug": "yas-mall",
+          "name_ar": "ياس مول",
+          "km": 2.5
+        }
+      ]
+    }
+  ],
+  "poi_count": 17
+}

@@ -1,0 +1,595 @@
+{
+  "slug": "cairo",
+  "code": null,
+  "name_ar": "القاهرة",
+  "name_en": "Cairo",
+  "country": "مصر",
+  "lat": 30.0444,
+  "lng": 31.2357,
+  "default_prox": 12,
+  "date_profile": "next_weekend",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "pyramids",
+      "name_ar": "الأهرامات",
+      "name_en": "Giza Pyramids",
+      "lat": 29.9773,
+      "lng": 31.1325,
+      "prox_km": 4,
+      "q": "الاهرامات",
+      "poi_label": "الأهرامات",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مطلة على الأهرامات"
+      ],
+      "neighbours": [
+        {
+          "slug": "grand-egyptian-museum",
+          "name_ar": "المتحف المصري الكبير",
+          "km": 2.3
+        },
+        {
+          "slug": "mall-of-egypt",
+          "name_ar": "مول مصر",
+          "km": 11.1
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 12.4
+        },
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 12.4
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 12.4
+        }
+      ]
+    },
+    {
+      "slug": "tahrir",
+      "name_ar": "ميدان التحرير",
+      "name_en": "Tahrir Square",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "prox_km": 2,
+      "q": "ميدان التحرير",
+      "poi_label": "التحرير",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 0.8
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 2.5
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 2.6
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 9.7
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 10.4
+        }
+      ]
+    },
+    {
+      "slug": "zamalek",
+      "name_ar": "الزمالك",
+      "name_en": "Zamalek",
+      "lat": 30.062,
+      "lng": 31.219,
+      "prox_km": 2,
+      "q": "الزمالك",
+      "poi_label": "الزمالك",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "couples",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 1.7
+        },
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 2.5
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 4.5
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 11.1
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 12.0
+        }
+      ]
+    },
+    {
+      "slug": "nile-corniche",
+      "name_ar": "كورنيش النيل",
+      "name_en": "Nile Corniche",
+      "lat": 30.05,
+      "lng": 31.23,
+      "prox_km": 3,
+      "q": "كورنيش النيل",
+      "poi_label": "النيل",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مطلة على النيل"
+      ],
+      "neighbours": [
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 0.8
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 1.7
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 3.1
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 10.4
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 10.6
+        }
+      ]
+    },
+    {
+      "slug": "new-cairo",
+      "name_ar": "القاهرة الجديدة",
+      "name_en": "New Cairo",
+      "lat": 30.03,
+      "lng": 31.47,
+      "prox_km": 6,
+      "q": "القاهرة الجديدة",
+      "poi_label": "القاهرة الجديدة",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "cairo-festival-city",
+          "name_ar": "كايرو فستيفال سيتي",
+          "km": 5.9
+        },
+        {
+          "slug": "cairo-airport",
+          "name_ar": "مطار القاهرة",
+          "km": 12.0
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 15.0
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 20.1
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 21.7
+        }
+      ]
+    },
+    {
+      "slug": "cairo-festival-city",
+      "name_ar": "كايرو فستيفال سيتي",
+      "name_en": "Cairo Festival City",
+      "lat": 30.029,
+      "lng": 31.409,
+      "prox_km": 3,
+      "q": "كايرو فستيفال",
+      "poi_label": "فستيفال سيتي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "new-cairo",
+          "name_ar": "القاهرة الجديدة",
+          "km": 5.9
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 10.2
+        },
+        {
+          "slug": "cairo-airport",
+          "name_ar": "مطار القاهرة",
+          "km": 10.3
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 14.3
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 16.3
+        }
+      ]
+    },
+    {
+      "slug": "mall-of-egypt",
+      "name_ar": "مول مصر",
+      "name_en": "Mall of Egypt",
+      "lat": 29.972,
+      "lng": 31.017,
+      "prox_km": 4,
+      "q": "مول مصر",
+      "poi_label": "مول مصر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "sheikh-zayed-city",
+          "name_ar": "الشيخ زايد",
+          "km": 8.4
+        },
+        {
+          "slug": "grand-egyptian-museum",
+          "name_ar": "المتحف المصري الكبير",
+          "km": 10.1
+        },
+        {
+          "slug": "pyramids",
+          "name_ar": "الأهرامات",
+          "km": 11.1
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 21.9
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 22.3
+        }
+      ]
+    },
+    {
+      "slug": "cairo-airport",
+      "name_ar": "مطار القاهرة",
+      "name_en": "Cairo Airport",
+      "lat": 30.1219,
+      "lng": 31.4056,
+      "prox_km": 6,
+      "q": "مطار القاهرة",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 8.1
+        },
+        {
+          "slug": "cairo-festival-city",
+          "name_ar": "كايرو فستيفال سيتي",
+          "km": 10.3
+        },
+        {
+          "slug": "new-cairo",
+          "name_ar": "القاهرة الجديدة",
+          "km": 12.0
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 16.1
+        },
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 18.5
+        }
+      ]
+    },
+    {
+      "slug": "heliopolis",
+      "name_ar": "مصر الجديدة",
+      "name_en": "Heliopolis",
+      "lat": 30.09,
+      "lng": 31.33,
+      "prox_km": 3,
+      "q": "مصر الجديدة",
+      "poi_label": "مصر الجديدة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 8.0
+        },
+        {
+          "slug": "cairo-airport",
+          "name_ar": "مطار القاهرة",
+          "km": 8.1
+        },
+        {
+          "slug": "cairo-festival-city",
+          "name_ar": "كايرو فستيفال سيتي",
+          "km": 10.2
+        },
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 10.4
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 10.6
+        }
+      ]
+    },
+    {
+      "slug": "maadi",
+      "name_ar": "المعادي",
+      "name_en": "Maadi",
+      "lat": 29.96,
+      "lng": 31.26,
+      "prox_km": 3,
+      "q": "المعادي",
+      "poi_label": "المعادي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 9.7
+        },
+        {
+          "slug": "khan-el-khalili",
+          "name_ar": "خان الخليلي",
+          "km": 9.8
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 10.4
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 12.0
+        },
+        {
+          "slug": "pyramids",
+          "name_ar": "الأهرامات",
+          "km": 12.4
+        }
+      ]
+    },
+    {
+      "slug": "khan-el-khalili",
+      "name_ar": "خان الخليلي",
+      "name_en": "Khan El Khalili",
+      "lat": 30.0477,
+      "lng": 31.2623,
+      "prox_km": 2,
+      "q": "خان الخليلي",
+      "poi_label": "خان الخليلي",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 2.6
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 3.1
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 4.5
+        },
+        {
+          "slug": "heliopolis",
+          "name_ar": "مصر الجديدة",
+          "km": 8.0
+        },
+        {
+          "slug": "maadi",
+          "name_ar": "المعادي",
+          "km": 9.8
+        }
+      ]
+    },
+    {
+      "slug": "grand-egyptian-museum",
+      "name_ar": "المتحف المصري الكبير",
+      "name_en": "Grand Egyptian Museum",
+      "lat": 29.994,
+      "lng": 31.119,
+      "prox_km": 4,
+      "q": "المتحف المصري الكبير",
+      "poi_label": "المتحف الكبير",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "pyramids",
+          "name_ar": "الأهرامات",
+          "km": 2.3
+        },
+        {
+          "slug": "mall-of-egypt",
+          "name_ar": "مول مصر",
+          "km": 10.1
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 12.2
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 12.4
+        },
+        {
+          "slug": "tahrir",
+          "name_ar": "ميدان التحرير",
+          "km": 12.6
+        }
+      ]
+    },
+    {
+      "slug": "sheikh-zayed-city",
+      "name_ar": "الشيخ زايد",
+      "name_en": "Sheikh Zayed City",
+      "lat": 30.04,
+      "lng": 30.98,
+      "prox_km": 5,
+      "q": "الشيخ زايد",
+      "poi_label": "الشيخ زايد",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "neighbours": [
+        {
+          "slug": "mall-of-egypt",
+          "name_ar": "مول مصر",
+          "km": 8.4
+        },
+        {
+          "slug": "grand-egyptian-museum",
+          "name_ar": "المتحف المصري الكبير",
+          "km": 14.3
+        },
+        {
+          "slug": "pyramids",
+          "name_ar": "الأهرامات",
+          "km": 16.3
+        },
+        {
+          "slug": "zamalek",
+          "name_ar": "الزمالك",
+          "km": 23.1
+        },
+        {
+          "slug": "nile-corniche",
+          "name_ar": "كورنيش النيل",
+          "km": 24.1
+        }
+      ]
+    }
+  ],
+  "poi_count": 13
+}

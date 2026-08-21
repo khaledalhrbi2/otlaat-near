@@ -2491,7 +2491,204 @@
           "km": 3.6
         }
       ]
+    },
+    {
+      "slug": "eid-al-fitr-2027",
+      "name_ar": "فنادق دبي عيد الفطر 2027",
+      "name_en": "Dubai Eid",
+      "lat": 25.1972,
+      "lng": 55.2744,
+      "prox_km": 10,
+      "q": "دبي",
+      "poi_label": "دبي",
+      "type": "event",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-03-09",
+        "end": "2027-03-14",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.0
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.5
+        },
+        {
+          "slug": "burj-khalifa-dubai-mall-metro",
+          "name_ar": "محطة مترو برج خليفة/دبي مول",
+          "km": 0.6
+        },
+        {
+          "slug": "business-bay-metro",
+          "name_ar": "محطة مترو الخليج التجاري",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "dubai-shopping-festival",
+      "name_ar": "مهرجان دبي للتسوق",
+      "name_en": "Dubai Shopping Festival",
+      "lat": 25.1985,
+      "lng": 55.2796,
+      "prox_km": 8,
+      "q": "دبي",
+      "poi_label": "دبي",
+      "type": "event",
+      "intents": [
+        "family",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-12-05",
+        "end": "2027-01-11",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.0
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.5
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.9
+        },
+        {
+          "slug": "burj-khalifa-dubai-mall-metro",
+          "name_ar": "محطة مترو برج خليفة/دبي مول",
+          "km": 1.0
+        },
+        {
+          "slug": "business-bay-metro",
+          "name_ar": "محطة مترو الخليج التجاري",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "new-year-2027",
+      "name_ar": "فنادق دبي رأس السنة",
+      "name_en": "Dubai New Year",
+      "lat": 25.1972,
+      "lng": 55.2744,
+      "prox_km": 4,
+      "q": "داون تاون دبي",
+      "poi_label": "برج خليفة",
+      "type": "event",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق دبي راس السنة مطلة على برج خليفة"
+      ],
+      "event": {
+        "start": "2026-12-30",
+        "end": "2027-01-02",
+        "note": ""
+      },
+      "neighbours": [
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.0
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.5
+        },
+        {
+          "slug": "burj-khalifa-dubai-mall-metro",
+          "name_ar": "محطة مترو برج خليفة/دبي مول",
+          "km": 0.6
+        },
+        {
+          "slug": "business-bay-metro",
+          "name_ar": "محطة مترو الخليج التجاري",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "midyear-break-2027",
+      "name_ar": "فنادق دبي إجازة منتصف العام",
+      "name_en": "Dubai Midyear Break",
+      "lat": 25.1972,
+      "lng": 55.2744,
+      "prox_km": 10,
+      "q": "دبي",
+      "poi_label": "دبي",
+      "type": "event",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2026-11-19",
+        "end": "2026-11-28",
+        "note": "تقويم التعليم السعودي"
+      },
+      "neighbours": [
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.0
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.5
+        },
+        {
+          "slug": "burj-khalifa-dubai-mall-metro",
+          "name_ar": "محطة مترو برج خليفة/دبي مول",
+          "km": 0.6
+        },
+        {
+          "slug": "business-bay-metro",
+          "name_ar": "محطة مترو الخليج التجاري",
+          "km": 1.4
+        }
+      ]
     }
   ],
-  "poi_count": 53
+  "poi_count": 57
 }

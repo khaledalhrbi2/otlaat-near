@@ -2386,7 +2386,104 @@
           "km": 4.2
         }
       ]
+    },
+    {
+      "slug": "summer-2027",
+      "name_ar": "فنادق إسطنبول الصيف 2027",
+      "name_en": "Istanbul Summer",
+      "lat": 41.037,
+      "lng": 28.985,
+      "prox_km": 8,
+      "q": "اسطنبول",
+      "poi_label": "إسطنبول",
+      "type": "event",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-06-15",
+        "end": "2027-08-31",
+        "note": ""
+      },
+      "neighbours": [
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.0
+        },
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 0.7
+        },
+        {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 0.7
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "eid-al-adha-2027",
+      "name_ar": "فنادق إسطنبول عيد الأضحى 2027",
+      "name_en": "Istanbul Eid Al Adha",
+      "lat": 41.037,
+      "lng": 28.985,
+      "prox_km": 8,
+      "q": "اسطنبول",
+      "poi_label": "إسطنبول",
+      "type": "event",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [],
+      "event": {
+        "start": "2027-05-15",
+        "end": "2027-05-22",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.0
+        },
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 0.7
+        },
+        {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 0.7
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 0.9
+        }
+      ]
     }
   ],
-  "poi_count": 51
+  "poi_count": 53
 }

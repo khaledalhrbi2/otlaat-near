@@ -4,13 +4,13 @@ import { cities } from '../lib/data.js';
 const groups = {};
 cities.forEach(c => (groups[c.country] ??= []).push(c));
 ---
-<Base title="فنادق قريبة من المعالم والأحداث — عطلات" description="اختر المدينة والمعلم، وشاهد الفنادق ضمن نطاق محدد مع المسافة الفعلية والأسعار شاملة الضرائب. 16 مدينة و444 معلماً ومحطة ومنطقة.">
+<Base title="فنادق قريبة من المعالم والأحداث — عطلات" description="اختر المدينة والمعلم، وشاهد الفنادق ضمن نطاق محدد مع المسافة الفعلية والأسعار شاملة الضرائب. 23 مدينة وأكثر من 600 معلم ومحطة ومنطقة.">
   <div class="hero" style="padding-top:34px">
     <div>
       <span class="eyebrow">👋 فنادق قريبة من — عطلات</span>
       <h1>فندقك على بُعد دقائق من المكان الذي جئت لأجله</h1>
       <p class="lede">بدل البحث في مئات الفنادق، ابدأ من المعلم أو الحدث: البوليفارد، الحرم، برج خليفة، تقسيم… ونعرض لك فقط ما يقع ضمن النطاق، بالمسافة الحقيقية.</p>
-      <div class="chips">{cities.slice(0,7).map(c => <a class="chip" href={`/${c.slug}/`}>{c.name_ar}</a>)}</div>
+      <div class="chips"><a class="chip" href="/budget/">💰 حاسبة ميزانية الفندق</a>{cities.slice(0,7).map(c => <a class="chip" href={`/${c.slug}/`}>{c.name_ar}</a>)}</div>
     </div>
   </div>
   <div id="cities"></div>
