@@ -19,9 +19,10 @@ const jsonld = [
   { "@context":"https://schema.org","@type":"Place","name":poi.name_ar,"alternateName":poi.name_en,"geo":{"@type":"GeoCoordinates","latitude":poi.lat,"longitude":poi.lng},"address":{"@type":"PostalAddress","addressLocality":city.name_en,"addressCountry":city.country}},
   { "@context":"https://schema.org","@type":"FAQPage","mainEntity":content.faq.map(f => ({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}})) },
 ];
+jsonld.push({ "@context":"https://schema.org","@type":"Service","name":`حجز فنادق قريبة من ${poi.name_ar}`,"provider":{"@type":"Organization","name":"عطلات"},"areaServed":city.name_ar,"offers":{"@type":"Offer","priceCurrency":"SAR","availability":"https://schema.org/InStock","acceptedPaymentMethod":["http://purl.org/goodrelations/v1#ByInvoice","http://purl.org/goodrelations/v1#PaymentMethodCreditCard"],"description":"تقسيط على 4 دفعات عبر تابي وتمارا · مدى · Apple Pay · إلغاء مجاني على أغلب الحجوزات"} });
 if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","name":poi.name_ar,"startDate":poi.event.start,"endDate":poi.event.end,"location":{"@type":"Place","name":poi.poi_label,"geo":{"@type":"GeoCoordinates","latitude":poi.lat,"longitude":poi.lng}},"eventStatus":"https://schema.org/EventScheduled" });
 ---
-<Base title={`${content.title} — عطلات`} description={content.meta} jsonld={jsonld} citySlug={city.slug}>
+<Base title={content.seo_title ?? `${content.title} — عطلات`} description={content.meta} jsonld={jsonld} citySlug={city.slug}>
   <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>قريب من {poi.name_ar}</nav>
   <div class="hero">
     <div>
@@ -42,6 +43,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <p>{content.about}</p>
     {content.tips && <ul>{content.tips.map(t => <li>{t}</li>)}</ul>}
   </section>
+  {(content.sections ?? []).map(sec => <section class="prose"><h2>{sec.h2}</h2><p>{sec.p}</p></section>)}
   <section>
     <h2>معالم قريبة من {poi.name_ar}</h2>
     <div class="grid">{nb.map(n => <a class="card" href={poiPath(city,n)}><b>{n.name_ar}</b><small>{n.km} كم · ضمن {n.prox_km} كم</small></a>)}</div>
