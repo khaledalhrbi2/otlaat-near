@@ -21,7 +21,7 @@ const jsonld = [
 ];
 if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","name":poi.name_ar,"startDate":poi.event.start,"endDate":poi.event.end,"location":{"@type":"Place","name":poi.poi_label,"geo":{"@type":"GeoCoordinates","latitude":poi.lat,"longitude":poi.lng}},"eventStatus":"https://schema.org/EventScheduled" });
 ---
-<Base title={`${content.title} — عطلات`} description={content.meta} jsonld={jsonld}>
+<Base title={`${content.title} — عطلات`} description={content.meta} jsonld={jsonld} citySlug={city.slug}>
   <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>قريب من {poi.name_ar}</nav>
   <div class="hero">
     <div>

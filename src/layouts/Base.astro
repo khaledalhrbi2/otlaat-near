@@ -1,7 +1,8 @@
 ---
-const { title, description, canonical, jsonld = [] } = Astro.props;
+const { title, description, canonical, jsonld = [], image, citySlug } = Astro.props;
 const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
 const url = canonical ?? site + Astro.url.pathname;
+const og = image ?? (citySlug ? `${site}/og/${citySlug}.jpg` : `${site}/og/default.jpg`);
 import { cities } from '../lib/data.js';
 const navCities = ['riyadh','makkah','madinah','dubai','istanbul','london','paris'].map(s => cities.find(c => c.slug === s));
 const cols = { 'السعودية والخليج': cities.filter(c => ['السعودية','الإمارات'].includes(c.country)), 'تركيا وآسيا': cities.filter(c => ['تركيا','إندونيسيا'].includes(c.country)), 'أوروبا': cities.filter(c => !['السعودية','الإمارات','تركيا','إندونيسيا'].includes(c.country)) };
@@ -14,16 +15,41 @@ const cols = { 'السعودية والخليج': cities.filter(c => ['السع�
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={url} />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#1f2752" />
+<meta name="author" content="عطلات" />
+<meta name="geo.region" content="SA" />
+<link rel="alternate" hreflang="ar" href={url} />
+<link rel="alternate" hreflang="x-default" href={url} />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="عطلات — فنادق قريبة من" />
+<meta property="og:locale" content="ar_SA" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:locale" content="ar_SA" />
-<meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
-<meta property="og:site_name" content="عطلات" />
+<meta property="og:image" content={og} />
+<meta property="og:image:secure_url" content={og} />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={title} />
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@otlaatcom" />
+<meta name="twitter:creator" content="@otlaatcom" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={og} />
+<meta name="twitter:image:alt" content={title} />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
 {jsonld.map(j => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
+<script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Organization","name":"عطلات","alternateName":"Otlaat","url":site,"logo":`${site}/logo.svg`,"telephone":"+966920033839","address":{"@type":"PostalAddress","addressLocality":"Riyadh","addressCountry":"SA"},"sameAs":["https://x.com/otlaatcom","https://www.instagram.com/otlaat/","https://www.tiktok.com/@otlaat","https://www.youtube.com/@otlaat","https://www.snapchat.com/add/otlaat","https://www.facebook.com/otlaat"]})} />
+<script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"فنادق قريبة من — عطلات","url":site,"inLanguage":"ar"})} />
 <style is:global>
 :root{--orange:#f58824;--orange-2:#ff891e;--orange-soft:#fff3e6;--navy:#1f2752;--navy-2:#131830;--navy-soft:#eef0fa;--ink:#1a1a1a;--ink-2:#4a4f54;--line:#ececec;--bg:#ffffff;--bg-2:#fafafa;--radius:14px;--shadow:0 4px 24px rgba(26,26,26,.06);--shadow-2:0 12px 40px rgba(26,26,26,.10);--container:1240px;--font:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif}
 *{box-sizing:border-box}

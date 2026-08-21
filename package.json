@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "python3 scripts/og-images.py 2>/dev/null || true; astro build",
     "preview": "astro preview",
     "content": "node scripts/generate-content.mjs"
   },
