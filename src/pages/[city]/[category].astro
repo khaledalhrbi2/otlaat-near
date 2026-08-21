@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import BookingBar from '../../components/BookingBar.astro';
+import { cities, loadCity, poiPath, intents, variantPath } from '../../lib/data.js';
+export function getStaticPaths(){
+  return cities.flatMap(c => Object.entries(intents.city_categories).filter(([k,v]) => !v.only || v.only.includes(c.slug)).map(([k,v]) => ({ params:{ city:c.slug, category:v.slug }, props:{ key:k } })));
+}
+const city = loadCity(Astro.params.city);
+const key = Astro.props.key, v = intents.city_categories[key];
+const L = `${v.label} ${city.name_ar}`;
+const isSA = ['السعودية','الإمارات','قطر','البحرين','الكويت'].includes(city.country);
+// المناطق الأنسب لهذه الفئة داخل المدينة
+const pick = city.pois.filter(p => ['district','landmark','event_zone'].includes(p.type) && (v.intent === 'default' ? true : (p.intents||[]).includes(v.intent === 'budget' ? 'budget' : v.intent))).slice(0, 8);
+const fallback = city.pois.filter(p => ['district','landmark'].includes(p.type)).slice(0, 8);
+const areas = pick.length >= 3 ? pick : fallback;
+const tops = (intents.top[city.slug] ?? []).map(s => city.pois.find(p => p.slug === s)).filter(Boolean);
+const vkey = { cheap:'cheap', '5-star':'5-star', apartments:'apartments', family:'family' }[key];
+const others = Object.entries(intents.city_categories).filter(([k,x]) => k !== key && (!x.only || x.only.includes(city.slug)));
+const title = `أفضل 10 ${L}`;
+const seo_title = `أفضل ${L} ${new Date().getFullYear()} | أسعار شاملة الضرائب وتقسيط تابي وتمارا — عطلات`;
+const desc = `${L}: ${v.desc}. قارن حسب المنطقة والمسافة من المعالم، أسعار شاملة الضرائب، إلغاء مجاني، وتقسيط على 4 دفعات.`;
+const jsonld = [
+ { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":Astro.site},{"@type":"ListItem","position":2,"name":city.name_ar,"item":`${Astro.site}${city.slug}/`},{"@type":"ListItem","position":3,"name":L}]},
+ { "@context":"https://schema.org","@type":"ItemList","name":L,"itemListElement":areas.map((p,i)=>({"@type":"ListItem","position":i+1,"name":`${v.q} قريبة من ${p.name_ar}`,"url":`${Astro.site}${poiPath(city,p).slice(1)}`}))},
+ { "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+   {"@type":"Question","name":`ما أفضل منطقة لـ${v.q} في ${city.name_ar}؟`,"acceptedAnswer":{"@type":"Answer","text":`الأكثر طلباً: ${areas.slice(0,3).map(p=>p.name_ar).join('، ')}. كل منطقة لها صفحة تعرض ${v.q} ضمن نطاقها بالمسافة الفعلية.`}},
+   {"@type":"Question","name":`هل يمكن حجز ${v.q} في ${city.name_ar} بالتقسيط؟`,"acceptedAnswer":{"@type":"Answer","text":"نعم، على 4 دفعات بدون فوائد عبر تابي أو تمارا، إضافة إلى مدى وApple Pay."}},
+   {"@type":"Question","name":`هل الأسعار شاملة الضرائب؟`,"acceptedAnswer":{"@type":"Answer","text":"نعم، كل الأسعار في عطلات شاملة الضرائب ورسوم الخدمة بدون مفاجآت عند الوصول."}}]}
+];
+---
+<Base title={seo_title} description={desc} jsonld={jsonld} citySlug={city.slug}>
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>{v.short}</nav>
+  <div class="hero"><span class="eyebrow">{city.name_ar} · {v.short}</span><h1>{title}</h1>
+    <p class="lede">{v.desc}. اختر تواريخك لتظهر كل {v.q} في {city.name_ar} بالسعر شاملاً الضرائب، أو ابدأ من المنطقة التي تريد السكن فيها.</p>
+    <div class="chips">{others.map(([k,x]) => <a class="chip" href={`/${city.slug}/${x.slug}/`}>{x.short}</a>)}</div>
+  </div>
+  <BookingBar city={city} intent={v.intent} />
+  <section><h2>{v.q} في {city.name_ar} حسب المنطقة</h2>
+    <div class="grid">{areas.map(p => <a class="card" href={vkey && tops.includes(p) ? variantPath(city,p,vkey) : poiPath(city,p)}><b>{v.q} قريبة من {p.name_ar}</b><small>ضمن {p.prox_km} كم{p.nearest_metro ? ` · 🚇 ${p.nearest_metro}` : ''}</small></a>)}</div>
+  </section>
+  <section class="prose">
+    <h2>كيف تختار {v.q} في {city.name_ar}؟</h2>
+    <p>{key === 'cheap' || key === '3-star' ? `الفنادق الاقتصادية في ${city.name_ar} تتركز على بعد 1–3 كم من المعالم الرئيسية، وهذا الفرق البسيط في المسافة يعني فرقاً كبيراً في السعر. ابحث عن تقييم 7.5 فأعلى وقرب من محطة مترو أو طريق رئيسي، وتأكد من أن السعر المعروض شامل الضرائب كما هو الحال في عطلات.` : key === '5-star' ? `فنادق الخمس نجوم في ${city.name_ar} تختلف كثيراً في ما تقدمه: بعضها يركز على الإطلالة والموقع، وبعضها على المسابح والشاطئ والمرافق العائلية. حدد أولويتك أولاً، ثم قارن الفنادق ضمن المنطقة المناسبة لك. الأسعار تتغير بشدة مع الموسم، والحجز المبكر بإلغاء مجاني يحفظ لك السعر.` : key === 'apartments' ? `الشقق الفندقية في ${city.name_ar} هي الخيار الأوفر للعوائل والإقامات من 4 ليالٍ فأكثر: مطبخ، غرف منفصلة، وغسالة غالباً. تأكد من عدد الغرف الفعلي (لا عدد الأسرّة) وخدمة التنظيف، وابحث عنها في الأحياء السكنية القريبة من المولات لا في قلب المنطقة السياحية.` : key === 'family' ? `الفندق العائلي الجيد في ${city.name_ar} يوفر غرفاً متصلة أو عائلية، مسبحاً للأطفال، وإفطاراً مجانياً للصغار. الموقع القريب من الحدائق والمولات يهم أكثر من القرب من المعالم السياحية، والشقق الفندقية تستحق المقارنة للإقامات الطويلة.` : key === 'beach' ? `الفنادق الشاطئية في ${city.name_ar} نوعان: منتجعات بشاطئ خاص (أعلى سعراً وأهدأ)، وفنادق على بعد خطوات من شاطئ عام (أرخص وأقرب للمطاعم). تأكد من أن "إطلالة على البحر" تعني شاطئاً فعلياً وليس مجرد منظر.` : key === 'pool' ? `كل فنادق 4 و5 نجوم في ${city.name_ar} تقريباً فيها مسبح، لكن الفرق في الحجم والتدفئة ووجود قسم للأطفال. للأزواج: ابحث عن "مسبح خاص" في الشقق والفلل. للعوائل: مسبح أطفال منفصل ومنقذ.` : key === 'cheap-near-haram' ? `أرخص فنادق ${city.name_ar} القريبة من الحرم تكون في الحلقة الثانية (1–3 كم) مع باصات مجانية متواصلة، أو في أحياء مثل ${areas.slice(0,2).map(p=>p.name_ar).join(' و')}. الفرق في السعر مقابل الفنادق الملاصقة قد يصل إلى النصف في المواسم.` : `فنادق 4 نجوم في ${city.name_ar} هي الخيار الأكثر توازناً: خدمة جيدة ومرافق كاملة بسعر أقل بوضوح من الخمس نجوم. قارن الموقع أولاً ثم التقييم، واحجز بإلغاء مجاني.`}</p>
+    <h2>حجز {v.q} في {city.name_ar} بالتقسيط</h2>
+    <p>التقسيط على 4 دفعات بدون فوائد عبر تابي أو تمارا متاح على أغلب فنادق {city.name_ar}{isSA ? ' للمقيمين في السعودية والخليج' : ''}، إضافة إلى مدى وApple Pay وSTC Pay والبطاقات الائتمانية. تُخصم الدفعة الأولى عند الحجز والباقي شهرياً، ويظهر الخيار في صفحة الدفع.</p>
+  </section>
+  {tops.length > 0 && vkey && <section><h2>{v.q} قريبة من أشهر معالم {city.name_ar}</h2><div class="grid">{tops.map(p => <a class="card" href={variantPath(city,p,vkey)}><b>{intents.variants[vkey].label} {p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+</Base>

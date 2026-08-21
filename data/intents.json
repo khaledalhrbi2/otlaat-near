@@ -1,25 +1,252 @@
 {
  "variants": {
-  "apartments": {"prefix":"apartments-near","label":"شقق فندقية قريبة من","q_suffix":"شقق فندقية","roompax":2,"intent":"apartments","desc":"شقق مفروشة بمطبخ وغرف منفصلة تناسب العوائل والإقامات الطويلة"},
-  "cheap":      {"prefix":"cheap-hotels-near","label":"فنادق رخيصة قريبة من","q_suffix":"فنادق رخيصة","roompax":1,"intent":"budget","desc":"خيارات اقتصادية نظيفة بأسعار تبدأ من الأقل دون التنازل عن قرب الموقع"},
-  "5-star":     {"prefix":"5-star-hotels-near","label":"فنادق 5 نجوم قريبة من","q_suffix":"فنادق 5 نجوم","roompax":1,"intent":"5-star","desc":"فنادق فاخرة بخدمة كاملة، مسابح وسبا ومطاعم، على بعد دقائق"},
-  "family":     {"prefix":"family-hotels-near","label":"فنادق للعوائل قريبة من","q_suffix":"فنادق للعوائل","roompax":2,"intent":"family","desc":"غرف عائلية متصلة، مسابح للأطفال، وإفطار مجاني للصغار"}
+  "apartments": {
+   "prefix": "apartments-near",
+   "label": "شقق فندقية قريبة من",
+   "q_suffix": "شقق فندقية",
+   "roompax": 2,
+   "intent": "apartments",
+   "desc": "شقق مفروشة بمطبخ وغرف منفصلة تناسب العوائل والإقامات الطويلة"
+  },
+  "cheap": {
+   "prefix": "cheap-hotels-near",
+   "label": "فنادق رخيصة قريبة من",
+   "q_suffix": "فنادق رخيصة",
+   "roompax": 1,
+   "intent": "budget",
+   "desc": "خيارات اقتصادية نظيفة بأسعار تبدأ من الأقل دون التنازل عن قرب الموقع"
+  },
+  "5-star": {
+   "prefix": "5-star-hotels-near",
+   "label": "فنادق 5 نجوم قريبة من",
+   "q_suffix": "فنادق 5 نجوم",
+   "roompax": 1,
+   "intent": "5-star",
+   "desc": "فنادق فاخرة بخدمة كاملة، مسابح وسبا ومطاعم، على بعد دقائق"
+  },
+  "family": {
+   "prefix": "family-hotels-near",
+   "label": "فنادق للعوائل قريبة من",
+   "q_suffix": "فنادق للعوائل",
+   "roompax": 2,
+   "intent": "family",
+   "desc": "غرف عائلية متصلة، مسابح للأطفال، وإفطار مجاني للصغار"
+  }
  },
  "top": {
-  "riyadh":["boulevard-city","kafd","olaya","kingdom-centre","riyadh-season-2026","king-khalid-airport"],
-  "makkah":["haram","abraj-al-bait","aziziyah","jabal-omar"],
-  "madinah":["prophet-mosque","central-area"],
-  "dubai":["burj-khalifa","dubai-mall","dubai-marina","jbr","downtown","deira","global-village","mall-of-the-emirates"],
-  "istanbul":["taksim","sultanahmet","sisli","bosphorus","istanbul-airport"],
-  "london":["edgware-road","hyde-park","oxford-street","harrods"],
-  "paris":["eiffel-tower","champs-elysees","disneyland"],
-  "jeddah":["corniche","red-sea-mall"],
-  "abu-dhabi":["yas-island","corniche-abu-dhabi"],
-  "bali":["seminyak","nusa-dua","ubud"],
-  "rome":["termini","vatican"],
-  "cairo":["pyramids","zamalek"],
-  "doha":["the-pearl","west-bay"],
-  "manama":["seef","juffair"],
-  "kuwait":["the-avenues","salmiya"]
+  "riyadh": [
+   "boulevard-city",
+   "kafd",
+   "olaya",
+   "kingdom-centre",
+   "riyadh-season-2026",
+   "king-khalid-airport"
+  ],
+  "makkah": [
+   "haram",
+   "abraj-al-bait",
+   "aziziyah",
+   "jabal-omar"
+  ],
+  "madinah": [
+   "prophet-mosque",
+   "central-area"
+  ],
+  "dubai": [
+   "burj-khalifa",
+   "dubai-mall",
+   "dubai-marina",
+   "jbr",
+   "downtown",
+   "deira",
+   "global-village",
+   "mall-of-the-emirates"
+  ],
+  "istanbul": [
+   "taksim",
+   "sultanahmet",
+   "sisli",
+   "bosphorus",
+   "istanbul-airport"
+  ],
+  "london": [
+   "edgware-road",
+   "hyde-park",
+   "oxford-street",
+   "harrods"
+  ],
+  "paris": [
+   "eiffel-tower",
+   "champs-elysees",
+   "disneyland"
+  ],
+  "jeddah": [
+   "corniche",
+   "red-sea-mall"
+  ],
+  "abu-dhabi": [
+   "yas-island",
+   "corniche-abu-dhabi"
+  ],
+  "bali": [
+   "seminyak",
+   "nusa-dua",
+   "ubud"
+  ],
+  "rome": [
+   "termini",
+   "vatican"
+  ],
+  "cairo": [
+   "pyramids",
+   "zamalek"
+  ],
+  "doha": [
+   "the-pearl",
+   "west-bay"
+  ],
+  "manama": [
+   "seef",
+   "juffair"
+  ],
+  "kuwait": [
+   "the-avenues",
+   "salmiya"
+  ]
+ },
+ "city_categories": {
+  "cheap": {
+   "slug": "cheap-hotels",
+   "label": "فنادق رخيصة في",
+   "short": "رخيصة",
+   "q": "فنادق رخيصة",
+   "intent": "budget",
+   "roompax": 1,
+   "desc": "خيارات اقتصادية نظيفة بتقييمات جيدة وأسعار تبدأ من الأقل",
+   "syn": [
+    "فنادق اقتصادية",
+    "فنادق بأسعار مناسبة",
+    "ارخص فنادق"
+   ]
+  },
+  "5-star": {
+   "slug": "5-star-hotels",
+   "label": "فنادق 5 نجوم في",
+   "short": "5 نجوم",
+   "q": "فنادق 5 نجوم",
+   "intent": "5-star",
+   "roompax": 1,
+   "desc": "فنادق فاخرة بخدمة كاملة ومسابح وسبا ومطاعم عالمية",
+   "syn": [
+    "فنادق خمس نجوم",
+    "افخم فنادق",
+    "فنادق فاخرة"
+   ]
+  },
+  "4-star": {
+   "slug": "4-star-hotels",
+   "label": "فنادق 4 نجوم في",
+   "short": "4 نجوم",
+   "q": "فنادق 4 نجوم",
+   "intent": "default",
+   "roompax": 1,
+   "desc": "التوازن الأفضل بين السعر والخدمة للعوائل ورجال الأعمال",
+   "syn": [
+    "فنادق اربع نجوم"
+   ]
+  },
+  "3-star": {
+   "slug": "3-star-hotels",
+   "label": "فنادق 3 نجوم في",
+   "short": "3 نجوم",
+   "q": "فنادق 3 نجوم",
+   "intent": "budget",
+   "roompax": 1,
+   "desc": "فنادق عملية نظيفة بمواقع جيدة وأسعار معقولة",
+   "syn": [
+    "فنادق ثلاث نجوم"
+   ]
+  },
+  "apartments": {
+   "slug": "hotel-apartments",
+   "label": "شقق فندقية في",
+   "short": "شقق فندقية",
+   "q": "شقق فندقية",
+   "intent": "apartments",
+   "roompax": 2,
+   "desc": "شقق مفروشة بمطبخ وغرف منفصلة تناسب العوائل والإقامات الطويلة",
+   "syn": [
+    "شقق مفروشة",
+    "اجنحة فندقية"
+   ]
+  },
+  "family": {
+   "slug": "family-hotels",
+   "label": "فنادق للعوائل في",
+   "short": "للعوائل",
+   "q": "فنادق للعوائل",
+   "intent": "family",
+   "roompax": 2,
+   "desc": "غرف عائلية متصلة ومسابح للأطفال وإفطار مجاني للصغار",
+   "syn": [
+    "فنادق عائلية",
+    "فنادق مناسبة للاطفال"
+   ]
+  },
+  "beach": {
+   "slug": "beach-hotels",
+   "label": "فنادق شاطئية في",
+   "short": "شاطئية",
+   "q": "فنادق على البحر",
+   "intent": "beach",
+   "roompax": 2,
+   "desc": "فنادق ومنتجعات بشاطئ خاص أو على بعد خطوات من البحر",
+   "syn": [
+    "فنادق على البحر",
+    "منتجعات شاطئية",
+    "فنادق مطلة على البحر"
+   ],
+   "only": [
+    "dubai",
+    "abu-dhabi",
+    "jeddah",
+    "dammam-khobar",
+    "manama",
+    "doha",
+    "kuwait",
+    "bali",
+    "barcelona",
+    "istanbul"
+   ]
+  },
+  "pool": {
+   "slug": "hotels-with-pool",
+   "label": "فنادق مع مسبح في",
+   "short": "مع مسبح",
+   "q": "فنادق مع مسبح",
+   "intent": "family",
+   "roompax": 2,
+   "desc": "فنادق بمسبح خارجي أو مسبح خاص للعوائل والأزواج",
+   "syn": [
+    "فنادق فيها مسبح",
+    "فنادق بمسبح خاص"
+   ]
+  },
+  "cheap-near-haram": {
+   "slug": "cheap-hotels-near-haram",
+   "label": "فنادق رخيصة قريبة من الحرم في",
+   "short": "رخيصة قريبة من الحرم",
+   "q": "فنادق رخيصة قريبة من الحرم",
+   "intent": "budget",
+   "roompax": 2,
+   "desc": "أرخص الخيارات ضمن مشي أو باص للحرم",
+   "syn": [
+    "ارخص فنادق مكة قريبة من الحرم"
+   ],
+   "only": [
+    "makkah",
+    "madinah"
+   ]
+  }
  }
 }
