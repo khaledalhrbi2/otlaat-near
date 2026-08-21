@@ -1,16 +1,16 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import BookingBar from '../../../components/BookingBar.astro';
-import { cities, loadCity, loadContent, fallbackContent } from '../../../lib/data.js';
+import Base from '../../layouts/Base.astro';
+import BookingBar from '../../components/BookingBar.astro';
+import { cities, loadCity, loadContent, fallbackContent, poiPath } from '../../lib/data.js';
 export function getStaticPaths(){
-  return cities.flatMap(c => loadCity(c.slug).pois.map(p => ({ params:{ city:c.slug, poi:p.slug } })));
+  return cities.flatMap(c => { const city = loadCity(c.slug); return city.pois.map(p => ({ params:{ city:c.slug, page: poiPath(city,p).split('/')[2] }, props:{ poiSlug:p.slug } })); });
 }
 const city = loadCity(Astro.params.city);
-const poi = city.pois.find(p => p.slug === Astro.params.poi);
+const poi = city.pois.find(p => p.slug === Astro.props.poiSlug);
 const content = loadContent(city.slug, poi.slug) ?? fallbackContent(city, poi);
 const nb = poi.neighbours.map(n => ({ ...n, ...city.pois.find(p => p.slug === n.slug) }));
 const intent = poi.intents.includes('family') ? 'family' : poi.intents.includes('b2b') ? 'b2b' : 'default';
-const url = `${Astro.site}${city.slug}/near/${poi.slug}/`;
+const url = `${Astro.site}${poiPath(city,poi).slice(1)}`;
 const jsonld = [
   { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
     {"@type":"ListItem","position":1,"name":"الرئيسية","item":Astro.site},
@@ -44,7 +44,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
   </section>
   <section>
     <h2>معالم قريبة من {poi.name_ar}</h2>
-    <div class="grid">{nb.map(n => <a class="card" href={`/${city.slug}/near/${n.slug}/`}><b>{n.name_ar}</b><small>{n.km} كم · ضمن {n.prox_km} كم</small></a>)}</div>
+    <div class="grid">{nb.map(n => <a class="card" href={poiPath(city,n)}><b>{n.name_ar}</b><small>{n.km} كم · ضمن {n.prox_km} كم</small></a>)}</div>
   </section>
   <section class="faq">
     <h2>أسئلة شائعة</h2>

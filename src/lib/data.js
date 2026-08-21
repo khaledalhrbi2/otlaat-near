@@ -24,3 +24,12 @@ export function fallbackContent(city, poi) {
     ],
   };
 }
+
+/** مسار الصفحة حسب نوع المعلم — الكلمة المفتاحية كاملة في الرابط */
+export function poiPath(city, poi) {
+  const t = poi.type;
+  const seg = t === 'district' ? `hotels-in-${poi.slug}`
+    : t === 'event' || t === 'intent_hub' ? `hotels-${poi.slug}`
+    : `hotels-near-${poi.slug}`;
+  return `/${city.slug}/${seg}/`;
+}

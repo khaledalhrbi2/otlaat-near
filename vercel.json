@@ -1,13 +1,1599 @@
 {
-  "framework": "astro",
-  "rewrites": [
-    { "source": "/go/:city/:poi/", "destination": "/api/go?city=:city&poi=:poi" },
-    { "source": "/go/:city/:poi", "destination": "/api/go?city=:city&poi=:poi" },
-    { "source": "/go/:city/", "destination": "/api/go?city=:city" },
-    { "source": "/go/:city", "destination": "/api/go?city=:city" }
-  ],
-  "functions": { "api/go.js": { "includeFiles": "data/**" } },
-  "headers": [
-    { "source": "/go/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
-  ]
+ "framework": "astro",
+ "rewrites": [
+  {
+   "source": "/go/:city/:poi/",
+   "destination": "/api/go?city=:city&poi=:poi"
+  },
+  {
+   "source": "/go/:city/:poi",
+   "destination": "/api/go?city=:city&poi=:poi"
+  },
+  {
+   "source": "/go/:city/",
+   "destination": "/api/go?city=:city"
+  },
+  {
+   "source": "/go/:city",
+   "destination": "/api/go?city=:city"
+  }
+ ],
+ "functions": {
+  "api/go.js": {
+   "includeFiles": "data/**"
+  }
+ },
+ "headers": [
+  {
+   "source": "/go/(.*)",
+   "headers": [
+    {
+     "key": "X-Robots-Tag",
+     "value": "noindex, nofollow"
+    }
+   ]
+  }
+ ],
+ "redirects": [
+  {
+   "source": "/riyadh/near/boulevard-city",
+   "destination": "/riyadh/hotels-near-boulevard-city/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/boulevard-city/",
+   "destination": "/riyadh/hotels-near-boulevard-city/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/boulevard-world",
+   "destination": "/riyadh/hotels-near-boulevard-world/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/boulevard-world/",
+   "destination": "/riyadh/hotels-near-boulevard-world/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-season-2026",
+   "destination": "/riyadh/hotels-riyadh-season-2026/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-season-2026/",
+   "destination": "/riyadh/hotels-riyadh-season-2026/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kafd",
+   "destination": "/riyadh/hotels-near-kafd/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kafd/",
+   "destination": "/riyadh/hotels-near-kafd/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/olaya",
+   "destination": "/riyadh/hotels-in-olaya/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/olaya/",
+   "destination": "/riyadh/hotels-in-olaya/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kingdom-centre",
+   "destination": "/riyadh/hotels-near-kingdom-centre/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kingdom-centre/",
+   "destination": "/riyadh/hotels-near-kingdom-centre/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/diriyah",
+   "destination": "/riyadh/hotels-near-diriyah/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/diriyah/",
+   "destination": "/riyadh/hotels-near-diriyah/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-khalid-airport",
+   "destination": "/riyadh/hotels-near-king-khalid-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-khalid-airport/",
+   "destination": "/riyadh/hotels-near-king-khalid-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/diplomatic-quarter",
+   "destination": "/riyadh/hotels-in-diplomatic-quarter/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/diplomatic-quarter/",
+   "destination": "/riyadh/hotels-in-diplomatic-quarter/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/via-riyadh",
+   "destination": "/riyadh/hotels-near-via-riyadh/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/via-riyadh/",
+   "destination": "/riyadh/hotels-near-via-riyadh/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-front",
+   "destination": "/riyadh/hotels-near-riyadh-front/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-front/",
+   "destination": "/riyadh/hotels-near-riyadh-front/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/winter-wonderland",
+   "destination": "/riyadh/hotels-near-winter-wonderland/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/winter-wonderland/",
+   "destination": "/riyadh/hotels-near-winter-wonderland/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/hittin",
+   "destination": "/riyadh/hotels-in-hittin/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/hittin/",
+   "destination": "/riyadh/hotels-in-hittin/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/al-malqa",
+   "destination": "/riyadh/hotels-in-al-malqa/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/al-malqa/",
+   "destination": "/riyadh/hotels-in-al-malqa/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-park",
+   "destination": "/riyadh/hotels-near-riyadh-park/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/riyadh-park/",
+   "destination": "/riyadh/hotels-near-riyadh-park/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haram",
+   "destination": "/makkah/hotels-near-haram/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haram/",
+   "destination": "/makkah/hotels-near-haram/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haram-500m",
+   "destination": "/makkah/hotels-near-haram-500m/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haram-500m/",
+   "destination": "/makkah/hotels-near-haram-500m/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/abraj-al-bait",
+   "destination": "/makkah/hotels-near-abraj-al-bait/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/abraj-al-bait/",
+   "destination": "/makkah/hotels-near-abraj-al-bait/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/jabal-omar",
+   "destination": "/makkah/hotels-in-jabal-omar/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/jabal-omar/",
+   "destination": "/makkah/hotels-in-jabal-omar/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/ajyad",
+   "destination": "/makkah/hotels-in-ajyad/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/ajyad/",
+   "destination": "/makkah/hotels-in-ajyad/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/misfalah",
+   "destination": "/makkah/hotels-in-misfalah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/misfalah/",
+   "destination": "/makkah/hotels-in-misfalah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/aziziyah",
+   "destination": "/makkah/hotels-in-aziziyah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/aziziyah/",
+   "destination": "/makkah/hotels-in-aziziyah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/shawqiyah",
+   "destination": "/makkah/hotels-in-shawqiyah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/shawqiyah/",
+   "destination": "/makkah/hotels-in-shawqiyah/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/kudai",
+   "destination": "/makkah/hotels-in-kudai/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/kudai/",
+   "destination": "/makkah/hotels-in-kudai/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haramain-station",
+   "destination": "/makkah/hotels-near-haramain-station/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/haramain-station/",
+   "destination": "/makkah/hotels-near-haramain-station/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/makkah-mall",
+   "destination": "/makkah/hotels-near-makkah-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/makkah-mall/",
+   "destination": "/makkah/hotels-near-makkah-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/ramadan-2027",
+   "destination": "/makkah/hotels-ramadan-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/makkah/near/ramadan-2027/",
+   "destination": "/makkah/hotels-ramadan-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/prophet-mosque",
+   "destination": "/madinah/hotels-near-prophet-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/prophet-mosque/",
+   "destination": "/madinah/hotels-near-prophet-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/central-area",
+   "destination": "/madinah/hotels-in-central-area/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/central-area/",
+   "destination": "/madinah/hotels-in-central-area/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/quba-mosque",
+   "destination": "/madinah/hotels-near-quba-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/quba-mosque/",
+   "destination": "/madinah/hotels-near-quba-mosque/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/madinah-airport",
+   "destination": "/madinah/hotels-near-madinah-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/madinah-airport/",
+   "destination": "/madinah/hotels-near-madinah-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/haramain-station-madinah",
+   "destination": "/madinah/hotels-near-haramain-station-madinah/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/haramain-station-madinah/",
+   "destination": "/madinah/hotels-near-haramain-station-madinah/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/al-noor-mall",
+   "destination": "/madinah/hotels-near-al-noor-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/al-noor-mall/",
+   "destination": "/madinah/hotels-near-al-noor-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/uhud",
+   "destination": "/madinah/hotels-near-uhud/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/uhud/",
+   "destination": "/madinah/hotels-near-uhud/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/qiblatain",
+   "destination": "/madinah/hotels-near-qiblatain/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/qiblatain/",
+   "destination": "/madinah/hotels-near-qiblatain/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/ramadan-2027",
+   "destination": "/madinah/hotels-ramadan-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/madinah/near/ramadan-2027/",
+   "destination": "/madinah/hotels-ramadan-2027/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/burj-khalifa",
+   "destination": "/dubai/hotels-near-burj-khalifa/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/burj-khalifa/",
+   "destination": "/dubai/hotels-near-burj-khalifa/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-mall",
+   "destination": "/dubai/hotels-near-dubai-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-mall/",
+   "destination": "/dubai/hotels-near-dubai-mall/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/downtown",
+   "destination": "/dubai/hotels-in-downtown/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/downtown/",
+   "destination": "/dubai/hotels-in-downtown/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-marina",
+   "destination": "/dubai/hotels-in-dubai-marina/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-marina/",
+   "destination": "/dubai/hotels-in-dubai-marina/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/jbr",
+   "destination": "/dubai/hotels-in-jbr/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/jbr/",
+   "destination": "/dubai/hotels-in-jbr/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/palm-jumeirah",
+   "destination": "/dubai/hotels-in-palm-jumeirah/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/palm-jumeirah/",
+   "destination": "/dubai/hotels-in-palm-jumeirah/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/global-village",
+   "destination": "/dubai/hotels-near-global-village/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/global-village/",
+   "destination": "/dubai/hotels-near-global-village/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dxb-airport",
+   "destination": "/dubai/hotels-near-dxb-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dxb-airport/",
+   "destination": "/dubai/hotels-near-dxb-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/deira",
+   "destination": "/dubai/hotels-in-deira/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/deira/",
+   "destination": "/dubai/hotels-in-deira/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/bur-dubai",
+   "destination": "/dubai/hotels-in-bur-dubai/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/bur-dubai/",
+   "destination": "/dubai/hotels-in-bur-dubai/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-barsha",
+   "destination": "/dubai/hotels-in-al-barsha/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-barsha/",
+   "destination": "/dubai/hotels-in-al-barsha/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/business-bay",
+   "destination": "/dubai/hotels-in-business-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/business-bay/",
+   "destination": "/dubai/hotels-in-business-bay/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/jumeirah",
+   "destination": "/dubai/hotels-in-jumeirah/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/jumeirah/",
+   "destination": "/dubai/hotels-in-jumeirah/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-creek-harbour",
+   "destination": "/dubai/hotels-in-dubai-creek-harbour/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dubai-creek-harbour/",
+   "destination": "/dubai/hotels-in-dubai-creek-harbour/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/taksim",
+   "destination": "/istanbul/hotels-in-taksim/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/taksim/",
+   "destination": "/istanbul/hotels-in-taksim/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sultanahmet",
+   "destination": "/istanbul/hotels-in-sultanahmet/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sultanahmet/",
+   "destination": "/istanbul/hotels-in-sultanahmet/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sisli",
+   "destination": "/istanbul/hotels-in-sisli/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sisli/",
+   "destination": "/istanbul/hotels-in-sisli/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/nisantasi",
+   "destination": "/istanbul/hotels-in-nisantasi/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/nisantasi/",
+   "destination": "/istanbul/hotels-in-nisantasi/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/besiktas",
+   "destination": "/istanbul/hotels-in-besiktas/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/besiktas/",
+   "destination": "/istanbul/hotels-in-besiktas/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/bosphorus",
+   "destination": "/istanbul/hotels-near-bosphorus/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/bosphorus/",
+   "destination": "/istanbul/hotels-near-bosphorus/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istanbul-airport",
+   "destination": "/istanbul/hotels-near-istanbul-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istanbul-airport/",
+   "destination": "/istanbul/hotels-near-istanbul-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sabiha-gokcen",
+   "destination": "/istanbul/hotels-near-sabiha-gokcen/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sabiha-gokcen/",
+   "destination": "/istanbul/hotels-near-sabiha-gokcen/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istiklal",
+   "destination": "/istanbul/hotels-near-istiklal/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istiklal/",
+   "destination": "/istanbul/hotels-near-istiklal/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/laleli",
+   "destination": "/istanbul/hotels-in-laleli/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/laleli/",
+   "destination": "/istanbul/hotels-in-laleli/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/fatih",
+   "destination": "/istanbul/hotels-in-fatih/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/fatih/",
+   "destination": "/istanbul/hotels-in-fatih/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eminonu",
+   "destination": "/istanbul/hotels-in-eminonu/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eminonu/",
+   "destination": "/istanbul/hotels-in-eminonu/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/uskudar",
+   "destination": "/istanbul/hotels-in-uskudar/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/uskudar/",
+   "destination": "/istanbul/hotels-in-uskudar/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/bakirkoy",
+   "destination": "/istanbul/hotels-in-bakirkoy/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/bakirkoy/",
+   "destination": "/istanbul/hotels-in-bakirkoy/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istinye-park",
+   "destination": "/istanbul/hotels-near-istinye-park/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istinye-park/",
+   "destination": "/istanbul/hotels-near-istinye-park/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/colosseum",
+   "destination": "/rome/hotels-near-colosseum/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/colosseum/",
+   "destination": "/rome/hotels-near-colosseum/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/vatican",
+   "destination": "/rome/hotels-near-vatican/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/vatican/",
+   "destination": "/rome/hotels-near-vatican/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/termini",
+   "destination": "/rome/hotels-near-termini/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/termini/",
+   "destination": "/rome/hotels-near-termini/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/trevi",
+   "destination": "/rome/hotels-near-trevi/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/trevi/",
+   "destination": "/rome/hotels-near-trevi/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/pantheon-navona",
+   "destination": "/rome/hotels-near-pantheon-navona/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/pantheon-navona/",
+   "destination": "/rome/hotels-near-pantheon-navona/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/spanish-steps",
+   "destination": "/rome/hotels-near-spanish-steps/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/spanish-steps/",
+   "destination": "/rome/hotels-near-spanish-steps/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/trastevere",
+   "destination": "/rome/hotels-in-trastevere/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/trastevere/",
+   "destination": "/rome/hotels-in-trastevere/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/fiumicino",
+   "destination": "/rome/hotels-near-fiumicino/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/fiumicino/",
+   "destination": "/rome/hotels-near-fiumicino/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/via-del-corso",
+   "destination": "/rome/hotels-near-via-del-corso/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/via-del-corso/",
+   "destination": "/rome/hotels-near-via-del-corso/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/prati",
+   "destination": "/rome/hotels-in-prati/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/prati/",
+   "destination": "/rome/hotels-in-prati/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/seminyak",
+   "destination": "/bali/hotels-in-seminyak/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/seminyak/",
+   "destination": "/bali/hotels-in-seminyak/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/ubud",
+   "destination": "/bali/hotels-in-ubud/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/ubud/",
+   "destination": "/bali/hotels-in-ubud/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/nusa-dua",
+   "destination": "/bali/hotels-in-nusa-dua/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/nusa-dua/",
+   "destination": "/bali/hotels-in-nusa-dua/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/kuta",
+   "destination": "/bali/hotels-in-kuta/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/kuta/",
+   "destination": "/bali/hotels-in-kuta/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/legian",
+   "destination": "/bali/hotels-in-legian/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/legian/",
+   "destination": "/bali/hotels-in-legian/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/jimbaran",
+   "destination": "/bali/hotels-in-jimbaran/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/jimbaran/",
+   "destination": "/bali/hotels-in-jimbaran/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/uluwatu",
+   "destination": "/bali/hotels-in-uluwatu/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/uluwatu/",
+   "destination": "/bali/hotels-in-uluwatu/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/canggu",
+   "destination": "/bali/hotels-in-canggu/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/canggu/",
+   "destination": "/bali/hotels-in-canggu/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/sanur",
+   "destination": "/bali/hotels-in-sanur/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/sanur/",
+   "destination": "/bali/hotels-in-sanur/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/ngurah-rai-airport",
+   "destination": "/bali/hotels-near-ngurah-rai-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/ngurah-rai-airport/",
+   "destination": "/bali/hotels-near-ngurah-rai-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/honeymoon",
+   "destination": "/bali/hotels-honeymoon/",
+   "permanent": true
+  },
+  {
+   "source": "/bali/near/honeymoon/",
+   "destination": "/bali/hotels-honeymoon/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/edgware-road",
+   "destination": "/london/hotels-in-edgware-road/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/edgware-road/",
+   "destination": "/london/hotels-in-edgware-road/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/hyde-park",
+   "destination": "/london/hotels-near-hyde-park/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/hyde-park/",
+   "destination": "/london/hotels-near-hyde-park/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/oxford-street",
+   "destination": "/london/hotels-near-oxford-street/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/oxford-street/",
+   "destination": "/london/hotels-near-oxford-street/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/harrods",
+   "destination": "/london/hotels-near-harrods/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/harrods/",
+   "destination": "/london/hotels-near-harrods/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/kensington",
+   "destination": "/london/hotels-in-kensington/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/kensington/",
+   "destination": "/london/hotels-in-kensington/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/bayswater-queensway",
+   "destination": "/london/hotels-in-bayswater-queensway/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/bayswater-queensway/",
+   "destination": "/london/hotels-in-bayswater-queensway/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/paddington",
+   "destination": "/london/hotels-near-paddington/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/paddington/",
+   "destination": "/london/hotels-near-paddington/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/big-ben",
+   "destination": "/london/hotels-near-big-ben/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/big-ben/",
+   "destination": "/london/hotels-near-big-ben/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/london-eye",
+   "destination": "/london/hotels-near-london-eye/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/london-eye/",
+   "destination": "/london/hotels-near-london-eye/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/heathrow",
+   "destination": "/london/hotels-near-heathrow/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/heathrow/",
+   "destination": "/london/hotels-near-heathrow/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/wembley",
+   "destination": "/london/hotels-near-wembley/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/wembley/",
+   "destination": "/london/hotels-near-wembley/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/eiffel-tower",
+   "destination": "/paris/hotels-near-eiffel-tower/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/eiffel-tower/",
+   "destination": "/paris/hotels-near-eiffel-tower/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/champs-elysees",
+   "destination": "/paris/hotels-near-champs-elysees/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/champs-elysees/",
+   "destination": "/paris/hotels-near-champs-elysees/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/arc-de-triomphe",
+   "destination": "/paris/hotels-near-arc-de-triomphe/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/arc-de-triomphe/",
+   "destination": "/paris/hotels-near-arc-de-triomphe/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/louvre",
+   "destination": "/paris/hotels-near-louvre/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/louvre/",
+   "destination": "/paris/hotels-near-louvre/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/opera-lafayette",
+   "destination": "/paris/hotels-near-opera-lafayette/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/opera-lafayette/",
+   "destination": "/paris/hotels-near-opera-lafayette/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/disneyland",
+   "destination": "/paris/hotels-near-disneyland/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/disneyland/",
+   "destination": "/paris/hotels-near-disneyland/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/montmartre",
+   "destination": "/paris/hotels-in-montmartre/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/montmartre/",
+   "destination": "/paris/hotels-in-montmartre/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/la-defense",
+   "destination": "/paris/hotels-in-la-defense/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/la-defense/",
+   "destination": "/paris/hotels-in-la-defense/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/cdg",
+   "destination": "/paris/hotels-near-cdg/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/cdg/",
+   "destination": "/paris/hotels-near-cdg/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/saint-germain",
+   "destination": "/paris/hotels-in-saint-germain/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/saint-germain/",
+   "destination": "/paris/hotels-in-saint-germain/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/duomo",
+   "destination": "/milan/hotels-near-duomo/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/duomo/",
+   "destination": "/milan/hotels-near-duomo/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/galleria",
+   "destination": "/milan/hotels-near-galleria/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/galleria/",
+   "destination": "/milan/hotels-near-galleria/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/monte-napoleone",
+   "destination": "/milan/hotels-near-monte-napoleone/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/monte-napoleone/",
+   "destination": "/milan/hotels-near-monte-napoleone/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/centrale",
+   "destination": "/milan/hotels-near-centrale/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/centrale/",
+   "destination": "/milan/hotels-near-centrale/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/san-siro",
+   "destination": "/milan/hotels-near-san-siro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/san-siro/",
+   "destination": "/milan/hotels-near-san-siro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/navigli",
+   "destination": "/milan/hotels-in-navigli/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/navigli/",
+   "destination": "/milan/hotels-in-navigli/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/malpensa",
+   "destination": "/milan/hotels-near-malpensa/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/malpensa/",
+   "destination": "/milan/hotels-near-malpensa/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/serravalle-outlet",
+   "destination": "/milan/hotels-near-serravalle-outlet/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/serravalle-outlet/",
+   "destination": "/milan/hotels-near-serravalle-outlet/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/como",
+   "destination": "/milan/hotels-near-como/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/como/",
+   "destination": "/milan/hotels-near-como/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/stephansplatz",
+   "destination": "/vienna/hotels-near-stephansplatz/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/stephansplatz/",
+   "destination": "/vienna/hotels-near-stephansplatz/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schonbrunn",
+   "destination": "/vienna/hotels-near-schonbrunn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schonbrunn/",
+   "destination": "/vienna/hotels-near-schonbrunn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/prater",
+   "destination": "/vienna/hotels-near-prater/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/prater/",
+   "destination": "/vienna/hotels-near-prater/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/karntner-strasse",
+   "destination": "/vienna/hotels-near-karntner-strasse/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/karntner-strasse/",
+   "destination": "/vienna/hotels-near-karntner-strasse/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/mariahilfer",
+   "destination": "/vienna/hotels-near-mariahilfer/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/mariahilfer/",
+   "destination": "/vienna/hotels-near-mariahilfer/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/hauptbahnhof",
+   "destination": "/vienna/hotels-near-hauptbahnhof/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/hauptbahnhof/",
+   "destination": "/vienna/hotels-near-hauptbahnhof/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/vienna-airport",
+   "destination": "/vienna/hotels-near-vienna-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/vienna-airport/",
+   "destination": "/vienna/hotels-near-vienna-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/donau",
+   "destination": "/vienna/hotels-near-donau/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/donau/",
+   "destination": "/vienna/hotels-near-donau/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/bahnhofstrasse",
+   "destination": "/zurich/hotels-near-bahnhofstrasse/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/bahnhofstrasse/",
+   "destination": "/zurich/hotels-near-bahnhofstrasse/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/hauptbahnhof",
+   "destination": "/zurich/hotels-near-hauptbahnhof/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/hauptbahnhof/",
+   "destination": "/zurich/hotels-near-hauptbahnhof/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/lake-zurich",
+   "destination": "/zurich/hotels-near-lake-zurich/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/lake-zurich/",
+   "destination": "/zurich/hotels-near-lake-zurich/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/old-town",
+   "destination": "/zurich/hotels-in-old-town/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/old-town/",
+   "destination": "/zurich/hotels-in-old-town/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/zurich-airport",
+   "destination": "/zurich/hotels-near-zurich-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/zurich-airport/",
+   "destination": "/zurich/hotels-near-zurich-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/jet-d-eau",
+   "destination": "/geneva/hotels-near-jet-d-eau/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/jet-d-eau/",
+   "destination": "/geneva/hotels-near-jet-d-eau/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/lake-geneva",
+   "destination": "/geneva/hotels-near-lake-geneva/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/lake-geneva/",
+   "destination": "/geneva/hotels-near-lake-geneva/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/cornavin",
+   "destination": "/geneva/hotels-near-cornavin/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/cornavin/",
+   "destination": "/geneva/hotels-near-cornavin/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/rue-du-rhone",
+   "destination": "/geneva/hotels-near-rue-du-rhone/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/rue-du-rhone/",
+   "destination": "/geneva/hotels-near-rue-du-rhone/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/geneva-airport",
+   "destination": "/geneva/hotels-near-geneva-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/geneva-airport/",
+   "destination": "/geneva/hotels-near-geneva-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/old-town-square",
+   "destination": "/prague/hotels-near-old-town-square/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/old-town-square/",
+   "destination": "/prague/hotels-near-old-town-square/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/charles-bridge",
+   "destination": "/prague/hotels-near-charles-bridge/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/charles-bridge/",
+   "destination": "/prague/hotels-near-charles-bridge/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/wenceslas",
+   "destination": "/prague/hotels-near-wenceslas/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/wenceslas/",
+   "destination": "/prague/hotels-near-wenceslas/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/prague-castle",
+   "destination": "/prague/hotels-near-prague-castle/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/prague-castle/",
+   "destination": "/prague/hotels-near-prague-castle/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/main-station",
+   "destination": "/prague/hotels-near-main-station/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/main-station/",
+   "destination": "/prague/hotels-near-main-station/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/prague-airport",
+   "destination": "/prague/hotels-near-prague-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/prague-airport/",
+   "destination": "/prague/hotels-near-prague-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/la-rambla",
+   "destination": "/barcelona/hotels-near-la-rambla/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/la-rambla/",
+   "destination": "/barcelona/hotels-near-la-rambla/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sagrada-familia",
+   "destination": "/barcelona/hotels-near-sagrada-familia/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sagrada-familia/",
+   "destination": "/barcelona/hotels-near-sagrada-familia/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/passeig-de-gracia",
+   "destination": "/barcelona/hotels-near-passeig-de-gracia/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/passeig-de-gracia/",
+   "destination": "/barcelona/hotels-near-passeig-de-gracia/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/barceloneta",
+   "destination": "/barcelona/hotels-in-barceloneta/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/barceloneta/",
+   "destination": "/barcelona/hotels-in-barceloneta/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/camp-nou",
+   "destination": "/barcelona/hotels-near-camp-nou/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/camp-nou/",
+   "destination": "/barcelona/hotels-near-camp-nou/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/plaza-catalunya",
+   "destination": "/barcelona/hotels-near-plaza-catalunya/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/plaza-catalunya/",
+   "destination": "/barcelona/hotels-near-plaza-catalunya/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/gothic-quarter",
+   "destination": "/barcelona/hotels-in-gothic-quarter/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/gothic-quarter/",
+   "destination": "/barcelona/hotels-in-gothic-quarter/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/bcn-airport",
+   "destination": "/barcelona/hotels-near-bcn-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/bcn-airport/",
+   "destination": "/barcelona/hotels-near-bcn-airport/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/dam-square",
+   "destination": "/amsterdam/hotels-near-dam-square/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/dam-square/",
+   "destination": "/amsterdam/hotels-near-dam-square/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/centraal",
+   "destination": "/amsterdam/hotels-near-centraal/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/centraal/",
+   "destination": "/amsterdam/hotels-near-centraal/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/museumplein",
+   "destination": "/amsterdam/hotels-near-museumplein/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/museumplein/",
+   "destination": "/amsterdam/hotels-near-museumplein/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/vondelpark",
+   "destination": "/amsterdam/hotels-near-vondelpark/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/vondelpark/",
+   "destination": "/amsterdam/hotels-near-vondelpark/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/jordaan",
+   "destination": "/amsterdam/hotels-in-jordaan/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/jordaan/",
+   "destination": "/amsterdam/hotels-in-jordaan/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/zuidas",
+   "destination": "/amsterdam/hotels-in-zuidas/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/zuidas/",
+   "destination": "/amsterdam/hotels-in-zuidas/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/schiphol",
+   "destination": "/amsterdam/hotels-near-schiphol/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/schiphol/",
+   "destination": "/amsterdam/hotels-near-schiphol/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/keukenhof",
+   "destination": "/amsterdam/hotels-near-keukenhof/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/keukenhof/",
+   "destination": "/amsterdam/hotels-near-keukenhof/",
+   "permanent": true
+  }
+ ]
 }
