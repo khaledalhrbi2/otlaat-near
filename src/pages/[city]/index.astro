@@ -30,5 +30,4 @@ const Section = ({t, list}) => null;
   {landmarks.length > 0 && <section><h2>قريب من المعالم</h2><div class="grid">{landmarks.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
   {districts.length > 0 && <section><h2>حسب الحي والمنطقة</h2><div class="grid">{districts.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
   {transport.length > 0 && <section><h2>المطارات والمحطات</h2><div class="grid">{transport.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
-  <section class="b2b"><div><h2>وكالة سفر أو شركة؟</h2><p style="margin:0">أسعار مجموعات وحجوزات جماعية في {city.name_ar} عبر فريق B2B.</p></div><a class="cta" href={`https://wa.me/966920033839?text=${encodeURIComponent(`طلب أسعار مجموعات - ${city.name_ar}`)}`}>اطلب عرض مجموعات</a></section>
 </Base>

@@ -51,5 +51,4 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <h2>أسئلة شائعة</h2>
     {content.faq.map(f => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
   </section>
-  <section class="b2b"><div><h2>وكالة سفر أو شركة؟</h2><p style="margin:0">أسعار مجموعات قرب {poi.name_ar} عبر فريق B2B في عطلات.</p></div><a class="cta" href={`https://wa.me/966920033839?text=${encodeURIComponent(`طلب أسعار مجموعات - ${city.name_ar} - ${poi.name_ar}`)}`}>اطلب عرض مجموعات</a></section>
 </Base>
