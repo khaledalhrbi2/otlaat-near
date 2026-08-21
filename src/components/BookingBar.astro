@@ -9,14 +9,13 @@ const payload = { city: { code: city.code, name_ar: city.name_ar, slug: city.slu
   <div><label for="co">تسجيل المغادرة</label><input id="co" name="co" type="date" /></div>
   <div><label for="rp">الغرف</label><select id="rp" name="rp"><option value="1">غرفة</option><option value="2">غرفتان</option><option value="3">3 غرف</option><option value="4">4 غرف</option><option value="5">5 غرف</option></select></div>
   <div class="nights" data-nights></div>
-  <a class="cta" data-cta href="#" rel="nofollow">تحقق من التوفر على عطلات</a>
+  <a class="cta" data-cta href={`/go/${city.slug}${poi ? "/" + poi.slug : ""}`} rel="nofollow">تحقق من التوفر على عطلات</a>
   <p class="note"><b>{poi ? `النتائج ضمن ${poi.prox_km} كم من ${poi.name_ar}` : `كل فنادق ${city.name_ar}`}</b> · أسعار شاملة الضرائب · إلغاء مجاني على أغلب الحجوزات · تقسيط تابي وتمارا</p>
 </form>
 <script>
-  import { buildBookingLink, computeDates } from '../lib/bookingLink.js';
+  import { computeDates } from '../lib/bookingLink.js';
   const iso = d => d.toISOString().slice(0,10);
-  const ymd = s => s.replaceAll('-','');
-  document.querySelectorAll('form.book').forEach(form => {
+    document.querySelectorAll('form.book').forEach(form => {
     const { city, poi, intent } = JSON.parse(form.dataset.book);
     const ci = form.querySelector('#ci'), co = form.querySelector('#co'), rp = form.querySelector('#rp'), cta = form.querySelector('[data-cta]'), n = form.querySelector('[data-nights]');
     const d = computeDates(city, poi);
@@ -26,7 +25,7 @@ const payload = { city: { code: city.code, name_ar: city.name_ar, slug: city.slu
       if (co.value <= ci.value) { const x = new Date(ci.value); x.setDate(x.getDate()+1); co.value = iso(x); }
       const nights = Math.round((new Date(co.value)-new Date(ci.value))/864e5);
       n.textContent = `${nights} ${nights===1?'ليلة':nights===2?'ليلتان':nights<=10?'ليالٍ':'ليلة'}`;
-      cta.href = buildBookingLink(city, poi, { intent, checkin: ymd(ci.value), checkout: ymd(co.value), roompax: rp.value });
+      cta.href = `/go/${city.slug}${poi ? '/' + poi.slug : ''}?ci=${ci.value}&co=${co.value}&rp=${rp.value}${intent !== 'default' ? '&i=' + intent : ''}`;
     };
     [ci,co,rp].forEach(el => el.addEventListener('change', sync)); sync();
   });
