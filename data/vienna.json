@@ -25,12 +25,17 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتيفانسبلاتز (0.1 كم)",
       "keywords": [
         "فنادق وسط فيينا",
         "فنادق قريبة من شتيفانسبلاتز"
       ],
       "neighbours": [
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 0.1
+        },
         {
           "slug": "graben",
           "name_ar": "غرابن",
@@ -42,19 +47,14 @@
           "km": 0.5
         },
         {
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 0.5
+        },
+        {
           "slug": "ringstrasse",
           "name_ar": "الرينغ",
           "km": 0.7
-        },
-        {
-          "slug": "naschmarkt",
-          "name_ar": "ناش ماركت",
-          "km": 1.3
-        },
-        {
-          "slug": "prater",
-          "name_ar": "براتر",
-          "km": 1.9
         }
       ]
     },
@@ -71,14 +71,24 @@
       "intents": [
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو شونبرون (0.7 كم)",
       "keywords": [
         "فنادق قريبة من قصر شونبرون"
       ],
       "neighbours": [
         {
+          "slug": "schonbrunn-ubahn",
+          "name_ar": "محطة مترو شونبرون",
+          "km": 0.7
+        },
+        {
           "slug": "westbahnhof",
           "name_ar": "ويست بانهوف",
+          "km": 2.4
+        },
+        {
+          "slug": "westbahnhof-station",
+          "name_ar": "محطة ويست بانهوف",
           "km": 2.4
         },
         {
@@ -90,16 +100,6 @@
           "slug": "naschmarkt",
           "name_ar": "ناش ماركت",
           "km": 4.1
-        },
-        {
-          "slug": "ringstrasse",
-          "name_ar": "الرينغ",
-          "km": 4.6
-        },
-        {
-          "slug": "akh-hospital",
-          "name_ar": "مستشفى AKH",
-          "km": 4.7
         }
       ]
     },
@@ -116,35 +116,35 @@
       "intents": [
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة براترشترن (0.3 كم)",
       "keywords": [
         "فنادق قريبة من براتر"
       ],
       "neighbours": [
+        {
+          "slug": "praterstern-station",
+          "name_ar": "محطة براترشترن",
+          "km": 0.3
+        },
+        {
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 1.5
+        },
         {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 1.9
         },
         {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 2.0
+        },
+        {
           "slug": "donau",
           "name_ar": "الدانوب",
           "km": 2.1
-        },
-        {
-          "slug": "graben",
-          "name_ar": "غرابن",
-          "km": 2.1
-        },
-        {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 2.3
-        },
-        {
-          "slug": "ringstrasse",
-          "name_ar": "الرينغ",
-          "km": 2.6
         }
       ]
     },
@@ -161,7 +161,7 @@
       "intents": [
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتيفانسبلاتز (0.4 كم)",
       "keywords": [
         "فنادق قريبة من شارع كارنتنر"
       ],
@@ -169,6 +169,11 @@
         {
           "slug": "ringstrasse",
           "name_ar": "الرينغ",
+          "km": 0.4
+        },
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
           "km": 0.4
         },
         {
@@ -182,14 +187,9 @@
           "km": 0.5
         },
         {
-          "slug": "naschmarkt",
-          "name_ar": "ناش ماركت",
-          "km": 0.8
-        },
-        {
-          "slug": "mariahilfer",
-          "name_ar": "ماريا هيلفر",
-          "km": 1.7
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 0.6
         }
       ]
     },
@@ -208,7 +208,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ويست بانهوف (0.9 كم)",
       "keywords": [
         "فنادق شارع ماريا هيلفر"
       ],
@@ -216,6 +216,11 @@
         {
           "slug": "westbahnhof",
           "name_ar": "ويست بانهوف",
+          "km": 0.9
+        },
+        {
+          "slug": "westbahnhof-station",
+          "name_ar": "محطة ويست بانهوف",
           "km": 0.9
         },
         {
@@ -229,14 +234,9 @@
           "km": 1.4
         },
         {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 1.7
-        },
-        {
-          "slug": "graben",
-          "name_ar": "غرابن",
-          "km": 1.9
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 1.5
         }
       ]
     },
@@ -254,11 +254,21 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة فيينا الرئيسية (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة فيينا الرئيسية"
       ],
       "neighbours": [
+        {
+          "slug": "hauptbahnhof-station",
+          "name_ar": "محطة فيينا الرئيسية",
+          "km": 0.0
+        },
+        {
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 1.7
+        },
         {
           "slug": "naschmarkt",
           "name_ar": "ناش ماركت",
@@ -273,16 +283,6 @@
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
           "km": 2.4
-        },
-        {
-          "slug": "ringstrasse",
-          "name_ar": "الرينغ",
-          "km": 2.5
-        },
-        {
-          "slug": "stephansplatz",
-          "name_ar": "كاتدرائية القديس ستيفان",
-          "km": 2.6
         }
       ]
     },
@@ -310,24 +310,24 @@
           "km": 16.6
         },
         {
+          "slug": "hauptbahnhof-station",
+          "name_ar": "محطة فيينا الرئيسية",
+          "km": 16.6
+        },
+        {
           "slug": "prater",
           "name_ar": "براتر",
           "km": 17.5
         },
         {
-          "slug": "donau",
-          "name_ar": "الدانوب",
-          "km": 18.1
+          "slug": "praterstern-station",
+          "name_ar": "محطة براترشترن",
+          "km": 17.8
         },
         {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 18.2
-        },
-        {
-          "slug": "stephansplatz",
-          "name_ar": "كاتدرائية القديس ستيفان",
-          "km": 18.2
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 17.9
         }
       ]
     },
@@ -345,7 +345,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة براترشترن (2.1 كم)",
       "keywords": [
         "فنادق على الدانوب فيينا"
       ],
@@ -356,24 +356,24 @@
           "km": 2.1
         },
         {
+          "slug": "praterstern-station",
+          "name_ar": "محطة براترشترن",
+          "km": 2.1
+        },
+        {
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 3.4
+        },
+        {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 3.9
         },
         {
-          "slug": "graben",
-          "name_ar": "غرابن",
-          "km": 4.0
-        },
-        {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 4.3
-        },
-        {
-          "slug": "ringstrasse",
-          "name_ar": "الرينغ",
-          "km": 4.5
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 3.9
         }
       ]
     },
@@ -406,6 +406,11 @@
           "km": 41.0
         },
         {
+          "slug": "hauptbahnhof-station",
+          "name_ar": "محطة فيينا الرئيسية",
+          "km": 41.0
+        },
+        {
           "slug": "prater",
           "name_ar": "براتر",
           "km": 41.7
@@ -414,11 +419,6 @@
           "slug": "donau",
           "name_ar": "الدانوب",
           "km": 41.9
-        },
-        {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 42.6
         }
       ]
     },
@@ -436,9 +436,14 @@
         "5-star",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتيفانسبلاتز (0.2 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 0.2
+        },
         {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
@@ -455,14 +460,9 @@
           "km": 0.5
         },
         {
-          "slug": "naschmarkt",
-          "name_ar": "ناش ماركت",
-          "km": 1.2
-        },
-        {
-          "slug": "mariahilfer",
-          "name_ar": "ماريا هيلفر",
-          "km": 1.9
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 0.6
         }
       ]
     },
@@ -481,13 +481,23 @@
         "budget",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ويست بانهوف (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "westbahnhof-station",
+          "name_ar": "محطة ويست بانهوف",
+          "km": 0.0
+        },
         {
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
           "km": 0.9
+        },
+        {
+          "slug": "schonbrunn-ubahn",
+          "name_ar": "محطة مترو شونبرون",
+          "km": 1.7
         },
         {
           "slug": "naschmarkt",
@@ -498,16 +508,6 @@
           "slug": "ringstrasse",
           "name_ar": "الرينغ",
           "km": 2.2
-        },
-        {
-          "slug": "schonbrunn",
-          "name_ar": "قصر شونبرون",
-          "km": 2.4
-        },
-        {
-          "slug": "karntner-strasse",
-          "name_ar": "شارع كارنتنر",
-          "km": 2.5
         }
       ]
     },
@@ -525,9 +525,14 @@
         "family",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كارلسبلاتز (0.5 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 0.5
+        },
         {
           "slug": "ringstrasse",
           "name_ar": "الرينغ",
@@ -547,11 +552,6 @@
           "slug": "graben",
           "name_ar": "غرابن",
           "km": 1.2
-        },
-        {
-          "slug": "stephansplatz",
-          "name_ar": "كاتدرائية القديس ستيفان",
-          "km": 1.3
         }
       ]
     },
@@ -568,7 +568,7 @@
       "intents": [
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتيفانسبلاتز (0.6 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -582,19 +582,19 @@
           "km": 0.5
         },
         {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 0.6
+        },
+        {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 0.7
         },
         {
-          "slug": "naschmarkt",
-          "name_ar": "ناش ماركت",
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
           "km": 0.8
-        },
-        {
-          "slug": "mariahilfer",
-          "name_ar": "ماريا هيلفر",
-          "km": 1.4
         }
       ]
     },
@@ -613,7 +613,7 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتيفانسبلاتز (2.3 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -627,6 +627,11 @@
           "km": 2.1
         },
         {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 2.3
+        },
+        {
           "slug": "stephansplatz",
           "name_ar": "كاتدرائية القديس ستيفان",
           "km": 2.3
@@ -635,14 +640,352 @@
           "slug": "karntner-strasse",
           "name_ar": "شارع كارنتنر",
           "km": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "stephansplatz-ubahn",
+      "name_ar": "محطة شتيفانسبلاتز",
+      "name_en": "Stephansplatz U-Bahn",
+      "lat": 48.2083,
+      "lng": 16.372,
+      "prox_km": 1.5,
+      "q": "شتيفانسبلاتز",
+      "poi_label": "محطة شتيفانسبلاتز",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U1 · U3",
+      "keywords": [
+        "فنادق قريبة من محطة شتيفانسبلاتز",
+        "فنادق قريبة من مترو شتيفانسبلاتز"
+      ],
+      "neighbours": [
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 0.1
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 0.2
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.4
+        },
+        {
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 0.5
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.6
+        }
+      ]
+    },
+    {
+      "slug": "karlsplatz-ubahn",
+      "name_ar": "محطة كارلسبلاتز",
+      "name_en": "Karlsplatz",
+      "lat": 48.2,
+      "lng": 16.37,
+      "prox_km": 1.5,
+      "q": "كارلسبلاتز",
+      "poi_label": "محطة كارلسبلاتز",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U1 · U2 · U4",
+      "keywords": [
+        "فنادق قريبة من محطة كارلسبلاتز",
+        "فنادق قريبة من مترو كارلسبلاتز"
+      ],
+      "neighbours": [
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 0.5
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.6
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 0.8
+        },
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 0.9
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "hauptbahnhof-station",
+      "name_ar": "محطة فيينا الرئيسية",
+      "name_en": "Wien Hauptbahnhof",
+      "lat": 48.185,
+      "lng": 16.376,
+      "prox_km": 1.5,
+      "q": "فيينا الرئيسية",
+      "poi_label": "محطة فيينا الرئيسية",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U1 · قطارات",
+      "keywords": [
+        "فنادق قريبة من محطة فيينا الرئيسية",
+        "فنادق قريبة من مترو فيينا الرئيسية"
+      ],
+      "neighbours": [
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.0
+        },
+        {
+          "slug": "karlsplatz-ubahn",
+          "name_ar": "محطة كارلسبلاتز",
+          "km": 1.7
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.8
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 2.3
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "westbahnhof-station",
+      "name_ar": "محطة ويست بانهوف",
+      "name_en": "Westbahnhof",
+      "lat": 48.197,
+      "lng": 16.338,
+      "prox_km": 1.5,
+      "q": "ويست بانهوف",
+      "poi_label": "محطة ويست بانهوف",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U3 · U6",
+      "keywords": [
+        "فنادق قريبة من محطة ويست بانهوف",
+        "فنادق قريبة من مترو ويست بانهوف"
+      ],
+      "neighbours": [
+        {
+          "slug": "westbahnhof",
+          "name_ar": "ويست بانهوف",
+          "km": 0.0
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 0.9
+        },
+        {
+          "slug": "schonbrunn-ubahn",
+          "name_ar": "محطة مترو شونبرون",
+          "km": 1.7
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 1.9
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "praterstern-station",
+      "name_ar": "محطة براترشترن",
+      "name_en": "Praterstern",
+      "lat": 48.218,
+      "lng": 16.392,
+      "prox_km": 1.5,
+      "q": "براترشترن",
+      "poi_label": "محطة براترشترن",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U1 · U2 · S-Bahn",
+      "keywords": [
+        "فنادق قريبة من محطة براترشترن",
+        "فنادق قريبة من مترو براترشترن"
+      ],
+      "neighbours": [
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 0.3
+        },
+        {
+          "slug": "schwedenplatz-ubahn",
+          "name_ar": "محطة شفيدنبلاتز",
+          "km": 1.3
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 1.8
+        },
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 1.8
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "schwedenplatz-ubahn",
+      "name_ar": "محطة شفيدنبلاتز",
+      "name_en": "Schwedenplatz",
+      "lat": 48.2115,
+      "lng": 16.3775,
+      "prox_km": 1.5,
+      "q": "شفيدنبلاتز",
+      "poi_label": "محطة شفيدنبلاتز",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U1 · U4",
+      "keywords": [
+        "فنادق قريبة من محطة شفيدنبلاتز",
+        "فنادق قريبة من مترو شفيدنبلاتز"
+      ],
+      "neighbours": [
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 0.5
+        },
+        {
+          "slug": "stephansplatz-ubahn",
+          "name_ar": "محطة شتيفانسبلاتز",
+          "km": 0.5
+        },
+        {
+          "slug": "graben",
+          "name_ar": "غرابن",
+          "km": 0.6
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.9
+        },
+        {
+          "slug": "ringstrasse",
+          "name_ar": "الرينغ",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "schonbrunn-ubahn",
+      "name_ar": "محطة مترو شونبرون",
+      "name_en": "Schonbrunn U-Bahn",
+      "lat": 48.187,
+      "lng": 16.321,
+      "prox_km": 1.5,
+      "q": "مترو شونبرون",
+      "poi_label": "محطة مترو شونبرون",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "U4",
+      "keywords": [
+        "فنادق قريبة من محطة مترو شونبرون",
+        "فنادق قريبة من مترو مترو شونبرون"
+      ],
+      "neighbours": [
+        {
+          "slug": "schonbrunn",
+          "name_ar": "قصر شونبرون",
+          "km": 0.7
+        },
+        {
+          "slug": "westbahnhof",
+          "name_ar": "ويست بانهوف",
+          "km": 1.7
+        },
+        {
+          "slug": "westbahnhof-station",
+          "name_ar": "محطة ويست بانهوف",
+          "km": 1.7
         },
         {
           "slug": "mariahilfer",
           "name_ar": "ماريا هيلفر",
           "km": 2.5
+        },
+        {
+          "slug": "naschmarkt",
+          "name_ar": "ناش ماركت",
+          "km": 3.4
         }
       ]
     }
   ],
-  "poi_count": 14
+  "poi_count": 21
 }

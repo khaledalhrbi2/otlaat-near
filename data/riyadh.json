@@ -53,9 +53,9 @@
           "km": 3.8
         },
         {
-          "slug": "al-malqa",
-          "name_ar": "الملقا",
-          "km": 4.5
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 3.9
         }
       ]
     },
@@ -182,6 +182,11 @@
       ],
       "neighbours": [
         {
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 0.1
+        },
+        {
           "slug": "riyadh-gallery",
           "name_ar": "الرياض جاليري",
           "km": 2.3
@@ -200,11 +205,6 @@
           "slug": "boulevard-city",
           "name_ar": "بوليفارد سيتي",
           "km": 3.8
-        },
-        {
-          "slug": "hittin",
-          "name_ar": "حطين",
-          "km": 4.2
         }
       ]
     },
@@ -235,6 +235,16 @@
           "km": 0.3
         },
         {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 0.6
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 1.6
+        },
+        {
           "slug": "kfsh",
           "name_ar": "مستشفى الملك فيصل التخصصي",
           "km": 2.0
@@ -243,16 +253,6 @@
           "slug": "kfmc",
           "name_ar": "مدينة الملك فهد الطبية",
           "km": 2.2
-        },
-        {
-          "slug": "kingdom-centre",
-          "name_ar": "برج المملكة",
-          "km": 2.5
-        },
-        {
-          "slug": "al-sulimaniyah",
-          "name_ar": "السليمانية",
-          "km": 2.5
         }
       ]
     },
@@ -277,29 +277,29 @@
       ],
       "neighbours": [
         {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 0.1
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 0.9
+        },
+        {
           "slug": "al-wurud",
           "name_ar": "الورود",
           "km": 1.7
         },
         {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.1
+        },
+        {
           "slug": "centria-mall",
           "name_ar": "سنتريا مول",
           "km": 2.3
-        },
-        {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 2.5
-        },
-        {
-          "slug": "al-sulimaniyah",
-          "name_ar": "السليمانية",
-          "km": 2.8
-        },
-        {
-          "slug": "kfsh",
-          "name_ar": "مستشفى الملك فيصل التخصصي",
-          "km": 3.7
         }
       ]
     },
@@ -371,6 +371,11 @@
       ],
       "neighbours": [
         {
+          "slug": "airport-metro-terminal-3",
+          "name_ar": "محطة مترو المطار",
+          "km": 0.4
+        },
+        {
           "slug": "riyadh-front",
           "name_ar": "واجهة الرياض",
           "km": 11.9
@@ -389,11 +394,6 @@
           "slug": "winter-wonderland",
           "name_ar": "ونتر وندرلاند",
           "km": 15.4
-        },
-        {
-          "slug": "al-rabie",
-          "name_ar": "الربيع",
-          "km": 15.7
         }
       ]
     },
@@ -427,19 +427,19 @@
           "km": 4.7
         },
         {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 5.9
+        },
+        {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 6.0
         },
         {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 6.1
-        },
-        {
-          "slug": "centria-mall",
-          "name_ar": "سنتريا مول",
-          "km": 6.4
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 6.0
         }
       ]
     },
@@ -473,19 +473,19 @@
           "km": 4.8
         },
         {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 5.9
+        },
+        {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 6.0
         },
         {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 6.2
-        },
-        {
-          "slug": "centria-mall",
-          "name_ar": "سنتريا مول",
-          "km": 6.4
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 6.1
         }
       ]
     },
@@ -625,9 +625,9 @@
           "km": 4.2
         },
         {
-          "slug": "diriyah",
-          "name_ar": "الدرعية",
-          "km": 4.5
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 4.3
         }
       ]
     },
@@ -714,14 +714,14 @@
           "km": 2.8
         },
         {
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 2.9
+        },
+        {
           "slug": "boulevard-world",
           "name_ar": "بوليفارد وورلد",
           "km": 3.2
-        },
-        {
-          "slug": "diriyah",
-          "name_ar": "الدرعية",
-          "km": 4.9
         }
       ]
     },
@@ -751,6 +751,11 @@
           "km": 1.9
         },
         {
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 5.2
+        },
+        {
           "slug": "kingdom-arena",
           "name_ar": "المملكة أرينا",
           "km": 7.1
@@ -764,11 +769,6 @@
           "slug": "winter-wonderland",
           "name_ar": "ونتر وندرلاند",
           "km": 7.1
-        },
-        {
-          "slug": "riyadh-gallery",
-          "name_ar": "الرياض جاليري",
-          "km": 7.5
         }
       ]
     },
@@ -787,7 +787,7 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو كافد (2.2 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -796,24 +796,24 @@
           "km": 1.7
         },
         {
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 2.2
+        },
+        {
           "slug": "kafd",
           "name_ar": "مركز الملك عبدالله المالي",
           "km": 2.3
         },
         {
-          "slug": "al-wurud",
-          "name_ar": "الورود",
-          "km": 5.0
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 3.9
         },
         {
-          "slug": "riyadh-park",
-          "name_ar": "الرياض بارك",
-          "km": 5.0
-        },
-        {
-          "slug": "al-sahafa",
-          "name_ar": "الصحافة",
-          "km": 5.0
+          "slug": "king-abdullah-road-metro",
+          "name_ar": "محطة مترو طريق الملك عبدالله",
+          "km": 3.9
         }
       ]
     },
@@ -836,9 +836,19 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 0.3
+        },
+        {
           "slug": "olaya",
           "name_ar": "العليا",
           "km": 0.3
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 1.4
         },
         {
           "slug": "kfmc",
@@ -849,16 +859,6 @@
           "slug": "al-sulimaniyah",
           "name_ar": "السليمانية",
           "km": 2.2
-        },
-        {
-          "slug": "kfsh",
-          "name_ar": "مستشفى الملك فيصل التخصصي",
-          "km": 2.3
-        },
-        {
-          "slug": "kingdom-centre",
-          "name_ar": "برج المملكة",
-          "km": 2.3
         }
       ]
     },
@@ -886,6 +886,11 @@
           "km": 1.7
         },
         {
+          "slug": "kafd-metro-station",
+          "name_ar": "محطة مترو كافد",
+          "km": 2.6
+        },
+        {
           "slug": "kafd",
           "name_ar": "مركز الملك عبدالله المالي",
           "km": 2.7
@@ -899,11 +904,6 @@
           "slug": "kingdom-arena",
           "name_ar": "المملكة أرينا",
           "km": 4.3
-        },
-        {
-          "slug": "al-rabie",
-          "name_ar": "الربيع",
-          "km": 4.5
         }
       ]
     },
@@ -939,19 +939,19 @@
           "km": 2.3
         },
         {
-          "slug": "kingdom-centre",
-          "name_ar": "برج المملكة",
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.6
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 3.0
+        },
+        {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
           "km": 3.7
-        },
-        {
-          "slug": "kfmc",
-          "name_ar": "مدينة الملك فهد الطبية",
-          "km": 3.8
-        },
-        {
-          "slug": "al-sulimaniyah",
-          "name_ar": "السليمانية",
-          "km": 4.5
         }
       ]
     },
@@ -970,9 +970,14 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو وزارة التعليم (1.6 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "ministry-of-education-metro",
+          "name_ar": "محطة مترو وزارة التعليم",
+          "km": 1.6
+        },
         {
           "slug": "al-sulimaniyah",
           "name_ar": "السليمانية",
@@ -984,19 +989,14 @@
           "km": 2.1
         },
         {
-          "slug": "olaya",
-          "name_ar": "العليا",
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
           "km": 2.2
         },
         {
-          "slug": "king-abdullah-park",
-          "name_ar": "حديقة الملك عبدالله",
-          "km": 2.6
-        },
-        {
-          "slug": "riyadh-train-station",
-          "name_ar": "محطة قطار الرياض",
-          "km": 3.6
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 2.2
         }
       ]
     },
@@ -1084,9 +1084,9 @@
           "km": 14.7
         },
         {
-          "slug": "al-sulimaniyah",
-          "name_ar": "السليمانية",
-          "km": 15.7
+          "slug": "ministry-of-education-metro",
+          "name_ar": "محطة مترو وزارة التعليم",
+          "km": 15.1
         }
       ]
     },
@@ -1104,9 +1104,14 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو وزارة التعليم (2.3 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "ministry-of-education-metro",
+          "name_ar": "محطة مترو وزارة التعليم",
+          "km": 2.3
+        },
         {
           "slug": "king-abdullah-park",
           "name_ar": "حديقة الملك عبدالله",
@@ -1123,14 +1128,9 @@
           "km": 3.6
         },
         {
-          "slug": "centria-mall",
-          "name_ar": "سنتريا مول",
-          "km": 5.1
-        },
-        {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 5.4
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 5.0
         }
       ]
     },
@@ -1159,6 +1159,11 @@
           "km": 1.9
         },
         {
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 3.9
+        },
+        {
           "slug": "kingdom-arena",
           "name_ar": "المملكة أرينا",
           "km": 5.6
@@ -1172,11 +1177,6 @@
           "slug": "winter-wonderland",
           "name_ar": "ونتر وندرلاند",
           "km": 5.7
-        },
-        {
-          "slug": "nakheel-mall",
-          "name_ar": "النخيل مول",
-          "km": 6.2
         }
       ]
     },
@@ -1375,9 +1375,19 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو وزارة التعليم (1.2 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "ministry-of-education-metro",
+          "name_ar": "محطة مترو وزارة التعليم",
+          "km": 1.2
+        },
+        {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.0
+        },
         {
           "slug": "kfmc",
           "name_ar": "مدينة الملك فهد الطبية",
@@ -1389,19 +1399,9 @@
           "km": 2.2
         },
         {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 2.5
-        },
-        {
-          "slug": "kingdom-centre",
-          "name_ar": "برج المملكة",
-          "km": 2.8
-        },
-        {
-          "slug": "riyadh-train-station",
-          "name_ar": "محطة قطار الرياض",
-          "km": 3.1
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 2.3
         }
       ]
     },
@@ -1420,33 +1420,33 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو طريق الملك عبدالله (1.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "king-abdullah-road-metro",
+          "name_ar": "محطة مترو طريق الملك عبدالله",
+          "km": 1.0
+        },
         {
           "slug": "kingdom-centre",
           "name_ar": "برج المملكة",
           "km": 1.7
         },
         {
-          "slug": "al-sulimaniyah",
-          "name_ar": "السليمانية",
-          "km": 3.8
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 1.7
         },
         {
-          "slug": "centria-mall",
-          "name_ar": "سنتريا مول",
-          "km": 3.9
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 2.5
         },
         {
-          "slug": "olaya",
-          "name_ar": "العليا",
-          "km": 4.1
-        },
-        {
-          "slug": "riyadh-gallery",
-          "name_ar": "الرياض جاليري",
-          "km": 5.0
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 3.3
         }
       ]
     },
@@ -1473,6 +1473,11 @@
           "km": 2.6
         },
         {
+          "slug": "ministry-of-education-metro",
+          "name_ar": "محطة مترو وزارة التعليم",
+          "km": 2.9
+        },
+        {
           "slug": "riyadh-train-station",
           "name_ar": "محطة قطار الرياض",
           "km": 3.1
@@ -1483,17 +1488,502 @@
           "km": 4.0
         },
         {
+          "slug": "national-museum-metro",
+          "name_ar": "محطة مترو المتحف الوطني",
+          "km": 4.2
+        }
+      ]
+    },
+    {
+      "slug": "kafd-metro-station",
+      "name_ar": "محطة مترو كافد",
+      "name_en": "KAFD Metro Station",
+      "lat": 24.7667,
+      "lng": 46.6428,
+      "prox_km": 2,
+      "q": "مترو كافد",
+      "poi_label": "محطة مترو كافد",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق · الأحمر · الأصفر (محطة رئيسية)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو كافد",
+        "فنادق قريبة من مترو مترو كافد"
+      ],
+      "neighbours": [
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 0.1
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 2.2
+        },
+        {
+          "slug": "nakheel-mall",
+          "name_ar": "النخيل مول",
+          "km": 2.6
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 2.9
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "olaya-metro-station",
+      "name_ar": "محطة مترو العليا",
+      "name_en": "Olaya Metro Station",
+      "lat": 24.696,
+      "lng": 46.686,
+      "prox_km": 1.5,
+      "q": "مترو العليا",
+      "poi_label": "محطة مترو العليا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق",
+      "keywords": [
+        "فنادق قريبة من محطة مترو العليا",
+        "فنادق قريبة من مترو مترو العليا"
+      ],
+      "neighbours": [
+        {
           "slug": "centria-mall",
           "name_ar": "سنتريا مول",
-          "km": 4.7
+          "km": 0.3
         },
         {
           "slug": "olaya",
           "name_ar": "العليا",
-          "km": 4.9
+          "km": 0.6
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 1.1
+        },
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 2.0
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "king-fahd-road-metro",
+      "name_ar": "محطة مترو طريق الملك فهد",
+      "name_en": "King Fahd Road Metro",
+      "lat": 24.704,
+      "lng": 46.679,
+      "prox_km": 1.5,
+      "q": "مترو طريق الملك فهد",
+      "poi_label": "محطة مترو طريق الملك فهد",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق",
+      "keywords": [
+        "فنادق قريبة من محطة مترو طريق الملك فهد",
+        "فنادق قريبة من مترو مترو طريق الملك فهد"
+      ],
+      "neighbours": [
+        {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 0.9
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 0.9
+        },
+        {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 1.1
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 1.4
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "kingdom-centre-metro",
+      "name_ar": "محطة مترو المملكة",
+      "name_en": "Kingdom Centre Metro",
+      "lat": 24.711,
+      "lng": 46.674,
+      "prox_km": 1.5,
+      "q": "مترو المملكة",
+      "poi_label": "محطة مترو المملكة",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق",
+      "keywords": [
+        "فنادق قريبة من محطة مترو المملكة",
+        "فنادق قريبة من مترو مترو المملكة"
+      ],
+      "neighbours": [
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 0.1
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 0.9
+        },
+        {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 1.7
+        },
+        {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.1
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "qasr-al-hokm-metro",
+      "name_ar": "محطة مترو قصر الحكم",
+      "name_en": "Qasr Al Hokm Metro",
+      "lat": 24.629,
+      "lng": 46.713,
+      "prox_km": 1.5,
+      "q": "مترو قصر الحكم",
+      "poi_label": "محطة مترو قصر الحكم",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق · البرتقالي",
+      "keywords": [
+        "فنادق قريبة من محطة مترو قصر الحكم",
+        "فنادق قريبة من مترو مترو قصر الحكم"
+      ],
+      "neighbours": [
+        {
+          "slug": "national-museum-metro",
+          "name_ar": "محطة مترو المتحف الوطني",
+          "km": 2.0
+        },
+        {
+          "slug": "king-abdullah-park",
+          "name_ar": "حديقة الملك عبدالله",
+          "km": 6.1
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 6.6
+        },
+        {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 7.0
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 7.4
+        }
+      ]
+    },
+    {
+      "slug": "national-museum-metro",
+      "name_ar": "محطة مترو المتحف الوطني",
+      "name_en": "National Museum Metro",
+      "lat": 24.647,
+      "lng": 46.713,
+      "prox_km": 1.5,
+      "q": "مترو المتحف الوطني",
+      "poi_label": "محطة مترو المتحف الوطني",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق · الأخضر",
+      "keywords": [
+        "فنادق قريبة من محطة مترو المتحف الوطني",
+        "فنادق قريبة من مترو مترو المتحف الوطني"
+      ],
+      "neighbours": [
+        {
+          "slug": "qasr-al-hokm-metro",
+          "name_ar": "محطة مترو قصر الحكم",
+          "km": 2.0
+        },
+        {
+          "slug": "king-abdullah-park",
+          "name_ar": "حديقة الملك عبدالله",
+          "km": 4.2
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 4.6
+        },
+        {
+          "slug": "kfsh",
+          "name_ar": "مستشفى الملك فيصل التخصصي",
+          "km": 5.5
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 5.7
+        }
+      ]
+    },
+    {
+      "slug": "stc-metro-station",
+      "name_ar": "محطة مترو STC",
+      "name_en": "STC Metro Station",
+      "lat": 24.748,
+      "lng": 46.694,
+      "prox_km": 1.5,
+      "q": "مترو STC",
+      "poi_label": "محطة مترو STC",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأحمر · الأخضر",
+      "keywords": [
+        "فنادق قريبة من محطة مترو STC",
+        "فنادق قريبة من مترو مترو STC"
+      ],
+      "neighbours": [
+        {
+          "slug": "king-abdullah-road-metro",
+          "name_ar": "محطة مترو طريق الملك عبدالله",
+          "km": 2.8
+        },
+        {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 3.3
+        },
+        {
+          "slug": "riyadh-gallery",
+          "name_ar": "الرياض جاليري",
+          "km": 3.9
+        },
+        {
+          "slug": "riyadh-exhibition-center",
+          "name_ar": "مركز الرياض الدولي للمعارض",
+          "km": 3.9
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "airport-metro-terminal-3",
+      "name_ar": "محطة مترو المطار",
+      "name_en": "Airport Metro Station",
+      "lat": 24.956,
+      "lng": 46.702,
+      "prox_km": 4,
+      "q": "مترو المطار",
+      "poi_label": "محطة مترو المطار",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأزرق",
+      "keywords": [
+        "فنادق قريبة من محطة مترو المطار",
+        "فنادق قريبة من مترو مترو المطار"
+      ],
+      "neighbours": [
+        {
+          "slug": "king-khalid-airport",
+          "name_ar": "مطار الملك خالد",
+          "km": 0.4
+        },
+        {
+          "slug": "riyadh-front",
+          "name_ar": "واجهة الرياض",
+          "km": 11.7
+        },
+        {
+          "slug": "al-narjis",
+          "name_ar": "النرجس",
+          "km": 13.2
+        },
+        {
+          "slug": "al-yasmin",
+          "name_ar": "الياسمين",
+          "km": 14.2
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 15.3
+        }
+      ]
+    },
+    {
+      "slug": "ministry-of-education-metro",
+      "name_ar": "محطة مترو وزارة التعليم",
+      "name_en": "Ministry of Education Metro",
+      "lat": 24.701,
+      "lng": 46.712,
+      "prox_km": 1.5,
+      "q": "مترو وزارة التعليم",
+      "poi_label": "محطة مترو وزارة التعليم",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأخضر",
+      "keywords": [
+        "فنادق قريبة من محطة مترو وزارة التعليم",
+        "فنادق قريبة من مترو مترو وزارة التعليم"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-sulimaniyah",
+          "name_ar": "السليمانية",
+          "km": 1.2
+        },
+        {
+          "slug": "kfmc",
+          "name_ar": "مدينة الملك فهد الطبية",
+          "km": 1.6
+        },
+        {
+          "slug": "riyadh-train-station",
+          "name_ar": "محطة قطار الرياض",
+          "km": 2.3
+        },
+        {
+          "slug": "olaya-metro-station",
+          "name_ar": "محطة مترو العليا",
+          "km": 2.7
+        },
+        {
+          "slug": "centria-mall",
+          "name_ar": "سنتريا مول",
+          "km": 2.8
+        }
+      ]
+    },
+    {
+      "slug": "king-abdullah-road-metro",
+      "name_ar": "محطة مترو طريق الملك عبدالله",
+      "name_en": "King Abdullah Road Metro",
+      "lat": 24.735,
+      "lng": 46.67,
+      "prox_km": 1.5,
+      "q": "مترو طريق الملك عبدالله",
+      "poi_label": "محطة مترو طريق الملك عبدالله",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "المسار الأحمر",
+      "keywords": [
+        "فنادق قريبة من محطة مترو طريق الملك عبدالله",
+        "فنادق قريبة من مترو مترو طريق الملك عبدالله"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-wurud",
+          "name_ar": "الورود",
+          "km": 1.0
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 2.7
+        },
+        {
+          "slug": "kingdom-centre-metro",
+          "name_ar": "محطة مترو المملكة",
+          "km": 2.7
+        },
+        {
+          "slug": "stc-metro-station",
+          "name_ar": "محطة مترو STC",
+          "km": 2.8
+        },
+        {
+          "slug": "king-fahd-road-metro",
+          "name_ar": "محطة مترو طريق الملك فهد",
+          "km": 3.6
         }
       ]
     }
   ],
-  "poi_count": 32
+  "poi_count": 42
 }

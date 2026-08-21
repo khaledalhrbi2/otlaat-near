@@ -33,8 +33,18 @@
       ],
       "neighbours": [
         {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.0
+        },
+        {
           "slug": "istiklal",
           "name_ar": "شارع الاستقلال",
+          "km": 0.7
+        },
+        {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
           "km": 0.7
         },
         {
@@ -46,16 +56,6 @@
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
           "km": 1.4
-        },
-        {
-          "slug": "karakoy",
-          "name_ar": "كاراكوي",
-          "km": 1.7
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 2.0
         }
       ]
     },
@@ -81,6 +81,11 @@
       ],
       "neighbours": [
         {
+          "slug": "sultanahmet-tram",
+          "name_ar": "محطة ترام السلطان أحمد",
+          "km": 0.1
+        },
+        {
           "slug": "hagia-sophia",
           "name_ar": "آيا صوفيا",
           "km": 0.4
@@ -99,11 +104,6 @@
           "slug": "sirkeci",
           "name_ar": "سيركجي",
           "km": 1.1
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 1.3
         }
       ]
     },
@@ -129,6 +129,11 @@
       ],
       "neighbours": [
         {
+          "slug": "sisli-mecidiyekoy-metro",
+          "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+          "km": 0.4
+        },
+        {
           "slug": "cevahir-mall",
           "name_ar": "جواهر مول",
           "km": 0.5
@@ -139,19 +144,14 @@
           "km": 0.8
         },
         {
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 1.0
+        },
+        {
           "slug": "memorial-hospital",
           "name_ar": "مستشفى ميموريال",
           "km": 1.1
-        },
-        {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 1.5
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 2.6
         }
       ]
     },
@@ -169,11 +169,16 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو عثمان بيه (0.7 كم)",
       "keywords": [
         "فنادق نيشانتاشي"
       ],
       "neighbours": [
+        {
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 0.7
+        },
         {
           "slug": "besiktas",
           "name_ar": "بشكتاش",
@@ -190,14 +195,9 @@
           "km": 1.4
         },
         {
-          "slug": "sisli",
-          "name_ar": "شيشلي",
-          "km": 1.5
-        },
-        {
-          "slug": "cevahir-mall",
-          "name_ar": "جواهر مول",
-          "km": 1.7
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 1.4
         }
       ]
     },
@@ -215,7 +215,7 @@
         "5-star",
         "bosphorus-view"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كاباتاش (1.5 كم)",
       "keywords": [
         "فنادق بشكتاش",
         "فنادق مطلة على البسفور"
@@ -232,6 +232,11 @@
           "km": 1.4
         },
         {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 1.5
+        },
+        {
           "slug": "ortakoy",
           "name_ar": "أورتاكوي",
           "km": 1.7
@@ -240,11 +245,6 @@
           "slug": "uskudar",
           "name_ar": "أوسكودار",
           "km": 1.9
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 2.0
         }
       ]
     },
@@ -263,7 +263,7 @@
         "bosphorus-view",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كاباتاش (1.8 كم)",
       "keywords": [
         "فنادق على البسفور",
         "فنادق مطلة على البسفور"
@@ -285,14 +285,14 @@
           "km": 1.4
         },
         {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 1.8
+        },
+        {
           "slug": "uskudar",
           "name_ar": "أوسكودار",
           "km": 2.0
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 2.2
         }
       ]
     },
@@ -310,11 +310,16 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مطار إسطنبول (1.7 كم)",
       "keywords": [
         "فنادق قريبة من مطار إسطنبول الجديد"
       ],
       "neighbours": [
+        {
+          "slug": "istanbul-airport-metro",
+          "name_ar": "محطة مترو مطار إسطنبول",
+          "km": 1.7
+        },
         {
           "slug": "basaksehir",
           "name_ar": "بشاك شهير",
@@ -334,11 +339,6 @@
           "slug": "forum-istanbul",
           "name_ar": "فوروم إسطنبول",
           "km": 28.2
-        },
-        {
-          "slug": "eyup",
-          "name_ar": "السلطان أيوب",
-          "km": 29.5
         }
       ]
     },
@@ -356,11 +356,16 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مطار صبيحة (0.2 كم)",
       "keywords": [
         "فنادق قريبة من مطار صبيحة"
       ],
       "neighbours": [
+        {
+          "slug": "sabiha-gokcen-metro",
+          "name_ar": "محطة مترو مطار صبيحة",
+          "km": 0.2
+        },
         {
           "slug": "princes-islands",
           "name_ar": "جزر الأميرات",
@@ -377,14 +382,9 @@
           "km": 25.9
         },
         {
-          "slug": "uskudar",
-          "name_ar": "أوسكودار",
-          "km": 28.5
-        },
-        {
-          "slug": "ortakoy",
-          "name_ar": "أورتاكوي",
-          "km": 29.0
+          "slug": "kadikoy-metro",
+          "name_ar": "محطة مترو كاديكوي",
+          "km": 26.0
         }
       ]
     },
@@ -403,7 +403,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو تقسيم (0.7 كم)",
       "keywords": [
         "فنادق شارع الاستقلال"
       ],
@@ -412,6 +412,11 @@
           "slug": "beyoglu",
           "name_ar": "بيوغلو",
           "km": 0.1
+        },
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.7
         },
         {
           "slug": "taksim",
@@ -424,14 +429,9 @@
           "km": 1.1
         },
         {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 1.8
-        },
-        {
-          "slug": "spice-bazaar",
-          "name_ar": "السوق المصري",
-          "km": 1.9
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 1.3
         }
       ]
     },
@@ -449,11 +449,26 @@
         "budget",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو وزنجيلر (0.4 كم)",
       "keywords": [
         "فنادق لالالي"
       ],
       "neighbours": [
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
+          "km": 0.4
+        },
+        {
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 0.6
+        },
+        {
+          "slug": "yenikapi-metro",
+          "name_ar": "محطة يني كابي",
+          "km": 0.7
+        },
         {
           "slug": "grand-bazaar",
           "name_ar": "البازار الكبير",
@@ -463,21 +478,6 @@
           "slug": "fatih",
           "name_ar": "الفاتح",
           "km": 1.1
-        },
-        {
-          "slug": "spice-bazaar",
-          "name_ar": "السوق المصري",
-          "km": 1.4
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 1.6
-        },
-        {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 1.8
         }
       ]
     },
@@ -495,35 +495,35 @@
         "budget",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أكسراي (0.7 كم)",
       "keywords": [
         "فنادق الفاتح إسطنبول"
       ],
       "neighbours": [
+        {
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 0.7
+        },
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
+          "km": 1.0
+        },
         {
           "slug": "laleli",
           "name_ar": "لالالي",
           "km": 1.1
         },
         {
+          "slug": "yenikapi-metro",
+          "name_ar": "محطة يني كابي",
+          "km": 1.5
+        },
+        {
           "slug": "grand-bazaar",
           "name_ar": "البازار الكبير",
           "km": 1.9
-        },
-        {
-          "slug": "spice-bazaar",
-          "name_ar": "السوق المصري",
-          "km": 1.9
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 2.0
-        },
-        {
-          "slug": "sirkeci",
-          "name_ar": "سيركجي",
-          "km": 2.5
         }
       ]
     },
@@ -542,11 +542,16 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام أمينونو (0.1 كم)",
       "keywords": [
         "فنادق أمينونو"
       ],
       "neighbours": [
+        {
+          "slug": "eminonu-tram",
+          "name_ar": "محطة ترام أمينونو",
+          "km": 0.1
+        },
         {
           "slug": "spice-bazaar",
           "name_ar": "السوق المصري",
@@ -566,11 +571,6 @@
           "slug": "karakoy",
           "name_ar": "كاراكوي",
           "km": 0.8
-        },
-        {
-          "slug": "topkapi-palace",
-          "name_ar": "قصر توبكابي",
-          "km": 1.1
         }
       ]
     },
@@ -588,11 +588,16 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أوسكودار مرمراي (0.2 كم)",
       "keywords": [
         "فنادق أوسكودار الجانب الآسيوي"
       ],
       "neighbours": [
+        {
+          "slug": "uskudar-marmaray",
+          "name_ar": "محطة أوسكودار مرمراي",
+          "km": 0.2
+        },
         {
           "slug": "besiktas",
           "name_ar": "بشكتاش",
@@ -604,19 +609,14 @@
           "km": 2.0
         },
         {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 2.0
+        },
+        {
           "slug": "acibadem-hospital",
           "name_ar": "مستشفى آجيبادم",
           "km": 2.6
-        },
-        {
-          "slug": "ortakoy",
-          "name_ar": "أورتاكوي",
-          "km": 2.6
-        },
-        {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 2.8
         }
       ]
     },
@@ -641,6 +641,16 @@
       ],
       "neighbours": [
         {
+          "slug": "yenikapi-metro",
+          "name_ar": "محطة يني كابي",
+          "km": 7.2
+        },
+        {
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 7.5
+        },
+        {
           "slug": "forum-istanbul",
           "name_ar": "فوروم إسطنبول",
           "km": 7.6
@@ -654,16 +664,6 @@
           "slug": "laleli",
           "name_ar": "لالالي",
           "km": 7.8
-        },
-        {
-          "slug": "grand-bazaar",
-          "name_ar": "البازار الكبير",
-          "km": 8.8
-        },
-        {
-          "slug": "eyup",
-          "name_ar": "السلطان أيوب",
-          "km": 9.2
         }
       ]
     },
@@ -692,6 +692,11 @@
           "km": 3.8
         },
         {
+          "slug": "levent-metro",
+          "name_ar": "محطة مترو ليفنت",
+          "km": 3.8
+        },
+        {
           "slug": "zorlu-center",
           "name_ar": "زورلو سنتر",
           "km": 4.9
@@ -705,11 +710,6 @@
           "slug": "mecidiyekoy",
           "name_ar": "مجيدية كوي",
           "km": 5.8
-        },
-        {
-          "slug": "cevahir-mall",
-          "name_ar": "جواهر مول",
-          "km": 6.2
         }
       ]
     },
@@ -734,6 +734,11 @@
       ],
       "neighbours": [
         {
+          "slug": "sisli-mecidiyekoy-metro",
+          "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+          "km": 0.1
+        },
+        {
           "slug": "mecidiyekoy",
           "name_ar": "مجيدية كوي",
           "km": 0.3
@@ -749,14 +754,9 @@
           "km": 0.8
         },
         {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 1.7
-        },
-        {
-          "slug": "zorlu-center",
-          "name_ar": "زورلو سنتر",
-          "km": 2.1
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 1.4
         }
       ]
     },
@@ -819,13 +819,18 @@
         "5-star",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ليفنت (1.4 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "akmerkez",
           "name_ar": "أكمركز",
           "km": 1.2
+        },
+        {
+          "slug": "levent-metro",
+          "name_ar": "محطة مترو ليفنت",
+          "km": 1.4
         },
         {
           "slug": "mecidiyekoy",
@@ -841,11 +846,6 @@
           "slug": "ortakoy",
           "name_ar": "أورتاكوي",
           "km": 2.2
-        },
-        {
-          "slug": "memorial-hospital",
-          "name_ar": "مستشفى ميموريال",
-          "km": 2.5
         }
       ]
     },
@@ -873,24 +873,24 @@
           "km": 3.0
         },
         {
+          "slug": "kadikoy-metro",
+          "name_ar": "محطة مترو كاديكوي",
+          "km": 3.9
+        },
+        {
           "slug": "uskudar",
           "name_ar": "أوسكودار",
           "km": 5.5
         },
         {
+          "slug": "uskudar-marmaray",
+          "name_ar": "محطة أوسكودار مرمراي",
+          "km": 5.6
+        },
+        {
           "slug": "ortakoy",
           "name_ar": "أورتاكوي",
           "km": 6.6
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 7.1
-        },
-        {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 7.1
         }
       ]
     },
@@ -909,9 +909,14 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ليفنت (0.9 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "levent-metro",
+          "name_ar": "محطة مترو ليفنت",
+          "km": 0.9
+        },
         {
           "slug": "zorlu-center",
           "name_ar": "زورلو سنتر",
@@ -931,11 +936,6 @@
           "slug": "cevahir-mall",
           "name_ar": "جواهر مول",
           "km": 2.9
-        },
-        {
-          "slug": "ortakoy",
-          "name_ar": "أورتاكوي",
-          "km": 3.3
         }
       ]
     },
@@ -968,19 +968,19 @@
           "km": 5.4
         },
         {
-          "slug": "laleli",
-          "name_ar": "لالالي",
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 5.9
+        },
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
           "km": 6.4
         },
         {
-          "slug": "beyoglu",
-          "name_ar": "بيوغلو",
-          "km": 7.0
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 7.0
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 6.4
         }
       ]
     },
@@ -1023,9 +1023,9 @@
           "km": 4.0
         },
         {
-          "slug": "taksim",
-          "name_ar": "تقسيم",
-          "km": 4.4
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 4.2
         }
       ]
     },
@@ -1043,12 +1043,17 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام أمينونو (0.8 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "eminonu",
           "name_ar": "أمينونو",
+          "km": 0.8
+        },
+        {
+          "slug": "eminonu-tram",
+          "name_ar": "محطة ترام أمينونو",
           "km": 0.8
         },
         {
@@ -1065,11 +1070,6 @@
           "slug": "beyoglu",
           "name_ar": "بيوغلو",
           "km": 1.0
-        },
-        {
-          "slug": "istiklal",
-          "name_ar": "شارع الاستقلال",
-          "km": 1.1
         }
       ]
     },
@@ -1132,13 +1132,18 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام أمينونو (0.6 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "eminonu",
           "name_ar": "أمينونو",
           "km": 0.5
+        },
+        {
+          "slug": "eminonu-tram",
+          "name_ar": "محطة ترام أمينونو",
+          "km": 0.6
         },
         {
           "slug": "spice-bazaar",
@@ -1154,11 +1159,6 @@
           "slug": "hagia-sophia",
           "name_ar": "آيا صوفيا",
           "km": 0.8
-        },
-        {
-          "slug": "grand-bazaar",
-          "name_ar": "البازار الكبير",
-          "km": 0.9
         }
       ]
     },
@@ -1186,6 +1186,11 @@
           "km": 0.3
         },
         {
+          "slug": "sisli-mecidiyekoy-metro",
+          "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+          "km": 0.5
+        },
+        {
           "slug": "memorial-hospital",
           "name_ar": "مستشفى ميموريال",
           "km": 0.6
@@ -1196,14 +1201,9 @@
           "km": 0.8
         },
         {
-          "slug": "nisantasi",
-          "name_ar": "نيشانتاشي",
-          "km": 2.0
-        },
-        {
-          "slug": "zorlu-center",
-          "name_ar": "زورلو سنتر",
-          "km": 2.0
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 1.7
         }
       ]
     },
@@ -1354,13 +1354,18 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو تقسيم (0.9 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "istiklal",
           "name_ar": "شارع الاستقلال",
           "km": 0.1
+        },
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.9
         },
         {
           "slug": "taksim",
@@ -1373,14 +1378,9 @@
           "km": 1.0
         },
         {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 1.7
-        },
-        {
-          "slug": "spice-bazaar",
-          "name_ar": "السوق المصري",
-          "km": 1.8
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 1.4
         }
       ]
     },
@@ -1398,7 +1398,7 @@
         "family",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام السلطان أحمد (0.4 كم)",
       "keywords": [
         "فنادق قريبة من ايا صوفيا"
       ],
@@ -1406,6 +1406,11 @@
         {
           "slug": "topkapi-palace",
           "name_ar": "قصر توبكابي",
+          "km": 0.4
+        },
+        {
+          "slug": "sultanahmet-tram",
+          "name_ar": "محطة ترام السلطان أحمد",
           "km": 0.4
         },
         {
@@ -1422,11 +1427,6 @@
           "slug": "grand-bazaar",
           "name_ar": "البازار الكبير",
           "km": 1.1
-        },
-        {
-          "slug": "eminonu",
-          "name_ar": "أمينونو",
-          "km": 1.2
         }
       ]
     },
@@ -1445,7 +1445,7 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام أمينونو (0.7 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -1454,24 +1454,24 @@
           "km": 0.7
         },
         {
+          "slug": "eminonu-tram",
+          "name_ar": "محطة ترام أمينونو",
+          "km": 0.7
+        },
+        {
           "slug": "eminonu",
           "name_ar": "أمينونو",
           "km": 0.8
         },
         {
-          "slug": "sirkeci",
-          "name_ar": "سيركجي",
+          "slug": "sultanahmet-tram",
+          "name_ar": "محطة ترام السلطان أحمد",
+          "km": 0.8
+        },
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
           "km": 0.9
-        },
-        {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 1.0
-        },
-        {
-          "slug": "laleli",
-          "name_ar": "لالالي",
-          "km": 1.0
         }
       ]
     },
@@ -1490,9 +1490,14 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام أمينونو (0.1 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "eminonu-tram",
+          "name_ar": "محطة ترام أمينونو",
+          "km": 0.1
+        },
         {
           "slug": "eminonu",
           "name_ar": "أمينونو",
@@ -1512,11 +1517,6 @@
           "slug": "karakoy",
           "name_ar": "كاراكوي",
           "km": 0.9
-        },
-        {
-          "slug": "hagia-sophia",
-          "name_ar": "آيا صوفيا",
-          "km": 1.2
         }
       ]
     },
@@ -1535,7 +1535,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ترام السلطان أحمد (0.8 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -1549,6 +1549,11 @@
           "km": 0.7
         },
         {
+          "slug": "sultanahmet-tram",
+          "name_ar": "محطة ترام السلطان أحمد",
+          "km": 0.8
+        },
+        {
           "slug": "sultanahmet",
           "name_ar": "السلطان أحمد",
           "km": 0.9
@@ -1557,11 +1562,6 @@
           "slug": "eminonu",
           "name_ar": "أمينونو",
           "km": 1.1
-        },
-        {
-          "slug": "spice-bazaar",
-          "name_ar": "السوق المصري",
-          "km": 1.2
         }
       ]
     },
@@ -1588,24 +1588,24 @@
           "km": 14.5
         },
         {
+          "slug": "kadikoy-metro",
+          "name_ar": "محطة مترو كاديكوي",
+          "km": 15.3
+        },
+        {
           "slug": "sabiha-gokcen",
           "name_ar": "مطار صبيحة",
           "km": 15.5
         },
         {
+          "slug": "sabiha-gokcen-metro",
+          "name_ar": "محطة مترو مطار صبيحة",
+          "km": 15.6
+        },
+        {
           "slug": "acibadem-hospital",
           "name_ar": "مستشفى آجيبادم",
           "km": 17.1
-        },
-        {
-          "slug": "sultanahmet",
-          "name_ar": "السلطان أحمد",
-          "km": 19.1
-        },
-        {
-          "slug": "uskudar",
-          "name_ar": "أوسكودار",
-          "km": 19.1
         }
       ]
     },
@@ -1635,24 +1635,24 @@
           "km": 2.6
         },
         {
+          "slug": "uskudar-marmaray",
+          "name_ar": "محطة أوسكودار مرمراي",
+          "km": 2.7
+        },
+        {
           "slug": "emaar-square",
           "name_ar": "إعمار سكوير",
           "km": 3.0
         },
         {
+          "slug": "kadikoy-metro",
+          "name_ar": "محطة مترو كاديكوي",
+          "km": 3.3
+        },
+        {
           "slug": "ortakoy",
           "name_ar": "أورتاكوي",
           "km": 3.8
-        },
-        {
-          "slug": "besiktas",
-          "name_ar": "بشكتاش",
-          "km": 4.1
-        },
-        {
-          "slug": "bosphorus",
-          "name_ar": "البسفور",
-          "km": 4.2
         }
       ]
     },
@@ -1671,7 +1671,7 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو شيشلي-مجيدية كوي (0.9 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -1685,22 +1685,708 @@
           "km": 0.8
         },
         {
+          "slug": "sisli-mecidiyekoy-metro",
+          "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+          "km": 0.9
+        },
+        {
           "slug": "sisli",
           "name_ar": "شيشلي",
           "km": 1.1
         },
         {
-          "slug": "zorlu-center",
-          "name_ar": "زورلو سنتر",
-          "km": 2.5
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "taksim-metro",
+      "name_ar": "محطة مترو تقسيم",
+      "name_en": "Taksim Metro",
+      "lat": 41.0369,
+      "lng": 28.985,
+      "prox_km": 1.5,
+      "q": "مترو تقسيم",
+      "poi_label": "محطة مترو تقسيم",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2",
+      "keywords": [
+        "فنادق قريبة من محطة مترو تقسيم",
+        "فنادق قريبة من مترو مترو تقسيم"
+      ],
+      "neighbours": [
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 0.7
+        },
+        {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 0.7
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 0.9
         },
         {
           "slug": "nisantasi",
           "name_ar": "نيشانتاشي",
-          "km": 2.5
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "sisli-mecidiyekoy-metro",
+      "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+      "name_en": "Sisli-Mecidiyekoy Metro",
+      "lat": 41.062,
+      "lng": 28.991,
+      "prox_km": 1.5,
+      "q": "مترو شيشلي-مجيدية كوي",
+      "poi_label": "محطة مترو شيشلي-مجيدية كوي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2 · M7",
+      "keywords": [
+        "فنادق قريبة من محطة مترو شيشلي-مجيدية كوي",
+        "فنادق قريبة من مترو مترو شيشلي-مجيدية كوي"
+      ],
+      "neighbours": [
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 0.1
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 0.4
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 0.5
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 0.9
+        },
+        {
+          "slug": "osmanbey-metro",
+          "name_ar": "محطة مترو عثمان بيه",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "osmanbey-metro",
+      "name_ar": "محطة مترو عثمان بيه",
+      "name_en": "Osmanbey Metro",
+      "lat": 41.051,
+      "lng": 28.987,
+      "prox_km": 1.5,
+      "q": "مترو عثمان بيه",
+      "poi_label": "محطة مترو عثمان بيه",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2",
+      "keywords": [
+        "فنادق قريبة من محطة مترو عثمان بيه",
+        "فنادق قريبة من مترو مترو عثمان بيه"
+      ],
+      "neighbours": [
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 0.7
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 1.0
+        },
+        {
+          "slug": "sisli-mecidiyekoy-metro",
+          "name_ar": "محطة مترو شيشلي-مجيدية كوي",
+          "km": 1.3
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 1.4
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "levent-metro",
+      "name_ar": "محطة مترو ليفنت",
+      "name_en": "Levent Metro",
+      "lat": 41.079,
+      "lng": 29.011,
+      "prox_km": 1.5,
+      "q": "مترو ليفنت",
+      "poi_label": "محطة مترو ليفنت",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2 · M6",
+      "keywords": [
+        "فنادق قريبة من محطة مترو ليفنت",
+        "فنادق قريبة من مترو مترو ليفنت"
+      ],
+      "neighbours": [
+        {
+          "slug": "akmerkez",
+          "name_ar": "أكمركز",
+          "km": 0.9
+        },
+        {
+          "slug": "zorlu-center",
+          "name_ar": "زورلو سنتر",
+          "km": 1.4
+        },
+        {
+          "slug": "mecidiyekoy",
+          "name_ar": "مجيدية كوي",
+          "km": 2.1
+        },
+        {
+          "slug": "memorial-hospital",
+          "name_ar": "مستشفى ميموريال",
+          "km": 2.2
+        },
+        {
+          "slug": "cevahir-mall",
+          "name_ar": "جواهر مول",
+          "km": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "vezneciler-metro",
+      "name_ar": "محطة مترو وزنجيلر",
+      "name_en": "Vezneciler Metro",
+      "lat": 41.013,
+      "lng": 28.958,
+      "prox_km": 1.5,
+      "q": "مترو وزنجيلر",
+      "poi_label": "محطة مترو وزنجيلر",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2",
+      "keywords": [
+        "فنادق قريبة من محطة مترو وزنجيلر",
+        "فنادق قريبة من مترو مترو وزنجيلر"
+      ],
+      "neighbours": [
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 0.4
+        },
+        {
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 0.7
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.9
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 1.0
+        },
+        {
+          "slug": "yenikapi-metro",
+          "name_ar": "محطة يني كابي",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "yenikapi-metro",
+      "name_ar": "محطة يني كابي",
+      "name_en": "Yenikapi Station",
+      "lat": 41.005,
+      "lng": 28.951,
+      "prox_km": 1.5,
+      "q": "يني كابي",
+      "poi_label": "محطة يني كابي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M2 · مرمراي",
+      "keywords": [
+        "فنادق قريبة من محطة يني كابي",
+        "فنادق قريبة من مترو يني كابي"
+      ],
+      "neighbours": [
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 0.7
+        },
+        {
+          "slug": "aksaray-metro",
+          "name_ar": "محطة مترو أكسراي",
+          "km": 0.8
+        },
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
+          "km": 1.1
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 1.5
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "sultanahmet-tram",
+      "name_ar": "محطة ترام السلطان أحمد",
+      "name_en": "Sultanahmet Tram",
+      "lat": 41.0065,
+      "lng": 28.976,
+      "prox_km": 1.5,
+      "q": "ترام السلطان أحمد",
+      "poi_label": "محطة ترام السلطان أحمد",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "T1",
+      "keywords": [
+        "فنادق قريبة من محطة ترام السلطان أحمد",
+        "فنادق قريبة من مترو ترام السلطان أحمد"
+      ],
+      "neighbours": [
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 0.1
+        },
+        {
+          "slug": "hagia-sophia",
+          "name_ar": "آيا صوفيا",
+          "km": 0.4
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.8
+        },
+        {
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 0.8
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "eminonu-tram",
+      "name_ar": "محطة ترام أمينونو",
+      "name_en": "Eminonu Tram",
+      "lat": 41.017,
+      "lng": 28.971,
+      "prox_km": 1.5,
+      "q": "ترام أمينونو",
+      "poi_label": "محطة ترام أمينونو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "T1",
+      "keywords": [
+        "فنادق قريبة من محطة ترام أمينونو",
+        "فنادق قريبة من مترو ترام أمينونو"
+      ],
+      "neighbours": [
+        {
+          "slug": "spice-bazaar",
+          "name_ar": "السوق المصري",
+          "km": 0.1
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 0.1
+        },
+        {
+          "slug": "sirkeci",
+          "name_ar": "سيركجي",
+          "km": 0.6
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 0.7
+        },
+        {
+          "slug": "karakoy",
+          "name_ar": "كاراكوي",
+          "km": 0.8
+        }
+      ]
+    },
+    {
+      "slug": "kabatas-tram",
+      "name_ar": "محطة كاباتاش",
+      "name_en": "Kabatas Station",
+      "lat": 41.034,
+      "lng": 28.993,
+      "prox_km": 1.5,
+      "q": "كاباتاش",
+      "poi_label": "محطة كاباتاش",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "T1 · F1",
+      "keywords": [
+        "فنادق قريبة من محطة كاباتاش",
+        "فنادق قريبة من مترو كاباتاش"
+      ],
+      "neighbours": [
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 0.7
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.7
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 1.3
+        },
+        {
+          "slug": "beyoglu",
+          "name_ar": "بيوغلو",
+          "km": 1.4
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "aksaray-metro",
+      "name_ar": "محطة مترو أكسراي",
+      "name_en": "Aksaray Metro",
+      "lat": 41.012,
+      "lng": 28.95,
+      "prox_km": 1.5,
+      "q": "مترو أكسراي",
+      "poi_label": "محطة مترو أكسراي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1",
+      "keywords": [
+        "فنادق قريبة من محطة مترو أكسراي",
+        "فنادق قريبة من مترو مترو أكسراي"
+      ],
+      "neighbours": [
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 0.6
+        },
+        {
+          "slug": "vezneciler-metro",
+          "name_ar": "محطة مترو وزنجيلر",
+          "km": 0.7
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 0.7
+        },
+        {
+          "slug": "yenikapi-metro",
+          "name_ar": "محطة يني كابي",
+          "km": 0.8
+        },
+        {
+          "slug": "grand-bazaar",
+          "name_ar": "البازار الكبير",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "istanbul-airport-metro",
+      "name_ar": "محطة مترو مطار إسطنبول",
+      "name_en": "Istanbul Airport Metro",
+      "lat": 41.262,
+      "lng": 28.742,
+      "prox_km": 4,
+      "q": "مترو مطار إسطنبول",
+      "poi_label": "محطة مترو مطار إسطنبول",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M11",
+      "keywords": [
+        "فنادق قريبة من محطة مترو مطار إسطنبول",
+        "فنادق قريبة من مترو مترو مطار إسطنبول"
+      ],
+      "neighbours": [
+        {
+          "slug": "istanbul-airport",
+          "name_ar": "مطار إسطنبول",
+          "km": 1.7
+        },
+        {
+          "slug": "basaksehir",
+          "name_ar": "بشاك شهير",
+          "km": 19.5
+        },
+        {
+          "slug": "mall-of-istanbul",
+          "name_ar": "مول أوف إسطنبول",
+          "km": 22.7
+        },
+        {
+          "slug": "esenyurt",
+          "name_ar": "إسنيورت",
+          "km": 25.9
+        },
+        {
+          "slug": "forum-istanbul",
+          "name_ar": "فوروم إسطنبول",
+          "km": 27.3
+        }
+      ]
+    },
+    {
+      "slug": "sabiha-gokcen-metro",
+      "name_ar": "محطة مترو مطار صبيحة",
+      "name_en": "Sabiha Gokcen Metro",
+      "lat": 40.9,
+      "lng": 29.31,
+      "prox_km": 3,
+      "q": "مترو مطار صبيحة",
+      "poi_label": "محطة مترو مطار صبيحة",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M4",
+      "keywords": [
+        "فنادق قريبة من محطة مترو مطار صبيحة",
+        "فنادق قريبة من مترو مترو مطار صبيحة"
+      ],
+      "neighbours": [
+        {
+          "slug": "sabiha-gokcen",
+          "name_ar": "مطار صبيحة",
+          "km": 0.2
+        },
+        {
+          "slug": "princes-islands",
+          "name_ar": "جزر الأميرات",
+          "km": 15.6
+        },
+        {
+          "slug": "emaar-square",
+          "name_ar": "إعمار سكوير",
+          "km": 23.0
+        },
+        {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 25.9
+        },
+        {
+          "slug": "kadikoy-metro",
+          "name_ar": "محطة مترو كاديكوي",
+          "km": 25.9
+        }
+      ]
+    },
+    {
+      "slug": "uskudar-marmaray",
+      "name_ar": "محطة أوسكودار مرمراي",
+      "name_en": "Uskudar Marmaray",
+      "lat": 41.025,
+      "lng": 29.013,
+      "prox_km": 1.5,
+      "q": "أوسكودار مرمراي",
+      "poi_label": "محطة أوسكودار مرمراي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "مرمراي · M5",
+      "keywords": [
+        "فنادق قريبة من محطة أوسكودار مرمراي",
+        "فنادق قريبة من مترو أوسكودار مرمراي"
+      ],
+      "neighbours": [
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 0.2
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 1.9
+        },
+        {
+          "slug": "kabatas-tram",
+          "name_ar": "محطة كاباتاش",
+          "km": 2.0
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 2.1
+        },
+        {
+          "slug": "taksim-metro",
+          "name_ar": "محطة مترو تقسيم",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "kadikoy-metro",
+      "name_ar": "محطة مترو كاديكوي",
+      "name_en": "Kadikoy Metro",
+      "lat": 40.99,
+      "lng": 29.025,
+      "prox_km": 1.5,
+      "q": "مترو كاديكوي",
+      "poi_label": "محطة مترو كاديكوي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M4",
+      "keywords": [
+        "فنادق قريبة من محطة مترو كاديكوي",
+        "فنادق قريبة من مترو مترو كاديكوي"
+      ],
+      "neighbours": [
+        {
+          "slug": "acibadem-hospital",
+          "name_ar": "مستشفى آجيبادم",
+          "km": 3.3
+        },
+        {
+          "slug": "emaar-square",
+          "name_ar": "إعمار سكوير",
+          "km": 3.9
+        },
+        {
+          "slug": "uskudar-marmaray",
+          "name_ar": "محطة أوسكودار مرمراي",
+          "km": 4.0
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 4.1
+        },
+        {
+          "slug": "topkapi-palace",
+          "name_ar": "قصر توبكابي",
+          "km": 4.2
         }
       ]
     }
   ],
-  "poi_count": 37
+  "poi_count": 51
 }

@@ -32,29 +32,29 @@
       ],
       "neighbours": [
         {
+          "slug": "edgware-road-station",
+          "name_ar": "محطة إدجوير رود",
+          "km": 0.1
+        },
+        {
           "slug": "paddington",
           "name_ar": "بادينغتون",
           "km": 0.7
         },
         {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
           "km": 0.9
         },
         {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 1.3
-        },
-        {
-          "slug": "harley-street",
-          "name_ar": "هارلي ستريت",
-          "km": 1.5
-        },
-        {
-          "slug": "regents-park",
-          "name_ar": "ريجنتس بارك",
-          "km": 1.6
+          "slug": "marble-arch",
+          "name_ar": "ماربل آرش",
+          "km": 0.9
         }
       ]
     },
@@ -79,9 +79,19 @@
       ],
       "neighbours": [
         {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 0.7
+        },
+        {
           "slug": "marble-arch",
           "name_ar": "ماربل آرش",
           "km": 0.8
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
+          "km": 0.9
         },
         {
           "slug": "harrods",
@@ -91,16 +101,6 @@
         {
           "slug": "mayfair",
           "name_ar": "مايفير",
-          "km": 1.3
-        },
-        {
-          "slug": "edgware-road",
-          "name_ar": "شارع العرب (إدجوير رود)",
-          "km": 1.3
-        },
-        {
-          "slug": "paddington",
-          "name_ar": "بادينغتون",
           "km": 1.3
         }
       ]
@@ -125,9 +125,19 @@
       ],
       "neighbours": [
         {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 0.0
+        },
+        {
           "slug": "regent-street",
           "name_ar": "ريجنت ستريت",
           "km": 0.4
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.6
         },
         {
           "slug": "harley-street",
@@ -138,16 +148,6 @@
           "slug": "mayfair",
           "name_ar": "مايفير",
           "km": 0.8
-        },
-        {
-          "slug": "piccadilly",
-          "name_ar": "بيكاديلي",
-          "km": 0.8
-        },
-        {
-          "slug": "leicester-square",
-          "name_ar": "ليستر سكوير",
-          "km": 0.9
         }
       ]
     },
@@ -171,6 +171,11 @@
       ],
       "neighbours": [
         {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 0.3
+        },
+        {
           "slug": "hyde-park",
           "name_ar": "هايد بارك",
           "km": 0.9
@@ -189,11 +194,6 @@
           "slug": "victoria",
           "name_ar": "فيكتوريا",
           "km": 1.4
-        },
-        {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
-          "km": 1.6
         }
       ]
     },
@@ -211,7 +211,7 @@
         "family",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كوينزواي (1.1 كم)",
       "keywords": [
         "فنادق كنسينغتون"
       ],
@@ -222,6 +222,16 @@
           "km": 1.0
         },
         {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 1.1
+        },
+        {
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 1.1
+        },
+        {
           "slug": "bayswater-queensway",
           "name_ar": "بايزووتر / كوينزواي",
           "km": 1.2
@@ -230,16 +240,6 @@
           "slug": "south-kensington",
           "name_ar": "ساوث كنسينغتون",
           "km": 1.3
-        },
-        {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 1.8
-        },
-        {
-          "slug": "harrods",
-          "name_ar": "هارودز",
-          "km": 1.9
         }
       ]
     },
@@ -265,6 +265,11 @@
       ],
       "neighbours": [
         {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 0.2
+        },
+        {
           "slug": "notting-hill",
           "name_ar": "نوتنغ هيل",
           "km": 0.6
@@ -275,19 +280,14 @@
           "km": 0.9
         },
         {
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 0.9
+        },
+        {
           "slug": "kensington",
           "name_ar": "كنسينغتون",
           "km": 1.2
-        },
-        {
-          "slug": "edgware-road",
-          "name_ar": "شارع العرب (إدجوير رود)",
-          "km": 1.6
-        },
-        {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 1.6
         }
       ]
     },
@@ -311,8 +311,18 @@
       ],
       "neighbours": [
         {
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 0.0
+        },
+        {
           "slug": "edgware-road",
           "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.7
+        },
+        {
+          "slug": "edgware-road-station",
+          "name_ar": "محطة إدجوير رود",
           "km": 0.7
         },
         {
@@ -321,19 +331,9 @@
           "km": 0.9
         },
         {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
-          "km": 1.3
-        },
-        {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 1.3
-        },
-        {
-          "slug": "notting-hill",
-          "name_ar": "نوتنغ هيل",
-          "km": 1.6
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 1.0
         }
       ]
     },
@@ -352,7 +352,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ووترلو (0.8 كم)",
       "keywords": [
         "فنادق قريبة من بيغ بن"
       ],
@@ -361,6 +361,11 @@
           "slug": "london-eye",
           "name_ar": "عين لندن",
           "km": 0.5
+        },
+        {
+          "slug": "waterloo-station",
+          "name_ar": "محطة ووترلو",
+          "km": 0.8
         },
         {
           "slug": "leicester-square",
@@ -376,11 +381,6 @@
           "slug": "covent-garden",
           "name_ar": "كوفنت غاردن",
           "km": 1.3
-        },
-        {
-          "slug": "victoria",
-          "name_ar": "فيكتوريا",
-          "km": 1.5
         }
       ]
     },
@@ -399,11 +399,16 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ووترلو (0.4 كم)",
       "keywords": [
         "فنادق قريبة من عين لندن"
       ],
       "neighbours": [
+        {
+          "slug": "waterloo-station",
+          "name_ar": "محطة ووترلو",
+          "km": 0.4
+        },
         {
           "slug": "big-ben",
           "name_ar": "بيغ بن / وستمنستر",
@@ -423,11 +428,6 @@
           "slug": "piccadilly",
           "name_ar": "بيكاديلي",
           "km": 1.2
-        },
-        {
-          "slug": "regent-street",
-          "name_ar": "ريجنت ستريت",
-          "km": 1.7
         }
       ]
     },
@@ -461,6 +461,11 @@
           "km": 16.7
         },
         {
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 18.2
+        },
+        {
           "slug": "stamford-bridge",
           "name_ar": "ستامفورد بريدج",
           "km": 18.3
@@ -469,11 +474,6 @@
           "slug": "notting-hill",
           "name_ar": "نوتنغ هيل",
           "km": 18.4
-        },
-        {
-          "slug": "kensington",
-          "name_ar": "كنسينغتون",
-          "km": 18.6
         }
       ]
     },
@@ -512,14 +512,14 @@
           "km": 8.0
         },
         {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 8.1
+        },
+        {
           "slug": "paddington",
           "name_ar": "بادينغتون",
           "km": 8.3
-        },
-        {
-          "slug": "kensington",
-          "name_ar": "كنسينغتون",
-          "km": 8.7
         }
       ]
     },
@@ -541,6 +541,16 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
+          "km": 0.1
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.7
+        },
+        {
           "slug": "hyde-park",
           "name_ar": "هايد بارك",
           "km": 0.8
@@ -554,16 +564,6 @@
           "slug": "edgware-road",
           "name_ar": "شارع العرب (إدجوير رود)",
           "km": 0.9
-        },
-        {
-          "slug": "harley-street",
-          "name_ar": "هارلي ستريت",
-          "km": 1.1
-        },
-        {
-          "slug": "oxford-street",
-          "name_ar": "شارع أكسفورد",
-          "km": 1.3
         }
       ]
     },
@@ -596,19 +596,19 @@
           "km": 2.2
         },
         {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 2.3
+        },
+        {
           "slug": "bayswater-queensway",
           "name_ar": "بايزووتر / كوينزواي",
           "km": 2.4
         },
         {
-          "slug": "paddington",
-          "name_ar": "بادينغتون",
-          "km": 3.2
-        },
-        {
-          "slug": "stamford-bridge",
-          "name_ar": "ستامفورد بريدج",
-          "km": 3.5
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 2.6
         }
       ]
     },
@@ -631,6 +631,11 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "liverpool-street-station",
+          "name_ar": "محطة ليفربول ستريت",
+          "km": 5.9
+        },
+        {
           "slug": "emirates-stadium",
           "name_ar": "ملعب الإمارات",
           "km": 7.1
@@ -641,19 +646,14 @@
           "km": 8.1
         },
         {
-          "slug": "covent-garden",
-          "name_ar": "كوفنت غاردن",
-          "km": 8.7
+          "slug": "kings-cross-st-pancras",
+          "name_ar": "محطة كينغز كروس سانت بانكراس",
+          "km": 8.1
         },
         {
-          "slug": "london-eye",
-          "name_ar": "عين لندن",
-          "km": 8.9
-        },
-        {
-          "slug": "leicester-square",
-          "name_ar": "ليستر سكوير",
-          "km": 9.2
+          "slug": "waterloo-station",
+          "name_ar": "محطة ووترلو",
+          "km": 8.6
         }
       ]
     },
@@ -672,12 +672,17 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أكسفورد سيركس (0.4 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "oxford-street",
           "name_ar": "شارع أكسفورد",
+          "km": 0.4
+        },
+        {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
           "km": 0.4
         },
         {
@@ -691,14 +696,9 @@
           "km": 0.6
         },
         {
-          "slug": "leicester-square",
-          "name_ar": "ليستر سكوير",
-          "km": 0.7
-        },
-        {
-          "slug": "harley-street",
-          "name_ar": "هارلي ستريت",
-          "km": 1.0
+          "slug": "green-park-station",
+          "name_ar": "محطة غرين بارك",
+          "km": 0.6
         }
       ]
     },
@@ -740,9 +740,9 @@
           "km": 0.9
         },
         {
-          "slug": "london-eye",
-          "name_ar": "عين لندن",
-          "km": 1.1
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 0.9
         }
       ]
     },
@@ -760,7 +760,7 @@
         "couples",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ووترلو (1.1 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -779,14 +779,14 @@
           "km": 1.0
         },
         {
+          "slug": "waterloo-station",
+          "name_ar": "محطة ووترلو",
+          "km": 1.1
+        },
+        {
           "slug": "regent-street",
           "name_ar": "ريجنت ستريت",
           "km": 1.2
-        },
-        {
-          "slug": "big-ben",
-          "name_ar": "بيغ بن / وستمنستر",
-          "km": 1.3
         }
       ]
     },
@@ -809,6 +809,16 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "kings-cross-st-pancras",
+          "name_ar": "محطة كينغز كروس سانت بانكراس",
+          "km": 0.0
+        },
+        {
+          "slug": "euston-station",
+          "name_ar": "محطة يوستون",
+          "km": 0.7
+        },
+        {
           "slug": "harley-street",
           "name_ar": "هارلي ستريت",
           "km": 2.0
@@ -819,19 +829,9 @@
           "km": 2.1
         },
         {
-          "slug": "covent-garden",
-          "name_ar": "كوفنت غاردن",
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
           "km": 2.1
-        },
-        {
-          "slug": "regents-park",
-          "name_ar": "ريجنتس بارك",
-          "km": 2.3
-        },
-        {
-          "slug": "leicester-square",
-          "name_ar": "ليستر سكوير",
-          "km": 2.3
         }
       ]
     },
@@ -854,6 +854,21 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "victoria-station",
+          "name_ar": "محطة فيكتوريا",
+          "km": 0.0
+        },
+        {
+          "slug": "green-park-station",
+          "name_ar": "محطة غرين بارك",
+          "km": 1.3
+        },
+        {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 1.3
+        },
+        {
           "slug": "harrods",
           "name_ar": "هارودز",
           "km": 1.4
@@ -862,21 +877,6 @@
           "slug": "big-ben",
           "name_ar": "بيغ بن / وستمنستر",
           "km": 1.5
-        },
-        {
-          "slug": "mayfair",
-          "name_ar": "مايفير",
-          "km": 1.7
-        },
-        {
-          "slug": "piccadilly",
-          "name_ar": "بيكاديلي",
-          "km": 1.8
-        },
-        {
-          "slug": "regent-street",
-          "name_ar": "ريجنت ستريت",
-          "km": 1.9
         }
       ]
     },
@@ -894,9 +894,14 @@
         "couples",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كوينزواي (0.6 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 0.6
+        },
         {
           "slug": "bayswater-queensway",
           "name_ar": "بايزووتر / كوينزواي",
@@ -913,14 +918,9 @@
           "km": 1.6
         },
         {
-          "slug": "westfield-white-city",
-          "name_ar": "وستفيلد لندن",
-          "km": 1.7
-        },
-        {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 2.1
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 1.6
         }
       ]
     },
@@ -952,19 +952,19 @@
           "km": 0.9
         },
         {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 1.2
+        },
+        {
           "slug": "kensington",
           "name_ar": "كنسينغتون",
           "km": 1.3
         },
         {
-          "slug": "hyde-park",
-          "name_ar": "هايد بارك",
-          "km": 1.6
-        },
-        {
-          "slug": "stamford-bridge",
-          "name_ar": "ستامفورد بريدج",
-          "km": 1.8
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 1.4
         }
       ]
     },
@@ -982,7 +982,7 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة نايتسبريدج (1.7 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -996,19 +996,19 @@
           "km": 1.4
         },
         {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 1.7
+        },
+        {
           "slug": "stamford-bridge",
           "name_ar": "ستامفورد بريدج",
           "km": 1.7
         },
         {
-          "slug": "victoria",
-          "name_ar": "فيكتوريا",
-          "km": 1.9
-        },
-        {
-          "slug": "kensington",
-          "name_ar": "كنسينغتون",
-          "km": 2.1
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 1.8
         }
       ]
     },
@@ -1026,9 +1026,19 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة بوند ستريت (0.5 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.5
+        },
+        {
+          "slug": "green-park-station",
+          "name_ar": "محطة غرين بارك",
+          "km": 0.5
+        },
         {
           "slug": "regent-street",
           "name_ar": "ريجنت ستريت",
@@ -1040,19 +1050,9 @@
           "km": 0.8
         },
         {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
           "km": 0.8
-        },
-        {
-          "slug": "piccadilly",
-          "name_ar": "بيكاديلي",
-          "km": 1.0
-        },
-        {
-          "slug": "harley-street",
-          "name_ar": "هارلي ستريت",
-          "km": 1.1
         }
       ]
     },
@@ -1084,19 +1084,19 @@
           "km": 0.5
         },
         {
+          "slug": "green-park-station",
+          "name_ar": "محطة غرين بارك",
+          "km": 0.7
+        },
+        {
           "slug": "oxford-street",
           "name_ar": "شارع أكسفورد",
           "km": 0.8
         },
         {
-          "slug": "covent-garden",
-          "name_ar": "كوفنت غاردن",
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
           "km": 0.8
-        },
-        {
-          "slug": "mayfair",
-          "name_ar": "مايفير",
-          "km": 1.0
         }
       ]
     },
@@ -1115,7 +1115,7 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أكسفورد سيركس (0.7 كم)",
       "keywords": [
         "فنادق قريبة من هارلي ستريت",
         "فنادق لندن للعلاج"
@@ -1127,24 +1127,24 @@
           "km": 0.7
         },
         {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 0.7
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.7
+        },
+        {
           "slug": "regent-street",
           "name_ar": "ريجنت ستريت",
           "km": 1.0
         },
         {
-          "slug": "mayfair",
-          "name_ar": "مايفير",
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
           "km": 1.1
-        },
-        {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
-          "km": 1.1
-        },
-        {
-          "slug": "regents-park",
-          "name_ar": "ريجنتس بارك",
-          "km": 1.4
         }
       ]
     },
@@ -1162,7 +1162,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة إدجوير رود (1.4 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -1171,24 +1171,24 @@
           "km": 1.4
         },
         {
+          "slug": "edgware-road-station",
+          "name_ar": "محطة إدجوير رود",
+          "km": 1.4
+        },
+        {
           "slug": "edgware-road",
           "name_ar": "شارع العرب (إدجوير رود)",
           "km": 1.6
         },
         {
-          "slug": "marble-arch",
-          "name_ar": "ماربل آرش",
+          "slug": "euston-station",
+          "name_ar": "محطة يوستون",
+          "km": 1.6
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
           "km": 2.0
-        },
-        {
-          "slug": "oxford-street",
-          "name_ar": "شارع أكسفورد",
-          "km": 2.1
-        },
-        {
-          "slug": "paddington",
-          "name_ar": "بادينغتون",
-          "km": 2.1
         }
       ]
     },
@@ -1220,6 +1220,11 @@
           "km": 37.1
         },
         {
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 37.5
+        },
+        {
           "slug": "south-kensington",
           "name_ar": "ساوث كنسينغتون",
           "km": 37.9
@@ -1228,11 +1233,6 @@
           "slug": "victoria",
           "name_ar": "فيكتوريا",
           "km": 38.1
-        },
-        {
-          "slug": "harrods",
-          "name_ar": "هارودز",
-          "km": 38.5
         }
       ]
     },
@@ -1250,9 +1250,14 @@
         "budget",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة إيرلز كورت (1.1 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "earls-court-station",
+          "name_ar": "محطة إيرلز كورت",
+          "km": 1.1
+        },
         {
           "slug": "chelsea",
           "name_ar": "تشيلسي",
@@ -1272,11 +1277,6 @@
           "slug": "harrods",
           "name_ar": "هارودز",
           "km": 2.7
-        },
-        {
-          "slug": "notting-hill",
-          "name_ar": "نوتنغ هيل",
-          "km": 3.1
         }
       ]
     },
@@ -1303,27 +1303,713 @@
           "km": 2.9
         },
         {
+          "slug": "kings-cross-st-pancras",
+          "name_ar": "محطة كينغز كروس سانت بانكراس",
+          "km": 2.9
+        },
+        {
+          "slug": "euston-station",
+          "name_ar": "محطة يوستون",
+          "km": 3.4
+        },
+        {
           "slug": "regents-park",
           "name_ar": "ريجنتس بارك",
           "km": 4.3
         },
         {
-          "slug": "harley-street",
-          "name_ar": "هارلي ستريت",
-          "km": 4.7
+          "slug": "liverpool-street-station",
+          "name_ar": "محطة ليفربول ستريت",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "paddington-station",
+      "name_ar": "محطة بادينغتون",
+      "name_en": "Paddington Station",
+      "lat": 51.517,
+      "lng": -0.177,
+      "prox_km": 1.5,
+      "q": "بادينغتون",
+      "poi_label": "محطة بادينغتون",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Bakerloo · Circle · District · Elizabeth · Heathrow Express",
+      "keywords": [
+        "فنادق قريبة من محطة بادينغتون",
+        "فنادق قريبة من مترو بادينغتون"
+      ],
+      "neighbours": [
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 0.0
         },
         {
-          "slug": "covent-garden",
-          "name_ar": "كوفنت غاردن",
-          "km": 4.9
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.7
+        },
+        {
+          "slug": "edgware-road-station",
+          "name_ar": "محطة إدجوير رود",
+          "km": 0.7
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 0.9
+        },
+        {
+          "slug": "queensway-station",
+          "name_ar": "محطة كوينزواي",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "kings-cross-st-pancras",
+      "name_ar": "محطة كينغز كروس سانت بانكراس",
+      "name_en": "King's Cross St Pancras",
+      "lat": 51.5308,
+      "lng": -0.1238,
+      "prox_km": 1.5,
+      "q": "كينغز كروس سانت بانكراس",
+      "poi_label": "محطة كينغز كروس سانت بانكراس",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "6 خطوط + يوروستار",
+      "keywords": [
+        "فنادق قريبة من محطة كينغز كروس سانت بانكراس",
+        "فنادق قريبة من مترو كينغز كروس سانت بانكراس"
+      ],
+      "neighbours": [
+        {
+          "slug": "kings-cross",
+          "name_ar": "كينغز كروس",
+          "km": 0.0
+        },
+        {
+          "slug": "euston-station",
+          "name_ar": "محطة يوستون",
+          "km": 0.7
+        },
+        {
+          "slug": "harley-street",
+          "name_ar": "هارلي ستريت",
+          "km": 2.0
         },
         {
           "slug": "oxford-street",
           "name_ar": "شارع أكسفورد",
-          "km": 4.9
+          "km": 2.1
+        },
+        {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "victoria-station",
+      "name_ar": "محطة فيكتوريا",
+      "name_en": "Victoria Station",
+      "lat": 51.4952,
+      "lng": -0.1441,
+      "prox_km": 1.5,
+      "q": "فيكتوريا",
+      "poi_label": "محطة فيكتوريا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Victoria · Circle · District · Gatwick Express",
+      "keywords": [
+        "فنادق قريبة من محطة فيكتوريا",
+        "فنادق قريبة من مترو فيكتوريا"
+      ],
+      "neighbours": [
+        {
+          "slug": "victoria",
+          "name_ar": "فيكتوريا",
+          "km": 0.0
+        },
+        {
+          "slug": "green-park-station",
+          "name_ar": "محطة غرين بارك",
+          "km": 1.3
+        },
+        {
+          "slug": "knightsbridge-station",
+          "name_ar": "محطة نايتسبريدج",
+          "km": 1.3
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 1.4
+        },
+        {
+          "slug": "big-ben",
+          "name_ar": "بيغ بن / وستمنستر",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "oxford-circus-station",
+      "name_ar": "محطة أكسفورد سيركس",
+      "name_en": "Oxford Circus",
+      "lat": 51.5154,
+      "lng": -0.141,
+      "prox_km": 1.5,
+      "q": "أكسفورد سيركس",
+      "poi_label": "محطة أكسفورد سيركس",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Central · Bakerloo · Victoria",
+      "keywords": [
+        "فنادق قريبة من محطة أكسفورد سيركس",
+        "فنادق قريبة من مترو أكسفورد سيركس"
+      ],
+      "neighbours": [
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 0.0
+        },
+        {
+          "slug": "regent-street",
+          "name_ar": "ريجنت ستريت",
+          "km": 0.4
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.6
+        },
+        {
+          "slug": "harley-street",
+          "name_ar": "هارلي ستريت",
+          "km": 0.7
+        },
+        {
+          "slug": "mayfair",
+          "name_ar": "مايفير",
+          "km": 0.8
+        }
+      ]
+    },
+    {
+      "slug": "bond-street-station",
+      "name_ar": "محطة بوند ستريت",
+      "name_en": "Bond Street",
+      "lat": 51.5142,
+      "lng": -0.1494,
+      "prox_km": 1.5,
+      "q": "بوند ستريت",
+      "poi_label": "محطة بوند ستريت",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Central · Jubilee · Elizabeth",
+      "keywords": [
+        "فنادق قريبة من محطة بوند ستريت",
+        "فنادق قريبة من مترو بوند ستريت"
+      ],
+      "neighbours": [
+        {
+          "slug": "mayfair",
+          "name_ar": "مايفير",
+          "km": 0.5
+        },
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 0.6
+        },
+        {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 0.6
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
+          "km": 0.6
+        },
+        {
+          "slug": "harley-street",
+          "name_ar": "هارلي ستريت",
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "marble-arch-station",
+      "name_ar": "محطة ماربل آرش",
+      "name_en": "Marble Arch",
+      "lat": 51.5136,
+      "lng": -0.1586,
+      "prox_km": 1.5,
+      "q": "ماربل آرش",
+      "poi_label": "محطة ماربل آرش",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Central",
+      "keywords": [
+        "فنادق قريبة من محطة ماربل آرش",
+        "فنادق قريبة من مترو ماربل آرش"
+      ],
+      "neighbours": [
+        {
+          "slug": "marble-arch",
+          "name_ar": "ماربل آرش",
+          "km": 0.1
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 0.6
+        },
+        {
+          "slug": "mayfair",
+          "name_ar": "مايفير",
+          "km": 0.8
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 0.9
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "edgware-road-station",
+      "name_ar": "محطة إدجوير رود",
+      "name_en": "Edgware Road",
+      "lat": 51.5203,
+      "lng": -0.1679,
+      "prox_km": 1.5,
+      "q": "إدجوير رود",
+      "poi_label": "محطة إدجوير رود",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Bakerloo · Circle · District · H&C",
+      "keywords": [
+        "فنادق قريبة من محطة إدجوير رود",
+        "فنادق قريبة من مترو إدجوير رود"
+      ],
+      "neighbours": [
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.1
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "marble-arch-station",
+          "name_ar": "محطة ماربل آرش",
+          "km": 1.0
+        },
+        {
+          "slug": "marble-arch",
+          "name_ar": "ماربل آرش",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "knightsbridge-station",
+      "name_ar": "محطة نايتسبريدج",
+      "name_en": "Knightsbridge",
+      "lat": 51.5015,
+      "lng": -0.1607,
+      "prox_km": 1.5,
+      "q": "نايتسبريدج",
+      "poi_label": "محطة نايتسبريدج",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Piccadilly",
+      "keywords": [
+        "فنادق قريبة من محطة نايتسبريدج",
+        "فنادق قريبة من مترو نايتسبريدج"
+      ],
+      "neighbours": [
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 0.3
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 0.7
+        },
+        {
+          "slug": "south-kensington",
+          "name_ar": "ساوث كنسينغتون",
+          "km": 1.2
+        },
+        {
+          "slug": "mayfair",
+          "name_ar": "مايفير",
+          "km": 1.3
+        },
+        {
+          "slug": "marble-arch",
+          "name_ar": "ماربل آرش",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "green-park-station",
+      "name_ar": "محطة غرين بارك",
+      "name_en": "Green Park",
+      "lat": 51.5067,
+      "lng": -0.1428,
+      "prox_km": 1.5,
+      "q": "غرين بارك",
+      "poi_label": "محطة غرين بارك",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Piccadilly · Victoria · Jubilee",
+      "keywords": [
+        "فنادق قريبة من محطة غرين بارك",
+        "فنادق قريبة من مترو غرين بارك"
+      ],
+      "neighbours": [
+        {
+          "slug": "mayfair",
+          "name_ar": "مايفير",
+          "km": 0.5
+        },
+        {
+          "slug": "regent-street",
+          "name_ar": "ريجنت ستريت",
+          "km": 0.6
+        },
+        {
+          "slug": "piccadilly",
+          "name_ar": "بيكاديلي",
+          "km": 0.7
+        },
+        {
+          "slug": "bond-street-station",
+          "name_ar": "محطة بوند ستريت",
+          "km": 1.0
+        },
+        {
+          "slug": "leicester-square",
+          "name_ar": "ليستر سكوير",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "waterloo-station",
+      "name_ar": "محطة ووترلو",
+      "name_en": "Waterloo",
+      "lat": 51.5036,
+      "lng": -0.1143,
+      "prox_km": 1.5,
+      "q": "ووترلو",
+      "poi_label": "محطة ووترلو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Jubilee · Northern · Bakerloo · W&C",
+      "keywords": [
+        "فنادق قريبة من محطة ووترلو",
+        "فنادق قريبة من مترو ووترلو"
+      ],
+      "neighbours": [
+        {
+          "slug": "london-eye",
+          "name_ar": "عين لندن",
+          "km": 0.4
+        },
+        {
+          "slug": "big-ben",
+          "name_ar": "بيغ بن / وستمنستر",
+          "km": 0.8
+        },
+        {
+          "slug": "covent-garden",
+          "name_ar": "كوفنت غاردن",
+          "km": 1.1
+        },
+        {
+          "slug": "leicester-square",
+          "name_ar": "ليستر سكوير",
+          "km": 1.3
+        },
+        {
+          "slug": "piccadilly",
+          "name_ar": "بيكاديلي",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "liverpool-street-station",
+      "name_ar": "محطة ليفربول ستريت",
+      "name_en": "Liverpool Street",
+      "lat": 51.5178,
+      "lng": -0.0823,
+      "prox_km": 1.5,
+      "q": "ليفربول ستريت",
+      "poi_label": "محطة ليفربول ستريت",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Central · Elizabeth · Circle · Met · H&C",
+      "keywords": [
+        "فنادق قريبة من محطة ليفربول ستريت",
+        "فنادق قريبة من مترو ليفربول ستريت"
+      ],
+      "neighbours": [
+        {
+          "slug": "waterloo-station",
+          "name_ar": "محطة ووترلو",
+          "km": 2.7
+        },
+        {
+          "slug": "covent-garden",
+          "name_ar": "كوفنت غاردن",
+          "km": 2.9
+        },
+        {
+          "slug": "london-eye",
+          "name_ar": "عين لندن",
+          "km": 3.0
+        },
+        {
+          "slug": "kings-cross",
+          "name_ar": "كينغز كروس",
+          "km": 3.2
+        },
+        {
+          "slug": "kings-cross-st-pancras",
+          "name_ar": "محطة كينغز كروس سانت بانكراس",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "euston-station",
+      "name_ar": "محطة يوستون",
+      "name_en": "Euston",
+      "lat": 51.5282,
+      "lng": -0.1337,
+      "prox_km": 1.5,
+      "q": "يوستون",
+      "poi_label": "محطة يوستون",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Northern · Victoria",
+      "keywords": [
+        "فنادق قريبة من محطة يوستون",
+        "فنادق قريبة من مترو يوستون"
+      ],
+      "neighbours": [
+        {
+          "slug": "kings-cross",
+          "name_ar": "كينغز كروس",
+          "km": 0.7
+        },
+        {
+          "slug": "kings-cross-st-pancras",
+          "name_ar": "محطة كينغز كروس سانت بانكراس",
+          "km": 0.7
+        },
+        {
+          "slug": "harley-street",
+          "name_ar": "هارلي ستريت",
+          "km": 1.3
+        },
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 1.5
+        },
+        {
+          "slug": "oxford-circus-station",
+          "name_ar": "محطة أكسفورد سيركس",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "earls-court-station",
+      "name_ar": "محطة إيرلز كورت",
+      "name_en": "Earl's Court",
+      "lat": 51.4913,
+      "lng": -0.1935,
+      "prox_km": 1.5,
+      "q": "إيرلز كورت",
+      "poi_label": "محطة إيرلز كورت",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "District · Piccadilly",
+      "keywords": [
+        "فنادق قريبة من محطة إيرلز كورت",
+        "فنادق قريبة من مترو إيرلز كورت"
+      ],
+      "neighbours": [
+        {
+          "slug": "stamford-bridge",
+          "name_ar": "ستامفورد بريدج",
+          "km": 1.1
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 1.1
+        },
+        {
+          "slug": "south-kensington",
+          "name_ar": "ساوث كنسينغتون",
+          "km": 1.4
+        },
+        {
+          "slug": "chelsea",
+          "name_ar": "تشيلسي",
+          "km": 1.8
+        },
+        {
+          "slug": "notting-hill",
+          "name_ar": "نوتنغ هيل",
+          "km": 2.0
+        }
+      ]
+    },
+    {
+      "slug": "queensway-station",
+      "name_ar": "محطة كوينزواي",
+      "name_en": "Queensway",
+      "lat": 51.5104,
+      "lng": -0.1875,
+      "prox_km": 1.5,
+      "q": "كوينزواي",
+      "poi_label": "محطة كوينزواي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Central",
+      "keywords": [
+        "فنادق قريبة من محطة كوينزواي",
+        "فنادق قريبة من مترو كوينزواي"
+      ],
+      "neighbours": [
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 0.2
+        },
+        {
+          "slug": "notting-hill",
+          "name_ar": "نوتنغ هيل",
+          "km": 0.6
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 1.0
+        },
+        {
+          "slug": "paddington-station",
+          "name_ar": "محطة بادينغتون",
+          "km": 1.0
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 1.1
         }
       ]
     }
   ],
-  "poi_count": 29
+  "poi_count": 43
 }

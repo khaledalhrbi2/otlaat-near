@@ -25,11 +25,16 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ليسيو (0.1 كم)",
       "keywords": [
         "فنادق لا رامبلا"
       ],
       "neighbours": [
+        {
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 0.1
+        },
         {
           "slug": "gothic-quarter",
           "name_ar": "الحي القوطي",
@@ -41,19 +46,14 @@
           "km": 0.7
         },
         {
-          "slug": "eixample",
-          "name_ar": "إيشامبلي",
-          "km": 1.4
+          "slug": "placa-catalunya-station",
+          "name_ar": "محطة ساحة كاتالونيا",
+          "km": 0.7
         },
         {
-          "slug": "passeig-de-gracia",
-          "name_ar": "باسيج دي غراسيا",
-          "km": 1.4
-        },
-        {
-          "slug": "barceloneta",
-          "name_ar": "شاطئ برشلونيتا",
-          "km": 1.6
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 1.0
         }
       ]
     },
@@ -72,35 +72,35 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ساغرادا فاميليا (0.1 كم)",
       "keywords": [
         "فنادق قريبة من ساغرادا فاميليا"
       ],
       "neighbours": [
+        {
+          "slug": "sagrada-familia-metro",
+          "name_ar": "محطة مترو ساغرادا فاميليا",
+          "km": 0.1
+        },
+        {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 1.4
+        },
         {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 1.5
         },
         {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 1.5
+        },
+        {
           "slug": "eixample",
           "name_ar": "إيشامبلي",
           "km": 1.6
-        },
-        {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 1.9
-        },
-        {
-          "slug": "diagonal",
-          "name_ar": "أفينيدا دياغونال",
-          "km": 2.2
-        },
-        {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 2.3
         }
       ]
     },
@@ -118,35 +118,35 @@
         "shopping",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة باسيج دي غراسيا (0.0 كم)",
       "keywords": [
         "فنادق باسيج دي غراسيا"
       ],
       "neighbours": [
+        {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 0.0
+        },
         {
           "slug": "eixample",
           "name_ar": "إيشامبلي",
           "km": 0.1
         },
         {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 0.6
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
           "km": 0.7
         },
         {
-          "slug": "diagonal",
-          "name_ar": "أفينيدا دياغونال",
-          "km": 1.3
-        },
-        {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 1.4
-        },
-        {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 1.4
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
         }
       ]
     },
@@ -164,11 +164,16 @@
         "beach",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو برشلونيتا (0.7 كم)",
       "keywords": [
         "فنادق شاطئ برشلونة"
       ],
       "neighbours": [
+        {
+          "slug": "barceloneta-metro",
+          "name_ar": "محطة مترو برشلونيتا",
+          "km": 0.7
+        },
         {
           "slug": "port-olimpic",
           "name_ar": "بورت أوليمبيك",
@@ -185,14 +190,9 @@
           "km": 1.6
         },
         {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 2.1
-        },
-        {
-          "slug": "passeig-de-gracia",
-          "name_ar": "باسيج دي غراسيا",
-          "km": 2.7
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 1.6
         }
       ]
     },
@@ -211,7 +211,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة سانتس (1.5 كم)",
       "keywords": [
         "فنادق قريبة من كامب نو"
       ],
@@ -222,24 +222,24 @@
           "km": 1.5
         },
         {
+          "slug": "sants-estacio",
+          "name_ar": "محطة سانتس",
+          "km": 1.5
+        },
+        {
           "slug": "diagonal",
           "name_ar": "أفينيدا دياغونال",
           "km": 2.8
         },
         {
-          "slug": "montjuic",
-          "name_ar": "مونجويك",
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
           "km": 3.5
         },
         {
-          "slug": "eixample",
-          "name_ar": "إيشامبلي",
-          "km": 3.6
-        },
-        {
-          "slug": "passeig-de-gracia",
-          "name_ar": "باسيج دي غراسيا",
-          "km": 3.7
+          "slug": "montjuic",
+          "name_ar": "مونجويك",
+          "km": 3.5
         }
       ]
     },
@@ -257,11 +257,21 @@
         "family",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ساحة كاتالونيا (0.0 كم)",
       "keywords": [
         "فنادق ساحة كاتالونيا"
       ],
       "neighbours": [
+        {
+          "slug": "placa-catalunya-station",
+          "name_ar": "محطة ساحة كاتالونيا",
+          "km": 0.0
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 0.5
+        },
         {
           "slug": "eixample",
           "name_ar": "إيشامبلي",
@@ -276,16 +286,6 @@
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 0.7
-        },
-        {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 0.7
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 1.9
         }
       ]
     },
@@ -303,7 +303,7 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ليسيو (0.4 كم)",
       "keywords": [
         "فنادق الحي القوطي برشلونة"
       ],
@@ -314,24 +314,24 @@
           "km": 0.3
         },
         {
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 0.4
+        },
+        {
           "slug": "plaza-catalunya",
           "name_ar": "ساحة كاتالونيا",
           "km": 0.7
         },
         {
-          "slug": "eixample",
-          "name_ar": "إيشامبلي",
-          "km": 1.3
+          "slug": "placa-catalunya-station",
+          "name_ar": "محطة ساحة كاتالونيا",
+          "km": 0.7
         },
         {
-          "slug": "passeig-de-gracia",
-          "name_ar": "باسيج دي غراسيا",
-          "km": 1.4
-        },
-        {
-          "slug": "barceloneta",
-          "name_ar": "شاطئ برشلونيتا",
-          "km": 1.4
+          "slug": "barceloneta-metro",
+          "name_ar": "محطة مترو برشلونيتا",
+          "km": 0.8
         }
       ]
     },
@@ -369,14 +369,14 @@
           "km": 10.2
         },
         {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 11.9
+          "slug": "sants-estacio",
+          "name_ar": "محطة سانتس",
+          "km": 10.2
         },
         {
-          "slug": "diagonal",
-          "name_ar": "أفينيدا دياغونال",
-          "km": 12.2
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 11.9
         }
       ]
     },
@@ -399,6 +399,11 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "sagrada-familia-metro",
+          "name_ar": "محطة مترو ساغرادا فاميليا",
+          "km": 26.7
+        },
+        {
           "slug": "sagrada-familia",
           "name_ar": "ساغرادا فاميليا",
           "km": 26.7
@@ -409,19 +414,14 @@
           "km": 27.4
         },
         {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 28.0
+        },
+        {
           "slug": "passeig-de-gracia",
           "name_ar": "باسيج دي غراسيا",
           "km": 28.2
-        },
-        {
-          "slug": "eixample",
-          "name_ar": "إيشامبلي",
-          "km": 28.3
-        },
-        {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 28.5
         }
       ]
     },
@@ -440,9 +440,14 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو دياغونال (0.9 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 0.9
+        },
         {
           "slug": "eixample",
           "name_ar": "إيشامبلي",
@@ -454,19 +459,14 @@
           "km": 1.3
         },
         {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 1.9
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 1.3
         },
         {
-          "slug": "sants",
-          "name_ar": "محطة سانتس",
-          "km": 2.0
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 2.2
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 1.5
         }
       ]
     },
@@ -484,7 +484,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة باسيج دي غراسيا (0.1 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -493,24 +493,24 @@
           "km": 0.1
         },
         {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 0.1
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 0.6
+        },
+        {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 0.6
+        },
+        {
           "slug": "plaza-catalunya",
           "name_ar": "ساحة كاتالونيا",
           "km": 0.7
-        },
-        {
-          "slug": "diagonal",
-          "name_ar": "أفينيدا دياغونال",
-          "km": 1.2
-        },
-        {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 1.3
-        },
-        {
-          "slug": "la-rambla",
-          "name_ar": "لا رامبلا",
-          "km": 1.4
         }
       ]
     },
@@ -528,13 +528,18 @@
         "beach",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو برشلونيتا (1.2 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "barceloneta",
           "name_ar": "شاطئ برشلونيتا",
           "km": 1.1
+        },
+        {
+          "slug": "barceloneta-metro",
+          "name_ar": "محطة مترو برشلونيتا",
+          "km": 1.2
         },
         {
           "slug": "gothic-quarter",
@@ -547,14 +552,9 @@
           "km": 2.2
         },
         {
-          "slug": "plaza-catalunya",
-          "name_ar": "ساحة كاتالونيا",
-          "km": 2.3
-        },
-        {
-          "slug": "sagrada-familia",
-          "name_ar": "ساغرادا فاميليا",
-          "km": 2.7
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 2.2
         }
       ]
     },
@@ -572,9 +572,14 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة سانتس (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "sants-estacio",
+          "name_ar": "محطة سانتس",
+          "km": 0.0
+        },
         {
           "slug": "camp-nou",
           "name_ar": "كامب نو",
@@ -586,19 +591,14 @@
           "km": 2.0
         },
         {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 2.1
+        },
+        {
           "slug": "montjuic",
           "name_ar": "مونجويك",
           "km": 2.2
-        },
-        {
-          "slug": "eixample",
-          "name_ar": "إيشامبلي",
-          "km": 2.4
-        },
-        {
-          "slug": "passeig-de-gracia",
-          "name_ar": "باسيج دي غراسيا",
-          "km": 2.5
         }
       ]
     },
@@ -615,11 +615,21 @@
       "intents": [
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو ليسيو (2.2 كم)",
       "keywords": [],
       "neighbours": [
         {
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 2.2
+        },
+        {
           "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 2.2
+        },
+        {
+          "slug": "sants-estacio",
           "name_ar": "محطة سانتس",
           "km": 2.2
         },
@@ -629,22 +639,404 @@
           "km": 2.3
         },
         {
-          "slug": "gothic-quarter",
-          "name_ar": "الحي القوطي",
-          "km": 2.6
-        },
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "placa-catalunya-station",
+      "name_ar": "محطة ساحة كاتالونيا",
+      "name_en": "Placa de Catalunya",
+      "lat": 41.387,
+      "lng": 2.17,
+      "prox_km": 1.5,
+      "q": "ساحة كاتالونيا",
+      "poi_label": "محطة ساحة كاتالونيا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L1 · L3 · FGC · Rodalies · Aerobus",
+      "keywords": [
+        "فنادق قريبة من محطة ساحة كاتالونيا",
+        "فنادق قريبة من مترو ساحة كاتالونيا"
+      ],
+      "neighbours": [
         {
           "slug": "plaza-catalunya",
           "name_ar": "ساحة كاتالونيا",
-          "km": 2.7
+          "km": 0.0
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 0.5
         },
         {
           "slug": "eixample",
           "name_ar": "إيشامبلي",
-          "km": 3.0
+          "km": 0.7
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 0.7
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "passeig-de-gracia-station",
+      "name_ar": "محطة باسيج دي غراسيا",
+      "name_en": "Passeig de Gracia",
+      "lat": 41.392,
+      "lng": 2.165,
+      "prox_km": 1.5,
+      "q": "باسيج دي غراسيا",
+      "poi_label": "محطة باسيج دي غراسيا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L2 · L3 · L4 · Rodalies",
+      "keywords": [
+        "فنادق قريبة من محطة باسيج دي غراسيا",
+        "فنادق قريبة من مترو باسيج دي غراسيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.0
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 0.1
+        },
+        {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 0.6
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 0.7
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "sants-estacio",
+      "name_ar": "محطة سانتس",
+      "name_en": "Sants Estacio",
+      "lat": 41.379,
+      "lng": 2.14,
+      "prox_km": 1.5,
+      "q": "سانتس",
+      "poi_label": "محطة سانتس",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L3 · L5 · AVE",
+      "keywords": [
+        "فنادق قريبة من محطة سانتس",
+        "فنادق قريبة من مترو سانتس"
+      ],
+      "neighbours": [
+        {
+          "slug": "sants",
+          "name_ar": "محطة سانتس",
+          "km": 0.0
+        },
+        {
+          "slug": "camp-nou",
+          "name_ar": "كامب نو",
+          "km": 1.5
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 2.0
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 2.1
+        },
+        {
+          "slug": "montjuic",
+          "name_ar": "مونجويك",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "sagrada-familia-metro",
+      "name_ar": "محطة مترو ساغرادا فاميليا",
+      "name_en": "Sagrada Familia Metro",
+      "lat": 41.404,
+      "lng": 2.174,
+      "prox_km": 1.5,
+      "q": "مترو ساغرادا فاميليا",
+      "poi_label": "محطة مترو ساغرادا فاميليا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L2 · L5",
+      "keywords": [
+        "فنادق قريبة من محطة مترو ساغرادا فاميليا",
+        "فنادق قريبة من مترو مترو ساغرادا فاميليا"
+      ],
+      "neighbours": [
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 0.1
+        },
+        {
+          "slug": "diagonal-metro",
+          "name_ar": "محطة مترو دياغونال",
+          "km": 1.4
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 1.5
+        },
+        {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 1.5
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 1.7
+        }
+      ]
+    },
+    {
+      "slug": "diagonal-metro",
+      "name_ar": "محطة مترو دياغونال",
+      "name_en": "Diagonal Metro",
+      "lat": 41.396,
+      "lng": 2.161,
+      "prox_km": 1.5,
+      "q": "مترو دياغونال",
+      "poi_label": "محطة مترو دياغونال",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L3 · L5",
+      "keywords": [
+        "فنادق قريبة من محطة مترو دياغونال",
+        "فنادق قريبة من مترو مترو دياغونال"
+      ],
+      "neighbours": [
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.6
+        },
+        {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 0.6
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 0.6
+        },
+        {
+          "slug": "diagonal",
+          "name_ar": "أفينيدا دياغونال",
+          "km": 0.9
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "liceu-metro",
+      "name_ar": "محطة مترو ليسيو",
+      "name_en": "Liceu Metro",
+      "lat": 41.38,
+      "lng": 2.173,
+      "prox_km": 1.5,
+      "q": "مترو ليسيو",
+      "poi_label": "محطة مترو ليسيو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L3 (لا رامبلا)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو ليسيو",
+        "فنادق قريبة من مترو مترو ليسيو"
+      ],
+      "neighbours": [
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 0.1
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 0.4
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.8
+        },
+        {
+          "slug": "placa-catalunya-station",
+          "name_ar": "محطة ساحة كاتالونيا",
+          "km": 0.8
+        },
+        {
+          "slug": "universitat-metro",
+          "name_ar": "محطة مترو أونيفرسيتات",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "barceloneta-metro",
+      "name_ar": "محطة مترو برشلونيتا",
+      "name_en": "Barceloneta Metro",
+      "lat": 41.382,
+      "lng": 2.185,
+      "prox_km": 1.5,
+      "q": "مترو برشلونيتا",
+      "poi_label": "محطة مترو برشلونيتا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L4",
+      "keywords": [
+        "فنادق قريبة من محطة مترو برشلونيتا",
+        "فنادق قريبة من مترو مترو برشلونيتا"
+      ],
+      "neighbours": [
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 0.7
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 0.8
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 1.0
+        },
+        {
+          "slug": "liceu-metro",
+          "name_ar": "محطة مترو ليسيو",
+          "km": 1.0
+        },
+        {
+          "slug": "port-olimpic",
+          "name_ar": "بورت أوليمبيك",
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "slug": "universitat-metro",
+      "name_ar": "محطة مترو أونيفرسيتات",
+      "name_en": "Universitat Metro",
+      "lat": 41.386,
+      "lng": 2.164,
+      "prox_km": 1.5,
+      "q": "مترو أونيفرسيتات",
+      "poi_label": "محطة مترو أونيفرسيتات",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "L1 · L2",
+      "keywords": [
+        "فنادق قريبة من محطة مترو أونيفرسيتات",
+        "فنادق قريبة من مترو مترو أونيفرسيتات"
+      ],
+      "neighbours": [
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.5
+        },
+        {
+          "slug": "placa-catalunya-station",
+          "name_ar": "محطة ساحة كاتالونيا",
+          "km": 0.5
+        },
+        {
+          "slug": "eixample",
+          "name_ar": "إيشامبلي",
+          "km": 0.6
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.7
+        },
+        {
+          "slug": "passeig-de-gracia-station",
+          "name_ar": "محطة باسيج دي غراسيا",
+          "km": 0.7
         }
       ]
     }
   ],
-  "poi_count": 14
+  "poi_count": 22
 }

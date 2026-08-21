@@ -25,7 +25,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو موستيك (0.4 كم)",
       "keywords": [
         "فنادق البلدة القديمة براغ"
       ],
@@ -36,24 +36,24 @@
           "km": 0.4
         },
         {
-          "slug": "charles-bridge",
-          "name_ar": "جسر تشارلز",
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.4
+        },
+        {
+          "slug": "namesti-republiky-metro",
+          "name_ar": "محطة مترو ساحة الجمهورية",
+          "km": 0.6
+        },
+        {
+          "slug": "malostranska-metro",
+          "name_ar": "محطة مترو مالوسترانسكا",
           "km": 0.7
         },
         {
-          "slug": "wenceslas",
-          "name_ar": "ساحة فاتسلاف",
-          "km": 0.9
-        },
-        {
-          "slug": "main-station",
-          "name_ar": "المحطة الرئيسية",
-          "km": 1.1
-        },
-        {
-          "slug": "mala-strana",
-          "name_ar": "مالا سترانا",
-          "km": 1.2
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 0.7
         }
       ]
     },
@@ -70,11 +70,16 @@
       "intents": [
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مالوسترانسكا (0.5 كم)",
       "keywords": [
         "فنادق قريبة من جسر تشارلز"
       ],
       "neighbours": [
+        {
+          "slug": "malostranska-metro",
+          "name_ar": "محطة مترو مالوسترانسكا",
+          "km": 0.5
+        },
         {
           "slug": "mala-strana",
           "name_ar": "مالا سترانا",
@@ -91,14 +96,9 @@
           "km": 0.9
         },
         {
-          "slug": "na-prikope",
-          "name_ar": "نا بريكوبيه",
-          "km": 1.0
-        },
-        {
-          "slug": "petrin",
-          "name_ar": "بيترين",
-          "km": 1.2
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.9
         }
       ]
     },
@@ -117,13 +117,28 @@
         "family",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو موزيوم (0.2 كم)",
       "keywords": [
         "فنادق ساحة فاتسلاف"
       ],
       "neighbours": [
         {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 0.2
+        },
+        {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.4
+        },
+        {
           "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.5
+        },
+        {
+          "slug": "hlavni-nadrazi-station",
           "name_ar": "المحطة الرئيسية",
           "km": 0.5
         },
@@ -131,21 +146,6 @@
           "slug": "na-prikope",
           "name_ar": "نا بريكوبيه",
           "km": 0.6
-        },
-        {
-          "slug": "old-town-square",
-          "name_ar": "ساحة البلدة القديمة",
-          "km": 0.9
-        },
-        {
-          "slug": "vinohrady",
-          "name_ar": "فينوهرادي",
-          "km": 1.3
-        },
-        {
-          "slug": "charles-bridge",
-          "name_ar": "جسر تشارلز",
-          "km": 1.3
         }
       ]
     },
@@ -164,7 +164,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مالوسترانسكا (0.9 كم)",
       "keywords": [
         "فنادق قريبة من قلعة براغ"
       ],
@@ -180,6 +180,11 @@
           "km": 0.9
         },
         {
+          "slug": "malostranska-metro",
+          "name_ar": "محطة مترو مالوسترانسكا",
+          "km": 0.9
+        },
+        {
           "slug": "petrin",
           "name_ar": "بيترين",
           "km": 1.0
@@ -188,11 +193,6 @@
           "slug": "old-town-square",
           "name_ar": "ساحة البلدة القديمة",
           "km": 1.5
-        },
-        {
-          "slug": "na-prikope",
-          "name_ar": "نا بريكوبيه",
-          "km": 1.8
         }
       ]
     },
@@ -210,11 +210,21 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "المحطة الرئيسية (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة براغ"
       ],
       "neighbours": [
+        {
+          "slug": "hlavni-nadrazi-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.0
+        },
+        {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 0.5
+        },
         {
           "slug": "wenceslas",
           "name_ar": "ساحة فاتسلاف",
@@ -226,19 +236,9 @@
           "km": 0.7
         },
         {
-          "slug": "vinohrady",
-          "name_ar": "فينوهرادي",
-          "km": 1.0
-        },
-        {
-          "slug": "old-town-square",
-          "name_ar": "ساحة البلدة القديمة",
-          "km": 1.1
-        },
-        {
-          "slug": "charles-bridge",
-          "name_ar": "جسر تشارلز",
-          "km": 1.7
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.8
         }
       ]
     },
@@ -276,14 +276,14 @@
           "km": 10.1
         },
         {
+          "slug": "andel-metro",
+          "name_ar": "محطة مترو أنديل",
+          "km": 10.6
+        },
+        {
           "slug": "charles-bridge",
           "name_ar": "جسر تشارلز",
           "km": 10.7
-        },
-        {
-          "slug": "old-town-square",
-          "name_ar": "ساحة البلدة القديمة",
-          "km": 11.4
         }
       ]
     },
@@ -316,19 +316,19 @@
           "km": 10.1
         },
         {
+          "slug": "hlavni-nadrazi-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 10.1
+        },
+        {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 10.4
+        },
+        {
           "slug": "wenceslas",
           "name_ar": "ساحة فاتسلاف",
           "km": 10.6
-        },
-        {
-          "slug": "na-prikope",
-          "name_ar": "نا بريكوبيه",
-          "km": 10.8
-        },
-        {
-          "slug": "old-town-square",
-          "name_ar": "ساحة البلدة القديمة",
-          "km": 11.2
         }
       ]
     },
@@ -347,12 +347,22 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو موستيك (0.3 كم)",
       "keywords": [],
       "neighbours": [
         {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.3
+        },
+        {
           "slug": "old-town-square",
           "name_ar": "ساحة البلدة القديمة",
+          "km": 0.4
+        },
+        {
+          "slug": "namesti-republiky-metro",
+          "name_ar": "محطة مترو ساحة الجمهورية",
           "km": 0.4
         },
         {
@@ -364,16 +374,6 @@
           "slug": "main-station",
           "name_ar": "المحطة الرئيسية",
           "km": 0.7
-        },
-        {
-          "slug": "charles-bridge",
-          "name_ar": "جسر تشارلز",
-          "km": 1.0
-        },
-        {
-          "slug": "mala-strana",
-          "name_ar": "مالا سترانا",
-          "km": 1.6
         }
       ]
     },
@@ -391,7 +391,7 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مالوسترانسكا (0.8 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -405,6 +405,11 @@
           "km": 0.6
         },
         {
+          "slug": "malostranska-metro",
+          "name_ar": "محطة مترو مالوسترانسكا",
+          "km": 0.8
+        },
+        {
           "slug": "petrin",
           "name_ar": "بيترين",
           "km": 0.8
@@ -413,11 +418,6 @@
           "slug": "old-town-square",
           "name_ar": "ساحة البلدة القديمة",
           "km": 1.2
-        },
-        {
-          "slug": "na-prikope",
-          "name_ar": "نا بريكوبيه",
-          "km": 1.6
         }
       ]
     },
@@ -436,7 +436,7 @@
         "apartments",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "المحطة الرئيسية (1.0 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -445,24 +445,24 @@
           "km": 1.0
         },
         {
+          "slug": "hlavni-nadrazi-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.0
+        },
+        {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 1.1
+        },
+        {
           "slug": "wenceslas",
           "name_ar": "ساحة فاتسلاف",
           "km": 1.3
         },
         {
-          "slug": "na-prikope",
-          "name_ar": "نا بريكوبيه",
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
           "km": 1.7
-        },
-        {
-          "slug": "old-town-square",
-          "name_ar": "ساحة البلدة القديمة",
-          "km": 2.1
-        },
-        {
-          "slug": "charles-bridge",
-          "name_ar": "جسر تشارلز",
-          "km": 2.6
         }
       ]
     },
@@ -480,7 +480,7 @@
         "family",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو مالوسترانسكا (1.6 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -499,17 +499,311 @@
           "km": 1.2
         },
         {
+          "slug": "malostranska-metro",
+          "name_ar": "محطة مترو مالوسترانسكا",
+          "km": 1.6
+        },
+        {
+          "slug": "andel-metro",
+          "name_ar": "محطة مترو أنديل",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "mustek-metro",
+      "name_ar": "محطة مترو موستيك",
+      "name_en": "Mustek Metro",
+      "lat": 50.084,
+      "lng": 14.424,
+      "prox_km": 1.5,
+      "q": "مترو موستيك",
+      "poi_label": "محطة مترو موستيك",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A · B",
+      "keywords": [
+        "فنادق قريبة من محطة مترو موستيك",
+        "فنادق قريبة من مترو مترو موستيك"
+      ],
+      "neighbours": [
+        {
+          "slug": "na-prikope",
+          "name_ar": "نا بريكوبيه",
+          "km": 0.3
+        },
+        {
           "slug": "old-town-square",
           "name_ar": "ساحة البلدة القديمة",
-          "km": 1.9
+          "km": 0.4
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 0.4
+        },
+        {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 0.6
+        },
+        {
+          "slug": "namesti-republiky-metro",
+          "name_ar": "محطة مترو ساحة الجمهورية",
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "muzeum-metro",
+      "name_ar": "محطة مترو موزيوم",
+      "name_en": "Muzeum Metro",
+      "lat": 50.08,
+      "lng": 14.43,
+      "prox_km": 1.5,
+      "q": "مترو موزيوم",
+      "poi_label": "محطة مترو موزيوم",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A · C",
+      "keywords": [
+        "فنادق قريبة من محطة مترو موزيوم",
+        "فنادق قريبة من مترو مترو موزيوم"
+      ],
+      "neighbours": [
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 0.2
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.5
+        },
+        {
+          "slug": "hlavni-nadrazi-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.5
+        },
+        {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.6
         },
         {
           "slug": "na-prikope",
           "name_ar": "نا بريكوبيه",
-          "km": 2.2
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "hlavni-nadrazi-station",
+      "name_ar": "المحطة الرئيسية",
+      "name_en": "Hlavni Nadrazi",
+      "lat": 50.083,
+      "lng": 14.435,
+      "prox_km": 1.5,
+      "q": "الالرئيسية",
+      "poi_label": "المحطة الرئيسية",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "C · قطارات",
+      "keywords": [
+        "فنادق قريبة من المحطة الرئيسية",
+        "فنادق قريبة من مترو الالرئيسية"
+      ],
+      "neighbours": [
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.0
+        },
+        {
+          "slug": "muzeum-metro",
+          "name_ar": "محطة مترو موزيوم",
+          "km": 0.5
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 0.5
+        },
+        {
+          "slug": "na-prikope",
+          "name_ar": "نا بريكوبيه",
+          "km": 0.7
+        },
+        {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.8
+        }
+      ]
+    },
+    {
+      "slug": "malostranska-metro",
+      "name_ar": "محطة مترو مالوسترانسكا",
+      "name_en": "Malostranska Metro",
+      "lat": 50.091,
+      "lng": 14.414,
+      "prox_km": 1.5,
+      "q": "مترو مالوسترانسكا",
+      "poi_label": "محطة مترو مالوسترانسكا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A",
+      "keywords": [
+        "فنادق قريبة من محطة مترو مالوسترانسكا",
+        "فنادق قريبة من مترو مترو مالوسترانسكا"
+      ],
+      "neighbours": [
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 0.5
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 0.7
+        },
+        {
+          "slug": "mala-strana",
+          "name_ar": "مالا سترانا",
+          "km": 0.8
+        },
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 0.9
+        },
+        {
+          "slug": "na-prikope",
+          "name_ar": "نا بريكوبيه",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "namesti-republiky-metro",
+      "name_ar": "محطة مترو ساحة الجمهورية",
+      "name_en": "Namesti Republiky Metro",
+      "lat": 50.089,
+      "lng": 14.429,
+      "prox_km": 1.5,
+      "q": "مترو ساحة الجمهورية",
+      "poi_label": "محطة مترو ساحة الجمهورية",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "B",
+      "keywords": [
+        "فنادق قريبة من محطة مترو ساحة الجمهورية",
+        "فنادق قريبة من مترو مترو ساحة الجمهورية"
+      ],
+      "neighbours": [
+        {
+          "slug": "na-prikope",
+          "name_ar": "نا بريكوبيه",
+          "km": 0.4
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 0.6
+        },
+        {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 0.7
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.8
+        },
+        {
+          "slug": "hlavni-nadrazi-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.8
+        }
+      ]
+    },
+    {
+      "slug": "andel-metro",
+      "name_ar": "محطة مترو أنديل",
+      "name_en": "Andel Metro",
+      "lat": 50.07,
+      "lng": 14.404,
+      "prox_km": 1.5,
+      "q": "مترو أنديل",
+      "poi_label": "محطة مترو أنديل",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "B",
+      "keywords": [
+        "فنادق قريبة من محطة مترو أنديل",
+        "فنادق قريبة من مترو مترو أنديل"
+      ],
+      "neighbours": [
+        {
+          "slug": "petrin",
+          "name_ar": "بيترين",
+          "km": 1.6
+        },
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 1.9
+        },
+        {
+          "slug": "mala-strana",
+          "name_ar": "مالا سترانا",
+          "km": 2.0
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 2.1
+        },
+        {
+          "slug": "mustek-metro",
+          "name_ar": "محطة مترو موستيك",
+          "km": 2.1
         }
       ]
     }
   ],
-  "poi_count": 11
+  "poi_count": 17
 }

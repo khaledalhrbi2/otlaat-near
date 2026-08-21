@@ -356,6 +356,106 @@
    "permanent": true
   },
   {
+   "source": "/riyadh/near/kafd-metro-station",
+   "destination": "/riyadh/hotels-near-kafd-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kafd-metro-station/",
+   "destination": "/riyadh/hotels-near-kafd-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/olaya-metro-station",
+   "destination": "/riyadh/hotels-near-olaya-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/olaya-metro-station/",
+   "destination": "/riyadh/hotels-near-olaya-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-fahd-road-metro",
+   "destination": "/riyadh/hotels-near-king-fahd-road-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-fahd-road-metro/",
+   "destination": "/riyadh/hotels-near-king-fahd-road-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kingdom-centre-metro",
+   "destination": "/riyadh/hotels-near-kingdom-centre-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/kingdom-centre-metro/",
+   "destination": "/riyadh/hotels-near-kingdom-centre-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/qasr-al-hokm-metro",
+   "destination": "/riyadh/hotels-near-qasr-al-hokm-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/qasr-al-hokm-metro/",
+   "destination": "/riyadh/hotels-near-qasr-al-hokm-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/national-museum-metro",
+   "destination": "/riyadh/hotels-near-national-museum-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/national-museum-metro/",
+   "destination": "/riyadh/hotels-near-national-museum-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/stc-metro-station",
+   "destination": "/riyadh/hotels-near-stc-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/stc-metro-station/",
+   "destination": "/riyadh/hotels-near-stc-metro-station/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/airport-metro-terminal-3",
+   "destination": "/riyadh/hotels-near-airport-metro-terminal-3/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/airport-metro-terminal-3/",
+   "destination": "/riyadh/hotels-near-airport-metro-terminal-3/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/ministry-of-education-metro",
+   "destination": "/riyadh/hotels-near-ministry-of-education-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/ministry-of-education-metro/",
+   "destination": "/riyadh/hotels-near-ministry-of-education-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-abdullah-road-metro",
+   "destination": "/riyadh/hotels-near-king-abdullah-road-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/riyadh/near/king-abdullah-road-metro/",
+   "destination": "/riyadh/hotels-near-king-abdullah-road-metro/",
+   "permanent": true
+  },
+  {
    "source": "/makkah/near/haram",
    "destination": "/makkah/hotels-near-haram/",
    "permanent": true
@@ -1196,6 +1296,146 @@
    "permanent": true
   },
   {
+   "source": "/dubai/near/burj-khalifa-dubai-mall-metro",
+   "destination": "/dubai/hotels-near-burj-khalifa-dubai-mall-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/burj-khalifa-dubai-mall-metro/",
+   "destination": "/dubai/hotels-near-burj-khalifa-dubai-mall-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/mall-of-the-emirates-metro",
+   "destination": "/dubai/hotels-near-mall-of-the-emirates-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/mall-of-the-emirates-metro/",
+   "destination": "/dubai/hotels-near-mall-of-the-emirates-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dmcc-metro",
+   "destination": "/dubai/hotels-near-dmcc-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/dmcc-metro/",
+   "destination": "/dubai/hotels-near-dmcc-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/sobha-realty-metro",
+   "destination": "/dubai/hotels-near-sobha-realty-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/sobha-realty-metro/",
+   "destination": "/dubai/hotels-near-sobha-realty-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/business-bay-metro",
+   "destination": "/dubai/hotels-near-business-bay-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/business-bay-metro/",
+   "destination": "/dubai/hotels-near-business-bay-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/union-metro",
+   "destination": "/dubai/hotels-near-union-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/union-metro/",
+   "destination": "/dubai/hotels-near-union-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/burjuman-metro",
+   "destination": "/dubai/hotels-near-burjuman-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/burjuman-metro/",
+   "destination": "/dubai/hotels-near-burjuman-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-rigga-metro",
+   "destination": "/dubai/hotels-near-al-rigga-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-rigga-metro/",
+   "destination": "/dubai/hotels-near-al-rigga-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/airport-terminal-1-metro",
+   "destination": "/dubai/hotels-near-airport-terminal-1-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/airport-terminal-1-metro/",
+   "destination": "/dubai/hotels-near-airport-terminal-1-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/airport-terminal-3-metro",
+   "destination": "/dubai/hotels-near-airport-terminal-3-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/airport-terminal-3-metro/",
+   "destination": "/dubai/hotels-near-airport-terminal-3-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/deira-city-centre-metro",
+   "destination": "/dubai/hotels-near-deira-city-centre-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/deira-city-centre-metro/",
+   "destination": "/dubai/hotels-near-deira-city-centre-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-jafiliya-metro",
+   "destination": "/dubai/hotels-near-al-jafiliya-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/al-jafiliya-metro/",
+   "destination": "/dubai/hotels-near-al-jafiliya-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/expo-2020-metro",
+   "destination": "/dubai/hotels-near-expo-2020-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/expo-2020-metro/",
+   "destination": "/dubai/hotels-near-expo-2020-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/creek-metro",
+   "destination": "/dubai/hotels-near-creek-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/dubai/near/creek-metro/",
+   "destination": "/dubai/hotels-near-creek-metro/",
+   "permanent": true
+  },
+  {
    "source": "/istanbul/near/taksim",
    "destination": "/istanbul/hotels-in-taksim/",
    "permanent": true
@@ -1566,6 +1806,146 @@
    "permanent": true
   },
   {
+   "source": "/istanbul/near/taksim-metro",
+   "destination": "/istanbul/hotels-near-taksim-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/taksim-metro/",
+   "destination": "/istanbul/hotels-near-taksim-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sisli-mecidiyekoy-metro",
+   "destination": "/istanbul/hotels-near-sisli-mecidiyekoy-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sisli-mecidiyekoy-metro/",
+   "destination": "/istanbul/hotels-near-sisli-mecidiyekoy-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/osmanbey-metro",
+   "destination": "/istanbul/hotels-near-osmanbey-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/osmanbey-metro/",
+   "destination": "/istanbul/hotels-near-osmanbey-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/levent-metro",
+   "destination": "/istanbul/hotels-near-levent-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/levent-metro/",
+   "destination": "/istanbul/hotels-near-levent-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/vezneciler-metro",
+   "destination": "/istanbul/hotels-near-vezneciler-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/vezneciler-metro/",
+   "destination": "/istanbul/hotels-near-vezneciler-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/yenikapi-metro",
+   "destination": "/istanbul/hotels-near-yenikapi-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/yenikapi-metro/",
+   "destination": "/istanbul/hotels-near-yenikapi-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sultanahmet-tram",
+   "destination": "/istanbul/hotels-near-sultanahmet-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sultanahmet-tram/",
+   "destination": "/istanbul/hotels-near-sultanahmet-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eminonu-tram",
+   "destination": "/istanbul/hotels-near-eminonu-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/eminonu-tram/",
+   "destination": "/istanbul/hotels-near-eminonu-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/kabatas-tram",
+   "destination": "/istanbul/hotels-near-kabatas-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/kabatas-tram/",
+   "destination": "/istanbul/hotels-near-kabatas-tram/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/aksaray-metro",
+   "destination": "/istanbul/hotels-near-aksaray-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/aksaray-metro/",
+   "destination": "/istanbul/hotels-near-aksaray-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istanbul-airport-metro",
+   "destination": "/istanbul/hotels-near-istanbul-airport-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/istanbul-airport-metro/",
+   "destination": "/istanbul/hotels-near-istanbul-airport-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sabiha-gokcen-metro",
+   "destination": "/istanbul/hotels-near-sabiha-gokcen-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/sabiha-gokcen-metro/",
+   "destination": "/istanbul/hotels-near-sabiha-gokcen-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/uskudar-marmaray",
+   "destination": "/istanbul/hotels-near-uskudar-marmaray/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/uskudar-marmaray/",
+   "destination": "/istanbul/hotels-near-uskudar-marmaray/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/kadikoy-metro",
+   "destination": "/istanbul/hotels-near-kadikoy-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/istanbul/near/kadikoy-metro/",
+   "destination": "/istanbul/hotels-near-kadikoy-metro/",
+   "permanent": true
+  },
+  {
    "source": "/rome/near/colosseum",
    "destination": "/rome/hotels-near-colosseum/",
    "permanent": true
@@ -1763,6 +2143,76 @@
   {
    "source": "/rome/near/piazza-del-popolo/",
    "destination": "/rome/hotels-near-piazza-del-popolo/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/termini-station",
+   "destination": "/rome/hotels-near-termini-station/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/termini-station/",
+   "destination": "/rome/hotels-near-termini-station/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/spagna-metro",
+   "destination": "/rome/hotels-near-spagna-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/spagna-metro/",
+   "destination": "/rome/hotels-near-spagna-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/barberini-metro",
+   "destination": "/rome/hotels-near-barberini-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/barberini-metro/",
+   "destination": "/rome/hotels-near-barberini-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/ottaviano-metro",
+   "destination": "/rome/hotels-near-ottaviano-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/ottaviano-metro/",
+   "destination": "/rome/hotels-near-ottaviano-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/colosseo-metro",
+   "destination": "/rome/hotels-near-colosseo-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/colosseo-metro/",
+   "destination": "/rome/hotels-near-colosseo-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/flaminio-metro",
+   "destination": "/rome/hotels-near-flaminio-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/flaminio-metro/",
+   "destination": "/rome/hotels-near-flaminio-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/tiburtina-station",
+   "destination": "/rome/hotels-near-tiburtina-station/",
+   "permanent": true
+  },
+  {
+   "source": "/rome/near/tiburtina-station/",
+   "destination": "/rome/hotels-near-tiburtina-station/",
    "permanent": true
   },
   {
@@ -2296,6 +2746,146 @@
    "permanent": true
   },
   {
+   "source": "/london/near/paddington-station",
+   "destination": "/london/hotels-near-paddington-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/paddington-station/",
+   "destination": "/london/hotels-near-paddington-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/kings-cross-st-pancras",
+   "destination": "/london/hotels-near-kings-cross-st-pancras/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/kings-cross-st-pancras/",
+   "destination": "/london/hotels-near-kings-cross-st-pancras/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/victoria-station",
+   "destination": "/london/hotels-near-victoria-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/victoria-station/",
+   "destination": "/london/hotels-near-victoria-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/oxford-circus-station",
+   "destination": "/london/hotels-near-oxford-circus-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/oxford-circus-station/",
+   "destination": "/london/hotels-near-oxford-circus-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/bond-street-station",
+   "destination": "/london/hotels-near-bond-street-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/bond-street-station/",
+   "destination": "/london/hotels-near-bond-street-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/marble-arch-station",
+   "destination": "/london/hotels-near-marble-arch-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/marble-arch-station/",
+   "destination": "/london/hotels-near-marble-arch-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/edgware-road-station",
+   "destination": "/london/hotels-near-edgware-road-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/edgware-road-station/",
+   "destination": "/london/hotels-near-edgware-road-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/knightsbridge-station",
+   "destination": "/london/hotels-near-knightsbridge-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/knightsbridge-station/",
+   "destination": "/london/hotels-near-knightsbridge-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/green-park-station",
+   "destination": "/london/hotels-near-green-park-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/green-park-station/",
+   "destination": "/london/hotels-near-green-park-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/waterloo-station",
+   "destination": "/london/hotels-near-waterloo-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/waterloo-station/",
+   "destination": "/london/hotels-near-waterloo-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/liverpool-street-station",
+   "destination": "/london/hotels-near-liverpool-street-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/liverpool-street-station/",
+   "destination": "/london/hotels-near-liverpool-street-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/euston-station",
+   "destination": "/london/hotels-near-euston-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/euston-station/",
+   "destination": "/london/hotels-near-euston-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/earls-court-station",
+   "destination": "/london/hotels-near-earls-court-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/earls-court-station/",
+   "destination": "/london/hotels-near-earls-court-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/queensway-station",
+   "destination": "/london/hotels-near-queensway-station/",
+   "permanent": true
+  },
+  {
+   "source": "/london/near/queensway-station/",
+   "destination": "/london/hotels-near-queensway-station/",
+   "permanent": true
+  },
+  {
    "source": "/paris/near/eiffel-tower",
    "destination": "/paris/hotels-near-eiffel-tower/",
    "permanent": true
@@ -2496,6 +3086,116 @@
    "permanent": true
   },
   {
+   "source": "/paris/near/gare-du-nord-station",
+   "destination": "/paris/hotels-near-gare-du-nord-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/gare-du-nord-station/",
+   "destination": "/paris/hotels-near-gare-du-nord-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/gare-de-lyon-station",
+   "destination": "/paris/hotels-near-gare-de-lyon-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/gare-de-lyon-station/",
+   "destination": "/paris/hotels-near-gare-de-lyon-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/chatelet-les-halles",
+   "destination": "/paris/hotels-near-chatelet-les-halles/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/chatelet-les-halles/",
+   "destination": "/paris/hotels-near-chatelet-les-halles/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/opera-metro",
+   "destination": "/paris/hotels-near-opera-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/opera-metro/",
+   "destination": "/paris/hotels-near-opera-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/charles-de-gaulle-etoile",
+   "destination": "/paris/hotels-near-charles-de-gaulle-etoile/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/charles-de-gaulle-etoile/",
+   "destination": "/paris/hotels-near-charles-de-gaulle-etoile/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/trocadero-metro",
+   "destination": "/paris/hotels-near-trocadero-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/trocadero-metro/",
+   "destination": "/paris/hotels-near-trocadero-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/bir-hakeim-metro",
+   "destination": "/paris/hotels-near-bir-hakeim-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/bir-hakeim-metro/",
+   "destination": "/paris/hotels-near-bir-hakeim-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/saint-lazare-station",
+   "destination": "/paris/hotels-near-saint-lazare-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/saint-lazare-station/",
+   "destination": "/paris/hotels-near-saint-lazare-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/montparnasse-station",
+   "destination": "/paris/hotels-near-montparnasse-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/montparnasse-station/",
+   "destination": "/paris/hotels-near-montparnasse-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/la-defense-station",
+   "destination": "/paris/hotels-near-la-defense-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/la-defense-station/",
+   "destination": "/paris/hotels-near-la-defense-station/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/franklin-roosevelt-metro",
+   "destination": "/paris/hotels-near-franklin-roosevelt-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/paris/near/franklin-roosevelt-metro/",
+   "destination": "/paris/hotels-near-franklin-roosevelt-metro/",
+   "permanent": true
+  },
+  {
    "source": "/milan/near/duomo",
    "destination": "/milan/hotels-near-duomo/",
    "permanent": true
@@ -2646,6 +3346,76 @@
    "permanent": true
   },
   {
+   "source": "/milan/near/milano-centrale-station",
+   "destination": "/milan/hotels-near-milano-centrale-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/milano-centrale-station/",
+   "destination": "/milan/hotels-near-milano-centrale-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/duomo-metro",
+   "destination": "/milan/hotels-near-duomo-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/duomo-metro/",
+   "destination": "/milan/hotels-near-duomo-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/cadorna-station",
+   "destination": "/milan/hotels-near-cadorna-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/cadorna-station/",
+   "destination": "/milan/hotels-near-cadorna-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/garibaldi-station",
+   "destination": "/milan/hotels-near-garibaldi-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/garibaldi-station/",
+   "destination": "/milan/hotels-near-garibaldi-station/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/san-babila-metro",
+   "destination": "/milan/hotels-near-san-babila-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/san-babila-metro/",
+   "destination": "/milan/hotels-near-san-babila-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/loreto-metro",
+   "destination": "/milan/hotels-near-loreto-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/loreto-metro/",
+   "destination": "/milan/hotels-near-loreto-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/lotto-san-siro-metro",
+   "destination": "/milan/hotels-near-lotto-san-siro-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/milan/near/lotto-san-siro-metro/",
+   "destination": "/milan/hotels-near-lotto-san-siro-metro/",
+   "permanent": true
+  },
+  {
    "source": "/vienna/near/stephansplatz",
    "destination": "/vienna/hotels-near-stephansplatz/",
    "permanent": true
@@ -2786,6 +3556,76 @@
    "permanent": true
   },
   {
+   "source": "/vienna/near/stephansplatz-ubahn",
+   "destination": "/vienna/hotels-near-stephansplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/stephansplatz-ubahn/",
+   "destination": "/vienna/hotels-near-stephansplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/karlsplatz-ubahn",
+   "destination": "/vienna/hotels-near-karlsplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/karlsplatz-ubahn/",
+   "destination": "/vienna/hotels-near-karlsplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/hauptbahnhof-station",
+   "destination": "/vienna/hotels-near-hauptbahnhof-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/hauptbahnhof-station/",
+   "destination": "/vienna/hotels-near-hauptbahnhof-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/westbahnhof-station",
+   "destination": "/vienna/hotels-near-westbahnhof-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/westbahnhof-station/",
+   "destination": "/vienna/hotels-near-westbahnhof-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/praterstern-station",
+   "destination": "/vienna/hotels-near-praterstern-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/praterstern-station/",
+   "destination": "/vienna/hotels-near-praterstern-station/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schwedenplatz-ubahn",
+   "destination": "/vienna/hotels-near-schwedenplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schwedenplatz-ubahn/",
+   "destination": "/vienna/hotels-near-schwedenplatz-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schonbrunn-ubahn",
+   "destination": "/vienna/hotels-near-schonbrunn-ubahn/",
+   "permanent": true
+  },
+  {
+   "source": "/vienna/near/schonbrunn-ubahn/",
+   "destination": "/vienna/hotels-near-schonbrunn-ubahn/",
+   "permanent": true
+  },
+  {
    "source": "/zurich/near/bahnhofstrasse",
    "destination": "/zurich/hotels-near-bahnhofstrasse/",
    "permanent": true
@@ -2886,6 +3726,46 @@
    "permanent": true
   },
   {
+   "source": "/zurich/near/zurich-hb-station",
+   "destination": "/zurich/hotels-near-zurich-hb-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/zurich-hb-station/",
+   "destination": "/zurich/hotels-near-zurich-hb-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/stadelhofen-station",
+   "destination": "/zurich/hotels-near-stadelhofen-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/stadelhofen-station/",
+   "destination": "/zurich/hotels-near-stadelhofen-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/oerlikon-station",
+   "destination": "/zurich/hotels-near-oerlikon-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/oerlikon-station/",
+   "destination": "/zurich/hotels-near-oerlikon-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/enge-station",
+   "destination": "/zurich/hotels-near-enge-station/",
+   "permanent": true
+  },
+  {
+   "source": "/zurich/near/enge-station/",
+   "destination": "/zurich/hotels-near-enge-station/",
+   "permanent": true
+  },
+  {
    "source": "/geneva/near/jet-d-eau",
    "destination": "/geneva/hotels-near-jet-d-eau/",
    "permanent": true
@@ -2983,6 +3863,36 @@
   {
    "source": "/geneva/near/hug-hospital/",
    "destination": "/geneva/hotels-near-hug-hospital/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/cornavin-station",
+   "destination": "/geneva/hotels-near-cornavin-station/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/cornavin-station/",
+   "destination": "/geneva/hotels-near-cornavin-station/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/eaux-vives-station",
+   "destination": "/geneva/hotels-near-eaux-vives-station/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/eaux-vives-station/",
+   "destination": "/geneva/hotels-near-eaux-vives-station/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/geneva-airport-station",
+   "destination": "/geneva/hotels-near-geneva-airport-station/",
+   "permanent": true
+  },
+  {
+   "source": "/geneva/near/geneva-airport-station/",
+   "destination": "/geneva/hotels-near-geneva-airport-station/",
    "permanent": true
   },
   {
@@ -3093,6 +4003,66 @@
   {
    "source": "/prague/near/petrin/",
    "destination": "/prague/hotels-near-petrin/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/mustek-metro",
+   "destination": "/prague/hotels-near-mustek-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/mustek-metro/",
+   "destination": "/prague/hotels-near-mustek-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/muzeum-metro",
+   "destination": "/prague/hotels-near-muzeum-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/muzeum-metro/",
+   "destination": "/prague/hotels-near-muzeum-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/hlavni-nadrazi-station",
+   "destination": "/prague/hotels-near-hlavni-nadrazi-station/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/hlavni-nadrazi-station/",
+   "destination": "/prague/hotels-near-hlavni-nadrazi-station/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/malostranska-metro",
+   "destination": "/prague/hotels-near-malostranska-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/malostranska-metro/",
+   "destination": "/prague/hotels-near-malostranska-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/namesti-republiky-metro",
+   "destination": "/prague/hotels-near-namesti-republiky-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/namesti-republiky-metro/",
+   "destination": "/prague/hotels-near-namesti-republiky-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/andel-metro",
+   "destination": "/prague/hotels-near-andel-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/prague/near/andel-metro/",
+   "destination": "/prague/hotels-near-andel-metro/",
    "permanent": true
   },
   {
@@ -3236,6 +4206,86 @@
    "permanent": true
   },
   {
+   "source": "/barcelona/near/placa-catalunya-station",
+   "destination": "/barcelona/hotels-near-placa-catalunya-station/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/placa-catalunya-station/",
+   "destination": "/barcelona/hotels-near-placa-catalunya-station/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/passeig-de-gracia-station",
+   "destination": "/barcelona/hotels-near-passeig-de-gracia-station/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/passeig-de-gracia-station/",
+   "destination": "/barcelona/hotels-near-passeig-de-gracia-station/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sants-estacio",
+   "destination": "/barcelona/hotels-near-sants-estacio/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sants-estacio/",
+   "destination": "/barcelona/hotels-near-sants-estacio/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sagrada-familia-metro",
+   "destination": "/barcelona/hotels-near-sagrada-familia-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/sagrada-familia-metro/",
+   "destination": "/barcelona/hotels-near-sagrada-familia-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/diagonal-metro",
+   "destination": "/barcelona/hotels-near-diagonal-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/diagonal-metro/",
+   "destination": "/barcelona/hotels-near-diagonal-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/liceu-metro",
+   "destination": "/barcelona/hotels-near-liceu-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/liceu-metro/",
+   "destination": "/barcelona/hotels-near-liceu-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/barceloneta-metro",
+   "destination": "/barcelona/hotels-near-barceloneta-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/barceloneta-metro/",
+   "destination": "/barcelona/hotels-near-barceloneta-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/universitat-metro",
+   "destination": "/barcelona/hotels-near-universitat-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/barcelona/near/universitat-metro/",
+   "destination": "/barcelona/hotels-near-universitat-metro/",
+   "permanent": true
+  },
+  {
    "source": "/amsterdam/near/dam-square",
    "destination": "/amsterdam/hotels-near-dam-square/",
    "permanent": true
@@ -3363,6 +4413,66 @@
   {
    "source": "/amsterdam/near/zaanse-schans/",
    "destination": "/amsterdam/hotels-near-zaanse-schans/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/centraal-station",
+   "destination": "/amsterdam/hotels-near-centraal-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/centraal-station/",
+   "destination": "/amsterdam/hotels-near-centraal-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/amsterdam-zuid-station",
+   "destination": "/amsterdam/hotels-near-amsterdam-zuid-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/amsterdam-zuid-station/",
+   "destination": "/amsterdam/hotels-near-amsterdam-zuid-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/sloterdijk-station",
+   "destination": "/amsterdam/hotels-near-sloterdijk-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/sloterdijk-station/",
+   "destination": "/amsterdam/hotels-near-sloterdijk-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/amstel-station",
+   "destination": "/amsterdam/hotels-near-amstel-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/amstel-station/",
+   "destination": "/amsterdam/hotels-near-amstel-station/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/rokin-metro",
+   "destination": "/amsterdam/hotels-near-rokin-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/rokin-metro/",
+   "destination": "/amsterdam/hotels-near-rokin-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/de-pijp-metro",
+   "destination": "/amsterdam/hotels-near-de-pijp-metro/",
+   "permanent": true
+  },
+  {
+   "source": "/amsterdam/near/de-pijp-metro/",
+   "destination": "/amsterdam/hotels-near-de-pijp-metro/",
    "permanent": true
   }
  ]

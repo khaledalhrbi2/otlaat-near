@@ -24,7 +24,7 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كورنافان (1.1 كم)",
       "keywords": [
         "فنادق قريبة من نافورة جنيف"
       ],
@@ -50,9 +50,9 @@
           "km": 1.1
         },
         {
-          "slug": "hug-hospital",
-          "name_ar": "مستشفى جنيف الجامعي",
-          "km": 1.7
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 1.1
         }
       ]
     },
@@ -70,7 +70,7 @@
         "5-star",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كورنافان (0.6 كم)",
       "keywords": [
         "فنادق مطلة على بحيرة جنيف"
       ],
@@ -91,14 +91,14 @@
           "km": 0.6
         },
         {
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 0.6
+        },
+        {
           "slug": "rue-du-rhone",
           "name_ar": "شارع الرون",
           "km": 0.8
-        },
-        {
-          "slug": "hug-hospital",
-          "name_ar": "مستشفى جنيف الجامعي",
-          "km": 1.9
         }
       ]
     },
@@ -117,11 +117,16 @@
         "budget",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كورنافان (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة جنيف"
       ],
       "neighbours": [
+        {
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 0.0
+        },
         {
           "slug": "paquis",
           "name_ar": "باكي",
@@ -141,11 +146,6 @@
           "slug": "jet-d-eau",
           "name_ar": "نافورة جنيف",
           "km": 1.1
-        },
-        {
-          "slug": "hug-hospital",
-          "name_ar": "مستشفى جنيف الجامعي",
-          "km": 2.0
         }
       ]
     },
@@ -163,7 +163,7 @@
         "shopping",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كورنافان (0.9 كم)",
       "keywords": [
         "فنادق شارع الرون جنيف"
       ],
@@ -184,14 +184,14 @@
           "km": 0.9
         },
         {
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 0.9
+        },
+        {
           "slug": "paquis",
           "name_ar": "باكي",
           "km": 1.0
-        },
-        {
-          "slug": "hug-hospital",
-          "name_ar": "مستشفى جنيف الجامعي",
-          "km": 1.1
         }
       ]
     },
@@ -208,13 +208,23 @@
       "intents": [
         "transit"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مطار جنيف (0.8 كم)",
       "keywords": [
         "فنادق قريبة من مطار جنيف"
       ],
       "neighbours": [
         {
+          "slug": "geneva-airport-station",
+          "name_ar": "محطة مطار جنيف",
+          "km": 0.8
+        },
+        {
           "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 4.0
+        },
+        {
+          "slug": "cornavin-station",
           "name_ar": "محطة كورنافان",
           "km": 4.0
         },
@@ -227,16 +237,6 @@
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 4.4
-        },
-        {
-          "slug": "rue-du-rhone",
-          "name_ar": "شارع الرون",
-          "km": 4.9
-        },
-        {
-          "slug": "jet-d-eau",
-          "name_ar": "نافورة جنيف",
-          "km": 5.0
         }
       ]
     },
@@ -266,6 +266,11 @@
           "km": 23.5
         },
         {
+          "slug": "eaux-vives-station",
+          "name_ar": "محطة أو-فيف",
+          "km": 62.7
+        },
+        {
           "slug": "jet-d-eau",
           "name_ar": "نافورة جنيف",
           "km": 63.1
@@ -279,11 +284,6 @@
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 63.4
-        },
-        {
-          "slug": "rue-du-rhone",
-          "name_ar": "شارع الرون",
-          "km": 63.8
         }
       ]
     },
@@ -315,6 +315,11 @@
           "km": 50.4
         },
         {
+          "slug": "eaux-vives-station",
+          "name_ar": "محطة أو-فيف",
+          "km": 50.4
+        },
+        {
           "slug": "paquis",
           "name_ar": "باكي",
           "km": 50.5
@@ -323,11 +328,6 @@
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 50.6
-        },
-        {
-          "slug": "geneva-airport",
-          "name_ar": "مطار جنيف",
-          "km": 50.9
         }
       ]
     },
@@ -346,7 +346,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كورنافان (0.6 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -360,6 +360,11 @@
           "km": 0.6
         },
         {
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 0.6
+        },
+        {
           "slug": "jet-d-eau",
           "name_ar": "نافورة جنيف",
           "km": 0.7
@@ -368,11 +373,6 @@
           "slug": "rue-du-rhone",
           "name_ar": "شارع الرون",
           "km": 1.0
-        },
-        {
-          "slug": "hug-hospital",
-          "name_ar": "مستشفى جنيف الجامعي",
-          "km": 2.1
         }
       ]
     },
@@ -405,6 +405,11 @@
           "km": 2.4
         },
         {
+          "slug": "eaux-vives-station",
+          "name_ar": "محطة أو-فيف",
+          "km": 2.9
+        },
+        {
           "slug": "jet-d-eau",
           "name_ar": "نافورة جنيف",
           "km": 3.1
@@ -413,11 +418,6 @@
           "slug": "cornavin",
           "name_ar": "محطة كورنافان",
           "km": 3.1
-        },
-        {
-          "slug": "lake-geneva",
-          "name_ar": "بحيرة جنيف",
-          "km": 3.2
         }
       ]
     },
@@ -436,13 +436,18 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أو-فيف (1.5 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "rue-du-rhone",
           "name_ar": "شارع الرون",
           "km": 1.1
+        },
+        {
+          "slug": "eaux-vives-station",
+          "name_ar": "محطة أو-فيف",
+          "km": 1.5
         },
         {
           "slug": "carouge",
@@ -458,14 +463,156 @@
           "slug": "lake-geneva",
           "name_ar": "بحيرة جنيف",
           "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "cornavin-station",
+      "name_ar": "محطة كورنافان",
+      "name_en": "Geneve Cornavin",
+      "lat": 46.21,
+      "lng": 6.142,
+      "prox_km": 1.5,
+      "q": "كورنافان",
+      "poi_label": "محطة كورنافان",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "كل القطارات · الترام · قطار المطار",
+      "keywords": [
+        "فنادق قريبة من محطة كورنافان",
+        "فنادق قريبة من مترو كورنافان"
+      ],
+      "neighbours": [
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 0.0
+        },
+        {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 0.6
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 0.6
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 0.9
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "eaux-vives-station",
+      "name_ar": "محطة أو-فيف",
+      "name_en": "Geneve Eaux-Vives",
+      "lat": 46.2,
+      "lng": 6.166,
+      "prox_km": 1.5,
+      "q": "أو-فيف",
+      "poi_label": "محطة أو-فيف",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "Leman Express",
+      "keywords": [
+        "فنادق قريبة من محطة أو-فيف",
+        "فنادق قريبة من مترو أو-فيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 1.1
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 1.4
+        },
+        {
+          "slug": "hug-hospital",
+          "name_ar": "مستشفى جنيف الجامعي",
+          "km": 1.5
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 1.7
+        },
+        {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "geneva-airport-station",
+      "name_ar": "محطة مطار جنيف",
+      "name_en": "Geneve Aeroport",
+      "lat": 46.231,
+      "lng": 6.109,
+      "prox_km": 3,
+      "q": "مطار جنيف",
+      "poi_label": "محطة مطار جنيف",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "قطارات مباشرة",
+      "keywords": [
+        "فنادق قريبة من محطة مطار جنيف",
+        "فنادق قريبة من مترو مطار جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 0.8
         },
         {
           "slug": "cornavin",
           "name_ar": "محطة كورنافان",
-          "km": 2.0
+          "km": 3.4
+        },
+        {
+          "slug": "cornavin-station",
+          "name_ar": "محطة كورنافان",
+          "km": 3.4
+        },
+        {
+          "slug": "paquis",
+          "name_ar": "باكي",
+          "km": 3.7
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 3.9
         }
       ]
     }
   ],
-  "poi_count": 10
+  "poi_count": 13
 }

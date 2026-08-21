@@ -31,6 +31,11 @@
       ],
       "neighbours": [
         {
+          "slug": "colosseo-metro",
+          "name_ar": "محطة مترو كولوسيو",
+          "km": 0.1
+        },
+        {
           "slug": "monti",
           "name_ar": "مونتي",
           "km": 0.6
@@ -48,11 +53,6 @@
         {
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
-          "km": 1.4
-        },
-        {
-          "slug": "termini",
-          "name_ar": "محطة تيرميني",
           "km": 1.4
         }
       ]
@@ -83,6 +83,11 @@
           "km": 0.1
         },
         {
+          "slug": "ottaviano-metro",
+          "name_ar": "محطة مترو أوتافيانو",
+          "km": 0.9
+        },
+        {
           "slug": "prati",
           "name_ar": "براتي",
           "km": 1.0
@@ -96,11 +101,6 @@
           "slug": "campo-de-fiori",
           "name_ar": "كامبو دي فيوري",
           "km": 1.8
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 2.0
         }
       ]
     },
@@ -125,6 +125,11 @@
       ],
       "neighbours": [
         {
+          "slug": "termini-station",
+          "name_ar": "محطة تيرميني",
+          "km": 0.0
+        },
+        {
           "slug": "esquilino",
           "name_ar": "إسكويلينو",
           "km": 0.6
@@ -135,19 +140,14 @@
           "km": 1.2
         },
         {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 1.2
+        },
+        {
           "slug": "via-veneto",
           "name_ar": "فيا فينيتو",
           "km": 1.3
-        },
-        {
-          "slug": "colosseum",
-          "name_ar": "الكولوسيوم",
-          "km": 1.4
-        },
-        {
-          "slug": "trevi",
-          "name_ar": "نافورة تريفي",
-          "km": 1.5
         }
       ]
     },
@@ -166,7 +166,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو باربيريني (0.5 كم)",
       "keywords": [
         "فنادق قريبة من نافورة تريفي"
       ],
@@ -175,6 +175,11 @@
           "slug": "via-del-corso",
           "name_ar": "فيا ديل كورسو",
           "km": 0.3
+        },
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 0.5
         },
         {
           "slug": "piazza-venezia",
@@ -187,14 +192,9 @@
           "km": 0.6
         },
         {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
           "km": 0.6
-        },
-        {
-          "slug": "monti",
-          "name_ar": "مونتي",
-          "km": 0.9
         }
       ]
     },
@@ -212,7 +212,7 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سبانيا (1.0 كم)",
       "keywords": [
         "فنادق وسط روما التاريخي"
       ],
@@ -265,8 +265,18 @@
       ],
       "neighbours": [
         {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.1
+        },
+        {
           "slug": "via-del-corso",
           "name_ar": "فيا ديل كورسو",
+          "km": 0.5
+        },
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
           "km": 0.5
         },
         {
@@ -278,16 +288,6 @@
           "slug": "via-veneto",
           "name_ar": "فيا فينيتو",
           "km": 0.6
-        },
-        {
-          "slug": "piazza-del-popolo",
-          "name_ar": "ساحة ديل بوبولو",
-          "km": 0.7
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 0.9
         }
       ]
     },
@@ -305,7 +305,7 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو كولوسيو (1.9 كم)",
       "keywords": [
         "فنادق تراستيفيري"
       ],
@@ -377,9 +377,9 @@
           "km": 21.5
         },
         {
-          "slug": "prati",
-          "name_ar": "براتي",
-          "km": 22.0
+          "slug": "ottaviano-metro",
+          "name_ar": "محطة مترو أوتافيانو",
+          "km": 21.9
         }
       ]
     },
@@ -396,7 +396,7 @@
       "intents": [
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سبانيا (0.5 كم)",
       "keywords": [
         "فنادق شارع التسوق روما"
       ],
@@ -417,14 +417,14 @@
           "km": 0.5
         },
         {
-          "slug": "piazza-venezia",
-          "name_ar": "ساحة فينيسيا",
-          "km": 0.7
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.5
         },
         {
-          "slug": "via-veneto",
-          "name_ar": "فيا فينيتو",
-          "km": 1.0
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 0.7
         }
       ]
     },
@@ -442,11 +442,16 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أوتافيانو (0.2 كم)",
       "keywords": [
         "فنادق براتي روما"
       ],
       "neighbours": [
+        {
+          "slug": "ottaviano-metro",
+          "name_ar": "محطة مترو أوتافيانو",
+          "km": 0.2
+        },
         {
           "slug": "castel-sant-angelo",
           "name_ar": "قلعة سانت أنجلو",
@@ -463,14 +468,9 @@
           "km": 1.0
         },
         {
-          "slug": "piazza-del-popolo",
-          "name_ar": "ساحة ديل بوبولو",
-          "km": 1.4
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.9
+          "slug": "flaminio-metro",
+          "name_ar": "محطة مترو فلامينيو",
+          "km": 1.3
         }
       ]
     },
@@ -488,9 +488,19 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو باربيريني (0.4 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 0.4
+        },
+        {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.5
+        },
         {
           "slug": "spanish-steps",
           "name_ar": "الدرج الإسباني",
@@ -505,16 +515,6 @@
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
           "km": 0.9
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.0
-        },
-        {
-          "slug": "piazza-del-popolo",
-          "name_ar": "ساحة ديل بوبولو",
-          "km": 1.1
         }
       ]
     },
@@ -533,7 +533,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو باربيريني (1.0 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -578,7 +578,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أوتافيانو (1.0 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -597,14 +597,14 @@
           "km": 1.0
         },
         {
-          "slug": "st-peters",
-          "name_ar": "كاتدرائية القديس بطرس",
+          "slug": "ottaviano-metro",
+          "name_ar": "محطة مترو أوتافيانو",
           "km": 1.0
         },
         {
-          "slug": "vatican",
-          "name_ar": "الفاتيكان",
-          "km": 1.1
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 1.0
         }
       ]
     },
@@ -622,13 +622,23 @@
         "family",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سبانيا (1.2 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "via-veneto",
           "name_ar": "فيا فينيتو",
           "km": 0.8
+        },
+        {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 1.2
+        },
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 1.2
         },
         {
           "slug": "spanish-steps",
@@ -639,16 +649,6 @@
           "slug": "piazza-del-popolo",
           "name_ar": "ساحة ديل بوبولو",
           "km": 1.3
-        },
-        {
-          "slug": "trevi",
-          "name_ar": "نافورة تريفي",
-          "km": 1.6
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.7
         }
       ]
     },
@@ -666,9 +666,14 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو كولوسيو (0.6 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "colosseo-metro",
+          "name_ar": "محطة مترو كولوسيو",
+          "km": 0.6
+        },
         {
           "slug": "colosseum",
           "name_ar": "الكولوسيوم",
@@ -688,11 +693,6 @@
           "slug": "esquilino",
           "name_ar": "إسكويلينو",
           "km": 1.0
-        },
-        {
-          "slug": "via-del-corso",
-          "name_ar": "فيا ديل كورسو",
-          "km": 1.1
         }
       ]
     },
@@ -711,13 +711,23 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة تيرميني (0.6 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "termini",
           "name_ar": "محطة تيرميني",
           "km": 0.6
+        },
+        {
+          "slug": "termini-station",
+          "name_ar": "محطة تيرميني",
+          "km": 0.6
+        },
+        {
+          "slug": "colosseo-metro",
+          "name_ar": "محطة مترو كولوسيو",
+          "km": 1.0
         },
         {
           "slug": "monti",
@@ -728,16 +738,6 @@
           "slug": "colosseum",
           "name_ar": "الكولوسيوم",
           "km": 1.0
-        },
-        {
-          "slug": "piazza-venezia",
-          "name_ar": "ساحة فينيسيا",
-          "km": 1.6
-        },
-        {
-          "slug": "trevi",
-          "name_ar": "نافورة تريفي",
-          "km": 1.6
         }
       ]
     },
@@ -754,7 +754,7 @@
       "intents": [
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سبانيا (1.5 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -818,14 +818,14 @@
           "km": 19.8
         },
         {
+          "slug": "colosseo-metro",
+          "name_ar": "محطة مترو كولوسيو",
+          "km": 19.8
+        },
+        {
           "slug": "campo-de-fiori",
           "name_ar": "كامبو دي فيوري",
           "km": 20.0
-        },
-        {
-          "slug": "piazza-venezia",
-          "name_ar": "ساحة فينيسيا",
-          "km": 20.2
         }
       ]
     },
@@ -844,13 +844,18 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أوتافيانو (0.9 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "vatican",
           "name_ar": "الفاتيكان",
           "km": 0.1
+        },
+        {
+          "slug": "ottaviano-metro",
+          "name_ar": "محطة مترو أوتافيانو",
+          "km": 0.9
         },
         {
           "slug": "prati",
@@ -866,11 +871,6 @@
           "slug": "campo-de-fiori",
           "name_ar": "كامبو دي فيوري",
           "km": 1.7
-        },
-        {
-          "slug": "pantheon-navona",
-          "name_ar": "البانثيون ونافونا",
-          "km": 1.9
         }
       ]
     },
@@ -888,13 +888,23 @@
         "5-star",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو فلامينيو (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "flaminio-metro",
+          "name_ar": "محطة مترو فلامينيو",
+          "km": 0.0
+        },
         {
           "slug": "spanish-steps",
           "name_ar": "الدرج الإسباني",
           "km": 0.7
+        },
+        {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.8
         },
         {
           "slug": "via-del-corso",
@@ -905,19 +915,352 @@
           "slug": "via-veneto",
           "name_ar": "فيا فينيتو",
           "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "termini-station",
+      "name_ar": "محطة تيرميني",
+      "name_en": "Roma Termini",
+      "lat": 41.901,
+      "lng": 12.502,
+      "prox_km": 1.5,
+      "q": "تيرميني",
+      "poi_label": "محطة تيرميني",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A · B · قطارات · Leonardo Express",
+      "keywords": [
+        "فنادق قريبة من محطة تيرميني",
+        "فنادق قريبة من مترو تيرميني"
+      ],
+      "neighbours": [
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 0.0
         },
         {
-          "slug": "castel-sant-angelo",
-          "name_ar": "قلعة سانت أنجلو",
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 0.6
+        },
+        {
+          "slug": "monti",
+          "name_ar": "مونتي",
           "km": 1.2
+        },
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 1.2
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "spagna-metro",
+      "name_ar": "محطة مترو سبانيا",
+      "name_en": "Spagna Metro",
+      "lat": 41.906,
+      "lng": 12.483,
+      "prox_km": 1.5,
+      "q": "مترو سبانيا",
+      "poi_label": "محطة مترو سبانيا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A (الدرج الإسباني)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو سبانيا",
+        "فنادق قريبة من مترو مترو سبانيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.1
+        },
+        {
+          "slug": "barberini-metro",
+          "name_ar": "محطة مترو باربيريني",
+          "km": 0.5
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.5
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 0.5
         },
         {
           "slug": "trevi",
           "name_ar": "نافورة تريفي",
-          "km": 1.2
+          "km": 0.6
+        }
+      ]
+    },
+    {
+      "slug": "barberini-metro",
+      "name_ar": "محطة مترو باربيريني",
+      "name_en": "Barberini Metro",
+      "lat": 41.904,
+      "lng": 12.488,
+      "prox_km": 1.5,
+      "q": "مترو باربيريني",
+      "poi_label": "محطة مترو باربيريني",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A (تريفي)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو باربيريني",
+        "فنادق قريبة من مترو مترو باربيريني"
+      ],
+      "neighbours": [
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 0.4
+        },
+        {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.5
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.5
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.5
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.7
+        }
+      ]
+    },
+    {
+      "slug": "ottaviano-metro",
+      "name_ar": "محطة مترو أوتافيانو",
+      "name_en": "Ottaviano Metro",
+      "lat": 41.91,
+      "lng": 12.458,
+      "prox_km": 1.5,
+      "q": "مترو أوتافيانو",
+      "poi_label": "محطة مترو أوتافيانو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A (الفاتيكان)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو أوتافيانو",
+        "فنادق قريبة من مترو مترو أوتافيانو"
+      ],
+      "neighbours": [
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 0.2
+        },
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 0.9
+        },
+        {
+          "slug": "st-peters",
+          "name_ar": "كاتدرائية القديس بطرس",
+          "km": 0.9
+        },
+        {
+          "slug": "castel-sant-angelo",
+          "name_ar": "قلعة سانت أنجلو",
+          "km": 1.0
+        },
+        {
+          "slug": "flaminio-metro",
+          "name_ar": "محطة مترو فلامينيو",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "colosseo-metro",
+      "name_ar": "محطة مترو كولوسيو",
+      "name_en": "Colosseo Metro",
+      "lat": 41.8905,
+      "lng": 12.493,
+      "prox_km": 1.5,
+      "q": "مترو كولوسيو",
+      "poi_label": "محطة مترو كولوسيو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "B",
+      "keywords": [
+        "فنادق قريبة من محطة مترو كولوسيو",
+        "فنادق قريبة من مترو مترو كولوسيو"
+      ],
+      "neighbours": [
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 0.1
+        },
+        {
+          "slug": "monti",
+          "name_ar": "مونتي",
+          "km": 0.6
+        },
+        {
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 1.0
+        },
+        {
+          "slug": "piazza-venezia",
+          "name_ar": "ساحة فينيسيا",
+          "km": 1.1
+        },
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "flaminio-metro",
+      "name_ar": "محطة مترو فلامينيو",
+      "name_en": "Flaminio Metro",
+      "lat": 41.911,
+      "lng": 12.476,
+      "prox_km": 1.5,
+      "q": "مترو فلامينيو",
+      "poi_label": "محطة مترو فلامينيو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "A (بيازا ديل بوبولو)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو فلامينيو",
+        "فنادق قريبة من مترو مترو فلامينيو"
+      ],
+      "neighbours": [
+        {
+          "slug": "piazza-del-popolo",
+          "name_ar": "ساحة ديل بوبولو",
+          "km": 0.0
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.8
+        },
+        {
+          "slug": "spagna-metro",
+          "name_ar": "محطة مترو سبانيا",
+          "km": 0.8
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.1
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "tiburtina-station",
+      "name_ar": "محطة تيبورتينا",
+      "name_en": "Roma Tiburtina",
+      "lat": 41.91,
+      "lng": 12.531,
+      "prox_km": 2,
+      "q": "تيبورتينا",
+      "poi_label": "محطة تيبورتينا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "B · قطارات",
+      "keywords": [
+        "فنادق قريبة من محطة تيبورتينا",
+        "فنادق قريبة من مترو تيبورتينا"
+      ],
+      "neighbours": [
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 2.6
+        },
+        {
+          "slug": "termini-station",
+          "name_ar": "محطة تيرميني",
+          "km": 2.6
+        },
+        {
+          "slug": "esquilino",
+          "name_ar": "إسكويلينو",
+          "km": 2.9
+        },
+        {
+          "slug": "villa-borghese",
+          "name_ar": "فيلا بورغيزي",
+          "km": 3.3
+        },
+        {
+          "slug": "via-veneto",
+          "name_ar": "فيا فينيتو",
+          "km": 3.5
         }
       ]
     }
   ],
-  "poi_count": 20
+  "poi_count": 27
 }

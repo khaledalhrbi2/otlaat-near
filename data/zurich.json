@@ -24,7 +24,7 @@
         "shopping",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة زيورخ الرئيسية (0.7 كم)",
       "keywords": [
         "فنادق قريبة من بانهوف شتراسه"
       ],
@@ -40,19 +40,19 @@
           "km": 0.7
         },
         {
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 0.7
+        },
+        {
           "slug": "lake-zurich",
           "name_ar": "بحيرة زيورخ",
           "km": 0.8
         },
         {
-          "slug": "zurich-west",
-          "name_ar": "زيورخ ويست",
-          "km": 2.6
-        },
-        {
-          "slug": "oerlikon",
-          "name_ar": "أورليكون",
-          "km": 4.4
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 0.9
         }
       ]
     },
@@ -70,11 +70,16 @@
         "transit",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة زيورخ الرئيسية (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة زيورخ الرئيسية"
       ],
       "neighbours": [
+        {
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 0.0
+        },
         {
           "slug": "bahnhofstrasse",
           "name_ar": "بانهوف شتراسه",
@@ -91,14 +96,9 @@
           "km": 1.4
         },
         {
-          "slug": "zurich-west",
-          "name_ar": "زيورخ ويست",
-          "km": 2.1
-        },
-        {
-          "slug": "oerlikon",
-          "name_ar": "أورليكون",
-          "km": 3.7
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 1.4
         }
       ]
     },
@@ -116,11 +116,16 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة شتادلهوفن (0.3 كم)",
       "keywords": [
         "فنادق مطلة على بحيرة زيورخ"
       ],
       "neighbours": [
+        {
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 0.3
+        },
         {
           "slug": "old-town",
           "name_ar": "البلدة القديمة",
@@ -132,19 +137,14 @@
           "km": 0.8
         },
         {
+          "slug": "enge-station",
+          "name_ar": "محطة إنغه",
+          "km": 1.0
+        },
+        {
           "slug": "hauptbahnhof",
           "name_ar": "المحطة الرئيسية",
           "km": 1.4
-        },
-        {
-          "slug": "zurich-west",
-          "name_ar": "زيورخ ويست",
-          "km": 3.3
-        },
-        {
-          "slug": "oerlikon",
-          "name_ar": "أورليكون",
-          "km": 5.0
         }
       ]
     },
@@ -163,7 +163,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة زيورخ الرئيسية (0.7 كم)",
       "keywords": [
         "فنادق البلدة القديمة زيورخ"
       ],
@@ -184,14 +184,14 @@
           "km": 0.7
         },
         {
-          "slug": "zurich-west",
-          "name_ar": "زيورخ ويست",
-          "km": 2.7
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 0.7
         },
         {
-          "slug": "oerlikon",
-          "name_ar": "أورليكون",
-          "km": 4.4
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 0.7
         }
       ]
     },
@@ -219,6 +219,11 @@
           "km": 6.0
         },
         {
+          "slug": "oerlikon-station",
+          "name_ar": "محطة أورليكون",
+          "km": 6.0
+        },
+        {
           "slug": "zurich-west",
           "name_ar": "زيورخ ويست",
           "km": 8.6
@@ -229,14 +234,9 @@
           "km": 9.7
         },
         {
-          "slug": "bahnhofstrasse",
-          "name_ar": "بانهوف شتراسه",
-          "km": 10.3
-        },
-        {
-          "slug": "old-town",
-          "name_ar": "البلدة القديمة",
-          "km": 10.4
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 9.7
         }
       ]
     },
@@ -269,19 +269,19 @@
           "km": 140.7
         },
         {
-          "slug": "lake-zurich",
-          "name_ar": "بحيرة زيورخ",
+          "slug": "enge-station",
+          "name_ar": "محطة إنغه",
           "km": 169.4
         },
         {
-          "slug": "old-town",
-          "name_ar": "البلدة القديمة",
-          "km": 170.1
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 169.4
         },
         {
-          "slug": "bahnhofstrasse",
-          "name_ar": "بانهوف شتراسه",
-          "km": 170.2
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 169.4
         }
       ]
     },
@@ -306,9 +306,19 @@
       ],
       "neighbours": [
         {
+          "slug": "enge-station",
+          "name_ar": "محطة إنغه",
+          "km": 38.7
+        },
+        {
           "slug": "lake-zurich",
           "name_ar": "بحيرة زيورخ",
           "km": 39.3
+        },
+        {
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 39.5
         },
         {
           "slug": "bahnhofstrasse",
@@ -319,16 +329,6 @@
           "slug": "old-town",
           "name_ar": "البلدة القديمة",
           "km": 39.8
-        },
-        {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 40.4
-        },
-        {
-          "slug": "zurich-west",
-          "name_ar": "زيورخ ويست",
-          "km": 40.9
         }
       ]
     },
@@ -358,24 +358,24 @@
           "km": 52.8
         },
         {
+          "slug": "enge-station",
+          "name_ar": "محطة إنغه",
+          "km": 90.8
+        },
+        {
           "slug": "lake-zurich",
           "name_ar": "بحيرة زيورخ",
           "km": 91.5
         },
         {
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 91.8
+        },
+        {
           "slug": "bahnhofstrasse",
           "name_ar": "بانهوف شتراسه",
           "km": 91.9
-        },
-        {
-          "slug": "old-town",
-          "name_ar": "البلدة القديمة",
-          "km": 92.0
-        },
-        {
-          "slug": "hauptbahnhof",
-          "name_ar": "المحطة الرئيسية",
-          "km": 92.4
         }
       ]
     },
@@ -393,12 +393,17 @@
         "apartments",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة زيورخ الرئيسية (2.1 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "hauptbahnhof",
           "name_ar": "المحطة الرئيسية",
+          "km": 2.1
+        },
+        {
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
           "km": 2.1
         },
         {
@@ -415,11 +420,6 @@
           "slug": "oerlikon",
           "name_ar": "أورليكون",
           "km": 3.0
-        },
-        {
-          "slug": "lake-zurich",
-          "name_ar": "بحيرة زيورخ",
-          "km": 3.3
         }
       ]
     },
@@ -438,9 +438,14 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أورليكون (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "oerlikon-station",
+          "name_ar": "محطة أورليكون",
+          "km": 0.0
+        },
         {
           "slug": "zurich-west",
           "name_ar": "زيورخ ويست",
@@ -452,22 +457,213 @@
           "km": 3.7
         },
         {
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 3.7
+        },
+        {
           "slug": "bahnhofstrasse",
           "name_ar": "بانهوف شتراسه",
           "km": 4.4
+        }
+      ]
+    },
+    {
+      "slug": "zurich-hb-station",
+      "name_ar": "محطة زيورخ الرئيسية",
+      "name_en": "Zurich HB",
+      "lat": 47.378,
+      "lng": 8.54,
+      "prox_km": 1.5,
+      "q": "زيورخ الرئيسية",
+      "poi_label": "محطة زيورخ الرئيسية",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "كل القطارات · S-Bahn · الترام",
+      "keywords": [
+        "فنادق قريبة من محطة زيورخ الرئيسية",
+        "فنادق قريبة من مترو زيورخ الرئيسية"
+      ],
+      "neighbours": [
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.0
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 0.7
         },
         {
           "slug": "old-town",
           "name_ar": "البلدة القديمة",
-          "km": 4.4
+          "km": 0.7
         },
         {
           "slug": "lake-zurich",
           "name_ar": "بحيرة زيورخ",
-          "km": 5.0
+          "km": 1.4
+        },
+        {
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "stadelhofen-station",
+      "name_ar": "محطة شتادلهوفن",
+      "name_en": "Stadelhofen",
+      "lat": 47.3665,
+      "lng": 8.5485,
+      "prox_km": 1.5,
+      "q": "شتادلهوفن",
+      "poi_label": "محطة شتادلهوفن",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "S-Bahn · الترام (البحيرة)",
+      "keywords": [
+        "فنادق قريبة من محطة شتادلهوفن",
+        "فنادق قريبة من مترو شتادلهوفن"
+      ],
+      "neighbours": [
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 0.3
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 0.7
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 0.9
+        },
+        {
+          "slug": "enge-station",
+          "name_ar": "محطة إنغه",
+          "km": 1.3
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "oerlikon-station",
+      "name_ar": "محطة أورليكون",
+      "name_en": "Zurich Oerlikon",
+      "lat": 47.411,
+      "lng": 8.544,
+      "prox_km": 1.5,
+      "q": "أورليكون",
+      "poi_label": "محطة أورليكون",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "S-Bahn · قطار المطار",
+      "keywords": [
+        "فنادق قريبة من محطة أورليكون",
+        "فنادق قريبة من مترو أورليكون"
+      ],
+      "neighbours": [
+        {
+          "slug": "oerlikon",
+          "name_ar": "أورليكون",
+          "km": 0.0
+        },
+        {
+          "slug": "zurich-west",
+          "name_ar": "زيورخ ويست",
+          "km": 3.0
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 3.7
+        },
+        {
+          "slug": "zurich-hb-station",
+          "name_ar": "محطة زيورخ الرئيسية",
+          "km": 3.7
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 4.4
+        }
+      ]
+    },
+    {
+      "slug": "enge-station",
+      "name_ar": "محطة إنغه",
+      "name_en": "Zurich Enge",
+      "lat": 47.364,
+      "lng": 8.531,
+      "prox_km": 1.5,
+      "q": "إنغه",
+      "poi_label": "محطة إنغه",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "S-Bahn",
+      "keywords": [
+        "فنادق قريبة من محطة إنغه",
+        "فنادق قريبة من مترو إنغه"
+      ],
+      "neighbours": [
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 1.0
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 1.1
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 1.2
+        },
+        {
+          "slug": "stadelhofen-station",
+          "name_ar": "محطة شتادلهوفن",
+          "km": 1.3
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.7
         }
       ]
     }
   ],
-  "poi_count": 10
+  "poi_count": 14
 }

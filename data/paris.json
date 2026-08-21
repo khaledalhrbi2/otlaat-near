@@ -25,16 +25,26 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو بير حكيم (0.6 كم)",
       "keywords": [
         "فنادق قريبة من برج ايفل",
         "فنادق مطلة على برج ايفل"
       ],
       "neighbours": [
         {
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
+          "km": 0.6
+        },
+        {
           "slug": "trocadero",
           "name_ar": "تروكاديرو",
           "km": 0.6
+        },
+        {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 0.8
         },
         {
           "slug": "champs-elysees",
@@ -42,19 +52,9 @@
           "km": 1.6
         },
         {
-          "slug": "arc-de-triomphe",
-          "name_ar": "قوس النصر",
-          "km": 1.7
-        },
-        {
-          "slug": "montparnasse",
-          "name_ar": "مونبارناس",
-          "km": 2.6
-        },
-        {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 2.8
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 1.6
         }
       ]
     },
@@ -72,35 +72,35 @@
         "5-star",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو فرانكلين روزفلت (0.2 كم)",
       "keywords": [
         "فنادق الشانزليزيه"
       ],
       "neighbours": [
+        {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 0.2
+        },
         {
           "slug": "arc-de-triomphe",
           "name_ar": "قوس النصر",
           "km": 1.0
         },
         {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 1.0
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 1.5
+        },
+        {
           "slug": "eiffel-tower",
           "name_ar": "برج إيفل",
           "km": 1.6
-        },
-        {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 1.6
-        },
-        {
-          "slug": "trocadero",
-          "name_ar": "تروكاديرو",
-          "km": 1.7
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 1.8
         }
       ]
     },
@@ -119,35 +119,35 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "شارل ديغول إيتوال (0.0 كم)",
       "keywords": [
         "فنادق قريبة من قوس النصر"
       ],
       "neighbours": [
+        {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 0.0
+        },
         {
           "slug": "champs-elysees",
           "name_ar": "الشانزليزيه",
           "km": 1.0
         },
         {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 1.2
+        },
+        {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 1.3
+        },
+        {
           "slug": "trocadero",
           "name_ar": "تروكاديرو",
           "km": 1.4
-        },
-        {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
-          "km": 1.7
-        },
-        {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 2.6
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 2.7
         }
       ]
     },
@@ -166,7 +166,7 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "شاتليه لي آل (0.7 كم)",
       "keywords": [
         "فنادق قريبة من اللوفر"
       ],
@@ -175,6 +175,11 @@
           "slug": "rue-de-rivoli",
           "name_ar": "شارع ريفولي",
           "km": 0.3
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 0.7
         },
         {
           "slug": "saint-germain",
@@ -187,14 +192,9 @@
           "km": 1.0
         },
         {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 1.3
-        },
-        {
-          "slug": "le-marais",
-          "name_ar": "لو ماريه",
-          "km": 1.8
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 1.2
         }
       ]
     },
@@ -212,15 +212,25 @@
         "shopping",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أوبرا (0.1 كم)",
       "keywords": [
         "فنادق قريبة من لافاييت"
       ],
       "neighbours": [
         {
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 0.1
+        },
+        {
           "slug": "place-vendome",
           "name_ar": "بلاس فاندوم",
           "km": 0.5
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 0.7
         },
         {
           "slug": "louvre",
@@ -231,16 +241,6 @@
           "slug": "rue-de-rivoli",
           "name_ar": "شارع ريفولي",
           "km": 1.4
-        },
-        {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 1.8
-        },
-        {
-          "slug": "montmartre",
-          "name_ar": "مونمارتر",
-          "km": 1.8
         }
       ]
     },
@@ -273,6 +273,11 @@
           "km": 23.4
         },
         {
+          "slug": "gare-de-lyon-station",
+          "name_ar": "محطة ليون",
+          "km": 30.1
+        },
+        {
           "slug": "bastille",
           "name_ar": "الباستيل",
           "km": 30.4
@@ -281,11 +286,6 @@
           "slug": "le-marais",
           "name_ar": "لو ماريه",
           "km": 30.9
-        },
-        {
-          "slug": "gare-du-nord",
-          "name_ar": "محطة الشمال",
-          "km": 31.4
         }
       ]
     },
@@ -303,7 +303,7 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة الشمال (1.1 كم)",
       "keywords": [
         "فنادق مونمارتر"
       ],
@@ -314,24 +314,24 @@
           "km": 1.1
         },
         {
+          "slug": "gare-du-nord-station",
+          "name_ar": "محطة الشمال",
+          "km": 1.1
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 1.8
+        },
+        {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
           "km": 1.8
         },
         {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 2.4
-        },
-        {
-          "slug": "rue-de-rivoli",
-          "name_ar": "شارع ريفولي",
-          "km": 2.9
-        },
-        {
-          "slug": "louvre",
-          "name_ar": "اللوفر",
-          "km": 2.9
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 1.9
         }
       ]
     },
@@ -349,11 +349,16 @@
         "corporate",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة لا ديفانس (0.1 كم)",
       "keywords": [
         "فنادق لا ديفانس"
       ],
       "neighbours": [
+        {
+          "slug": "la-defense-station",
+          "name_ar": "محطة لا ديفانس",
+          "km": 0.1
+        },
         {
           "slug": "american-hospital",
           "name_ar": "المستشفى الأميركي",
@@ -365,19 +370,14 @@
           "km": 4.8
         },
         {
-          "slug": "trocadero",
-          "name_ar": "تروكاديرو",
-          "km": 5.0
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 4.8
         },
         {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
-          "km": 5.7
-        },
-        {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 5.8
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 4.9
         }
       ]
     },
@@ -406,6 +406,11 @@
           "km": 20.1
         },
         {
+          "slug": "gare-du-nord-station",
+          "name_ar": "محطة الشمال",
+          "km": 20.1
+        },
+        {
           "slug": "montmartre",
           "name_ar": "مونمارتر",
           "km": 20.3
@@ -419,11 +424,6 @@
           "slug": "bastille",
           "name_ar": "الباستيل",
           "km": 21.8
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 22.0
         }
       ]
     },
@@ -441,7 +441,7 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "شاتليه لي آل (1.4 كم)",
       "keywords": [
         "فنادق سان جيرمان باريس"
       ],
@@ -457,6 +457,11 @@
           "km": 1.0
         },
         {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 1.4
+        },
+        {
           "slug": "place-vendome",
           "name_ar": "بلاس فاندوم",
           "km": 1.5
@@ -465,11 +470,6 @@
           "slug": "montparnasse",
           "name_ar": "مونبارناس",
           "km": 1.6
-        },
-        {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 2.0
         }
       ]
     },
@@ -502,6 +502,11 @@
           "km": 24.1
         },
         {
+          "slug": "gare-de-lyon-station",
+          "name_ar": "محطة ليون",
+          "km": 29.6
+        },
+        {
           "slug": "bastille",
           "name_ar": "الباستيل",
           "km": 29.9
@@ -510,11 +515,6 @@
           "slug": "le-marais",
           "name_ar": "لو ماريه",
           "km": 30.4
-        },
-        {
-          "slug": "gare-du-nord",
-          "name_ar": "محطة الشمال",
-          "km": 31.1
         }
       ]
     },
@@ -532,13 +532,18 @@
         "couples",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "شاتليه لي آل (1.1 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "bastille",
           "name_ar": "الباستيل",
           "km": 0.8
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 1.1
         },
         {
           "slug": "rue-de-rivoli",
@@ -551,14 +556,9 @@
           "km": 1.8
         },
         {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 2.2
-        },
-        {
-          "slug": "gare-du-nord",
-          "name_ar": "محطة الشمال",
-          "km": 2.5
+          "slug": "gare-de-lyon-station",
+          "name_ar": "محطة ليون",
+          "km": 1.9
         }
       ]
     },
@@ -576,9 +576,14 @@
         "5-star",
         "shopping"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو أوبرا (0.4 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 0.4
+        },
         {
           "slug": "opera-lafayette",
           "name_ar": "الأوبرا / غاليري لافاييت",
@@ -590,19 +595,14 @@
           "km": 1.0
         },
         {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 1.0
+        },
+        {
           "slug": "rue-de-rivoli",
           "name_ar": "شارع ريفولي",
           "km": 1.2
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 1.5
-        },
-        {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 1.6
         }
       ]
     },
@@ -621,13 +621,23 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ليون (1.0 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "le-marais",
           "name_ar": "لو ماريه",
           "km": 0.8
+        },
+        {
+          "slug": "gare-de-lyon-station",
+          "name_ar": "محطة ليون",
+          "km": 1.0
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 1.9
         },
         {
           "slug": "rue-de-rivoli",
@@ -638,16 +648,6 @@
           "slug": "louvre",
           "name_ar": "اللوفر",
           "km": 2.5
-        },
-        {
-          "slug": "saint-germain",
-          "name_ar": "سان جيرمان",
-          "km": 2.7
-        },
-        {
-          "slug": "gare-du-nord",
-          "name_ar": "محطة الشمال",
-          "km": 3.2
         }
       ]
     },
@@ -666,9 +666,14 @@
         "budget",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مونبارناس (0.2 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "montparnasse-station",
+          "name_ar": "محطة مونبارناس",
+          "km": 0.2
+        },
         {
           "slug": "saint-germain",
           "name_ar": "سان جيرمان",
@@ -685,14 +690,9 @@
           "km": 2.6
         },
         {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
           "km": 2.6
-        },
-        {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 2.9
         }
       ]
     },
@@ -710,15 +710,25 @@
         "5-star",
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو تروكاديرو (0.1 كم)",
       "keywords": [
         "فنادق مطلة على برج ايفل تروكاديرو"
       ],
       "neighbours": [
         {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 0.1
+        },
+        {
           "slug": "eiffel-tower",
           "name_ar": "برج إيفل",
           "km": 0.6
+        },
+        {
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
+          "km": 0.9
         },
         {
           "slug": "arc-de-triomphe",
@@ -726,19 +736,9 @@
           "km": 1.4
         },
         {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 1.7
-        },
-        {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 3.1
-        },
-        {
-          "slug": "montparnasse",
-          "name_ar": "مونبارناس",
-          "km": 3.3
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 1.4
         }
       ]
     },
@@ -765,6 +765,16 @@
           "km": 12.9
         },
         {
+          "slug": "la-defense-station",
+          "name_ar": "محطة لا ديفانس",
+          "km": 13.0
+        },
+        {
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
+          "km": 13.5
+        },
+        {
           "slug": "american-hospital",
           "name_ar": "المستشفى الأميركي",
           "km": 13.8
@@ -773,16 +783,6 @@
           "slug": "trocadero",
           "name_ar": "تروكاديرو",
           "km": 13.8
-        },
-        {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
-          "km": 14.1
-        },
-        {
-          "slug": "arc-de-triomphe",
-          "name_ar": "قوس النصر",
-          "km": 14.9
         }
       ]
     },
@@ -801,13 +801,18 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "شاتليه لي آل (0.4 كم)",
       "keywords": [],
       "neighbours": [
         {
           "slug": "louvre",
           "name_ar": "اللوفر",
           "km": 0.3
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 0.4
         },
         {
           "slug": "saint-germain",
@@ -820,14 +825,9 @@
           "km": 1.2
         },
         {
-          "slug": "opera-lafayette",
-          "name_ar": "الأوبرا / غاليري لافاييت",
-          "km": 1.4
-        },
-        {
-          "slug": "le-marais",
-          "name_ar": "لو ماريه",
-          "km": 1.5
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 1.3
         }
       ]
     },
@@ -846,9 +846,14 @@
         "medical",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة لا ديفانس (1.7 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "la-defense-station",
+          "name_ar": "محطة لا ديفانس",
+          "km": 1.7
+        },
         {
           "slug": "la-defense",
           "name_ar": "لا ديفانس",
@@ -860,19 +865,14 @@
           "km": 3.0
         },
         {
-          "slug": "trocadero",
-          "name_ar": "تروكاديرو",
-          "km": 3.5
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 3.0
         },
         {
-          "slug": "champs-elysees",
-          "name_ar": "الشانزليزيه",
-          "km": 4.0
-        },
-        {
-          "slug": "eiffel-tower",
-          "name_ar": "برج إيفل",
-          "km": 4.1
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 3.4
         }
       ]
     },
@@ -890,9 +890,14 @@
         "transit",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة الشمال (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "gare-du-nord-station",
+          "name_ar": "محطة الشمال",
+          "km": 0.0
+        },
         {
           "slug": "montmartre",
           "name_ar": "مونمارتر",
@@ -904,22 +909,556 @@
           "km": 2.0
         },
         {
-          "slug": "place-vendome",
-          "name_ar": "بلاس فاندوم",
-          "km": 2.4
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 2.0
         },
         {
-          "slug": "rue-de-rivoli",
-          "name_ar": "شارع ريفولي",
-          "km": 2.4
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "gare-du-nord-station",
+      "name_ar": "محطة الشمال",
+      "name_en": "Gare du Nord",
+      "lat": 48.8809,
+      "lng": 2.3553,
+      "prox_km": 1.5,
+      "q": "الشمال",
+      "poi_label": "محطة الشمال",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "RER B/D · M4 · M5 · يوروستار",
+      "keywords": [
+        "فنادق قريبة من محطة الشمال",
+        "فنادق قريبة من مترو الشمال"
+      ],
+      "neighbours": [
+        {
+          "slug": "gare-du-nord",
+          "name_ar": "محطة الشمال",
+          "km": 0.0
+        },
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 1.1
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 2.0
+        },
+        {
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 2.0
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "gare-de-lyon-station",
+      "name_ar": "محطة ليون",
+      "name_en": "Gare de Lyon",
+      "lat": 48.8443,
+      "lng": 2.3739,
+      "prox_km": 1.5,
+      "q": "ليون",
+      "poi_label": "محطة ليون",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "RER A/D · M1 · M14",
+      "keywords": [
+        "فنادق قريبة من محطة ليون",
+        "فنادق قريبة من مترو ليون"
+      ],
+      "neighbours": [
+        {
+          "slug": "bastille",
+          "name_ar": "الباستيل",
+          "km": 1.0
         },
         {
           "slug": "le-marais",
           "name_ar": "لو ماريه",
+          "km": 1.9
+        },
+        {
+          "slug": "chatelet-les-halles",
+          "name_ar": "شاتليه لي آل",
+          "km": 2.8
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 3.0
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "chatelet-les-halles",
+      "name_ar": "شاتليه لي آل",
+      "name_en": "Chatelet-Les Halles",
+      "lat": 48.862,
+      "lng": 2.347,
+      "prox_km": 1.5,
+      "q": "شاتليه لي آل",
+      "poi_label": "شاتليه لي آل",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "RER A/B/D · M1 · M4 · M7 · M11 · M14",
+      "keywords": [
+        "فنادق قريبة من شاتليه لي آل",
+        "فنادق قريبة من مترو شاتليه لي آل"
+      ],
+      "neighbours": [
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 0.4
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 0.7
+        },
+        {
+          "slug": "le-marais",
+          "name_ar": "لو ماريه",
+          "km": 1.1
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 1.4
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "opera-metro",
+      "name_ar": "محطة مترو أوبرا",
+      "name_en": "Opera Metro",
+      "lat": 48.871,
+      "lng": 2.332,
+      "prox_km": 1.5,
+      "q": "مترو أوبرا",
+      "poi_label": "محطة مترو أوبرا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M3 · M7 · M8",
+      "keywords": [
+        "فنادق قريبة من محطة مترو أوبرا",
+        "فنادق قريبة من مترو مترو أوبرا"
+      ],
+      "neighbours": [
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 0.1
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 0.4
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 0.8
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 1.2
+        },
+        {
+          "slug": "rue-de-rivoli",
+          "name_ar": "شارع ريفولي",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "charles-de-gaulle-etoile",
+      "name_ar": "شارل ديغول إيتوال",
+      "name_en": "Charles de Gaulle-Etoile",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "prox_km": 1.5,
+      "q": "شارل ديغول إيتوال",
+      "poi_label": "شارل ديغول إيتوال",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M2 · M6 · RER A",
+      "keywords": [
+        "فنادق قريبة من شارل ديغول إيتوال",
+        "فنادق قريبة من مترو شارل ديغول إيتوال"
+      ],
+      "neighbours": [
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 0.0
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.0
+        },
+        {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 1.2
+        },
+        {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 1.3
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 1.4
+        }
+      ]
+    },
+    {
+      "slug": "trocadero-metro",
+      "name_ar": "محطة مترو تروكاديرو",
+      "name_en": "Trocadero Metro",
+      "lat": 48.8633,
+      "lng": 2.287,
+      "prox_km": 1.5,
+      "q": "مترو تروكاديرو",
+      "poi_label": "محطة مترو تروكاديرو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M6 · M9",
+      "keywords": [
+        "فنادق قريبة من محطة مترو تروكاديرو",
+        "فنادق قريبة من مترو مترو تروكاديرو"
+      ],
+      "neighbours": [
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 0.1
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 0.8
+        },
+        {
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
+          "km": 1.1
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 1.3
+        },
+        {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "bir-hakeim-metro",
+      "name_ar": "محطة مترو بير حكيم",
+      "name_en": "Bir-Hakeim Metro",
+      "lat": 48.8538,
+      "lng": 2.2895,
+      "prox_km": 1.5,
+      "q": "مترو بير حكيم",
+      "poi_label": "محطة مترو بير حكيم",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M6 · RER C (برج إيفل)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو بير حكيم",
+        "فنادق قريبة من مترو مترو بير حكيم"
+      ],
+      "neighbours": [
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 0.6
+        },
+        {
+          "slug": "trocadero",
+          "name_ar": "تروكاديرو",
+          "km": 0.9
+        },
+        {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 1.1
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 2.2
+        },
+        {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "saint-lazare-station",
+      "name_ar": "محطة سان لازار",
+      "name_en": "Saint-Lazare",
+      "lat": 48.876,
+      "lng": 2.325,
+      "prox_km": 1.5,
+      "q": "سان لازار",
+      "poi_label": "محطة سان لازار",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M3 · M12 · M13 · M14",
+      "keywords": [
+        "فنادق قريبة من محطة سان لازار",
+        "فنادق قريبة من مترو سان لازار"
+      ],
+      "neighbours": [
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 0.7
+        },
+        {
+          "slug": "opera-metro",
+          "name_ar": "محطة مترو أوبرا",
+          "km": 0.8
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.0
+        },
+        {
+          "slug": "franklin-roosevelt-metro",
+          "name_ar": "محطة مترو فرانكلين روزفلت",
+          "km": 1.3
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "montparnasse-station",
+      "name_ar": "محطة مونبارناس",
+      "name_en": "Montparnasse",
+      "lat": 48.841,
+      "lng": 2.32,
+      "prox_km": 1.5,
+      "q": "مونبارناس",
+      "poi_label": "محطة مونبارناس",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M4 · M6 · M12 · M13 · TGV",
+      "keywords": [
+        "فنادق قريبة من محطة مونبارناس",
+        "فنادق قريبة من مترو مونبارناس"
+      ],
+      "neighbours": [
+        {
+          "slug": "montparnasse",
+          "name_ar": "مونبارناس",
+          "km": 0.2
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 1.7
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
           "km": 2.5
+        },
+        {
+          "slug": "bir-hakeim-metro",
+          "name_ar": "محطة مترو بير حكيم",
+          "km": 2.6
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "la-defense-station",
+      "name_ar": "محطة لا ديفانس",
+      "name_en": "La Defense",
+      "lat": 48.892,
+      "lng": 2.238,
+      "prox_km": 1.5,
+      "q": "لا ديفانس",
+      "poi_label": "محطة لا ديفانس",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · RER A · T2",
+      "keywords": [
+        "فنادق قريبة من محطة لا ديفانس",
+        "فنادق قريبة من مترو لا ديفانس"
+      ],
+      "neighbours": [
+        {
+          "slug": "la-defense",
+          "name_ar": "لا ديفانس",
+          "km": 0.1
+        },
+        {
+          "slug": "american-hospital",
+          "name_ar": "المستشفى الأميركي",
+          "km": 1.7
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 4.6
+        },
+        {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 4.6
+        },
+        {
+          "slug": "trocadero-metro",
+          "name_ar": "محطة مترو تروكاديرو",
+          "km": 4.8
+        }
+      ]
+    },
+    {
+      "slug": "franklin-roosevelt-metro",
+      "name_ar": "محطة مترو فرانكلين روزفلت",
+      "name_en": "Franklin D. Roosevelt",
+      "lat": 48.869,
+      "lng": 2.31,
+      "prox_km": 1.5,
+      "q": "مترو فرانكلين روزفلت",
+      "poi_label": "محطة مترو فرانكلين روزفلت",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M9 (الشانزليزيه)",
+      "keywords": [
+        "فنادق قريبة من محطة مترو فرانكلين روزفلت",
+        "فنادق قريبة من مترو مترو فرانكلين روزفلت"
+      ],
+      "neighbours": [
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 0.2
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 1.2
+        },
+        {
+          "slug": "charles-de-gaulle-etoile",
+          "name_ar": "شارل ديغول إيتوال",
+          "km": 1.2
+        },
+        {
+          "slug": "saint-lazare-station",
+          "name_ar": "محطة سان لازار",
+          "km": 1.3
+        },
+        {
+          "slug": "place-vendome",
+          "name_ar": "بلاس فاندوم",
+          "km": 1.4
         }
       ]
     }
   ],
-  "poi_count": 20
+  "poi_count": 31
 }

@@ -25,11 +25,16 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو روكين (0.3 كم)",
       "keywords": [
         "فنادق قريبة من ساحة دام"
       ],
       "neighbours": [
+        {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 0.3
+        },
         {
           "slug": "kalverstraat",
           "name_ar": "كالفر ستراد",
@@ -41,19 +46,14 @@
           "km": 0.8
         },
         {
+          "slug": "centraal-station",
+          "name_ar": "المحطة المركزية",
+          "km": 0.8
+        },
+        {
           "slug": "jordaan",
           "name_ar": "يوردان",
           "km": 0.9
-        },
-        {
-          "slug": "leidseplein",
-          "name_ar": "لايدسه بلاين",
-          "km": 1.2
-        },
-        {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 1.9
         }
       ]
     },
@@ -72,15 +72,25 @@
         "family",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "المحطة المركزية (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة امستردام المركزية"
       ],
       "neighbours": [
         {
+          "slug": "centraal-station",
+          "name_ar": "المحطة المركزية",
+          "km": 0.0
+        },
+        {
           "slug": "dam-square",
           "name_ar": "ساحة دام",
           "km": 0.8
+        },
+        {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 1.2
         },
         {
           "slug": "kalverstraat",
@@ -91,16 +101,6 @@
           "slug": "jordaan",
           "name_ar": "يوردان",
           "km": 1.5
-        },
-        {
-          "slug": "leidseplein",
-          "name_ar": "لايدسه بلاين",
-          "km": 2.0
-        },
-        {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 2.7
         }
       ]
     },
@@ -118,7 +118,7 @@
         "family",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو دي بايب (0.9 كم)",
       "keywords": [
         "فنادق قريبة من متحف فان جوخ"
       ],
@@ -139,14 +139,14 @@
           "km": 0.9
         },
         {
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
+          "km": 0.9
+        },
+        {
           "slug": "kalverstraat",
           "name_ar": "كالفر ستراد",
           "km": 1.5
-        },
-        {
-          "slug": "jordaan",
-          "name_ar": "يوردان",
-          "km": 1.8
         }
       ]
     },
@@ -164,7 +164,7 @@
         "family",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو دي بايب (1.6 كم)",
       "keywords": [
         "فنادق قريبة من فونديل بارك"
       ],
@@ -185,13 +185,13 @@
           "km": 1.6
         },
         {
-          "slug": "jordaan",
-          "name_ar": "يوردان",
-          "km": 2.0
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
+          "km": 1.6
         },
         {
-          "slug": "kalverstraat",
-          "name_ar": "كالفر ستراد",
+          "slug": "jordaan",
+          "name_ar": "يوردان",
           "km": 2.0
         }
       ]
@@ -209,7 +209,7 @@
       "intents": [
         "couples"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو روكين (0.9 كم)",
       "keywords": [
         "فنادق حي يوردان"
       ],
@@ -225,6 +225,11 @@
           "km": 0.9
         },
         {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 0.9
+        },
+        {
           "slug": "leidseplein",
           "name_ar": "لايدسه بلاين",
           "km": 1.1
@@ -233,11 +238,6 @@
           "slug": "centraal",
           "name_ar": "المحطة المركزية",
           "km": 1.5
-        },
-        {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 1.8
         }
       ]
     },
@@ -255,7 +255,7 @@
         "corporate",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أمستردام زاود (0.1 كم)",
       "keywords": [
         "فنادق زاوداس امستردام"
       ],
@@ -266,24 +266,24 @@
           "km": 0.1
         },
         {
+          "slug": "amsterdam-zuid-station",
+          "name_ar": "محطة أمستردام زاود",
+          "km": 0.1
+        },
+        {
           "slug": "de-pijp",
           "name_ar": "دي بايب",
+          "km": 2.2
+        },
+        {
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
           "km": 2.2
         },
         {
           "slug": "vondelpark",
           "name_ar": "فونديل بارك",
           "km": 2.2
-        },
-        {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 2.3
-        },
-        {
-          "slug": "leidseplein",
-          "name_ar": "لايدسه بلاين",
-          "km": 3.0
         }
       ]
     },
@@ -317,6 +317,11 @@
           "km": 7.9
         },
         {
+          "slug": "amsterdam-zuid-station",
+          "name_ar": "محطة أمستردام زاود",
+          "km": 7.9
+        },
+        {
           "slug": "vondelpark",
           "name_ar": "فونديل بارك",
           "km": 8.6
@@ -325,11 +330,6 @@
           "slug": "museumplein",
           "name_ar": "ساحة المتاحف",
           "km": 9.3
-        },
-        {
-          "slug": "de-pijp",
-          "name_ar": "دي بايب",
-          "km": 9.7
         }
       ]
     },
@@ -372,14 +372,14 @@
           "km": 23.6
         },
         {
-          "slug": "vondelpark",
-          "name_ar": "فونديل بارك",
-          "km": 24.0
+          "slug": "amsterdam-zuid-station",
+          "name_ar": "محطة أمستردام زاود",
+          "km": 23.6
         },
         {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 24.8
+          "slug": "sloterdijk-station",
+          "name_ar": "محطة سلوترديك",
+          "km": 23.9
         }
       ]
     },
@@ -397,9 +397,14 @@
         "couples",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو دي بايب (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
+          "km": 0.0
+        },
         {
           "slug": "museumplein",
           "name_ar": "ساحة المتاحف",
@@ -416,14 +421,9 @@
           "km": 1.6
         },
         {
-          "slug": "kalverstraat",
-          "name_ar": "كالفر ستراد",
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
           "km": 1.8
-        },
-        {
-          "slug": "amsterdam-zuid",
-          "name_ar": "أمستردام زاود",
-          "km": 2.1
         }
       ]
     },
@@ -441,7 +441,7 @@
         "family",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو روكين (0.9 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -455,6 +455,11 @@
           "km": 0.9
         },
         {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 0.9
+        },
+        {
           "slug": "jordaan",
           "name_ar": "يوردان",
           "km": 1.1
@@ -462,11 +467,6 @@
         {
           "slug": "vondelpark",
           "name_ar": "فونديل بارك",
-          "km": 1.2
-        },
-        {
-          "slug": "dam-square",
-          "name_ar": "ساحة دام",
           "km": 1.2
         }
       ]
@@ -486,9 +486,14 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو روكين (0.1 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 0.1
+        },
         {
           "slug": "dam-square",
           "name_ar": "ساحة دام",
@@ -508,11 +513,6 @@
           "slug": "centraal",
           "name_ar": "المحطة المركزية",
           "km": 1.2
-        },
-        {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 1.5
         }
       ]
     },
@@ -530,9 +530,14 @@
         "transit",
         "corporate"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة أمستردام زاود (0.0 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "amsterdam-zuid-station",
+          "name_ar": "محطة أمستردام زاود",
+          "km": 0.0
+        },
         {
           "slug": "zuidas",
           "name_ar": "زاوداس",
@@ -544,19 +549,14 @@
           "km": 2.1
         },
         {
-          "slug": "vondelpark",
-          "name_ar": "فونديل بارك",
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
           "km": 2.1
         },
         {
-          "slug": "museumplein",
-          "name_ar": "ساحة المتاحف",
-          "km": 2.2
-        },
-        {
-          "slug": "leidseplein",
-          "name_ar": "لايدسه بلاين",
-          "km": 2.8
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 2.1
         }
       ]
     },
@@ -578,6 +578,11 @@
       "keywords": [],
       "neighbours": [
         {
+          "slug": "sloterdijk-station",
+          "name_ar": "محطة سلوترديك",
+          "km": 9.6
+        },
+        {
           "slug": "jordaan",
           "name_ar": "يوردان",
           "km": 11.9
@@ -588,22 +593,311 @@
           "km": 12.0
         },
         {
+          "slug": "centraal-station",
+          "name_ar": "المحطة المركزية",
+          "km": 12.0
+        },
+        {
           "slug": "dam-square",
           "name_ar": "ساحة دام",
           "km": 12.3
+        }
+      ]
+    },
+    {
+      "slug": "centraal-station",
+      "name_ar": "المحطة المركزية",
+      "name_en": "Amsterdam Centraal",
+      "lat": 52.3791,
+      "lng": 4.9003,
+      "prox_km": 1.5,
+      "q": "الالمركزية",
+      "poi_label": "المحطة المركزية",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "كل الخطوط · قطار المطار",
+      "keywords": [
+        "فنادق قريبة من المحطة المركزية",
+        "فنادق قريبة من مترو الالمركزية"
+      ],
+      "neighbours": [
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 0.0
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 0.8
+        },
+        {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 1.2
         },
         {
           "slug": "kalverstraat",
           "name_ar": "كالفر ستراد",
-          "km": 12.6
+          "km": 1.2
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "amsterdam-zuid-station",
+      "name_ar": "محطة أمستردام زاود",
+      "name_en": "Amsterdam Zuid",
+      "lat": 52.339,
+      "lng": 4.874,
+      "prox_km": 1.5,
+      "q": "أمستردام زاود",
+      "poi_label": "محطة أمستردام زاود",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "52 · 50 · قطارات",
+      "keywords": [
+        "فنادق قريبة من محطة أمستردام زاود",
+        "فنادق قريبة من مترو أمستردام زاود"
+      ],
+      "neighbours": [
+        {
+          "slug": "amsterdam-zuid",
+          "name_ar": "أمستردام زاود",
+          "km": 0.0
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 0.1
+        },
+        {
+          "slug": "de-pijp",
+          "name_ar": "دي بايب",
+          "km": 2.1
+        },
+        {
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
+          "km": 2.1
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "sloterdijk-station",
+      "name_ar": "محطة سلوترديك",
+      "name_en": "Sloterdijk",
+      "lat": 52.389,
+      "lng": 4.838,
+      "prox_km": 1.5,
+      "q": "سلوترديك",
+      "poi_label": "محطة سلوترديك",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "50 · قطارات",
+      "keywords": [
+        "فنادق قريبة من محطة سلوترديك",
+        "فنادق قريبة من مترو سلوترديك"
+      ],
+      "neighbours": [
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 3.3
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 4.0
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 4.1
         },
         {
           "slug": "leidseplein",
           "name_ar": "لايدسه بلاين",
-          "km": 13.0
+          "km": 4.1
+        },
+        {
+          "slug": "kalverstraat",
+          "name_ar": "كالفر ستراد",
+          "km": 4.2
+        }
+      ]
+    },
+    {
+      "slug": "amstel-station",
+      "name_ar": "محطة أمستل",
+      "name_en": "Amstel Station",
+      "lat": 52.346,
+      "lng": 4.918,
+      "prox_km": 1.5,
+      "q": "أمستل",
+      "poi_label": "محطة أمستل",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "51 · 53 · 54 · قطارات",
+      "keywords": [
+        "فنادق قريبة من محطة أمستل",
+        "فنادق قريبة من مترو أمستل"
+      ],
+      "neighbours": [
+        {
+          "slug": "de-pijp",
+          "name_ar": "دي بايب",
+          "km": 2.0
+        },
+        {
+          "slug": "de-pijp-metro",
+          "name_ar": "محطة مترو دي بايب",
+          "km": 2.0
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 2.8
+        },
+        {
+          "slug": "amsterdam-zuid",
+          "name_ar": "أمستردام زاود",
+          "km": 3.1
+        },
+        {
+          "slug": "amsterdam-zuid-station",
+          "name_ar": "محطة أمستردام زاود",
+          "km": 3.1
+        }
+      ]
+    },
+    {
+      "slug": "rokin-metro",
+      "name_ar": "محطة مترو روكين",
+      "name_en": "Rokin Metro",
+      "lat": 52.37,
+      "lng": 4.892,
+      "prox_km": 1.5,
+      "q": "مترو روكين",
+      "poi_label": "محطة مترو روكين",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "52",
+      "keywords": [
+        "فنادق قريبة من محطة مترو روكين",
+        "فنادق قريبة من مترو مترو روكين"
+      ],
+      "neighbours": [
+        {
+          "slug": "kalverstraat",
+          "name_ar": "كالفر ستراد",
+          "km": 0.1
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 0.3
+        },
+        {
+          "slug": "leidseplein",
+          "name_ar": "لايدسه بلاين",
+          "km": 0.9
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 0.9
+        },
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "slug": "de-pijp-metro",
+      "name_ar": "محطة مترو دي بايب",
+      "name_en": "De Pijp Metro",
+      "lat": 52.354,
+      "lng": 4.892,
+      "prox_km": 1.5,
+      "q": "مترو دي بايب",
+      "poi_label": "محطة مترو دي بايب",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "52",
+      "keywords": [
+        "فنادق قريبة من محطة مترو دي بايب",
+        "فنادق قريبة من مترو مترو دي بايب"
+      ],
+      "neighbours": [
+        {
+          "slug": "de-pijp",
+          "name_ar": "دي بايب",
+          "km": 0.0
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 0.9
+        },
+        {
+          "slug": "leidseplein",
+          "name_ar": "لايدسه بلاين",
+          "km": 1.3
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 1.6
+        },
+        {
+          "slug": "rokin-metro",
+          "name_ar": "محطة مترو روكين",
+          "km": 1.8
         }
       ]
     }
   ],
-  "poi_count": 13
+  "poi_count": 19
 }

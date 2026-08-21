@@ -25,15 +25,25 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو الدومو (0.1 كم)",
       "keywords": [
         "فنادق قريبة من الدومو ميلانو"
       ],
       "neighbours": [
         {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 0.1
+        },
+        {
           "slug": "galleria",
           "name_ar": "غاليريا فيتوريو",
           "km": 0.2
+        },
+        {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 0.5
         },
         {
           "slug": "monte-napoleone",
@@ -44,16 +54,6 @@
           "slug": "brera",
           "name_ar": "بريرا",
           "km": 1.0
-        },
-        {
-          "slug": "navigli",
-          "name_ar": "نافيلي",
-          "km": 2.0
-        },
-        {
-          "slug": "corso-buenos-aires",
-          "name_ar": "كورسو بوينس آيرس",
-          "km": 2.1
         }
       ]
     },
@@ -71,11 +71,16 @@
         "shopping",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو الدومو (0.2 كم)",
       "keywords": [
         "فنادق قريبة من غاليريا ميلانو"
       ],
       "neighbours": [
+        {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 0.2
+        },
         {
           "slug": "duomo",
           "name_ar": "الدومو",
@@ -87,19 +92,14 @@
           "km": 0.5
         },
         {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 0.6
+        },
+        {
           "slug": "brera",
           "name_ar": "بريرا",
           "km": 0.7
-        },
-        {
-          "slug": "porta-nuova",
-          "name_ar": "بورتا نوفا",
-          "km": 2.0
-        },
-        {
-          "slug": "corso-buenos-aires",
-          "name_ar": "كورسو بوينس آيرس",
-          "km": 2.1
         }
       ]
     },
@@ -117,11 +117,16 @@
         "shopping",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سان بابيلا (0.4 كم)",
       "keywords": [
         "فنادق شارع الموضة ميلانو"
       ],
       "neighbours": [
+        {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 0.4
+        },
         {
           "slug": "galleria",
           "name_ar": "غاليريا فيتوريو",
@@ -133,19 +138,14 @@
           "km": 0.6
         },
         {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 0.6
+        },
+        {
           "slug": "brera",
           "name_ar": "بريرا",
           "km": 0.7
-        },
-        {
-          "slug": "corso-buenos-aires",
-          "name_ar": "كورسو بوينس آيرس",
-          "km": 1.6
-        },
-        {
-          "slug": "porta-nuova",
-          "name_ar": "بورتا نوفا",
-          "km": 1.8
         }
       ]
     },
@@ -164,11 +164,21 @@
         "transit",
         "family"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة ميلانو سنترالي (0.0 كم)",
       "keywords": [
         "فنادق قريبة من محطة ميلانو المركزية"
       ],
       "neighbours": [
+        {
+          "slug": "milano-centrale-station",
+          "name_ar": "محطة ميلانو سنترالي",
+          "km": 0.0
+        },
+        {
+          "slug": "loreto-metro",
+          "name_ar": "محطة مترو لوريتو",
+          "km": 0.9
+        },
         {
           "slug": "corso-buenos-aires",
           "name_ar": "كورسو بوينس آيرس",
@@ -180,19 +190,9 @@
           "km": 1.0
         },
         {
-          "slug": "brera",
-          "name_ar": "بريرا",
-          "km": 2.0
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 2.1
-        },
-        {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 2.5
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 1.3
         }
       ]
     },
@@ -211,15 +211,25 @@
         "apartments",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو سان سيرو (0.2 كم)",
       "keywords": [
         "فنادق قريبة من سان سيرو"
       ],
       "neighbours": [
         {
+          "slug": "lotto-san-siro-metro",
+          "name_ar": "محطة مترو سان سيرو",
+          "km": 0.2
+        },
+        {
           "slug": "citylife",
           "name_ar": "سيتي لايف",
           "km": 2.5
+        },
+        {
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 4.2
         },
         {
           "slug": "navigli",
@@ -230,16 +240,6 @@
           "slug": "brera",
           "name_ar": "بريرا",
           "km": 5.0
-        },
-        {
-          "slug": "porta-nuova",
-          "name_ar": "بورتا نوفا",
-          "km": 5.3
-        },
-        {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 5.3
         }
       ]
     },
@@ -257,11 +257,21 @@
         "couples",
         "budget"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كادورنا (1.9 كم)",
       "keywords": [
         "فنادق نافيلي"
       ],
       "neighbours": [
+        {
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 1.9
+        },
+        {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 1.9
+        },
         {
           "slug": "duomo",
           "name_ar": "الدومو",
@@ -273,19 +283,9 @@
           "km": 2.1
         },
         {
-          "slug": "brera",
-          "name_ar": "بريرا",
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
           "km": 2.5
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 2.6
-        },
-        {
-          "slug": "citylife",
-          "name_ar": "سيتي لايف",
-          "km": 3.3
         }
       ]
     },
@@ -318,19 +318,19 @@
           "km": 35.2
         },
         {
+          "slug": "lotto-san-siro-metro",
+          "name_ar": "محطة مترو سان سيرو",
+          "km": 35.3
+        },
+        {
           "slug": "citylife",
           "name_ar": "سيتي لايف",
           "km": 37.4
         },
         {
-          "slug": "porta-nuova",
-          "name_ar": "بورتا نوفا",
-          "km": 39.6
-        },
-        {
-          "slug": "brera",
-          "name_ar": "بريرا",
-          "km": 39.8
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 39.3
         }
       ]
     },
@@ -359,6 +359,11 @@
           "km": 84.2
         },
         {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 85.9
+        },
+        {
           "slug": "duomo",
           "name_ar": "الدومو",
           "km": 86.0
@@ -369,14 +374,9 @@
           "km": 86.0
         },
         {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 86.1
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 86.5
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 86.0
         }
       ]
     },
@@ -405,6 +405,16 @@
           "km": 34.1
         },
         {
+          "slug": "lotto-san-siro-metro",
+          "name_ar": "محطة مترو سان سيرو",
+          "km": 36.9
+        },
+        {
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 37.0
+        },
+        {
           "slug": "san-siro",
           "name_ar": "سان سيرو",
           "km": 37.0
@@ -413,16 +423,6 @@
           "slug": "porta-nuova",
           "name_ar": "بورتا نوفا",
           "km": 37.2
-        },
-        {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 37.2
-        },
-        {
-          "slug": "citylife",
-          "name_ar": "سيتي لايف",
-          "km": 37.3
         }
       ]
     },
@@ -450,6 +450,11 @@
           "km": 88.8
         },
         {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 94.2
+        },
+        {
           "slug": "duomo",
           "name_ar": "الدومو",
           "km": 94.4
@@ -463,11 +468,6 @@
           "slug": "corso-buenos-aires",
           "name_ar": "كورسو بوينس آيرس",
           "km": 94.5
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 94.6
         }
       ]
     },
@@ -486,12 +486,22 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو لوريتو (1.0 كم)",
       "keywords": [],
       "neighbours": [
         {
+          "slug": "loreto-metro",
+          "name_ar": "محطة مترو لوريتو",
+          "km": 1.0
+        },
+        {
           "slug": "centrale",
           "name_ar": "محطة ميلانو المركزية",
+          "km": 1.0
+        },
+        {
+          "slug": "milano-centrale-station",
+          "name_ar": "محطة ميلانو سنترالي",
           "km": 1.0
         },
         {
@@ -503,16 +513,6 @@
           "slug": "porta-nuova",
           "name_ar": "بورتا نوفا",
           "km": 1.6
-        },
-        {
-          "slug": "brera",
-          "name_ar": "بريرا",
-          "km": 1.9
-        },
-        {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 2.1
         }
       ]
     },
@@ -530,7 +530,7 @@
         "couples",
         "5-star"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة مترو الدومو (0.9 كم)",
       "keywords": [],
       "neighbours": [
         {
@@ -544,19 +544,19 @@
           "km": 0.7
         },
         {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 0.9
+        },
+        {
           "slug": "duomo",
           "name_ar": "الدومو",
           "km": 1.0
         },
         {
-          "slug": "porta-nuova",
-          "name_ar": "بورتا نوفا",
-          "km": 1.4
-        },
-        {
-          "slug": "corso-buenos-aires",
-          "name_ar": "كورسو بوينس آيرس",
-          "km": 1.9
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 1.0
         }
       ]
     },
@@ -575,12 +575,22 @@
         "5-star",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة غاريبالدي (0.3 كم)",
       "keywords": [],
       "neighbours": [
         {
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 0.3
+        },
+        {
           "slug": "centrale",
           "name_ar": "محطة ميلانو المركزية",
+          "km": 1.0
+        },
+        {
+          "slug": "milano-centrale-station",
+          "name_ar": "محطة ميلانو سنترالي",
           "km": 1.0
         },
         {
@@ -592,16 +602,6 @@
           "slug": "corso-buenos-aires",
           "name_ar": "كورسو بوينس آيرس",
           "km": 1.6
-        },
-        {
-          "slug": "monte-napoleone",
-          "name_ar": "مونتي نابليوني",
-          "km": 1.8
-        },
-        {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 2.0
         }
       ]
     },
@@ -627,6 +627,16 @@
           "km": 6.0
         },
         {
+          "slug": "loreto-metro",
+          "name_ar": "محطة مترو لوريتو",
+          "km": 6.1
+        },
+        {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 6.3
+        },
+        {
           "slug": "monte-napoleone",
           "name_ar": "مونتي نابليوني",
           "km": 6.6
@@ -635,16 +645,6 @@
           "slug": "duomo",
           "name_ar": "الدومو",
           "km": 6.7
-        },
-        {
-          "slug": "centrale",
-          "name_ar": "محطة ميلانو المركزية",
-          "km": 6.8
-        },
-        {
-          "slug": "galleria",
-          "name_ar": "غاليريا فيتوريو",
-          "km": 6.9
         }
       ]
     },
@@ -663,9 +663,19 @@
         "shopping",
         "apartments"
       ],
-      "nearest_metro": null,
+      "nearest_metro": "محطة كادورنا (1.9 كم)",
       "keywords": [],
       "neighbours": [
+        {
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 1.9
+        },
+        {
+          "slug": "lotto-san-siro-metro",
+          "name_ar": "محطة مترو سان سيرو",
+          "km": 2.3
+        },
         {
           "slug": "san-siro",
           "name_ar": "سان سيرو",
@@ -677,22 +687,355 @@
           "km": 2.5
         },
         {
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 2.6
+        }
+      ]
+    },
+    {
+      "slug": "milano-centrale-station",
+      "name_ar": "محطة ميلانو سنترالي",
+      "name_en": "Milano Centrale",
+      "lat": 45.486,
+      "lng": 9.204,
+      "prox_km": 1.5,
+      "q": "ميلانو سنترالي",
+      "poi_label": "محطة ميلانو سنترالي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2 · M3 · Malpensa Express",
+      "keywords": [
+        "فنادق قريبة من محطة ميلانو سنترالي",
+        "فنادق قريبة من مترو ميلانو سنترالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 0.0
+        },
+        {
+          "slug": "loreto-metro",
+          "name_ar": "محطة مترو لوريتو",
+          "km": 0.9
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.0
+        },
+        {
           "slug": "porta-nuova",
           "name_ar": "بورتا نوفا",
-          "km": 2.8
+          "km": 1.0
+        },
+        {
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "duomo-metro",
+      "name_ar": "محطة مترو الدومو",
+      "name_en": "Duomo Metro",
+      "lat": 45.464,
+      "lng": 9.19,
+      "prox_km": 1.5,
+      "q": "مترو الدومو",
+      "poi_label": "محطة مترو الدومو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M3",
+      "keywords": [
+        "فنادق قريبة من محطة مترو الدومو",
+        "فنادق قريبة من مترو مترو الدومو"
+      ],
+      "neighbours": [
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 0.1
         },
         {
           "slug": "galleria",
           "name_ar": "غاليريا فيتوريو",
-          "km": 3.0
+          "km": 0.2
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 0.6
+        },
+        {
+          "slug": "san-babila-metro",
+          "name_ar": "محطة مترو سان بابيلا",
+          "km": 0.7
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "cadorna-station",
+      "name_ar": "محطة كادورنا",
+      "name_en": "Cadorna",
+      "lat": 45.468,
+      "lng": 9.176,
+      "prox_km": 1.5,
+      "q": "كادورنا",
+      "poi_label": "محطة كادورنا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M2 · Malpensa Express",
+      "keywords": [
+        "فنادق قريبة من محطة كادورنا",
+        "فنادق قريبة من مترو كادورنا"
+      ],
+      "neighbours": [
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.0
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 1.1
+        },
+        {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 1.2
         },
         {
           "slug": "duomo",
           "name_ar": "الدومو",
-          "km": 3.2
+          "km": 1.3
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "garibaldi-station",
+      "name_ar": "محطة غاريبالدي",
+      "name_en": "Porta Garibaldi",
+      "lat": 45.485,
+      "lng": 9.188,
+      "prox_km": 1.5,
+      "q": "غاريبالدي",
+      "poi_label": "محطة غاريبالدي",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M2 · M5",
+      "keywords": [
+        "فنادق قريبة من محطة غاريبالدي",
+        "فنادق قريبة من مترو غاريبالدي"
+      ],
+      "neighbours": [
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 0.3
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 1.3
+        },
+        {
+          "slug": "milano-centrale-station",
+          "name_ar": "محطة ميلانو سنترالي",
+          "km": 1.3
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.4
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "san-babila-metro",
+      "name_ar": "محطة مترو سان بابيلا",
+      "name_en": "San Babila Metro",
+      "lat": 45.466,
+      "lng": 9.198,
+      "prox_km": 1.5,
+      "q": "مترو سان بابيلا",
+      "poi_label": "محطة مترو سان بابيلا",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M4",
+      "keywords": [
+        "فنادق قريبة من محطة مترو سان بابيلا",
+        "فنادق قريبة من مترو مترو سان بابيلا"
+      ],
+      "neighbours": [
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 0.4
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 0.5
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 0.6
+        },
+        {
+          "slug": "duomo-metro",
+          "name_ar": "محطة مترو الدومو",
+          "km": 0.7
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 1.1
+        }
+      ]
+    },
+    {
+      "slug": "loreto-metro",
+      "name_ar": "محطة مترو لوريتو",
+      "name_en": "Loreto Metro",
+      "lat": 45.486,
+      "lng": 9.216,
+      "prox_km": 1.5,
+      "q": "مترو لوريتو",
+      "poi_label": "محطة مترو لوريتو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M1 · M2",
+      "keywords": [
+        "فنادق قريبة من محطة مترو لوريتو",
+        "فنادق قريبة من مترو مترو لوريتو"
+      ],
+      "neighbours": [
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 0.9
+        },
+        {
+          "slug": "milano-centrale-station",
+          "name_ar": "محطة ميلانو سنترالي",
+          "km": 0.9
+        },
+        {
+          "slug": "corso-buenos-aires",
+          "name_ar": "كورسو بوينس آيرس",
+          "km": 1.0
+        },
+        {
+          "slug": "porta-nuova",
+          "name_ar": "بورتا نوفا",
+          "km": 2.0
+        },
+        {
+          "slug": "garibaldi-station",
+          "name_ar": "محطة غاريبالدي",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "lotto-san-siro-metro",
+      "name_ar": "محطة مترو سان سيرو",
+      "name_en": "San Siro Stadio Metro",
+      "lat": 45.479,
+      "lng": 9.126,
+      "prox_km": 1.5,
+      "q": "مترو سان سيرو",
+      "poi_label": "محطة مترو سان سيرو",
+      "type": "metro",
+      "intents": [
+        "transit",
+        "budget",
+        "apartments",
+        "family"
+      ],
+      "nearest_metro": "M5",
+      "keywords": [
+        "فنادق قريبة من محطة مترو سان سيرو",
+        "فنادق قريبة من مترو مترو سان سيرو"
+      ],
+      "neighbours": [
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 0.2
+        },
+        {
+          "slug": "citylife",
+          "name_ar": "سيتي لايف",
+          "km": 2.3
+        },
+        {
+          "slug": "cadorna-station",
+          "name_ar": "محطة كادورنا",
+          "km": 4.1
+        },
+        {
+          "slug": "brera",
+          "name_ar": "بريرا",
+          "km": 4.8
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 4.9
         }
       ]
     }
   ],
-  "poi_count": 15
+  "poi_count": 22
 }
