@@ -26,6 +26,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
   <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span><a href={`/${city.slug}/`}>{city.name_ar}</a><span>›</span>قريب من {poi.name_ar}</nav>
   <div class="hero">
     <div>
+      <span class="eyebrow">فنادق قريبة من · {city.name_ar}</span>
       <h1>{content.title}</h1>
       <p class="lede">{content.intro}</p>
       <div class="chips">
@@ -38,7 +39,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <MapRing lat={poi.lat} lng={poi.lng} prox={poi.prox_km} label={poi.name_ar} neighbours={nb} />
   </div>
   <BookingBar city={city} poi={poi} intent={intent} />
-  <section>
+  <section class="prose">
     <h2>عن {poi.name_ar}</h2>
     <p>{content.about}</p>
     {content.tips && <ul>{content.tips.map(t => <li>{t}</li>)}</ul>}

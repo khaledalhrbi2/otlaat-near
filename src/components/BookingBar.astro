@@ -8,9 +8,9 @@ const payload = { city: { code: city.code, name_ar: city.name_ar, slug: city.slu
   <div><label for="ci">تسجيل الوصول</label><input id="ci" name="ci" type="date" /></div>
   <div><label for="co">تسجيل المغادرة</label><input id="co" name="co" type="date" /></div>
   <div><label for="rp">الغرف</label><select id="rp" name="rp"><option value="1">غرفة</option><option value="2">غرفتان</option><option value="3">3 غرف</option><option value="4">4 غرف</option><option value="5">5 غرف</option></select></div>
-  <div><label>&nbsp;</label><span style="font-size:.9rem;color:#C9D1E6" data-nights></span></div>
+  <div class="nights" data-nights></div>
   <a class="cta" data-cta href="#" rel="nofollow">تحقق من التوفر على عطلات</a>
-  <p class="note">{poi ? `النتائج ضمن ${poi.prox_km} كم من ${poi.name_ar}` : `كل فنادق ${city.name_ar}`} · أسعار شاملة الضرائب · إلغاء مجاني على أغلب الحجوزات · تقسيط تابي وتمارا</p>
+  <p class="note"><b>{poi ? `النتائج ضمن ${poi.prox_km} كم من ${poi.name_ar}` : `كل فنادق ${city.name_ar}`}</b> · أسعار شاملة الضرائب · إلغاء مجاني على أغلب الحجوزات · تقسيط تابي وتمارا</p>
 </form>
 <script>
   import { buildBookingLink, computeDates } from '../lib/bookingLink.js';

@@ -19,6 +19,7 @@ const Section = ({t, list}) => null;
   <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span>{city.name_ar}</nav>
   <div class="hero">
     <div>
+      <span class="eyebrow">{city.country}</span>
       <h1>فنادق {city.name_ar} حسب المعلم</h1>
       <p class="lede">ابدأ من المكان الذي تريد أن تكون قريباً منه، ونعرض لك الفنادق ضمن نطاقه فقط. {city.poi_count} معلماً ومنطقة في {city.name_ar}.</p>
       <div class="chips">{city.pois.slice(0,6).map(p => <a class="chip" href={`/${city.slug}/near/${p.slug}/`}>{p.name_ar}</a>)}</div>
