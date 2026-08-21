@@ -1,0 +1,584 @@
+{
+  "slug": "makkah",
+  "code": "103d1",
+  "name_ar": "مكة المكرمة",
+  "name_en": "Makkah",
+  "country": "السعودية",
+  "lat": 21.4225,
+  "lng": 39.8262,
+  "default_prox": 8,
+  "date_profile": "tomorrow_plus",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "haram",
+      "name_ar": "المسجد الحرام",
+      "name_en": "Masjid Al Haram",
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "prox_km": 1,
+      "q": "الحرم المكي",
+      "poi_label": "الحرم",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "haram-view",
+        "budget",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الحرم",
+        "فنادق مطلة على الحرم",
+        "أقرب فندق للحرم المكي",
+        "فنادق مكة 5 دقائق من الحرم"
+      ],
+      "neighbours": [
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.0
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.9
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 1.0
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "haram-500m",
+      "name_ar": "الحرم - أقل من 500 متر",
+      "name_en": "Within 500m of Haram",
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "prox_km": 0.5,
+      "q": "الحرم المكي",
+      "poi_label": "الحرم",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق ملاصقة للحرم",
+        "فنادق مكة قريبة جدا من الحرم"
+      ],
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.0
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.9
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 1.0
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "abraj-al-bait",
+      "name_ar": "أبراج البيت",
+      "name_en": "Abraj Al Bait",
+      "lat": 21.4187,
+      "lng": 39.8256,
+      "prox_km": 0.8,
+      "q": "أبراج البيت",
+      "poi_label": "أبراج البيت",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق أبراج البيت",
+        "فنادق برج الساعة"
+      ],
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.4
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.4
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.5
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 0.7
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "jabal-omar",
+      "name_ar": "جبل عمر",
+      "name_en": "Jabal Omar",
+      "lat": 21.416,
+      "lng": 39.82,
+      "prox_km": 1,
+      "q": "جبل عمر",
+      "poi_label": "جبل عمر",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق جبل عمر"
+      ],
+      "neighbours": [
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 0.6
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.7
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.9
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 1.0
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "ajyad",
+      "name_ar": "أجياد",
+      "name_en": "Ajyad",
+      "lat": 21.415,
+      "lng": 39.829,
+      "prox_km": 1,
+      "q": "أجياد",
+      "poi_label": "أجياد",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق أجياد"
+      ],
+      "neighbours": [
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.5
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 0.8
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.9
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.9
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 0.9
+        }
+      ]
+    },
+    {
+      "slug": "misfalah",
+      "name_ar": "المسفلة",
+      "name_en": "Misfalah",
+      "lat": 21.411,
+      "lng": 39.823,
+      "prox_km": 1.5,
+      "q": "المسفلة",
+      "poi_label": "المسفلة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق المسفلة",
+        "فنادق رخيصة قريبة من الحرم"
+      ],
+      "neighbours": [
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 0.6
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.8
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.9
+        },
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 1.1
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 1.3
+        }
+      ]
+    },
+    {
+      "slug": "aziziyah",
+      "name_ar": "العزيزية",
+      "name_en": "Al Aziziyah",
+      "lat": 21.393,
+      "lng": 39.856,
+      "prox_km": 3,
+      "q": "العزيزية",
+      "poi_label": "العزيزية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق العزيزية مكة",
+        "شقق فندقية العزيزية"
+      ],
+      "neighbours": [
+        {
+          "slug": "makkah-mall",
+          "name_ar": "مكة مول",
+          "km": 0.5
+        },
+        {
+          "slug": "haramain-station",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 2.6
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 3.7
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 4.0
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 4.3
+        }
+      ]
+    },
+    {
+      "slug": "shawqiyah",
+      "name_ar": "الشوقية",
+      "name_en": "Al Shawqiyah",
+      "lat": 21.396,
+      "lng": 39.795,
+      "prox_km": 3,
+      "q": "الشوقية",
+      "poi_label": "الشوقية",
+      "type": "district",
+      "intents": [
+        "budget",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق الشوقية"
+      ],
+      "neighbours": [
+        {
+          "slug": "kudai",
+          "name_ar": "كدي",
+          "km": 2.3
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 3.3
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 3.4
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 4.1
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 4.1
+        }
+      ]
+    },
+    {
+      "slug": "kudai",
+      "name_ar": "كدي",
+      "name_en": "Kudai",
+      "lat": 21.404,
+      "lng": 39.816,
+      "prox_km": 2,
+      "q": "كدي",
+      "poi_label": "كدي",
+      "type": "district",
+      "intents": [
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق كدي مكة"
+      ],
+      "neighbours": [
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 1.1
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 1.4
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 1.8
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 1.9
+        },
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "haramain-station",
+      "name_ar": "محطة قطار الحرمين",
+      "name_en": "Haramain Station",
+      "lat": 21.388,
+      "lng": 39.881,
+      "prox_km": 3,
+      "q": "محطة قطار الحرمين مكة",
+      "poi_label": "محطة القطار",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة قطار الحرمين مكة"
+      ],
+      "neighbours": [
+        {
+          "slug": "aziziyah",
+          "name_ar": "العزيزية",
+          "km": 2.6
+        },
+        {
+          "slug": "makkah-mall",
+          "name_ar": "مكة مول",
+          "km": 3.0
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 6.2
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 6.5
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 6.7
+        }
+      ]
+    },
+    {
+      "slug": "makkah-mall",
+      "name_ar": "مكة مول",
+      "name_en": "Makkah Mall",
+      "lat": 21.396,
+      "lng": 39.853,
+      "prox_km": 3,
+      "q": "مكة مول",
+      "poi_label": "مكة مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مكة مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "aziziyah",
+          "name_ar": "العزيزية",
+          "km": 0.5
+        },
+        {
+          "slug": "haramain-station",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 3.0
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 3.3
+        },
+        {
+          "slug": "misfalah",
+          "name_ar": "المسفلة",
+          "km": 3.5
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "ramadan-2027",
+      "name_ar": "فنادق مكة رمضان 2027",
+      "name_en": "Makkah Ramadan 2027",
+      "lat": 21.4225,
+      "lng": 39.8262,
+      "prox_km": 2,
+      "q": "الحرم المكي",
+      "poi_label": "الحرم",
+      "type": "event",
+      "intents": [
+        "family",
+        "haram-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مكة رمضان",
+        "فنادق مكة العشر الأواخر"
+      ],
+      "event": {
+        "start": "2027-02-07",
+        "end": "2027-03-09",
+        "note": "تقريبي حسب التقويم الهجري"
+      },
+      "neighbours": [
+        {
+          "slug": "haram",
+          "name_ar": "المسجد الحرام",
+          "km": 0.0
+        },
+        {
+          "slug": "haram-500m",
+          "name_ar": "الحرم - أقل من 500 متر",
+          "km": 0.0
+        },
+        {
+          "slug": "abraj-al-bait",
+          "name_ar": "أبراج البيت",
+          "km": 0.4
+        },
+        {
+          "slug": "ajyad",
+          "name_ar": "أجياد",
+          "km": 0.9
+        },
+        {
+          "slug": "jabal-omar",
+          "name_ar": "جبل عمر",
+          "km": 1.0
+        }
+      ]
+    }
+  ],
+  "poi_count": 12
+}

@@ -1,0 +1,431 @@
+{
+  "slug": "milan",
+  "code": "1c56f",
+  "name_ar": "ميلانو",
+  "name_en": "Milan",
+  "country": "إيطاليا",
+  "lat": 45.4642,
+  "lng": 9.19,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "duomo",
+      "name_ar": "الدومو",
+      "name_en": "Duomo",
+      "lat": 45.4641,
+      "lng": 9.1919,
+      "prox_km": 1.5,
+      "q": "الدومو",
+      "poi_label": "الدومو",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الدومو ميلانو"
+      ],
+      "neighbours": [
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 0.2
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 0.6
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 2.0
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 2.6
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 5.5
+        }
+      ]
+    },
+    {
+      "slug": "galleria",
+      "name_ar": "غاليريا فيتوريو",
+      "name_en": "Galleria Vittorio Emanuele",
+      "lat": 45.4659,
+      "lng": 9.19,
+      "prox_km": 1,
+      "q": "غاليريا فيتوريو",
+      "poi_label": "غاليريا",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من غاليريا ميلانو"
+      ],
+      "neighbours": [
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 0.2
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 0.5
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 2.1
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 2.5
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 5.3
+        }
+      ]
+    },
+    {
+      "slug": "monte-napoleone",
+      "name_ar": "مونتي نابليوني",
+      "name_en": "Via Monte Napoleone",
+      "lat": 45.4685,
+      "lng": 9.1952,
+      "prox_km": 1,
+      "q": "مونتي نابليوني",
+      "poi_label": "مونتي نابليوني",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شارع الموضة ميلانو"
+      ],
+      "neighbours": [
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 0.5
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 0.6
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 2.1
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 2.6
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 5.7
+        }
+      ]
+    },
+    {
+      "slug": "centrale",
+      "name_ar": "محطة ميلانو المركزية",
+      "name_en": "Milano Centrale",
+      "lat": 45.486,
+      "lng": 9.204,
+      "prox_km": 1.5,
+      "q": "ميلانو سنترال",
+      "poi_label": "محطة سنترالي",
+      "type": "transport",
+      "intents": [
+        "budget",
+        "transit",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة ميلانو المركزية"
+      ],
+      "neighbours": [
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 2.1
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 2.5
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 2.6
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 4.5
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "san-siro",
+      "name_ar": "سان سيرو",
+      "name_en": "San Siro",
+      "lat": 45.4781,
+      "lng": 9.124,
+      "prox_km": 3,
+      "q": "سان سيرو",
+      "poi_label": "سان سيرو",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من سان سيرو"
+      ],
+      "neighbours": [
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 4.9
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 5.3
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 5.5
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 5.7
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "navigli",
+      "name_ar": "نافيلي",
+      "name_en": "Navigli",
+      "lat": 45.451,
+      "lng": 9.174,
+      "prox_km": 1.5,
+      "q": "نافيلي",
+      "poi_label": "نافيلي",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق نافيلي"
+      ],
+      "neighbours": [
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 2.0
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 2.1
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 2.6
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 4.5
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 4.9
+        }
+      ]
+    },
+    {
+      "slug": "malpensa",
+      "name_ar": "مطار مالبينسا",
+      "name_en": "Malpensa",
+      "lat": 45.6306,
+      "lng": 8.7281,
+      "prox_km": 6,
+      "q": "مالبينسا",
+      "poi_label": "مالبينسا",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار مالبينسا"
+      ],
+      "neighbours": [
+        {
+          "slug": "como",
+          "name_ar": "بحيرة كومو",
+          "km": 34.1
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 35.2
+        },
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 40.1
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 40.4
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 40.4
+        }
+      ]
+    },
+    {
+      "slug": "serravalle-outlet",
+      "name_ar": "أوتلت سيرافالي",
+      "name_en": "Serravalle Outlet",
+      "lat": 44.728,
+      "lng": 8.857,
+      "prox_km": 10,
+      "q": "سيرافالي",
+      "poi_label": "أوتلت سيرافالي",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من اوتلت سيرافالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "navigli",
+          "name_ar": "نافيلي",
+          "km": 84.2
+        },
+        {
+          "slug": "duomo",
+          "name_ar": "الدومو",
+          "km": 86.0
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 86.0
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 86.1
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 86.5
+        }
+      ]
+    },
+    {
+      "slug": "como",
+      "name_ar": "بحيرة كومو",
+      "name_en": "Lake Como",
+      "lat": 45.81,
+      "lng": 9.085,
+      "prox_km": 8,
+      "q": "كومو",
+      "poi_label": "بحيرة كومو",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بحيرة كومو"
+      ],
+      "neighbours": [
+        {
+          "slug": "malpensa",
+          "name_ar": "مطار مالبينسا",
+          "km": 34.1
+        },
+        {
+          "slug": "san-siro",
+          "name_ar": "سان سيرو",
+          "km": 37.0
+        },
+        {
+          "slug": "centrale",
+          "name_ar": "محطة ميلانو المركزية",
+          "km": 37.2
+        },
+        {
+          "slug": "monte-napoleone",
+          "name_ar": "مونتي نابليوني",
+          "km": 38.9
+        },
+        {
+          "slug": "galleria",
+          "name_ar": "غاليريا فيتوريو",
+          "km": 39.1
+        }
+      ]
+    }
+  ],
+  "poi_count": 9
+}

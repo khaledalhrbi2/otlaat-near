@@ -1,0 +1,440 @@
+{
+  "slug": "madinah",
+  "code": "103e7",
+  "name_ar": "المدينة المنورة",
+  "name_en": "Madinah",
+  "country": "السعودية",
+  "lat": 24.4672,
+  "lng": 39.6112,
+  "default_prox": 8,
+  "date_profile": "tomorrow_plus",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "prophet-mosque",
+      "name_ar": "المسجد النبوي",
+      "name_en": "Prophet's Mosque",
+      "lat": 24.4672,
+      "lng": 39.6112,
+      "prox_km": 1,
+      "q": "المسجد النبوي",
+      "poi_label": "المسجد النبوي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "haram-view",
+        "budget",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من المسجد النبوي",
+        "فنادق مطلة على الحرم النبوي",
+        "أقرب فندق للحرم المدينة"
+      ],
+      "neighbours": [
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 2.6
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 3.1
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 3.8
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "central-area",
+      "name_ar": "المنطقة المركزية",
+      "name_en": "Central Area",
+      "lat": 24.469,
+      "lng": 39.609,
+      "prox_km": 0.7,
+      "q": "المنطقة المركزية",
+      "poi_label": "المنطقة المركزية",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق المنطقة المركزية المدينة"
+      ],
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 0.3
+        },
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 2.9
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 3.4
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 3.5
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 3.7
+        }
+      ]
+    },
+    {
+      "slug": "quba-mosque",
+      "name_ar": "مسجد قباء",
+      "name_en": "Quba Mosque",
+      "lat": 24.4394,
+      "lng": 39.6171,
+      "prox_km": 2,
+      "q": "مسجد قباء",
+      "poi_label": "قباء",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مسجد قباء"
+      ],
+      "neighbours": [
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 3.1
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 3.1
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 3.4
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 6.3
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 7.0
+        }
+      ]
+    },
+    {
+      "slug": "madinah-airport",
+      "name_ar": "مطار الأمير محمد بن عبدالعزيز",
+      "name_en": "Madinah Airport",
+      "lat": 24.5534,
+      "lng": 39.7051,
+      "prox_km": 6,
+      "q": "مطار المدينة",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار المدينة"
+      ],
+      "neighbours": [
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 10.8
+        },
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 12.4
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 13.5
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 13.5
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 14.9
+        }
+      ]
+    },
+    {
+      "slug": "haramain-station-madinah",
+      "name_ar": "محطة قطار الحرمين",
+      "name_en": "Haramain Station",
+      "lat": 24.489,
+      "lng": 39.553,
+      "prox_km": 4,
+      "q": "محطة قطار الحرمين المدينة",
+      "poi_label": "محطة القطار",
+      "type": "transport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة القطار المدينة"
+      ],
+      "neighbours": [
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 2.7
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 6.1
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 6.3
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 6.4
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 8.5
+        }
+      ]
+    },
+    {
+      "slug": "al-noor-mall",
+      "name_ar": "النور مول",
+      "name_en": "Al Noor Mall",
+      "lat": 24.461,
+      "lng": 39.636,
+      "prox_km": 3,
+      "q": "النور مول",
+      "poi_label": "النور مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من النور مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 2.6
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 2.9
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 3.1
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 5.1
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "uhud",
+      "name_ar": "جبل أحد",
+      "name_en": "Mount Uhud",
+      "lat": 24.502,
+      "lng": 39.614,
+      "prox_km": 4,
+      "q": "جبل أحد",
+      "poi_label": "جبل أحد",
+      "type": "landmark",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من جبل أحد"
+      ],
+      "neighbours": [
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 3.7
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 3.9
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 4.1
+        },
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 5.1
+        },
+        {
+          "slug": "haramain-station-madinah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "qiblatain",
+      "name_ar": "مسجد القبلتين",
+      "name_en": "Qiblatain Mosque",
+      "lat": 24.484,
+      "lng": 39.579,
+      "prox_km": 3,
+      "q": "مسجد القبلتين",
+      "poi_label": "القبلتين",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مسجد القبلتين"
+      ],
+      "neighbours": [
+        {
+          "slug": "haramain-station-madinah",
+          "name_ar": "محطة قطار الحرمين",
+          "km": 2.7
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 3.5
+        },
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 3.8
+        },
+        {
+          "slug": "uhud",
+          "name_ar": "جبل أحد",
+          "km": 4.1
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "ramadan-2027",
+      "name_ar": "فنادق المدينة رمضان 2027",
+      "name_en": "Madinah Ramadan 2027",
+      "lat": 24.4672,
+      "lng": 39.6112,
+      "prox_km": 2,
+      "q": "المسجد النبوي",
+      "poi_label": "المسجد النبوي",
+      "type": "event",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق المدينة رمضان"
+      ],
+      "event": {
+        "start": "2027-02-07",
+        "end": "2027-03-09",
+        "note": "تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "prophet-mosque",
+          "name_ar": "المسجد النبوي",
+          "km": 0.0
+        },
+        {
+          "slug": "central-area",
+          "name_ar": "المنطقة المركزية",
+          "km": 0.3
+        },
+        {
+          "slug": "al-noor-mall",
+          "name_ar": "النور مول",
+          "km": 2.6
+        },
+        {
+          "slug": "quba-mosque",
+          "name_ar": "مسجد قباء",
+          "km": 3.1
+        },
+        {
+          "slug": "qiblatain",
+          "name_ar": "مسجد القبلتين",
+          "km": 3.8
+        }
+      ]
+    }
+  ],
+  "poi_count": 9
+}

@@ -1,0 +1,479 @@
+{
+  "slug": "rome",
+  "code": "1c11e",
+  "name_ar": "روما",
+  "name_en": "Rome",
+  "country": "إيطاليا",
+  "lat": 41.9028,
+  "lng": 12.4964,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "colosseum",
+      "name_ar": "الكولوسيوم",
+      "name_en": "Colosseum",
+      "lat": 41.8902,
+      "lng": 12.4922,
+      "prox_km": 1.5,
+      "q": "الكولوسيوم",
+      "poi_label": "الكولوسيوم",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "Colosseo B",
+      "keywords": [
+        "فنادق قريبة من الكولوسيوم"
+      ],
+      "neighbours": [
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 1.4
+        },
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 1.4
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 1.6
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.7
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "vatican",
+      "name_ar": "الفاتيكان",
+      "name_en": "Vatican",
+      "lat": 41.9029,
+      "lng": 12.4534,
+      "prox_km": 1.5,
+      "q": "الفاتيكان",
+      "poi_label": "الفاتيكان",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "Ottaviano A",
+      "keywords": [
+        "فنادق قريبة من الفاتيكان"
+      ],
+      "neighbours": [
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 1.0
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 2.0
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 2.1
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 2.2
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "termini",
+      "name_ar": "محطة تيرميني",
+      "name_en": "Termini Station",
+      "lat": 41.901,
+      "lng": 12.502,
+      "prox_km": 1.5,
+      "q": "تيرميني",
+      "poi_label": "تيرميني",
+      "type": "transport",
+      "intents": [
+        "budget",
+        "transit",
+        "family"
+      ],
+      "nearest_metro": "Termini A/B",
+      "keywords": [
+        "فنادق قريبة من محطة تيرميني روما"
+      ],
+      "neighbours": [
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.4
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 1.5
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 1.7
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.8
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "trevi",
+      "name_ar": "نافورة تريفي",
+      "name_en": "Trevi Fountain",
+      "lat": 41.9009,
+      "lng": 12.4833,
+      "prox_km": 1,
+      "q": "نافورة تريفي",
+      "poi_label": "تريفي",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من نافورة تريفي"
+      ],
+      "neighbours": [
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.3
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.6
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 0.6
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.4
+        },
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 1.5
+        }
+      ]
+    },
+    {
+      "slug": "pantheon-navona",
+      "name_ar": "البانثيون ونافونا",
+      "name_en": "Pantheon / Navona",
+      "lat": 41.8986,
+      "lng": 12.4769,
+      "prox_km": 1,
+      "q": "البانثيون",
+      "poi_label": "البانثيون",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق وسط روما التاريخي"
+      ],
+      "neighbours": [
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.5
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.6
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.9
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 1.2
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.6
+        }
+      ]
+    },
+    {
+      "slug": "spanish-steps",
+      "name_ar": "الدرج الإسباني",
+      "name_en": "Spanish Steps",
+      "lat": 41.9058,
+      "lng": 12.4823,
+      "prox_km": 1,
+      "q": "الدرج الاسباني",
+      "poi_label": "الدرج الإسباني",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping",
+        "couples"
+      ],
+      "nearest_metro": "Spagna A",
+      "keywords": [
+        "فنادق قريبة من الدرج الإسباني"
+      ],
+      "neighbours": [
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 0.5
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.6
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 0.9
+        },
+        {
+          "slug": "termini",
+          "name_ar": "محطة تيرميني",
+          "km": 1.7
+        },
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 1.9
+        }
+      ]
+    },
+    {
+      "slug": "trastevere",
+      "name_ar": "تراستيفيري",
+      "name_en": "Trastevere",
+      "lat": 41.889,
+      "lng": 12.47,
+      "prox_km": 1.5,
+      "q": "تراستيفيري",
+      "poi_label": "تراستيفيري",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق تراستيفيري"
+      ],
+      "neighbours": [
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 1.2
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.7
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 1.7
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.8
+        },
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "fiumicino",
+      "name_ar": "مطار فيوميتشينو",
+      "name_en": "Fiumicino Airport",
+      "lat": 41.8003,
+      "lng": 12.2389,
+      "prox_km": 6,
+      "q": "مطار روما",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار روما"
+      ],
+      "neighbours": [
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 21.1
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 21.5
+        },
+        {
+          "slug": "prati",
+          "name_ar": "براتي",
+          "km": 22.0
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 22.5
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 22.9
+        }
+      ]
+    },
+    {
+      "slug": "via-del-corso",
+      "name_ar": "فيا ديل كورسو",
+      "name_en": "Via del Corso",
+      "lat": 41.902,
+      "lng": 12.48,
+      "prox_km": 1,
+      "q": "فيا ديل كورسو",
+      "poi_label": "فيا ديل كورسو",
+      "type": "landmark",
+      "intents": [
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شارع التسوق روما"
+      ],
+      "neighbours": [
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 0.3
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 0.5
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 0.5
+        },
+        {
+          "slug": "colosseum",
+          "name_ar": "الكولوسيوم",
+          "km": 1.7
+        },
+        {
+          "slug": "trastevere",
+          "name_ar": "تراستيفيري",
+          "km": 1.7
+        }
+      ]
+    },
+    {
+      "slug": "prati",
+      "name_ar": "براتي",
+      "name_en": "Prati",
+      "lat": 41.91,
+      "lng": 12.46,
+      "prox_km": 1.5,
+      "q": "براتي",
+      "poi_label": "براتي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق براتي روما"
+      ],
+      "neighbours": [
+        {
+          "slug": "vatican",
+          "name_ar": "الفاتيكان",
+          "km": 1.0
+        },
+        {
+          "slug": "via-del-corso",
+          "name_ar": "فيا ديل كورسو",
+          "km": 1.9
+        },
+        {
+          "slug": "pantheon-navona",
+          "name_ar": "البانثيون ونافونا",
+          "km": 1.9
+        },
+        {
+          "slug": "spanish-steps",
+          "name_ar": "الدرج الإسباني",
+          "km": 1.9
+        },
+        {
+          "slug": "trevi",
+          "name_ar": "نافورة تريفي",
+          "km": 2.2
+        }
+      ]
+    }
+  ],
+  "poi_count": 10
+}

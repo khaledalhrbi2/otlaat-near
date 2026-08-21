@@ -1,0 +1,478 @@
+{
+  "slug": "paris",
+  "code": "161cf",
+  "name_ar": "باريس",
+  "name_en": "Paris",
+  "country": "فرنسا",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "eiffel-tower",
+      "name_ar": "برج إيفل",
+      "name_en": "Eiffel Tower",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "prox_km": 1.5,
+      "q": "برج ايفل",
+      "poi_label": "برج إيفل",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من برج ايفل",
+        "فنادق مطلة على برج ايفل"
+      ],
+      "neighbours": [
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.6
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 1.7
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 2.9
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 3.1
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "champs-elysees",
+      "name_ar": "الشانزليزيه",
+      "name_en": "Champs-Elysees",
+      "lat": 48.8698,
+      "lng": 2.3075,
+      "prox_km": 1.5,
+      "q": "الشانزليزيه",
+      "poi_label": "الشانزليزيه",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق الشانزليزيه"
+      ],
+      "neighbours": [
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 1.0
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 1.6
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 1.8
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 2.4
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 2.6
+        }
+      ]
+    },
+    {
+      "slug": "arc-de-triomphe",
+      "name_ar": "قوس النصر",
+      "name_en": "Arc de Triomphe",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "prox_km": 1.5,
+      "q": "قوس النصر",
+      "poi_label": "قوس النصر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من قوس النصر"
+      ],
+      "neighbours": [
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.0
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 1.7
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 2.7
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 3.4
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 3.5
+        }
+      ]
+    },
+    {
+      "slug": "louvre",
+      "name_ar": "اللوفر",
+      "name_en": "Louvre",
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "prox_km": 1.5,
+      "q": "اللوفر",
+      "poi_label": "اللوفر",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من اللوفر"
+      ],
+      "neighbours": [
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 0.8
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 1.3
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 2.4
+        },
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 2.9
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "opera-lafayette",
+      "name_ar": "الأوبرا / غاليري لافاييت",
+      "name_en": "Opera / Galeries Lafayette",
+      "lat": 48.872,
+      "lng": 2.332,
+      "prox_km": 1.5,
+      "q": "غاليري لافاييت",
+      "poi_label": "غاليري لافاييت",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من لافاييت"
+      ],
+      "neighbours": [
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 1.3
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 1.8
+        },
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 1.8
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 2.0
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "disneyland",
+      "name_ar": "ديزني لاند باريس",
+      "name_en": "Disneyland Paris",
+      "lat": 48.8674,
+      "lng": 2.7836,
+      "prox_km": 6,
+      "q": "ديزني لاند",
+      "poi_label": "ديزني لاند",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ديزني لاند باريس"
+      ],
+      "neighbours": [
+        {
+          "slug": "cdg",
+          "name_ar": "مطار شارل ديغول",
+          "km": 23.4
+        },
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 32.3
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 32.6
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 33.0
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 33.0
+        }
+      ]
+    },
+    {
+      "slug": "montmartre",
+      "name_ar": "مونمارتر",
+      "name_en": "Montmartre",
+      "lat": 48.8867,
+      "lng": 2.3431,
+      "prox_km": 1.5,
+      "q": "مونمارتر",
+      "poi_label": "مونمارتر",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مونمارتر"
+      ],
+      "neighbours": [
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 1.8
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 2.9
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 3.2
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 3.7
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "la-defense",
+      "name_ar": "لا ديفانس",
+      "name_en": "La Defense",
+      "lat": 48.892,
+      "lng": 2.236,
+      "prox_km": 2,
+      "q": "لا ديفانس",
+      "poi_label": "لا ديفانس",
+      "type": "district",
+      "intents": [
+        "corporate",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق لا ديفانس"
+      ],
+      "neighbours": [
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 4.8
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 5.7
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 5.8
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 7.4
+        },
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 7.9
+        }
+      ]
+    },
+    {
+      "slug": "cdg",
+      "name_ar": "مطار شارل ديغول",
+      "name_en": "CDG Airport",
+      "lat": 49.0097,
+      "lng": 2.5479,
+      "prox_km": 6,
+      "q": "مطار شارل ديغول",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار شارل ديغول"
+      ],
+      "neighbours": [
+        {
+          "slug": "montmartre",
+          "name_ar": "مونمارتر",
+          "km": 20.3
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 22.0
+        },
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 22.6
+        },
+        {
+          "slug": "saint-germain",
+          "name_ar": "سان جيرمان",
+          "km": 23.4
+        },
+        {
+          "slug": "disneyland",
+          "name_ar": "ديزني لاند باريس",
+          "km": 23.4
+        }
+      ]
+    },
+    {
+      "slug": "saint-germain",
+      "name_ar": "سان جيرمان",
+      "name_en": "Saint-Germain",
+      "lat": 48.854,
+      "lng": 2.333,
+      "prox_km": 1.5,
+      "q": "سان جيرمان",
+      "poi_label": "سان جيرمان",
+      "type": "district",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق سان جيرمان باريس"
+      ],
+      "neighbours": [
+        {
+          "slug": "louvre",
+          "name_ar": "اللوفر",
+          "km": 0.8
+        },
+        {
+          "slug": "opera-lafayette",
+          "name_ar": "الأوبرا / غاليري لافاييت",
+          "km": 2.0
+        },
+        {
+          "slug": "champs-elysees",
+          "name_ar": "الشانزليزيه",
+          "km": 2.6
+        },
+        {
+          "slug": "eiffel-tower",
+          "name_ar": "برج إيفل",
+          "km": 2.9
+        },
+        {
+          "slug": "arc-de-triomphe",
+          "name_ar": "قوس النصر",
+          "km": 3.5
+        }
+      ]
+    }
+  ],
+  "poi_count": 10
+}

@@ -1,0 +1,385 @@
+{
+  "slug": "barcelona",
+  "code": "1b3b6",
+  "name_ar": "برشلونة",
+  "name_en": "Barcelona",
+  "country": "إسبانيا",
+  "lat": 41.3874,
+  "lng": 2.1686,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "la-rambla",
+      "name_ar": "لا رامبلا",
+      "name_en": "La Rambla",
+      "lat": 41.3808,
+      "lng": 2.1734,
+      "prox_km": 1,
+      "q": "لا رامبلا",
+      "poi_label": "لا رامبلا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق لا رامبلا"
+      ],
+      "neighbours": [
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 0.3
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 1.4
+        },
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 1.6
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "sagrada-familia",
+      "name_ar": "ساغرادا فاميليا",
+      "name_en": "Sagrada Familia",
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "prox_km": 1.5,
+      "q": "ساغرادا فاميليا",
+      "poi_label": "ساغرادا فاميليا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ساغرادا فاميليا"
+      ],
+      "neighbours": [
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 1.5
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 1.9
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 2.3
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 2.5
+        },
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "passeig-de-gracia",
+      "name_ar": "باسيج دي غراسيا",
+      "name_en": "Passeig de Gracia",
+      "lat": 41.392,
+      "lng": 2.165,
+      "prox_km": 1,
+      "q": "باسيج دي غراسيا",
+      "poi_label": "باسيج دي غراسيا",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق باسيج دي غراسيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 1.4
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 1.4
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 1.5
+        },
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "barceloneta",
+      "name_ar": "شاطئ برشلونيتا",
+      "name_en": "Barceloneta",
+      "lat": 41.378,
+      "lng": 2.192,
+      "prox_km": 1.5,
+      "q": "برشلونيتا",
+      "poi_label": "برشلونيتا",
+      "type": "district",
+      "intents": [
+        "beach",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شاطئ برشلونة"
+      ],
+      "neighbours": [
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 1.4
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 1.6
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 2.1
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 2.7
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "camp-nou",
+      "name_ar": "كامب نو",
+      "name_en": "Camp Nou",
+      "lat": 41.3809,
+      "lng": 2.1228,
+      "prox_km": 2,
+      "q": "كامب نو",
+      "poi_label": "كامب نو",
+      "type": "stadium",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من كامب نو"
+      ],
+      "neighbours": [
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 3.7
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 4.0
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 4.2
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 4.4
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "plaza-catalunya",
+      "name_ar": "ساحة كاتالونيا",
+      "name_en": "Placa de Catalunya",
+      "lat": 41.387,
+      "lng": 2.17,
+      "prox_km": 1,
+      "q": "ساحة كاتالونيا",
+      "poi_label": "ساحة كاتالونيا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق ساحة كاتالونيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 0.7
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 0.7
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 0.7
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 1.9
+        },
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "gothic-quarter",
+      "name_ar": "الحي القوطي",
+      "name_en": "Gothic Quarter",
+      "lat": 41.383,
+      "lng": 2.176,
+      "prox_km": 1,
+      "q": "الحي القوطي",
+      "poi_label": "الحي القوطي",
+      "type": "district",
+      "intents": [
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق الحي القوطي برشلونة"
+      ],
+      "neighbours": [
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 0.3
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 0.7
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 1.4
+        },
+        {
+          "slug": "barceloneta",
+          "name_ar": "شاطئ برشلونيتا",
+          "km": 1.4
+        },
+        {
+          "slug": "sagrada-familia",
+          "name_ar": "ساغرادا فاميليا",
+          "km": 2.3
+        }
+      ]
+    },
+    {
+      "slug": "bcn-airport",
+      "name_ar": "مطار برشلونة",
+      "name_en": "El Prat",
+      "lat": 41.2974,
+      "lng": 2.0833,
+      "prox_km": 5,
+      "q": "مطار برشلونة",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار برشلونة"
+      ],
+      "neighbours": [
+        {
+          "slug": "camp-nou",
+          "name_ar": "كامب نو",
+          "km": 9.9
+        },
+        {
+          "slug": "la-rambla",
+          "name_ar": "لا رامبلا",
+          "km": 11.9
+        },
+        {
+          "slug": "gothic-quarter",
+          "name_ar": "الحي القوطي",
+          "km": 12.3
+        },
+        {
+          "slug": "plaza-catalunya",
+          "name_ar": "ساحة كاتالونيا",
+          "km": 12.3
+        },
+        {
+          "slug": "passeig-de-gracia",
+          "name_ar": "باسيج دي غراسيا",
+          "km": 12.5
+        }
+      ]
+    }
+  ],
+  "poi_count": 8
+}

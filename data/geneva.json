@@ -1,0 +1,220 @@
+{
+  "slug": "geneva",
+  "code": "11b67",
+  "name_ar": "جنيف",
+  "name_en": "Geneva",
+  "country": "سويسرا",
+  "lat": 46.2044,
+  "lng": 6.1432,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "jet-d-eau",
+      "name_ar": "نافورة جنيف",
+      "name_en": "Jet d'Eau",
+      "lat": 46.2074,
+      "lng": 6.1559,
+      "prox_km": 1.5,
+      "q": "نافورة جنيف",
+      "poi_label": "النافورة",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من نافورة جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 0.5
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 0.8
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 1.1
+        },
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "lake-geneva",
+      "name_ar": "بحيرة جنيف",
+      "name_en": "Lake Geneva",
+      "lat": 46.21,
+      "lng": 6.15,
+      "prox_km": 2,
+      "q": "بحيرة جنيف",
+      "poi_label": "البحيرة",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مطلة على بحيرة جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 0.5
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 0.6
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 0.8
+        },
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 4.4
+        }
+      ]
+    },
+    {
+      "slug": "cornavin",
+      "name_ar": "محطة كورنافان",
+      "name_en": "Cornavin Station",
+      "lat": 46.21,
+      "lng": 6.142,
+      "prox_km": 1.5,
+      "q": "كورنافان",
+      "poi_label": "محطة كورنافان",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 0.6
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 0.9
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 1.1
+        },
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "rue-du-rhone",
+      "name_ar": "شارع الرون",
+      "name_en": "Rue du Rhone",
+      "lat": 46.203,
+      "lng": 6.148,
+      "prox_km": 1,
+      "q": "شارع الرون",
+      "poi_label": "شارع الرون",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شارع الرون جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 0.8
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 0.8
+        },
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 0.9
+        },
+        {
+          "slug": "geneva-airport",
+          "name_ar": "مطار جنيف",
+          "km": 4.9
+        }
+      ]
+    },
+    {
+      "slug": "geneva-airport",
+      "name_ar": "مطار جنيف",
+      "name_en": "Geneva Airport",
+      "lat": 46.2381,
+      "lng": 6.109,
+      "prox_km": 4,
+      "q": "مطار جنيف",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار جنيف"
+      ],
+      "neighbours": [
+        {
+          "slug": "cornavin",
+          "name_ar": "محطة كورنافان",
+          "km": 4.0
+        },
+        {
+          "slug": "lake-geneva",
+          "name_ar": "بحيرة جنيف",
+          "km": 4.4
+        },
+        {
+          "slug": "rue-du-rhone",
+          "name_ar": "شارع الرون",
+          "km": 4.9
+        },
+        {
+          "slug": "jet-d-eau",
+          "name_ar": "نافورة جنيف",
+          "km": 5.0
+        }
+      ]
+    }
+  ],
+  "poi_count": 5
+}

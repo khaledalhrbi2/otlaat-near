@@ -1,0 +1,681 @@
+{
+  "slug": "dubai",
+  "code": "18edc",
+  "name_ar": "دبي",
+  "name_en": "Dubai",
+  "country": "الإمارات",
+  "lat": 25.2048,
+  "lng": 55.2708,
+  "default_prox": 15,
+  "date_profile": "next_weekend",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "burj-khalifa",
+      "name_ar": "برج خليفة",
+      "name_en": "Burj Khalifa",
+      "lat": 25.1972,
+      "lng": 55.2744,
+      "prox_km": 2,
+      "q": "برج خليفة",
+      "poi_label": "برج خليفة",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "برج خليفة/دبي مول",
+      "keywords": [
+        "فنادق قريبة من برج خليفة",
+        "فنادق مطلة على برج خليفة"
+      ],
+      "neighbours": [
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.5
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 1.5
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 3.7
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 6.6
+        }
+      ]
+    },
+    {
+      "slug": "dubai-mall",
+      "name_ar": "دبي مول",
+      "name_en": "Dubai Mall",
+      "lat": 25.1985,
+      "lng": 55.2796,
+      "prox_km": 2,
+      "q": "دبي مول",
+      "poi_label": "دبي مول",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "برج خليفة/دبي مول",
+      "keywords": [
+        "فنادق قريبة من دبي مول",
+        "فنادق متصلة بدبي مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.5
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 0.9
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 2.0
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 4.1
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "downtown",
+      "name_ar": "داون تاون دبي",
+      "name_en": "Downtown Dubai",
+      "lat": 25.195,
+      "lng": 55.272,
+      "prox_km": 3,
+      "q": "داون تاون",
+      "poi_label": "داون تاون",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق داون تاون دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 0.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 0.9
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 1.2
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 3.5
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "dubai-marina",
+      "name_ar": "مارينا دبي",
+      "name_en": "Dubai Marina",
+      "lat": 25.0805,
+      "lng": 55.1403,
+      "prox_km": 3,
+      "q": "مارينا دبي",
+      "poi_label": "المارينا",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "محطة دبي مارينا / DMCC",
+      "keywords": [
+        "فنادق مارينا دبي",
+        "فنادق دبي مارينا للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 0.8
+        },
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 3.5
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 6.7
+        },
+        {
+          "slug": "global-village",
+          "name_ar": "القرية العالمية",
+          "km": 16.7
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 17.0
+        }
+      ]
+    },
+    {
+      "slug": "jbr",
+      "name_ar": "جي بي آر",
+      "name_en": "JBR",
+      "lat": 25.078,
+      "lng": 55.133,
+      "prox_km": 2,
+      "q": "جي بي ار",
+      "poi_label": "JBR",
+      "type": "district",
+      "intents": [
+        "family",
+        "beach",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق جي بي ار",
+        "فنادق جميرا بيتش ريزيدنس"
+      ],
+      "neighbours": [
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 0.8
+        },
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 3.9
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 7.4
+        },
+        {
+          "slug": "global-village",
+          "name_ar": "القرية العالمية",
+          "km": 17.4
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 17.7
+        }
+      ]
+    },
+    {
+      "slug": "palm-jumeirah",
+      "name_ar": "نخلة جميرا",
+      "name_en": "Palm Jumeirah",
+      "lat": 25.1124,
+      "lng": 55.139,
+      "prox_km": 5,
+      "q": "نخلة جميرا",
+      "poi_label": "النخلة",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "beach",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق نخلة جميرا",
+        "منتجعات النخلة"
+      ],
+      "neighbours": [
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 3.5
+        },
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 3.9
+        },
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 5.7
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 14.4
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 15.2
+        }
+      ]
+    },
+    {
+      "slug": "global-village",
+      "name_ar": "القرية العالمية",
+      "name_en": "Global Village",
+      "lat": 25.07,
+      "lng": 55.306,
+      "prox_km": 8,
+      "q": "القرية العالمية",
+      "poi_label": "القرية العالمية",
+      "type": "event_zone",
+      "intents": [
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من القرية العالمية"
+      ],
+      "event": {
+        "start": "2026-10-15",
+        "end": "2027-04-30",
+        "note": "موسم القرية العالمية - تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "al-barsha",
+          "name_ar": "البرشاء",
+          "km": 12.1
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 13.5
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 14.3
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 14.5
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 14.5
+        }
+      ]
+    },
+    {
+      "slug": "dxb-airport",
+      "name_ar": "مطار دبي الدولي",
+      "name_en": "Dubai Airport DXB",
+      "lat": 25.2532,
+      "lng": 55.3657,
+      "prox_km": 6,
+      "q": "مطار دبي",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": "محطة المطار T1/T3",
+      "keywords": [
+        "فنادق قريبة من مطار دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "dubai-creek-harbour",
+          "name_ar": "خور دبي",
+          "km": 5.4
+        },
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 5.9
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 6.9
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 10.6
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 11.1
+        }
+      ]
+    },
+    {
+      "slug": "deira",
+      "name_ar": "ديرة",
+      "name_en": "Deira",
+      "lat": 25.27,
+      "lng": 55.31,
+      "prox_km": 3,
+      "q": "ديرة",
+      "poi_label": "ديرة",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "الاتحاد / الرقة",
+      "keywords": [
+        "فنادق ديرة دبي",
+        "فنادق رخيصة دبي ديرة"
+      ],
+      "neighbours": [
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 2.3
+        },
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 5.9
+        },
+        {
+          "slug": "dubai-creek-harbour",
+          "name_ar": "خور دبي",
+          "km": 7.8
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 8.5
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 8.9
+        }
+      ]
+    },
+    {
+      "slug": "bur-dubai",
+      "name_ar": "بر دبي",
+      "name_en": "Bur Dubai",
+      "lat": 25.253,
+      "lng": 55.297,
+      "prox_km": 3,
+      "q": "بر دبي",
+      "poi_label": "بر دبي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "برجمان",
+      "keywords": [
+        "فنادق بر دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "deira",
+          "name_ar": "ديرة",
+          "km": 2.3
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 6.3
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 6.6
+        },
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 6.9
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 6.9
+        }
+      ]
+    },
+    {
+      "slug": "al-barsha",
+      "name_ar": "البرشاء",
+      "name_en": "Al Barsha",
+      "lat": 25.113,
+      "lng": 55.196,
+      "prox_km": 3,
+      "q": "البرشاء",
+      "poi_label": "البرشاء",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": "مول الإمارات",
+      "keywords": [
+        "فنادق البرشاء",
+        "فنادق قريبة من مول الإمارات"
+      ],
+      "neighbours": [
+        {
+          "slug": "palm-jumeirah",
+          "name_ar": "نخلة جميرا",
+          "km": 5.7
+        },
+        {
+          "slug": "dubai-marina",
+          "name_ar": "مارينا دبي",
+          "km": 6.7
+        },
+        {
+          "slug": "jbr",
+          "name_ar": "جي بي آر",
+          "km": 7.4
+        },
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 10.7
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 11.1
+        }
+      ]
+    },
+    {
+      "slug": "business-bay",
+      "name_ar": "الخليج التجاري",
+      "name_en": "Business Bay",
+      "lat": 25.186,
+      "lng": 55.266,
+      "prox_km": 3,
+      "q": "الخليج التجاري",
+      "poi_label": "الخليج التجاري",
+      "type": "district",
+      "intents": [
+        "corporate",
+        "apartments"
+      ],
+      "nearest_metro": "الخليج التجاري",
+      "keywords": [
+        "فنادق الخليج التجاري دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 1.2
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 1.5
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 2.0
+        },
+        {
+          "slug": "jumeirah",
+          "name_ar": "جميرا",
+          "km": 3.4
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 8.1
+        }
+      ]
+    },
+    {
+      "slug": "jumeirah",
+      "name_ar": "جميرا",
+      "name_en": "Jumeirah",
+      "lat": 25.205,
+      "lng": 55.239,
+      "prox_km": 4,
+      "q": "جميرا",
+      "poi_label": "جميرا",
+      "type": "district",
+      "intents": [
+        "beach",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق جميرا دبي",
+        "فنادق شاطئ جميرا"
+      ],
+      "neighbours": [
+        {
+          "slug": "business-bay",
+          "name_ar": "الخليج التجاري",
+          "km": 3.4
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 3.5
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 3.7
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 4.1
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 7.9
+        }
+      ]
+    },
+    {
+      "slug": "dubai-creek-harbour",
+      "name_ar": "خور دبي",
+      "name_en": "Dubai Creek Harbour",
+      "lat": 25.208,
+      "lng": 55.347,
+      "prox_km": 4,
+      "q": "خور دبي",
+      "poi_label": "خور دبي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق خور دبي"
+      ],
+      "neighbours": [
+        {
+          "slug": "dxb-airport",
+          "name_ar": "مطار دبي الدولي",
+          "km": 5.4
+        },
+        {
+          "slug": "dubai-mall",
+          "name_ar": "دبي مول",
+          "km": 6.9
+        },
+        {
+          "slug": "bur-dubai",
+          "name_ar": "بر دبي",
+          "km": 7.1
+        },
+        {
+          "slug": "burj-khalifa",
+          "name_ar": "برج خليفة",
+          "km": 7.4
+        },
+        {
+          "slug": "downtown",
+          "name_ar": "داون تاون دبي",
+          "km": 7.7
+        }
+      ]
+    }
+  ],
+  "poi_count": 14
+}

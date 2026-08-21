@@ -1,0 +1,220 @@
+{
+  "slug": "zurich",
+  "code": "118b2",
+  "name_ar": "زيورخ",
+  "name_en": "Zurich",
+  "country": "سويسرا",
+  "lat": 47.3769,
+  "lng": 8.5417,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "bahnhofstrasse",
+      "name_ar": "بانهوف شتراسه",
+      "name_en": "Bahnhofstrasse",
+      "lat": 47.372,
+      "lng": 8.539,
+      "prox_km": 1,
+      "q": "بانهوف شتراسه",
+      "poi_label": "بانهوف شتراسه",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من بانهوف شتراسه"
+      ],
+      "neighbours": [
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 0.3
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.7
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 0.8
+        },
+        {
+          "slug": "zurich-airport",
+          "name_ar": "مطار زيورخ",
+          "km": 10.3
+        }
+      ]
+    },
+    {
+      "slug": "hauptbahnhof",
+      "name_ar": "المحطة الرئيسية",
+      "name_en": "Zurich HB",
+      "lat": 47.378,
+      "lng": 8.54,
+      "prox_km": 1.5,
+      "q": "محطة زيورخ",
+      "poi_label": "المحطة الرئيسية",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة زيورخ الرئيسية"
+      ],
+      "neighbours": [
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 0.7
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 0.7
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 1.4
+        },
+        {
+          "slug": "zurich-airport",
+          "name_ar": "مطار زيورخ",
+          "km": 9.7
+        }
+      ]
+    },
+    {
+      "slug": "lake-zurich",
+      "name_ar": "بحيرة زيورخ",
+      "name_en": "Lake Zurich",
+      "lat": 47.366,
+      "lng": 8.544,
+      "prox_km": 2,
+      "q": "بحيرة زيورخ",
+      "poi_label": "البحيرة",
+      "type": "landmark",
+      "intents": [
+        "couples",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق مطلة على بحيرة زيورخ"
+      ],
+      "neighbours": [
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 0.6
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 0.8
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.4
+        },
+        {
+          "slug": "zurich-airport",
+          "name_ar": "مطار زيورخ",
+          "km": 11.0
+        }
+      ]
+    },
+    {
+      "slug": "old-town",
+      "name_ar": "البلدة القديمة",
+      "name_en": "Altstadt",
+      "lat": 47.3717,
+      "lng": 8.5423,
+      "prox_km": 1,
+      "q": "البلدة القديمة زيورخ",
+      "poi_label": "البلدة القديمة",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق البلدة القديمة زيورخ"
+      ],
+      "neighbours": [
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 0.3
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 0.6
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.7
+        },
+        {
+          "slug": "zurich-airport",
+          "name_ar": "مطار زيورخ",
+          "km": 10.4
+        }
+      ]
+    },
+    {
+      "slug": "zurich-airport",
+      "name_ar": "مطار زيورخ",
+      "name_en": "Zurich Airport",
+      "lat": 47.4647,
+      "lng": 8.5492,
+      "prox_km": 5,
+      "q": "مطار زيورخ",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار زيورخ"
+      ],
+      "neighbours": [
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 9.7
+        },
+        {
+          "slug": "bahnhofstrasse",
+          "name_ar": "بانهوف شتراسه",
+          "km": 10.3
+        },
+        {
+          "slug": "old-town",
+          "name_ar": "البلدة القديمة",
+          "km": 10.4
+        },
+        {
+          "slug": "lake-zurich",
+          "name_ar": "بحيرة زيورخ",
+          "km": 11.0
+        }
+      ]
+    }
+  ],
+  "poi_count": 5
+}

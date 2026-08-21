@@ -1,0 +1,718 @@
+{
+  "slug": "istanbul",
+  "code": "19064",
+  "name_ar": "إسطنبول",
+  "name_en": "Istanbul",
+  "country": "تركيا",
+  "lat": 41.0082,
+  "lng": 28.9784,
+  "default_prox": 15,
+  "date_profile": "next_weekend",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "taksim",
+      "name_ar": "تقسيم",
+      "name_en": "Taksim",
+      "lat": 41.037,
+      "lng": 28.985,
+      "prox_km": 2,
+      "q": "تقسيم",
+      "poi_label": "تقسيم",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "تقسيم M2",
+      "keywords": [
+        "فنادق تقسيم",
+        "فنادق قريبة من ميدان تقسيم",
+        "فنادق تقسيم للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 0.7
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 1.4
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 2.0
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 2.2
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "sultanahmet",
+      "name_ar": "السلطان أحمد",
+      "name_en": "Sultanahmet",
+      "lat": 41.0055,
+      "lng": 28.977,
+      "prox_km": 2,
+      "q": "السلطان أحمد",
+      "poi_label": "السلطان أحمد",
+      "type": "district",
+      "intents": [
+        "family",
+        "couples",
+        "budget"
+      ],
+      "nearest_metro": "ترام T1",
+      "keywords": [
+        "فنادق السلطان أحمد",
+        "فنادق قريبة من آيا صوفيا"
+      ],
+      "neighbours": [
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.3
+        },
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 1.8
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 2.8
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 3.1
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 3.6
+        }
+      ]
+    },
+    {
+      "slug": "sisli",
+      "name_ar": "شيشلي",
+      "name_en": "Sisli",
+      "lat": 41.06,
+      "lng": 28.987,
+      "prox_km": 2,
+      "q": "شيشلي",
+      "poi_label": "شيشلي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "شيشلي M2",
+      "keywords": [
+        "فنادق شيشلي",
+        "فنادق قريبة من جواهر مول"
+      ],
+      "neighbours": [
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 1.5
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 2.6
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 2.6
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 2.7
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 3.1
+        }
+      ]
+    },
+    {
+      "slug": "nisantasi",
+      "name_ar": "نيشانتاشي",
+      "name_en": "Nisantasi",
+      "lat": 41.048,
+      "lng": 28.994,
+      "prox_km": 2,
+      "q": "نيشانتاشي",
+      "poi_label": "نيشانتاشي",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق نيشانتاشي"
+      ],
+      "neighbours": [
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 1.4
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 1.4
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 1.4
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 1.5
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 2.1
+        }
+      ]
+    },
+    {
+      "slug": "besiktas",
+      "name_ar": "بشكتاش",
+      "name_en": "Besiktas",
+      "lat": 41.042,
+      "lng": 29.008,
+      "prox_km": 2,
+      "q": "بشكتاش",
+      "poi_label": "بشكتاش",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "bosphorus-view"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بشكتاش",
+        "فنادق مطلة على البسفور"
+      ],
+      "neighbours": [
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 0.3
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 1.4
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 1.9
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 2.0
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "bosphorus",
+      "name_ar": "البسفور",
+      "name_en": "Bosphorus",
+      "lat": 41.044,
+      "lng": 29.01,
+      "prox_km": 4,
+      "q": "البسفور",
+      "poi_label": "البسفور",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "bosphorus-view",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق على البسفور",
+        "فنادق مطلة على البسفور"
+      ],
+      "neighbours": [
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 0.3
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 1.4
+        },
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 2.0
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 2.2
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 2.6
+        }
+      ]
+    },
+    {
+      "slug": "istanbul-airport",
+      "name_ar": "مطار إسطنبول",
+      "name_en": "Istanbul Airport",
+      "lat": 41.275,
+      "lng": 28.752,
+      "prox_km": 10,
+      "q": "مطار إسطنبول",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار إسطنبول الجديد"
+      ],
+      "neighbours": [
+        {
+          "slug": "istinye-park",
+          "name_ar": "إستينيا بارك",
+          "km": 29.7
+        },
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 31.0
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 32.4
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 32.9
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 32.9
+        }
+      ]
+    },
+    {
+      "slug": "sabiha-gokcen",
+      "name_ar": "مطار صبيحة",
+      "name_en": "Sabiha Gokcen",
+      "lat": 40.898,
+      "lng": 29.309,
+      "prox_km": 8,
+      "q": "مطار صبيحة",
+      "poi_label": "مطار صبيحة",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار صبيحة"
+      ],
+      "neighbours": [
+        {
+          "slug": "uskudar",
+          "name_ar": "أوسكودار",
+          "km": 28.5
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 29.9
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 29.9
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 30.3
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 31.2
+        }
+      ]
+    },
+    {
+      "slug": "istiklal",
+      "name_ar": "شارع الاستقلال",
+      "name_en": "Istiklal Street",
+      "lat": 41.033,
+      "lng": 28.978,
+      "prox_km": 1.5,
+      "q": "شارع الاستقلال",
+      "poi_label": "الاستقلال",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شارع الاستقلال"
+      ],
+      "neighbours": [
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 0.7
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.8
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 2.1
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 2.7
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 2.9
+        }
+      ]
+    },
+    {
+      "slug": "laleli",
+      "name_ar": "لالالي",
+      "name_en": "Laleli",
+      "lat": 41.01,
+      "lng": 28.956,
+      "prox_km": 1.5,
+      "q": "لالالي",
+      "poi_label": "لالالي",
+      "type": "district",
+      "intents": [
+        "budget",
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق لالالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 1.1
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 1.6
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 1.8
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 3.2
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "fatih",
+      "name_ar": "الفاتح",
+      "name_en": "Fatih",
+      "lat": 41.018,
+      "lng": 28.948,
+      "prox_km": 3,
+      "q": "الفاتح",
+      "poi_label": "الفاتح",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق الفاتح إسطنبول"
+      ],
+      "neighbours": [
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 1.1
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 2.0
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 2.8
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 3.0
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "eminonu",
+      "name_ar": "أمينونو",
+      "name_en": "Eminonu",
+      "lat": 41.017,
+      "lng": 28.972,
+      "prox_km": 1.5,
+      "q": "أمينونو",
+      "poi_label": "أمينونو",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق أمينونو"
+      ],
+      "neighbours": [
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 1.3
+        },
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 1.6
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 1.8
+        },
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 2.0
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "uskudar",
+      "name_ar": "أوسكودار",
+      "name_en": "Uskudar",
+      "lat": 41.026,
+      "lng": 29.015,
+      "prox_km": 3,
+      "q": "أوسكودار",
+      "poi_label": "أوسكودار",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق أوسكودار الجانب الآسيوي"
+      ],
+      "neighbours": [
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 1.9
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 2.0
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 2.8
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 3.0
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "bakirkoy",
+      "name_ar": "بكركوي",
+      "name_en": "Bakirkoy",
+      "lat": 40.98,
+      "lng": 28.872,
+      "prox_km": 3,
+      "q": "بكركوي",
+      "poi_label": "بكركوي",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بكركوي"
+      ],
+      "neighbours": [
+        {
+          "slug": "fatih",
+          "name_ar": "الفاتح",
+          "km": 7.7
+        },
+        {
+          "slug": "laleli",
+          "name_ar": "لالالي",
+          "km": 7.8
+        },
+        {
+          "slug": "sultanahmet",
+          "name_ar": "السلطان أحمد",
+          "km": 9.3
+        },
+        {
+          "slug": "eminonu",
+          "name_ar": "أمينونو",
+          "km": 9.3
+        },
+        {
+          "slug": "istiklal",
+          "name_ar": "شارع الاستقلال",
+          "km": 10.7
+        }
+      ]
+    },
+    {
+      "slug": "istinye-park",
+      "name_ar": "إستينيا بارك",
+      "name_en": "Istinye Park",
+      "lat": 41.11,
+      "lng": 29.031,
+      "prox_km": 3,
+      "q": "استينيا بارك",
+      "poi_label": "استينيا بارك",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من استينيا بارك"
+      ],
+      "neighbours": [
+        {
+          "slug": "sisli",
+          "name_ar": "شيشلي",
+          "km": 6.7
+        },
+        {
+          "slug": "bosphorus",
+          "name_ar": "البسفور",
+          "km": 7.5
+        },
+        {
+          "slug": "nisantasi",
+          "name_ar": "نيشانتاشي",
+          "km": 7.6
+        },
+        {
+          "slug": "besiktas",
+          "name_ar": "بشكتاش",
+          "km": 7.8
+        },
+        {
+          "slug": "taksim",
+          "name_ar": "تقسيم",
+          "km": 9.0
+        }
+      ]
+    }
+  ],
+  "poi_count": 15
+}

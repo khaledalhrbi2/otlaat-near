@@ -1,0 +1,528 @@
+{
+  "slug": "london",
+  "code": "11260",
+  "name_ar": "لندن",
+  "name_en": "London",
+  "country": "بريطانيا",
+  "lat": 51.5074,
+  "lng": -0.1278,
+  "default_prox": 12,
+  "date_profile": "two_weeks_out",
+  "default_nights": 5,
+  "pois": [
+    {
+      "slug": "edgware-road",
+      "name_ar": "شارع العرب (إدجوير رود)",
+      "name_en": "Edgware Road",
+      "lat": 51.519,
+      "lng": -0.168,
+      "prox_km": 1.5,
+      "q": "ادجوير رود",
+      "poi_label": "شارع العرب",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "halal"
+      ],
+      "nearest_metro": "Edgware Road",
+      "keywords": [
+        "فنادق شارع العرب لندن",
+        "فنادق ادجوير رود"
+      ],
+      "neighbours": [
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 0.7
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 1.3
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 1.6
+        },
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 1.9
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "hyde-park",
+      "name_ar": "هايد بارك",
+      "name_en": "Hyde Park",
+      "lat": 51.5073,
+      "lng": -0.1657,
+      "prox_km": 2,
+      "q": "هايد بارك",
+      "poi_label": "هايد بارك",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "Marble Arch / Lancaster Gate",
+      "keywords": [
+        "فنادق قريبة من هايد بارك"
+      ],
+      "neighbours": [
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 0.9
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 1.3
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 1.3
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 1.6
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 1.8
+        }
+      ]
+    },
+    {
+      "slug": "oxford-street",
+      "name_ar": "شارع أكسفورد",
+      "name_en": "Oxford Street",
+      "lat": 51.5154,
+      "lng": -0.141,
+      "prox_km": 1.5,
+      "q": "اكسفورد ستريت",
+      "poi_label": "أكسفورد ستريت",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "family"
+      ],
+      "nearest_metro": "Oxford Circus / Bond Street",
+      "keywords": [
+        "فنادق قريبة من اكسفورد ستريت"
+      ],
+      "neighbours": [
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 1.9
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 1.9
+        },
+        {
+          "slug": "big-ben",
+          "name_ar": "بيغ بن / وستمنستر",
+          "km": 2.0
+        },
+        {
+          "slug": "london-eye",
+          "name_ar": "عين لندن",
+          "km": 2.0
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "harrods",
+      "name_ar": "هارودز",
+      "name_en": "Harrods",
+      "lat": 51.4994,
+      "lng": -0.1633,
+      "prox_km": 1.5,
+      "q": "هارودز",
+      "poi_label": "هارودز",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "shopping"
+      ],
+      "nearest_metro": "Knightsbridge",
+      "keywords": [
+        "فنادق قريبة من هارودز"
+      ],
+      "neighbours": [
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 0.9
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 1.9
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 2.2
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 2.2
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "kensington",
+      "name_ar": "كنسينغتون",
+      "name_en": "Kensington",
+      "lat": 51.501,
+      "lng": -0.19,
+      "prox_km": 2,
+      "q": "كنسينغتون",
+      "poi_label": "كنسينغتون",
+      "type": "district",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق كنسينغتون"
+      ],
+      "neighbours": [
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 1.2
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 1.8
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 1.9
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 2.0
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 2.5
+        }
+      ]
+    },
+    {
+      "slug": "bayswater-queensway",
+      "name_ar": "بايزووتر / كوينزواي",
+      "name_en": "Bayswater",
+      "lat": 51.512,
+      "lng": -0.188,
+      "prox_km": 1.5,
+      "q": "بايزووتر",
+      "poi_label": "بايزووتر",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "budget"
+      ],
+      "nearest_metro": "Queensway / Bayswater",
+      "keywords": [
+        "فنادق بايزووتر",
+        "فنادق كوينزواي لندن"
+      ],
+      "neighbours": [
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 0.9
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 1.2
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 1.6
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 1.6
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "paddington",
+      "name_ar": "بادينغتون",
+      "name_en": "Paddington",
+      "lat": 51.517,
+      "lng": -0.177,
+      "prox_km": 1.5,
+      "q": "بادينغتون",
+      "poi_label": "بادينغتون",
+      "type": "transport",
+      "intents": [
+        "family",
+        "transit"
+      ],
+      "nearest_metro": "Paddington",
+      "keywords": [
+        "فنادق قريبة من محطة بادينغتون"
+      ],
+      "neighbours": [
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 0.7
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 0.9
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 1.3
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 2.0
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 2.2
+        }
+      ]
+    },
+    {
+      "slug": "big-ben",
+      "name_ar": "بيغ بن / وستمنستر",
+      "name_en": "Westminster",
+      "lat": 51.5007,
+      "lng": -0.1246,
+      "prox_km": 1.5,
+      "q": "وستمنستر",
+      "poi_label": "بيغ بن",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من بيغ بن"
+      ],
+      "neighbours": [
+        {
+          "slug": "london-eye",
+          "name_ar": "عين لندن",
+          "km": 0.5
+        },
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 2.0
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 2.7
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 2.9
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 3.6
+        }
+      ]
+    },
+    {
+      "slug": "london-eye",
+      "name_ar": "عين لندن",
+      "name_en": "London Eye",
+      "lat": 51.5033,
+      "lng": -0.1196,
+      "prox_km": 1.5,
+      "q": "عين لندن",
+      "poi_label": "عين لندن",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من عين لندن"
+      ],
+      "neighbours": [
+        {
+          "slug": "big-ben",
+          "name_ar": "بيغ بن / وستمنستر",
+          "km": 0.5
+        },
+        {
+          "slug": "oxford-street",
+          "name_ar": "شارع أكسفورد",
+          "km": 2.0
+        },
+        {
+          "slug": "harrods",
+          "name_ar": "هارودز",
+          "km": 3.1
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 3.2
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "heathrow",
+      "name_ar": "مطار هيثرو",
+      "name_en": "Heathrow",
+      "lat": 51.47,
+      "lng": -0.4543,
+      "prox_km": 5,
+      "q": "هيثرو",
+      "poi_label": "هيثرو",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار هيثرو"
+      ],
+      "neighbours": [
+        {
+          "slug": "wembley",
+          "name_ar": "ويمبلي",
+          "km": 15.4
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 18.6
+        },
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 19.0
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 19.9
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 20.4
+        }
+      ]
+    },
+    {
+      "slug": "wembley",
+      "name_ar": "ويمبلي",
+      "name_en": "Wembley",
+      "lat": 51.556,
+      "lng": -0.2796,
+      "prox_km": 3,
+      "q": "ويمبلي",
+      "poi_label": "ويمبلي",
+      "type": "stadium",
+      "intents": [
+        "budget",
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ملعب ويمبلي"
+      ],
+      "neighbours": [
+        {
+          "slug": "bayswater-queensway",
+          "name_ar": "بايزووتر / كوينزواي",
+          "km": 8.0
+        },
+        {
+          "slug": "paddington",
+          "name_ar": "بادينغتون",
+          "km": 8.3
+        },
+        {
+          "slug": "kensington",
+          "name_ar": "كنسينغتون",
+          "km": 8.7
+        },
+        {
+          "slug": "edgware-road",
+          "name_ar": "شارع العرب (إدجوير رود)",
+          "km": 8.7
+        },
+        {
+          "slug": "hyde-park",
+          "name_ar": "هايد بارك",
+          "km": 9.6
+        }
+      ]
+    }
+  ],
+  "poi_count": 11
+}

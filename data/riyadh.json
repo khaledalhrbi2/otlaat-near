@@ -1,0 +1,730 @@
+{
+  "slug": "riyadh",
+  "code": "1f566",
+  "name_ar": "الرياض",
+  "name_en": "Riyadh",
+  "country": "السعودية",
+  "lat": 24.7136,
+  "lng": 46.6753,
+  "default_prox": 15,
+  "date_profile": "weekend_thu_sat",
+  "default_nights": 2,
+  "pois": [
+    {
+      "slug": "boulevard-city",
+      "name_ar": "بوليفارد سيتي",
+      "name_en": "Boulevard City",
+      "lat": 24.7694,
+      "lng": 46.6046,
+      "prox_km": 3,
+      "q": "بوليفارد الرياض",
+      "poi_label": "البوليفارد",
+      "type": "event_zone",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من بوليفارد",
+        "أقرب فندق لبوليفارد سيتي",
+        "فنادق بوليفارد الرياض للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 0.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 1.9
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 3.1
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 3.8
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "boulevard-world",
+      "name_ar": "بوليفارد وورلد",
+      "name_en": "Boulevard World",
+      "lat": 24.747,
+      "lng": 46.587,
+      "prox_km": 4,
+      "q": "بوليفارد وورلد",
+      "poi_label": "بوليفارد وورلد",
+      "type": "event_zone",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من بوليفارد وورلد"
+      ],
+      "neighbours": [
+        {
+          "slug": "diriyah",
+          "name_ar": "الدرعية",
+          "km": 1.9
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 2.6
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 3.1
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 3.2
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 5.9
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-season-2026",
+      "name_ar": "موسم الرياض 2026",
+      "name_en": "Riyadh Season 2026",
+      "lat": 24.7694,
+      "lng": 46.6046,
+      "prox_km": 6,
+      "q": "موسم الرياض",
+      "poi_label": "موسم الرياض",
+      "type": "event",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "موسم الرياض 2026 فنادق",
+        "فنادق موسم الرياض",
+        "حجز فنادق موسم الرياض 2026"
+      ],
+      "event": {
+        "start": "2026-10-15",
+        "end": "2027-03-15",
+        "note": "تاريخ تقريبي — يُحدّث عند الإعلان الرسمي"
+      },
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 0.0
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 0.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 1.9
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 3.1
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 3.8
+        }
+      ]
+    },
+    {
+      "slug": "kafd",
+      "name_ar": "مركز الملك عبدالله المالي",
+      "name_en": "KAFD",
+      "lat": 24.766,
+      "lng": 46.642,
+      "prox_km": 3,
+      "q": "كافد",
+      "poi_label": "كافد",
+      "type": "landmark",
+      "intents": [
+        "corporate",
+        "5-star",
+        "apartments"
+      ],
+      "nearest_metro": "محطة كافد (المسار الأزرق)",
+      "keywords": [
+        "فنادق قريبة من كافد",
+        "فنادق المركز المالي الرياض"
+      ],
+      "neighbours": [
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 2.8
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 3.8
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 4.2
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 5.3
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 5.9
+        }
+      ]
+    },
+    {
+      "slug": "olaya",
+      "name_ar": "العليا",
+      "name_en": "Olaya",
+      "lat": 24.6905,
+      "lng": 46.684,
+      "prox_km": 3,
+      "q": "العليا",
+      "poi_label": "العليا",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "محطة العليا",
+      "keywords": [
+        "فنادق العليا الرياض",
+        "فنادق شارع العليا"
+      ],
+      "neighbours": [
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 2.5
+        },
+        {
+          "slug": "diplomatic-quarter",
+          "name_ar": "حي السفارات",
+          "km": 6.1
+        },
+        {
+          "slug": "via-riyadh",
+          "name_ar": "فيا الرياض",
+          "km": 6.2
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 9.4
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 9.9
+        }
+      ]
+    },
+    {
+      "slug": "kingdom-centre",
+      "name_ar": "برج المملكة",
+      "name_en": "Kingdom Centre",
+      "lat": 24.7113,
+      "lng": 46.6745,
+      "prox_km": 2,
+      "q": "برج المملكة",
+      "poi_label": "برج المملكة",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": "محطة المملكة",
+      "keywords": [
+        "فنادق قريبة من برج المملكة"
+      ],
+      "neighbours": [
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 2.5
+        },
+        {
+          "slug": "diplomatic-quarter",
+          "name_ar": "حي السفارات",
+          "km": 6.0
+        },
+        {
+          "slug": "via-riyadh",
+          "name_ar": "فيا الرياض",
+          "km": 6.0
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 6.9
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 7.6
+        }
+      ]
+    },
+    {
+      "slug": "diriyah",
+      "name_ar": "الدرعية",
+      "name_en": "Diriyah",
+      "lat": 24.734,
+      "lng": 46.575,
+      "prox_km": 6,
+      "q": "الدرعية",
+      "poi_label": "الدرعية",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الدرعية",
+        "فنادق البجيري"
+      ],
+      "neighbours": [
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 1.9
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 4.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 4.9
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 4.9
+        },
+        {
+          "slug": "via-riyadh",
+          "name_ar": "فيا الرياض",
+          "km": 7.3
+        }
+      ]
+    },
+    {
+      "slug": "king-khalid-airport",
+      "name_ar": "مطار الملك خالد",
+      "name_en": "King Khalid Airport",
+      "lat": 24.9576,
+      "lng": 46.6988,
+      "prox_km": 8,
+      "q": "مطار الملك خالد",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": "محطة المطار (الأزرق)",
+      "keywords": [
+        "فنادق قريبة من مطار الرياض"
+      ],
+      "neighbours": [
+        {
+          "slug": "riyadh-front",
+          "name_ar": "واجهة الرياض",
+          "km": 11.9
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 15.4
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 18.5
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 22.1
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 23.0
+        }
+      ]
+    },
+    {
+      "slug": "diplomatic-quarter",
+      "name_ar": "حي السفارات",
+      "name_en": "Diplomatic Quarter",
+      "lat": 24.683,
+      "lng": 46.624,
+      "prox_km": 4,
+      "q": "حي السفارات",
+      "poi_label": "حي السفارات",
+      "type": "district",
+      "intents": [
+        "corporate",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق حي السفارات"
+      ],
+      "neighbours": [
+        {
+          "slug": "via-riyadh",
+          "name_ar": "فيا الرياض",
+          "km": 0.2
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 6.0
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 6.1
+        },
+        {
+          "slug": "diriyah",
+          "name_ar": "الدرعية",
+          "km": 7.5
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 8.0
+        }
+      ]
+    },
+    {
+      "slug": "via-riyadh",
+      "name_ar": "فيا الرياض",
+      "name_en": "VIA Riyadh",
+      "lat": 24.6845,
+      "lng": 46.623,
+      "prox_km": 3,
+      "q": "فيا الرياض",
+      "poi_label": "فيا الرياض",
+      "type": "landmark",
+      "intents": [
+        "5-star",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من فيا الرياض"
+      ],
+      "neighbours": [
+        {
+          "slug": "diplomatic-quarter",
+          "name_ar": "حي السفارات",
+          "km": 0.2
+        },
+        {
+          "slug": "kingdom-centre",
+          "name_ar": "برج المملكة",
+          "km": 6.0
+        },
+        {
+          "slug": "olaya",
+          "name_ar": "العليا",
+          "km": 6.2
+        },
+        {
+          "slug": "diriyah",
+          "name_ar": "الدرعية",
+          "km": 7.3
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 7.8
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-front",
+      "name_ar": "واجهة الرياض",
+      "name_en": "Riyadh Front",
+      "lat": 24.851,
+      "lng": 46.711,
+      "prox_km": 5,
+      "q": "واجهة الرياض",
+      "poi_label": "واجهة الرياض",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من واجهة الرياض"
+      ],
+      "neighbours": [
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 4.1
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 10.5
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 11.7
+        },
+        {
+          "slug": "king-khalid-airport",
+          "name_ar": "مطار الملك خالد",
+          "km": 11.9
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 14.1
+        }
+      ]
+    },
+    {
+      "slug": "winter-wonderland",
+      "name_ar": "ونتر وندرلاند",
+      "name_en": "Winter Wonderland",
+      "lat": 24.819,
+      "lng": 46.69,
+      "prox_km": 5,
+      "q": "ونتر وندرلاند",
+      "poi_label": "ونتر وندرلاند",
+      "type": "event_zone",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ونتر وندرلاند"
+      ],
+      "neighbours": [
+        {
+          "slug": "riyadh-front",
+          "name_ar": "واجهة الرياض",
+          "km": 4.1
+        },
+        {
+          "slug": "al-malqa",
+          "name_ar": "الملقا",
+          "km": 7.4
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 7.6
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 10.2
+        },
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 10.2
+        }
+      ]
+    },
+    {
+      "slug": "hittin",
+      "name_ar": "حطين",
+      "name_en": "Hittin",
+      "lat": 24.767,
+      "lng": 46.6,
+      "prox_km": 4,
+      "q": "حطين",
+      "poi_label": "حطين",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق حي حطين",
+        "شقق فندقية حطين"
+      ],
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 0.5
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 2.1
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 2.6
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 4.2
+        },
+        {
+          "slug": "diriyah",
+          "name_ar": "الدرعية",
+          "km": 4.5
+        }
+      ]
+    },
+    {
+      "slug": "al-malqa",
+      "name_ar": "الملقا",
+      "name_en": "Al Malqa",
+      "lat": 24.808,
+      "lng": 46.618,
+      "prox_km": 4,
+      "q": "الملقا",
+      "poi_label": "الملقا",
+      "type": "district",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق الملقا الرياض"
+      ],
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 4.5
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 4.9
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 5.3
+        },
+        {
+          "slug": "riyadh-park",
+          "name_ar": "الرياض بارك",
+          "km": 5.8
+        },
+        {
+          "slug": "winter-wonderland",
+          "name_ar": "ونتر وندرلاند",
+          "km": 7.4
+        }
+      ]
+    },
+    {
+      "slug": "riyadh-park",
+      "name_ar": "الرياض بارك",
+      "name_en": "Riyadh Park Mall",
+      "lat": 24.756,
+      "lng": 46.617,
+      "prox_km": 3,
+      "q": "الرياض بارك",
+      "poi_label": "الرياض بارك",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من الرياض بارك"
+      ],
+      "neighbours": [
+        {
+          "slug": "boulevard-city",
+          "name_ar": "بوليفارد سيتي",
+          "km": 1.9
+        },
+        {
+          "slug": "hittin",
+          "name_ar": "حطين",
+          "km": 2.1
+        },
+        {
+          "slug": "kafd",
+          "name_ar": "مركز الملك عبدالله المالي",
+          "km": 2.8
+        },
+        {
+          "slug": "boulevard-world",
+          "name_ar": "بوليفارد وورلد",
+          "km": 3.2
+        },
+        {
+          "slug": "diriyah",
+          "name_ar": "الدرعية",
+          "km": 4.9
+        }
+      ]
+    }
+  ],
+  "poi_count": 15
+}

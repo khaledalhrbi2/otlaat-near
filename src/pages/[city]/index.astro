@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import BookingBar from '../../components/BookingBar.astro';
+import MapRing from '../../components/MapRing.astro';
+import { cities, loadCity } from '../../lib/data.js';
+export function getStaticPaths(){ return cities.map(c => ({ params:{ city:c.slug } })); }
+const city = loadCity(Astro.params.city);
+const by = t => city.pois.filter(p => p.type === t);
+const events = by('event').concat(by('event_zone'));
+const landmarks = city.pois.filter(p => ['landmark','stadium'].includes(p.type));
+const districts = by('district');
+const transport = by('airport').concat(by('transport'));
+const title = `فنادق ${city.name_ar} حسب المعلم والمنطقة — عطلات`;
+const desc = `اختر المعلم أو الحي في ${city.name_ar} وشاهد الفنادق القريبة منه بالمسافة الفعلية. ${city.poi_count} معلماً، أسعار شاملة الضرائب، إلغاء مجاني.`;
+const jsonld = [{ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":Astro.site},{"@type":"ListItem","position":2,"name":city.name_ar}]}];
+const Section = ({t, list}) => null;
+---
+<Base title={title} description={desc} jsonld={jsonld}>
+  <nav class="crumbs"><a href="/">الرئيسية</a><span>›</span>{city.name_ar}</nav>
+  <div class="hero">
+    <div>
+      <h1>فنادق {city.name_ar} حسب المعلم</h1>
+      <p class="lede">ابدأ من المكان الذي تريد أن تكون قريباً منه، ونعرض لك الفنادق ضمن نطاقه فقط. {city.poi_count} معلماً ومنطقة في {city.name_ar}.</p>
+      <div class="chips">{city.pois.slice(0,6).map(p => <a class="chip" href={`/${city.slug}/near/${p.slug}/`}>{p.name_ar}</a>)}</div>
+    </div>
+    <MapRing lat={city.lat} lng={city.lng} prox={city.default_prox} label={city.name_ar} neighbours={city.pois.map(p=>({lat:p.lat,lng:p.lng,name_ar:p.name_ar}))} />
+  </div>
+  <BookingBar city={city} />
+  {events.length > 0 && <section><h2>الأحداث والمواسم</h2><div class="grid">{events.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>{p.event ? `${p.event.start} → ${p.event.end}` : `ضمن ${p.prox_km} كم`}</small></a>)}</div></section>}
+  {landmarks.length > 0 && <section><h2>قريب من المعالم</h2><div class="grid">{landmarks.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  {districts.length > 0 && <section><h2>حسب الحي والمنطقة</h2><div class="grid">{districts.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  {transport.length > 0 && <section><h2>المطارات والمحطات</h2><div class="grid">{transport.map(p => <a class="card" href={`/${city.slug}/near/${p.slug}/`}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  <section class="b2b"><div><h2>وكالة سفر أو شركة؟</h2><p style="margin:0">أسعار مجموعات وحجوزات جماعية في {city.name_ar} عبر فريق B2B.</p></div><a class="cta" href={`https://wa.me/966920033839?text=${encodeURIComponent(`طلب أسعار مجموعات - ${city.name_ar}`)}`}>اطلب عرض مجموعات</a></section>
+</Base>

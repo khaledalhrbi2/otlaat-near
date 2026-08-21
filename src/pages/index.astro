@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { cities } from '../lib/data.js';
+const groups = {};
+cities.forEach(c => (groups[c.country] ??= []).push(c));
+---
+<Base title="فنادق قريبة من المعالم والأحداث — عطلات" description="اختر المدينة والمعلم، وشاهد الفنادق ضمن نطاق محدد مع المسافة الفعلية والأسعار شاملة الضرائب. 16 مدينة و156 معلماً.">
+  <div class="hero" style="padding-top:34px">
+    <div>
+      <h1>فندقك على بُعد دقائق من المكان الذي جئت لأجله</h1>
+      <p class="lede">بدل البحث في مئات الفنادق، ابدأ من المعلم أو الحدث: البوليفارد، الحرم، برج خليفة، تقسيم… ونعرض لك فقط ما يقع ضمن النطاق، بالمسافة الحقيقية.</p>
+      <div class="chips">{cities.slice(0,7).map(c => <a class="chip" href={`/${c.slug}/`}>{c.name_ar}</a>)}</div>
+    </div>
+  </div>
+  {Object.entries(groups).map(([country, list]) => (
+    <section>
+      <h2>{country}</h2>
+      <div class="grid">{list.map(c => <a class="card" href={`/${c.slug}/`}><b>{c.name_ar}</b><small>{c.poi_count} معلماً ومنطقة</small></a>)}</div>
+    </section>
+  ))}
+</Base>

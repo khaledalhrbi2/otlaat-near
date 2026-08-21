@@ -1,0 +1,292 @@
+{
+  "slug": "prague",
+  "code": "19bbc",
+  "name_ar": "براغ",
+  "name_en": "Prague",
+  "country": "التشيك",
+  "lat": 50.0755,
+  "lng": 14.4378,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "old-town-square",
+      "name_ar": "ساحة البلدة القديمة",
+      "name_en": "Old Town Square",
+      "lat": 50.0875,
+      "lng": 14.4213,
+      "prox_km": 1,
+      "q": "ساحة البلدة القديمة",
+      "poi_label": "البلدة القديمة",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق البلدة القديمة براغ"
+      ],
+      "neighbours": [
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 0.7
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 0.9
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.1
+        },
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 1.5
+        },
+        {
+          "slug": "prague-airport",
+          "name_ar": "مطار براغ",
+          "km": 11.4
+        }
+      ]
+    },
+    {
+      "slug": "charles-bridge",
+      "name_ar": "جسر تشارلز",
+      "name_en": "Charles Bridge",
+      "lat": 50.0865,
+      "lng": 14.4114,
+      "prox_km": 1,
+      "q": "جسر تشارلز",
+      "poi_label": "جسر تشارلز",
+      "type": "landmark",
+      "intents": [
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من جسر تشارلز"
+      ],
+      "neighbours": [
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 0.7
+        },
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 0.9
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 1.3
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 1.7
+        },
+        {
+          "slug": "prague-airport",
+          "name_ar": "مطار براغ",
+          "km": 10.7
+        }
+      ]
+    },
+    {
+      "slug": "wenceslas",
+      "name_ar": "ساحة فاتسلاف",
+      "name_en": "Wenceslas Square",
+      "lat": 50.081,
+      "lng": 14.428,
+      "prox_km": 1,
+      "q": "ساحة فاتسلاف",
+      "poi_label": "ساحة فاتسلاف",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق ساحة فاتسلاف"
+      ],
+      "neighbours": [
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 0.5
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 0.9
+        },
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 1.3
+        },
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 2.2
+        },
+        {
+          "slug": "prague-airport",
+          "name_ar": "مطار براغ",
+          "km": 12.0
+        }
+      ]
+    },
+    {
+      "slug": "prague-castle",
+      "name_ar": "قلعة براغ",
+      "name_en": "Prague Castle",
+      "lat": 50.091,
+      "lng": 14.4016,
+      "prox_km": 1.5,
+      "q": "قلعة براغ",
+      "poi_label": "قلعة براغ",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من قلعة براغ"
+      ],
+      "neighbours": [
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 0.9
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 1.5
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 2.2
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 2.5
+        },
+        {
+          "slug": "prague-airport",
+          "name_ar": "مطار براغ",
+          "km": 9.9
+        }
+      ]
+    },
+    {
+      "slug": "main-station",
+      "name_ar": "المحطة الرئيسية",
+      "name_en": "Hlavni Nadrazi",
+      "lat": 50.083,
+      "lng": 14.435,
+      "prox_km": 1.5,
+      "q": "محطة براغ الرئيسية",
+      "poi_label": "المحطة الرئيسية",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة براغ"
+      ],
+      "neighbours": [
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 0.5
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 1.1
+        },
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 1.7
+        },
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 2.5
+        },
+        {
+          "slug": "prague-airport",
+          "name_ar": "مطار براغ",
+          "km": 12.4
+        }
+      ]
+    },
+    {
+      "slug": "prague-airport",
+      "name_ar": "مطار براغ",
+      "name_en": "Prague Airport",
+      "lat": 50.1008,
+      "lng": 14.2632,
+      "prox_km": 5,
+      "q": "مطار براغ",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار براغ"
+      ],
+      "neighbours": [
+        {
+          "slug": "prague-castle",
+          "name_ar": "قلعة براغ",
+          "km": 9.9
+        },
+        {
+          "slug": "charles-bridge",
+          "name_ar": "جسر تشارلز",
+          "km": 10.7
+        },
+        {
+          "slug": "old-town-square",
+          "name_ar": "ساحة البلدة القديمة",
+          "km": 11.4
+        },
+        {
+          "slug": "wenceslas",
+          "name_ar": "ساحة فاتسلاف",
+          "km": 12.0
+        },
+        {
+          "slug": "main-station",
+          "name_ar": "المحطة الرئيسية",
+          "km": 12.4
+        }
+      ]
+    }
+  ],
+  "poi_count": 6
+}

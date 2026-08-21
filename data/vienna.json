@@ -1,0 +1,382 @@
+{
+  "slug": "vienna",
+  "code": "13035",
+  "name_ar": "فيينا",
+  "name_en": "Vienna",
+  "country": "النمسا",
+  "lat": 48.2082,
+  "lng": 16.3738,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 4,
+  "pois": [
+    {
+      "slug": "stephansplatz",
+      "name_ar": "كاتدرائية القديس ستيفان",
+      "name_en": "Stephansplatz",
+      "lat": 48.2085,
+      "lng": 16.3731,
+      "prox_km": 1.5,
+      "q": "شتيفانسبلاتز",
+      "poi_label": "وسط فيينا",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق وسط فيينا",
+        "فنادق قريبة من شتيفانسبلاتز"
+      ],
+      "neighbours": [
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 0.5
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 1.9
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 2.1
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 2.6
+        },
+        {
+          "slug": "donau",
+          "name_ar": "الدانوب",
+          "km": 3.9
+        }
+      ]
+    },
+    {
+      "slug": "schonbrunn",
+      "name_ar": "قصر شونبرون",
+      "name_en": "Schonbrunn",
+      "lat": 48.1845,
+      "lng": 16.3122,
+      "prox_km": 2,
+      "q": "شونبرون",
+      "poi_label": "شونبرون",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من قصر شونبرون"
+      ],
+      "neighbours": [
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 3.2
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 4.7
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 4.9
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 5.2
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 7.2
+        }
+      ]
+    },
+    {
+      "slug": "prater",
+      "name_ar": "براتر",
+      "name_en": "Prater",
+      "lat": 48.2166,
+      "lng": 16.396,
+      "prox_km": 2,
+      "q": "براتر",
+      "poi_label": "براتر",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من براتر"
+      ],
+      "neighbours": [
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 1.9
+        },
+        {
+          "slug": "donau",
+          "name_ar": "الدانوب",
+          "km": 2.1
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 2.3
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 3.8
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "karntner-strasse",
+      "name_ar": "شارع كارنتنر",
+      "name_en": "Karntner Strasse",
+      "lat": 48.205,
+      "lng": 16.37,
+      "prox_km": 1,
+      "q": "كارنتنر",
+      "poi_label": "كارنتنر",
+      "type": "landmark",
+      "intents": [
+        "shopping"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من شارع كارنتنر"
+      ],
+      "neighbours": [
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 0.5
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 1.7
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 2.3
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 2.3
+        },
+        {
+          "slug": "donau",
+          "name_ar": "الدانوب",
+          "km": 4.3
+        }
+      ]
+    },
+    {
+      "slug": "mariahilfer",
+      "name_ar": "ماريا هيلفر",
+      "name_en": "Mariahilfer Strasse",
+      "lat": 48.198,
+      "lng": 16.35,
+      "prox_km": 1.5,
+      "q": "ماريا هيلفر",
+      "poi_label": "ماريا هيلفر",
+      "type": "landmark",
+      "intents": [
+        "shopping",
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق شارع ماريا هيلفر"
+      ],
+      "neighbours": [
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 1.7
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 2.1
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 2.4
+        },
+        {
+          "slug": "schonbrunn",
+          "name_ar": "قصر شونبرون",
+          "km": 3.2
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "hauptbahnhof",
+      "name_ar": "المحطة الرئيسية",
+      "name_en": "Hauptbahnhof",
+      "lat": 48.185,
+      "lng": 16.376,
+      "prox_km": 1.5,
+      "q": "المحطة الرئيسية فيينا",
+      "poi_label": "المحطة الرئيسية",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة فيينا الرئيسية"
+      ],
+      "neighbours": [
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 2.3
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 2.4
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 2.6
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 3.8
+        },
+        {
+          "slug": "schonbrunn",
+          "name_ar": "قصر شونبرون",
+          "km": 4.7
+        }
+      ]
+    },
+    {
+      "slug": "vienna-airport",
+      "name_ar": "مطار فيينا",
+      "name_en": "Vienna Airport",
+      "lat": 48.1103,
+      "lng": 16.5697,
+      "prox_km": 5,
+      "q": "مطار فيينا",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار فيينا"
+      ],
+      "neighbours": [
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 16.6
+        },
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 17.5
+        },
+        {
+          "slug": "donau",
+          "name_ar": "الدانوب",
+          "km": 18.1
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 18.2
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 18.2
+        }
+      ]
+    },
+    {
+      "slug": "donau",
+      "name_ar": "الدانوب",
+      "name_en": "Danube",
+      "lat": 48.233,
+      "lng": 16.41,
+      "prox_km": 3,
+      "q": "الدانوب",
+      "poi_label": "الدانوب",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق على الدانوب فيينا"
+      ],
+      "neighbours": [
+        {
+          "slug": "prater",
+          "name_ar": "براتر",
+          "km": 2.1
+        },
+        {
+          "slug": "stephansplatz",
+          "name_ar": "كاتدرائية القديس ستيفان",
+          "km": 3.9
+        },
+        {
+          "slug": "karntner-strasse",
+          "name_ar": "شارع كارنتنر",
+          "km": 4.3
+        },
+        {
+          "slug": "hauptbahnhof",
+          "name_ar": "المحطة الرئيسية",
+          "km": 5.9
+        },
+        {
+          "slug": "mariahilfer",
+          "name_ar": "ماريا هيلفر",
+          "km": 5.9
+        }
+      ]
+    }
+  ],
+  "poi_count": 8
+}

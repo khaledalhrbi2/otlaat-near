@@ -1,0 +1,20 @@
+---
+const { lat, lng, prox, label, neighbours = [] } = Astro.props;
+---
+<div class="map" data-map={JSON.stringify({lat,lng,prox,label,neighbours})}>
+  <span class="ringlabel">ضمن {prox} كم من {label}</span>
+  <div data-leaflet style="height:100%"></div>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script is:inline>
+  document.querySelectorAll('[data-map]').forEach(el => {
+    const { lat, lng, prox, label, neighbours } = JSON.parse(el.dataset.map);
+    const m = L.map(el.querySelector('[data-leaflet]'), { scrollWheelZoom:false, attributionControl:false });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);
+    const ring = L.circle([lat,lng],{radius:prox*1000,color:'#2F7E8B',weight:2,fillColor:'#2F7E8B',fillOpacity:.08}).addTo(m);
+    L.circleMarker([lat,lng],{radius:7,color:'#15213B',fillColor:'#C9962B',fillOpacity:1,weight:2}).addTo(m).bindTooltip(label,{permanent:true,direction:'top',offset:[0,-8]});
+    neighbours.forEach(n => L.circleMarker([n.lat,n.lng],{radius:4,color:'#6B7385',fillColor:'#fff',fillOpacity:1,weight:1.5}).addTo(m).bindTooltip(n.name_ar));
+    m.fitBounds(ring.getBounds().pad(0.25));
+  });
+</script>

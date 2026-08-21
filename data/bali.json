@@ -1,0 +1,534 @@
+{
+  "slug": "bali",
+  "code": "23a95",
+  "name_ar": "بالي",
+  "name_en": "Bali",
+  "country": "إندونيسيا",
+  "lat": -8.65,
+  "lng": 115.2167,
+  "default_prox": 25,
+  "date_profile": "two_weeks_out",
+  "default_nights": 5,
+  "pois": [
+    {
+      "slug": "seminyak",
+      "name_ar": "سمينياك",
+      "name_en": "Seminyak",
+      "lat": -8.6913,
+      "lng": 115.1682,
+      "prox_km": 3,
+      "q": "سمينياك",
+      "poi_label": "سمينياك",
+      "type": "district",
+      "intents": [
+        "couples",
+        "villa",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق سمينياك",
+        "منتجعات سمينياك"
+      ],
+      "neighbours": [
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 0.0
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 1.5
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 3.0
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 5.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "ubud",
+      "name_ar": "أوبود",
+      "name_en": "Ubud",
+      "lat": -8.5069,
+      "lng": 115.2625,
+      "prox_km": 5,
+      "q": "اوبود",
+      "poi_label": "أوبود",
+      "type": "district",
+      "intents": [
+        "couples",
+        "villa",
+        "nature"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق اوبود",
+        "منتجعات اوبود بالي",
+        "فنادق بالي وسط الغابة"
+      ],
+      "neighbours": [
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 20.0
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 20.8
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 23.0
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 23.0
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 24.3
+        }
+      ]
+    },
+    {
+      "slug": "nusa-dua",
+      "name_ar": "نوسا دوا",
+      "name_en": "Nusa Dua",
+      "lat": -8.8,
+      "lng": 115.23,
+      "prox_km": 4,
+      "q": "نوسا دوا",
+      "poi_label": "نوسا دوا",
+      "type": "district",
+      "intents": [
+        "family",
+        "5-star",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق نوسا دوا",
+        "منتجعات نوسا دوا للعوائل"
+      ],
+      "neighbours": [
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 7.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 9.0
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 11.3
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 12.5
+        },
+        {
+          "slug": "sanur",
+          "name_ar": "سانور",
+          "km": 13.0
+        }
+      ]
+    },
+    {
+      "slug": "kuta",
+      "name_ar": "كوتا",
+      "name_en": "Kuta",
+      "lat": -8.718,
+      "lng": 115.169,
+      "prox_km": 3,
+      "q": "كوتا",
+      "poi_label": "كوتا",
+      "type": "district",
+      "intents": [
+        "budget",
+        "family",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق كوتا بالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 1.4
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 3.0
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 3.0
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 3.4
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 8.1
+        }
+      ]
+    },
+    {
+      "slug": "legian",
+      "name_ar": "ليغيان",
+      "name_en": "Legian",
+      "lat": -8.705,
+      "lng": 115.17,
+      "prox_km": 2,
+      "q": "ليغيان",
+      "poi_label": "ليغيان",
+      "type": "district",
+      "intents": [
+        "budget",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق ليغيان"
+      ],
+      "neighbours": [
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 1.4
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 1.5
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 1.5
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 4.8
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 7.2
+        }
+      ]
+    },
+    {
+      "slug": "jimbaran",
+      "name_ar": "جيمباران",
+      "name_en": "Jimbaran",
+      "lat": -8.79,
+      "lng": 115.16,
+      "prox_km": 4,
+      "q": "جيمباران",
+      "poi_label": "جيمباران",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "couples",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق جيمباران"
+      ],
+      "neighbours": [
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 4.7
+        },
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 7.8
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 8.1
+        },
+        {
+          "slug": "uluwatu",
+          "name_ar": "أولواتو",
+          "km": 9.3
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 9.5
+        }
+      ]
+    },
+    {
+      "slug": "uluwatu",
+      "name_ar": "أولواتو",
+      "name_en": "Uluwatu",
+      "lat": -8.829,
+      "lng": 115.085,
+      "prox_km": 6,
+      "q": "اولواتو",
+      "poi_label": "أولواتو",
+      "type": "district",
+      "intents": [
+        "5-star",
+        "couples",
+        "cliff"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "منتجعات اولواتو"
+      ],
+      "neighbours": [
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 9.3
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 12.7
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 15.4
+        },
+        {
+          "slug": "nusa-dua",
+          "name_ar": "نوسا دوا",
+          "km": 16.3
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 16.7
+        }
+      ]
+    },
+    {
+      "slug": "canggu",
+      "name_ar": "تشانغو",
+      "name_en": "Canggu",
+      "lat": -8.6478,
+      "lng": 115.1385,
+      "prox_km": 4,
+      "q": "تشانغو",
+      "poi_label": "تشانغو",
+      "type": "district",
+      "intents": [
+        "villa",
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فلل تشانغو بالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 5.8
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 5.8
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 7.2
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 8.5
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 11.6
+        }
+      ]
+    },
+    {
+      "slug": "sanur",
+      "name_ar": "سانور",
+      "name_en": "Sanur",
+      "lat": -8.687,
+      "lng": 115.262,
+      "prox_km": 3,
+      "q": "سانور",
+      "poi_label": "سانور",
+      "type": "district",
+      "intents": [
+        "family",
+        "budget",
+        "beach"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق سانور"
+      ],
+      "neighbours": [
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 10.3
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 10.3
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 10.3
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 10.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 12.4
+        }
+      ]
+    },
+    {
+      "slug": "ngurah-rai-airport",
+      "name_ar": "مطار بالي",
+      "name_en": "Ngurah Rai Airport",
+      "lat": -8.7482,
+      "lng": 115.1672,
+      "prox_km": 5,
+      "q": "مطار بالي",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار بالي"
+      ],
+      "neighbours": [
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 3.4
+        },
+        {
+          "slug": "jimbaran",
+          "name_ar": "جيمباران",
+          "km": 4.7
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 4.8
+        },
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 6.3
+        },
+        {
+          "slug": "honeymoon",
+          "name_ar": "شهر العسل بالي",
+          "km": 6.3
+        }
+      ]
+    },
+    {
+      "slug": "honeymoon",
+      "name_ar": "شهر العسل بالي",
+      "name_en": "Bali Honeymoon",
+      "lat": -8.6913,
+      "lng": 115.1682,
+      "prox_km": 30,
+      "q": "بالي",
+      "poi_label": "بالي",
+      "type": "intent_hub",
+      "intents": [
+        "couples",
+        "villa",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق بالي لشهر العسل",
+        "منتجعات بالي شهر العسل بمسبح خاص"
+      ],
+      "neighbours": [
+        {
+          "slug": "seminyak",
+          "name_ar": "سمينياك",
+          "km": 0.0
+        },
+        {
+          "slug": "legian",
+          "name_ar": "ليغيان",
+          "km": 1.5
+        },
+        {
+          "slug": "kuta",
+          "name_ar": "كوتا",
+          "km": 3.0
+        },
+        {
+          "slug": "canggu",
+          "name_ar": "تشانغو",
+          "km": 5.8
+        },
+        {
+          "slug": "ngurah-rai-airport",
+          "name_ar": "مطار بالي",
+          "km": 6.3
+        }
+      ]
+    }
+  ],
+  "poi_count": 11
+}

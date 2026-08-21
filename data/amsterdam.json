@@ -1,0 +1,388 @@
+{
+  "slug": "amsterdam",
+  "code": "12d83",
+  "name_ar": "أمستردام",
+  "name_en": "Amsterdam",
+  "country": "هولندا",
+  "lat": 52.3676,
+  "lng": 4.9041,
+  "default_prox": 10,
+  "date_profile": "two_weeks_out",
+  "default_nights": 3,
+  "pois": [
+    {
+      "slug": "dam-square",
+      "name_ar": "ساحة دام",
+      "name_en": "Dam Square",
+      "lat": 52.3731,
+      "lng": 4.8926,
+      "prox_km": 1,
+      "q": "ساحة دام",
+      "poi_label": "ساحة دام",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من ساحة دام"
+      ],
+      "neighbours": [
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 0.8
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 0.9
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 1.9
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 2.3
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 4.1
+        }
+      ]
+    },
+    {
+      "slug": "centraal",
+      "name_ar": "المحطة المركزية",
+      "name_en": "Amsterdam Centraal",
+      "lat": 52.3791,
+      "lng": 4.9003,
+      "prox_km": 1.5,
+      "q": "المحطة المركزية امستردام",
+      "poi_label": "المحطة المركزية",
+      "type": "transport",
+      "intents": [
+        "transit",
+        "family",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من محطة امستردام المركزية"
+      ],
+      "neighbours": [
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 0.8
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 1.5
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 2.7
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 3.2
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 4.9
+        }
+      ]
+    },
+    {
+      "slug": "museumplein",
+      "name_ar": "ساحة المتاحف",
+      "name_en": "Museumplein",
+      "lat": 52.358,
+      "lng": 4.881,
+      "prox_km": 1.5,
+      "q": "ساحة المتاحف",
+      "poi_label": "ساحة المتاحف",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "5-star"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من متحف فان جوخ"
+      ],
+      "neighbours": [
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 0.8
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 1.8
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 1.9
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 2.3
+        },
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 2.7
+        }
+      ]
+    },
+    {
+      "slug": "vondelpark",
+      "name_ar": "فونديل بارك",
+      "name_en": "Vondelpark",
+      "lat": 52.3579,
+      "lng": 4.8686,
+      "prox_km": 1.5,
+      "q": "فونديل بارك",
+      "poi_label": "فونديل بارك",
+      "type": "landmark",
+      "intents": [
+        "family",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من فونديل بارك"
+      ],
+      "neighbours": [
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 0.8
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 2.0
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 2.2
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 2.3
+        },
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 3.2
+        }
+      ]
+    },
+    {
+      "slug": "jordaan",
+      "name_ar": "يوردان",
+      "name_en": "Jordaan",
+      "lat": 52.374,
+      "lng": 4.88,
+      "prox_km": 1,
+      "q": "يوردان",
+      "poi_label": "يوردان",
+      "type": "district",
+      "intents": [
+        "couples"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق حي يوردان"
+      ],
+      "neighbours": [
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 0.9
+        },
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 1.5
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 1.8
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 2.0
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 4.0
+        }
+      ]
+    },
+    {
+      "slug": "zuidas",
+      "name_ar": "زاوداس",
+      "name_en": "Zuidas",
+      "lat": 52.338,
+      "lng": 4.873,
+      "prox_km": 2,
+      "q": "زاوداس",
+      "poi_label": "زاوداس",
+      "type": "district",
+      "intents": [
+        "corporate",
+        "apartments"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق زاوداس امستردام"
+      ],
+      "neighbours": [
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 2.2
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 2.3
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 4.0
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 4.1
+        },
+        {
+          "slug": "centraal",
+          "name_ar": "المحطة المركزية",
+          "km": 4.9
+        }
+      ]
+    },
+    {
+      "slug": "schiphol",
+      "name_ar": "مطار سخيبول",
+      "name_en": "Schiphol",
+      "lat": 52.3105,
+      "lng": 4.7683,
+      "prox_km": 5,
+      "q": "سخيبول",
+      "poi_label": "المطار",
+      "type": "airport",
+      "intents": [
+        "transit",
+        "budget"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من مطار امستردام"
+      ],
+      "neighbours": [
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 7.7
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 8.6
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 9.3
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 10.4
+        },
+        {
+          "slug": "dam-square",
+          "name_ar": "ساحة دام",
+          "km": 10.9
+        }
+      ]
+    },
+    {
+      "slug": "keukenhof",
+      "name_ar": "حدائق كوكنهوف",
+      "name_en": "Keukenhof",
+      "lat": 52.2697,
+      "lng": 4.5462,
+      "prox_km": 8,
+      "q": "كوكنهوف",
+      "poi_label": "كوكنهوف",
+      "type": "landmark",
+      "intents": [
+        "family"
+      ],
+      "nearest_metro": null,
+      "keywords": [
+        "فنادق قريبة من كوكنهوف"
+      ],
+      "event": {
+        "start": "2027-03-20",
+        "end": "2027-05-10",
+        "note": "موسم التوليب - تقريبي"
+      },
+      "neighbours": [
+        {
+          "slug": "schiphol",
+          "name_ar": "مطار سخيبول",
+          "km": 15.8
+        },
+        {
+          "slug": "zuidas",
+          "name_ar": "زاوداس",
+          "km": 23.5
+        },
+        {
+          "slug": "vondelpark",
+          "name_ar": "فونديل بارك",
+          "km": 24.0
+        },
+        {
+          "slug": "museumplein",
+          "name_ar": "ساحة المتاحف",
+          "km": 24.8
+        },
+        {
+          "slug": "jordaan",
+          "name_ar": "يوردان",
+          "km": 25.5
+        }
+      ]
+    }
+  ],
+  "poi_count": 8
+}
