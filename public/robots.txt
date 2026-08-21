@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://hotels-near.otlaat.sa/sitemap-index.xml
 Disallow: /go/
 Disallow: /api/
+
+Sitemap: https://hotels-near.otlaat.sa/sitemap-index.xml
