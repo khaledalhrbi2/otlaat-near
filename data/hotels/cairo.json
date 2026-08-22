@@ -1,0 +1,134 @@
+{
+ "city": "cairo",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "InterContinental Cairo Semiramis",
+   "name_ar": "سميراميس إنتركونتيننتال",
+   "stars": 5,
+   "lat": 30.0549,
+   "lng": 31.2294,
+   "area": "downtown",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Sofitel Cairo Nile El Gezirah",
+   "name_ar": "سوفيتيل الجزيرة",
+   "stars": 5,
+   "lat": 30.0387,
+   "lng": 31.2246,
+   "area": "zamalek",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Fairmont Nile City",
+   "name_ar": "فيرمونت نايل سيتي",
+   "stars": 5,
+   "lat": 30.0718,
+   "lng": 31.2277,
+   "area": null,
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Kempinski Nile Hotel Garden City",
+   "name_ar": "كمبينسكي النيل جاردن سيتي",
+   "stars": 5,
+   "lat": 30.0387,
+   "lng": 31.2309,
+   "area": "downtown",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Marriott Mena House Cairo",
+   "name_ar": "ماريوت مينا هاوس",
+   "stars": 5,
+   "lat": 29.9854,
+   "lng": 31.1331,
+   "area": "giza-pyramids",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Cairo Marriott Hotel Zamalek",
+   "name_ar": "ماريوت القاهرة الزمالك",
+   "stars": 5,
+   "lat": 30.0571,
+   "lng": 31.2251,
+   "area": "zamalek",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Hilton Cairo Zamalek Residences",
+   "name_ar": "هيلتون الزمالك ريزيدنس",
+   "stars": 4,
+   "lat": 30.0676,
+   "lng": 31.2226,
+   "area": "zamalek",
+   "tags": [
+    "apartments",
+    "4-star",
+    "pool"
+   ]
+  },
+  {
+   "name": "Barcelo Cairo Pyramids",
+   "name_ar": "بارسيلو الأهرامات",
+   "stars": 4,
+   "lat": 29.9997,
+   "lng": 31.1763,
+   "area": "giza-pyramids",
+   "tags": [
+    "4-star",
+    "cheap",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Best View Pyramids Hotel",
+   "name_ar": "بست فيو الأهرامات",
+   "stars": 3,
+   "lat": 29.9736,
+   "lng": 31.142,
+   "area": "giza-pyramids",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "The View Pyramids Hotel",
+   "name_ar": "ذا فيو الأهرامات",
+   "stars": 3,
+   "lat": 29.9759,
+   "lng": 31.1444,
+   "area": "giza-pyramids",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

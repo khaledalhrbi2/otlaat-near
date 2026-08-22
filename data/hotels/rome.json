@@ -1,0 +1,79 @@
+{
+ "city": "rome",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hotel Artemide",
+   "name_ar": "فندق أرتيميدي",
+   "stars": 4,
+   "lat": 41.9008,
+   "lng": 12.4937,
+   "area": "termini",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Palazzo Montemartini Rome Radisson Collection",
+   "name_ar": "بالاتزو مونتيمارتيني",
+   "stars": 5,
+   "lat": 41.9034,
+   "lng": 12.5004,
+   "area": "termini",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "NH Collection Roma Palazzo Cinquecento",
+   "name_ar": "إن إتش كولكشن تشينكويتشينتو",
+   "stars": 5,
+   "lat": 41.9025,
+   "lng": 12.5017,
+   "area": "termini",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Bettoja Hotel Atlantico",
+   "name_ar": "بيتويا أتلانتيكو",
+   "stars": 4,
+   "lat": 41.9001,
+   "lng": 12.4988,
+   "area": "termini",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  },
+  {
+   "name": "Best Western Hotel Royal Santina",
+   "name_ar": "بست ويسترن رويال سانتينا",
+   "stars": 4,
+   "lat": 41.9031,
+   "lng": 12.5016,
+   "area": "termini",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  },
+  {
+   "name": "Yes Hotel Rome",
+   "name_ar": "ييس هوتيل روما",
+   "stars": 3,
+   "lat": 41.9033,
+   "lng": 12.5026,
+   "area": "termini",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

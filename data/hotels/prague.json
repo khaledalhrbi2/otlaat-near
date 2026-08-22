@@ -1,0 +1,81 @@
+{
+ "city": "prague",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Allure Hotel & Residence Prague",
+   "name_ar": "ألور هوتيل براغ",
+   "stars": 4,
+   "lat": 50.0914,
+   "lng": 14.4219,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "apartments",
+    "family"
+   ]
+  },
+  {
+   "name": "The Julius Prague",
+   "name_ar": "ذا جوليوس براغ",
+   "stars": 5,
+   "lat": 50.0859,
+   "lng": 14.4304,
+   "area": "new-town",
+   "tags": [
+    "5-star",
+    "apartments",
+    "family"
+   ]
+  },
+  {
+   "name": "Hotel Hastal Prague Old Town",
+   "name_ar": "فندق هاشتال براغ",
+   "stars": 4,
+   "lat": 50.091,
+   "lng": 14.4248,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  },
+  {
+   "name": "NH Collection Prague Carlo IV",
+   "name_ar": "إن إتش كولكشن كارلو الرابع",
+   "stars": 5,
+   "lat": 50.0866,
+   "lng": 14.4339,
+   "area": "new-town",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "MOODs Charles Bridge Hotel",
+   "name_ar": "موودز جسر تشارلز",
+   "stars": 4,
+   "lat": 50.0844,
+   "lng": 14.4149,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Grand Hotel Praha",
+   "name_ar": "جراند هوتيل براها",
+   "stars": 4,
+   "lat": 50.0868,
+   "lng": 14.4211,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  }
+ ]
+}

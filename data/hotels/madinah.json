@@ -1,0 +1,11 @@
+{"city":"madinah","updated":"2026-08-22","hotels":[
+{"name":"Makarem Burj Al Madinah","name_ar":"مكارم برج المدينة","stars":5,"lat":24.4720,"lng":39.6104,"area":"haram","tags":["5-star","family"]},
+{"name":"Sofitel Shahd Al Madinah","name_ar":"سوفيتيل شهد المدينة","stars":5,"lat":24.4721,"lng":39.6117,"area":"haram","tags":["5-star","family"]},
+{"name":"Al Manakha Rotana Madinah","name_ar":"المناخة روتانا","stars":5,"lat":24.4642,"lng":39.6062,"area":"haram","tags":["5-star","family"]},
+{"name":"Pullman Zamzam Madinah","name_ar":"بولمان زمزم المدينة","stars":5,"lat":24.4645,"lng":39.6114,"area":"haram","tags":["5-star","family","apartments"]},
+{"name":"Mysk Al Balad Hotel Madinah","name_ar":"مسك البلد","stars":4,"lat":24.4653,"lng":39.6098,"area":"haram","tags":["4-star","family"]},
+{"name":"Anwar Al Madinah Movenpick","name_ar":"أنوار المدينة موفنبيك","stars":5,"lat":24.4713,"lng":39.6077,"area":"haram","tags":["5-star","family","shopping"]},
+{"name":"Grand Millennium Al Haram","name_ar":"جراند ميلينيوم الحرم","stars":4,"lat":24.4721,"lng":39.6133,"area":"haram","tags":["4-star","family"]},
+{"name":"Faraj Al Madinah Hotel","name_ar":"فندق فرج المدينة","stars":3,"lat":24.4909,"lng":39.6024,"area":null,"tags":["cheap","3-star"]},
+{"name":"Emaar Taibah Hotel","name_ar":"إعمار طيبة","stars":3,"lat":24.4667,"lng":39.6037,"area":"haram","tags":["cheap","3-star"]}
+]}

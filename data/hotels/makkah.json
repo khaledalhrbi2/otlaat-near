@@ -1,0 +1,17 @@
+{"city":"makkah","updated":"2026-08-22","hotels":[
+{"name":"InterContinental Dar Al Tawhid Makkah","name_ar":"دار التوحيد إنتركونتيننتال","stars":5,"lat":21.4210,"lng":39.8227,"area":"haram","tags":["5-star","family","haram-view"]},
+{"name":"Makkah Towers","name_ar":"أبراج مكة","stars":5,"lat":21.4192,"lng":39.8237,"area":"haram","tags":["5-star","family"]},
+{"name":"Makkah Clock Royal Tower - A Fairmont Hotel","name_ar":"فيرمونت برج الساعة","stars":5,"lat":21.4180,"lng":39.8256,"area":"haram","tags":["5-star","family","haram-view"]},
+{"name":"Conrad Makkah","name_ar":"كونراد مكة","stars":5,"lat":21.4194,"lng":39.8224,"area":"jabal-omar","tags":["5-star","family"]},
+{"name":"Makarem Ajyad Makkah Hotel","name_ar":"مكارم أجياد","stars":5,"lat":21.4171,"lng":39.8284,"area":"ajyad","tags":["5-star","family","apartments"]},
+{"name":"Raffles Makkah Palace","name_ar":"رافلز مكة","stars":5,"lat":21.4197,"lng":39.8252,"area":"haram","tags":["5-star","couples","haram-view"]},
+{"name":"Hilton Makkah Convention Hotel","name_ar":"هيلتون مكة للمؤتمرات","stars":5,"lat":21.4229,"lng":39.8194,"area":"jabal-omar","tags":["5-star","family"]},
+{"name":"Anjum Hotel Makkah","name_ar":"فندق أنجم مكة","stars":5,"lat":21.4248,"lng":39.8198,"area":"jarwal","tags":["5-star","family"]},
+{"name":"Samama Al Maqam Ajyad Hotel","name_ar":"سمامة المقام أجياد","stars":3,"lat":21.4174,"lng":39.8295,"area":"ajyad","tags":["cheap","3-star"]},
+{"name":"Royal Majestic Hotel Makkah","name_ar":"رويال ماجستيك","stars":4,"lat":21.4160,"lng":39.8280,"area":"ajyad","tags":["cheap","4-star","family"]},
+{"name":"Park Inn by Radisson Makkah Aziziyah","name_ar":"بارك إن راديسون العزيزية","stars":4,"lat":21.4014,"lng":39.8793,"area":"aziziyah","tags":["cheap","4-star","family"]},
+{"name":"Violet Hotel Makkah","name_ar":"فندق فيوليت","stars":4,"lat":21.4182,"lng":39.8536,"area":"aziziyah","tags":["cheap","4-star","family"]},
+{"name":"Al Jaber Towers Hotel","name_ar":"أبراج الجابر","stars":3,"lat":21.4182,"lng":39.8591,"area":"aziziyah","tags":["cheap","apartments"]},
+{"name":"Miaad Al Majd Hotel","name_ar":"ميعاد المجد","stars":3,"lat":21.4120,"lng":39.8247,"area":"al-hajla","tags":["cheap","3-star"]},
+{"name":"AZKA Al Maqam Hotel","name_ar":"أزكى المقام","stars":4,"lat":21.4201,"lng":39.8281,"area":"ajyad","tags":["cheap","4-star"]}
+]}

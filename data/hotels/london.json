@@ -1,0 +1,105 @@
+{
+ "city": "london",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "The Westin London City",
+   "name_ar": "ويستن لندن سيتي",
+   "stars": 5,
+   "lat": 51.5108,
+   "lng": -0.0953,
+   "area": "city",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Royal Garden Hotel",
+   "name_ar": "رويال جاردن كنسينغتون",
+   "stars": 5,
+   "lat": 51.5027,
+   "lng": -0.1884,
+   "area": "kensington",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Park City Grand Plaza Kensington",
+   "name_ar": "بارك سيتي جراند بلازا",
+   "stars": 4,
+   "lat": 51.4956,
+   "lng": -0.1892,
+   "area": "kensington",
+   "tags": [
+    "4-star",
+    "cheap",
+    "apartments"
+   ]
+  },
+  {
+   "name": "Thistle London Hyde Park",
+   "name_ar": "ثيسل هايد بارك",
+   "stars": 4,
+   "lat": 51.5108,
+   "lng": -0.184,
+   "area": "hyde-park",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Mercure London Hyde Park",
+   "name_ar": "ميركيور هايد بارك",
+   "stars": 4,
+   "lat": 51.5151,
+   "lng": -0.1744,
+   "area": "paddington",
+   "tags": [
+    "4-star",
+    "cheap",
+    "family"
+   ]
+  },
+  {
+   "name": "Paddington Park Hotel",
+   "name_ar": "بادينغتون بارك",
+   "stars": 3,
+   "lat": 51.5128,
+   "lng": -0.179,
+   "area": "paddington",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Best Western Mornington Hyde Park",
+   "name_ar": "بست ويسترن مورنينغتون",
+   "stars": 3,
+   "lat": 51.512,
+   "lng": -0.1783,
+   "area": "hyde-park",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "The Tudor Court Hotel",
+   "name_ar": "تيودور كورت بادينغتون",
+   "stars": 3,
+   "lat": 51.5159,
+   "lng": -0.1741,
+   "area": "paddington",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

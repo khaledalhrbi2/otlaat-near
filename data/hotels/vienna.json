@@ -1,0 +1,92 @@
+{
+ "city": "vienna",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hotel Beethoven Wien",
+   "name_ar": "فندق بيتهوفن فيينا",
+   "stars": 4,
+   "lat": 48.2,
+   "lng": 16.3642,
+   "area": "innere-stadt",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Steigenberger Hotel Herrenhof",
+   "name_ar": "شتايغنبرغر هيرينهوف",
+   "stars": 5,
+   "lat": 48.2098,
+   "lng": 16.3659,
+   "area": "innere-stadt",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hotel Mercure Vienna First",
+   "name_ar": "ميركيور فيينا فيرست",
+   "stars": 4,
+   "lat": 48.2114,
+   "lng": 16.3739,
+   "area": "innere-stadt",
+   "tags": [
+    "4-star",
+    "family",
+    "cheap"
+   ]
+  },
+  {
+   "name": "Schlosshotel Romischer Kaiser",
+   "name_ar": "شلوس هوتيل رومشر كايزر",
+   "stars": 4,
+   "lat": 48.2041,
+   "lng": 16.3724,
+   "area": "innere-stadt",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Eurostars Grand Hotel Wien",
+   "name_ar": "يوروستارز جراند فيينا",
+   "stars": 5,
+   "lat": 48.2022,
+   "lng": 16.3722,
+   "area": "innere-stadt",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hotel Grand Ferdinand Wien",
+   "name_ar": "جراند فرديناند فيينا",
+   "stars": 4,
+   "lat": 48.2023,
+   "lng": 16.375,
+   "area": "innere-stadt",
+   "tags": [
+    "4-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Boutique Hotel am Stephansplatz",
+   "name_ar": "بوتيك هوتيل شتيفانسبلاتز",
+   "stars": 4,
+   "lat": 48.2089,
+   "lng": 16.372,
+   "area": "innere-stadt",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  }
+ ]
+}

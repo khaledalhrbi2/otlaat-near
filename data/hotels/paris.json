@@ -1,0 +1,140 @@
+{
+ "city": "paris",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hôtel San Régis",
+   "name_ar": "فندق سان ريجيس",
+   "stars": 5,
+   "lat": 48.8665,
+   "lng": 2.3085,
+   "area": "champs-elysees",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hôtel Marignan Champs-Élysées",
+   "name_ar": "فندق مارينيان الشانزليزيه",
+   "stars": 5,
+   "lat": 48.8685,
+   "lng": 2.3065,
+   "area": "champs-elysees",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hôtel Passy Eiffel",
+   "name_ar": "فندق باسي إيفل",
+   "stars": 3,
+   "lat": 48.8584,
+   "lng": 2.2835,
+   "area": "eiffel",
+   "tags": [
+    "cheap",
+    "3-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hôtel Le Marianne Champs Elysées",
+   "name_ar": "لو ماريان الشانزليزيه",
+   "stars": 4,
+   "lat": 48.8726,
+   "lng": 2.3076,
+   "area": "champs-elysees",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hôtel Lancaster Paris",
+   "name_ar": "فندق لانكستر باريس",
+   "stars": 5,
+   "lat": 48.8723,
+   "lng": 2.3035,
+   "area": "champs-elysees",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hôtel Château Frontenac",
+   "name_ar": "شاتو فرونتناك",
+   "stars": 4,
+   "lat": 48.869,
+   "lng": 2.3027,
+   "area": "champs-elysees",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hôtel Le Relais Saint Charles",
+   "name_ar": "لو روليه سان شارل",
+   "stars": 3,
+   "lat": 48.8503,
+   "lng": 2.2933,
+   "area": "eiffel",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "La Maison Champs Elysées",
+   "name_ar": "لا ميزون الشانزليزيه",
+   "stars": 5,
+   "lat": 48.8667,
+   "lng": 2.309,
+   "area": "champs-elysees",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Mercure Paris Centre Tour Eiffel",
+   "name_ar": "ميركيور برج إيفل",
+   "stars": 4,
+   "lat": 48.8552,
+   "lng": 2.2919,
+   "area": "eiffel",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hôtel Eiffel Rive Gauche",
+   "name_ar": "إيفل ريف غوش",
+   "stars": 3,
+   "lat": 48.8573,
+   "lng": 2.3025,
+   "area": "eiffel",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Aparthotel Adagio Paris Centre Tour Eiffel",
+   "name_ar": "أداجيو برج إيفل للشقق",
+   "stars": 4,
+   "lat": 48.8498,
+   "lng": 2.2853,
+   "area": "eiffel",
+   "tags": [
+    "apartments",
+    "family",
+    "pool"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "city": "bali",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "The Seminyak Beach Resort & Spa",
+   "name_ar": "ذا سمينياك بيتش ريزورت",
+   "stars": 5,
+   "lat": -8.6861,
+   "lng": 115.1542,
+   "area": "seminyak",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Hotel Indigo Bali Seminyak Beach",
+   "name_ar": "إنديغو سمينياك",
+   "stars": 5,
+   "lat": -8.6951,
+   "lng": 115.1624,
+   "area": "seminyak",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "AYANA Resort Bali Jimbaran",
+   "name_ar": "أيانا جيمباران",
+   "stars": 5,
+   "lat": -8.7862,
+   "lng": 115.1393,
+   "area": "jimbaran",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Double Six Luxury Hotel Seminyak",
+   "name_ar": "دبل سيكس سمينياك",
+   "stars": 5,
+   "lat": -8.6957,
+   "lng": 115.1612,
+   "area": "seminyak",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach"
+   ]
+  },
+  {
+   "name": "The Anvaya Beach Resort Bali Kuta",
+   "name_ar": "أنفايا كوتا",
+   "stars": 5,
+   "lat": -8.7322,
+   "lng": 115.1659,
+   "area": "kuta",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Mulia Resort Nusa Dua",
+   "name_ar": "موليا نوسا دوا",
+   "stars": 5,
+   "lat": -8.8165,
+   "lng": 115.2226,
+   "area": "nusa-dua",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "W Bali Seminyak",
+   "name_ar": "دبليو بالي سمينياك",
+   "stars": 5,
+   "lat": -8.6773,
+   "lng": 115.1492,
+   "area": "seminyak",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Bali Mandira Beach Resort Legian",
+   "name_ar": "بالي مانديرا ليجيان",
+   "stars": 4,
+   "lat": -8.7065,
+   "lng": 115.1672,
+   "area": "legian",
+   "tags": [
+    "4-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Patra Bali Resort & Villas",
+   "name_ar": "باترا بالي",
+   "stars": 5,
+   "lat": -8.739,
+   "lng": 115.166,
+   "area": "kuta",
+   "tags": [
+    "4-star",
+    "family",
+    "beach"
+   ]
+  }
+ ]
+}

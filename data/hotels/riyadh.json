@@ -1,0 +1,15 @@
+{"city":"riyadh","updated":"2026-08-22","hotels":[
+{"name":"Hilton Riyadh Olaya","name_ar":"هيلتون الرياض العليا","stars":5,"lat":24.7104,"lng":46.6723,"area":"olaya","tags":["5-star","family","pool"]},
+{"name":"Four Seasons Hotel Riyadh at Kingdom Centre","name_ar":"فورسيزونز برج المملكة","stars":5,"lat":24.7114,"lng":46.6743,"area":"olaya","tags":["5-star","family","shopping"]},
+{"name":"The Ritz-Carlton Riyadh","name_ar":"ريتز كارلتون الرياض","stars":5,"lat":24.6655,"lng":46.6311,"area":"diplomatic-quarter","tags":["5-star","family","pool"]},
+{"name":"InterContinental Riyadh","name_ar":"إنتركونتيننتال الرياض","stars":5,"lat":24.6666,"lng":46.6912,"area":"olaya","tags":["5-star","family","pool"]},
+{"name":"Mandarin Oriental Al Faisaliah","name_ar":"ماندارين أورينتال الفيصلية","stars":5,"lat":24.6904,"lng":46.6841,"area":"olaya","tags":["5-star","couples"]},
+{"name":"Sofitel Riyadh Hotel & Convention Centre","name_ar":"سوفيتيل الرياض","stars":5,"lat":24.7057,"lng":46.6547,"area":"olaya","tags":["5-star","family","pool"]},
+{"name":"Narcissus Hotel Riyadh","name_ar":"نارسيس الرياض","stars":5,"lat":24.6957,"lng":46.6836,"area":"olaya","tags":["5-star","family"]},
+{"name":"Hyatt Regency Riyadh Olaya","name_ar":"حياة ريجنسي العليا","stars":5,"lat":24.6984,"lng":46.6824,"area":"olaya","tags":["5-star","family"]},
+{"name":"DoubleTree by Hilton Riyadh Al Muroj","name_ar":"دبل تري هيلتون المروج","stars":4,"lat":24.7645,"lng":46.6572,"area":null,"tags":["4-star","family"]},
+{"name":"Marriott Executive Apartments Riyadh","name_ar":"ماريوت للشقق التنفيذية","stars":4,"lat":24.6878,"lng":46.7137,"area":null,"tags":["apartments","family","pool"]},
+{"name":"Ascott Rafal Riyadh","name_ar":"أسكوت رافال","stars":4,"lat":24.8089,"lng":46.6265,"area":null,"tags":["apartments","family"]},
+{"name":"Liora Suites Hotel","name_ar":"ليورا سويتس","stars":4,"lat":24.8207,"lng":46.6222,"area":null,"tags":["apartments","cheap"]},
+{"name":"Alnmaa Home Hotel Apartments","name_ar":"شقق النماء الفندقية","stars":3,"lat":24.6494,"lng":46.7196,"area":"al-malaz","tags":["apartments","cheap","3-star"]}
+]}

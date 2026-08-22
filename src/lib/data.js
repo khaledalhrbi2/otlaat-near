@@ -80,9 +80,13 @@ export function loadHotels(citySlug) {
 /** فنادق قريبة من معلم: ضمن النطاق، مع فلتر نية اختياري، مرتبة بالمسافة */
 export function hotelsNear(citySlug, poi, { tag = null, limit = 10, maxKm = null } = {}) {
   const km = maxKm ?? Math.max(poi.prox_km, 2);
-  return loadHotels(citySlug).map(h => ({ ...h, km: hav(h, poi) }))
-    .filter(h => h.km <= km && (!tag || h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3) || (tag === '3-star' && h.stars === 3) || (tag === '4-star' && h.stars === 4)))
+  const all = loadHotels(citySlug).map(h => ({ ...h, km: hav(h, poi) }));
+  const near = all.filter(h => h.km <= km && (!tag || h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3) || (tag === '3-star' && h.stars === 3) || (tag === '4-star' && h.stars === 4)))
     .sort((a,b) => a.km - b.km).slice(0, limit);
+  if (near.length >= 3) return near;
+  // لا يوجد فنادق كافية في النطاق: أقرب 5 فنادق في المدينة (تُعرض المسافة بوضوح)
+  return all.filter(h => !tag || h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3))
+    .sort((a,b) => a.km - b.km).slice(0, Math.min(5, limit));
 }
 /** فنادق المدينة حسب الفئة (ترتيب الملف = ترتيب التقييم) */
 export function hotelsByTag(citySlug, tag, limit = 10) {

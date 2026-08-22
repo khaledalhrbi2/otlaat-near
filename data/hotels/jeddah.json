@@ -1,0 +1,11 @@
+{"city":"jeddah","updated":"2026-08-22","hotels":[
+{"name":"Waldorf Astoria Jeddah Qasr Al Sharq","name_ar":"والدورف أستوريا قصر الشرق","stars":5,"lat":21.6036,"lng":39.1088,"area":"corniche","tags":["5-star","couples","beach"]},
+{"name":"Radisson Blu Hotel Jeddah Corniche","name_ar":"راديسون بلو كورنيش جدة","stars":5,"lat":21.6354,"lng":39.1040,"area":"corniche","tags":["5-star","family","beach"]},
+{"name":"Shangri-La Jeddah","name_ar":"شانغريلا جدة","stars":5,"lat":21.6229,"lng":39.1079,"area":"corniche","tags":["5-star","family","pool"]},
+{"name":"Jeddah Hilton","name_ar":"هيلتون جدة","stars":5,"lat":21.6048,"lng":39.1093,"area":"corniche","tags":["5-star","family","pool"]},
+{"name":"InterContinental Jeddah","name_ar":"إنتركونتيننتال جدة","stars":5,"lat":21.5156,"lng":39.1557,"area":"al-hamra","tags":["5-star","family","beach","pool"]},
+{"name":"Swissotel Jeddah Al Hamra","name_ar":"سويسوتيل جدة الحمراء","stars":5,"lat":21.5174,"lng":39.1554,"area":"al-hamra","tags":["5-star","family"]},
+{"name":"The Jeddah EDITION","name_ar":"إديشن جدة","stars":5,"lat":21.6503,"lng":39.1013,"area":"corniche","tags":["5-star","couples","beach"]},
+{"name":"Movenpick Jeddah Al Nawras","name_ar":"موفنبيك النورس","stars":4,"lat":21.5883,"lng":39.1057,"area":"corniche","tags":["4-star","family","beach","pool"]},
+{"name":"Jowain Residential Units","name_ar":"وحدات جوين السكنية","stars":3,"lat":21.5261,"lng":39.1704,"area":"al-hamra","tags":["apartments","cheap","pool"]}
+]}

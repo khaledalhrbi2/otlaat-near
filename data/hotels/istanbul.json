@@ -1,0 +1,180 @@
+{
+ "city": "istanbul",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Royan Suites",
+   "name_ar": "رويان سويتس",
+   "stars": 4,
+   "lat": 41.0057,
+   "lng": 28.9803,
+   "area": "sultanahmet",
+   "tags": [
+    "4-star",
+    "couples",
+    "apartments"
+   ]
+  },
+  {
+   "name": "No:12 Hotel Sultanahmet",
+   "name_ar": "فندق نمبر 12 السلطان أحمد",
+   "stars": 3,
+   "lat": 41.0102,
+   "lng": 28.976,
+   "area": "sultanahmet",
+   "tags": [
+    "cheap",
+    "3-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Radisson Hotel Istanbul Sultanahmet",
+   "name_ar": "راديسون السلطان أحمد",
+   "stars": 5,
+   "lat": 41.0035,
+   "lng": 28.9818,
+   "area": "sultanahmet",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Albatros Hagia Sophia Hotel",
+   "name_ar": "ألباتروس آيا صوفيا",
+   "stars": 3,
+   "lat": 41.0103,
+   "lng": 28.9759,
+   "area": "sultanahmet",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Sura Hagia Sophia Hotel",
+   "name_ar": "سورا آيا صوفيا",
+   "stars": 4,
+   "lat": 41.0087,
+   "lng": 28.9762,
+   "area": "sultanahmet",
+   "tags": [
+    "4-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Anthemis Hotel",
+   "name_ar": "فندق أنثيميس",
+   "stars": 3,
+   "lat": 41.0087,
+   "lng": 28.9752,
+   "area": "sultanahmet",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Hotel Sultanahmet Palace",
+   "name_ar": "سلطان أحمد بالاس",
+   "stars": 4,
+   "lat": 41.0047,
+   "lng": 28.9781,
+   "area": "sultanahmet",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Neta Residence Sisli",
+   "name_ar": "نيتا ريزيدنس شيشلي",
+   "stars": 4,
+   "lat": 41.0621,
+   "lng": 28.9885,
+   "area": "sisli",
+   "tags": [
+    "apartments",
+    "family"
+   ]
+  },
+  {
+   "name": "AVEN Hotel Taksim",
+   "name_ar": "أفين تقسيم",
+   "stars": 4,
+   "lat": 41.0394,
+   "lng": 28.9848,
+   "area": "taksim",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Sofitel Istanbul Taksim",
+   "name_ar": "سوفيتيل إسطنبول تقسيم",
+   "stars": 5,
+   "lat": 41.0361,
+   "lng": 28.9851,
+   "area": "taksim",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Marmara Taksim",
+   "name_ar": "ذا مرمرة تقسيم",
+   "stars": 5,
+   "lat": 41.0364,
+   "lng": 28.9861,
+   "area": "taksim",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Taksim Bosphorus Hotel",
+   "name_ar": "تقسيم بوسفور",
+   "stars": 3,
+   "lat": 41.0391,
+   "lng": 28.9837,
+   "area": "taksim",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "CVK Park Bosphorus Hotel Taksim",
+   "name_ar": "سي في كي بارك بوسفور",
+   "stars": 5,
+   "lat": 41.0362,
+   "lng": 28.9851,
+   "area": "taksim",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Taksim Square Hotel",
+   "name_ar": "فندق ميدان تقسيم",
+   "stars": 4,
+   "lat": 41.0364,
+   "lng": 28.9852,
+   "area": "taksim",
+   "tags": [
+    "4-star",
+    "cheap",
+    "apartments"
+   ]
+  }
+ ]
+}

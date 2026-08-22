@@ -1,0 +1,78 @@
+{
+ "city": "zurich",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hotel Schweizerhof Zurich",
+   "name_ar": "شفايتسرهوف زيورخ",
+   "stars": 4,
+   "lat": 47.377,
+   "lng": 8.5394,
+   "area": "bahnhofstrasse",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hotel St. Gotthard",
+   "name_ar": "فندق سانت غوتهارد",
+   "stars": 4,
+   "lat": 47.3764,
+   "lng": 8.5394,
+   "area": "bahnhofstrasse",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Ruby Mimi Hotel Zurich",
+   "name_ar": "روبي ميمي زيورخ",
+   "stars": 3,
+   "lat": 47.3762,
+   "lng": 8.5411,
+   "area": "bahnhofstrasse",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "citizenM Zurich",
+   "name_ar": "سيتيزن إم زيورخ",
+   "stars": 4,
+   "lat": 47.3721,
+   "lng": 8.5353,
+   "area": "bahnhofstrasse",
+   "tags": [
+    "cheap",
+    "4-star"
+   ]
+  },
+  {
+   "name": "Sorell Hotel St. Peter",
+   "name_ar": "سوريل سانت بيتر",
+   "stars": 4,
+   "lat": 47.3707,
+   "lng": 8.5405,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hotel Alexander Zurich",
+   "name_ar": "فندق ألكسندر زيورخ",
+   "stars": 3,
+   "lat": 47.3746,
+   "lng": 8.5439,
+   "area": "old-town",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

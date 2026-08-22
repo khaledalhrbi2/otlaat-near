@@ -1,0 +1,83 @@
+{
+ "city": "dammam-khobar",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hilton Al Khobar King Fahd Causeway",
+   "name_ar": "هيلتون الخبر جسر الملك فهد",
+   "stars": 5,
+   "lat": 26.2214,
+   "lng": 50.2131,
+   "area": null,
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Sofitel Al Khobar The Corniche",
+   "name_ar": "سوفيتيل الخبر الكورنيش",
+   "stars": 5,
+   "lat": 26.2766,
+   "lng": 50.2201,
+   "area": "khobar-corniche",
+   "tags": [
+    "5-star",
+    "family",
+    "beach"
+   ]
+  },
+  {
+   "name": "Grand Hyatt Al Khobar",
+   "name_ar": "جراند حياة الخبر",
+   "stars": 5,
+   "lat": 26.2905,
+   "lng": 50.1784,
+   "area": null,
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Movenpick Al Khobar",
+   "name_ar": "موفنبيك الخبر",
+   "stars": 5,
+   "lat": 26.3223,
+   "lng": 50.2168,
+   "area": "khobar-corniche",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Le Meridien Al Khobar",
+   "name_ar": "لو ميريديان الخبر",
+   "stars": 5,
+   "lat": 26.3016,
+   "lng": 50.2237,
+   "area": "khobar-corniche",
+   "tags": [
+    "5-star",
+    "family",
+    "beach"
+   ]
+  },
+  {
+   "name": "Ascott Corniche Al Khobar",
+   "name_ar": "أسكوت كورنيش الخبر",
+   "stars": 4,
+   "lat": 26.3118,
+   "lng": 50.2229,
+   "area": "khobar-corniche",
+   "tags": [
+    "apartments",
+    "family"
+   ]
+  }
+ ]
+}

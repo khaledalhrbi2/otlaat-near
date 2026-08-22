@@ -1,0 +1,110 @@
+{
+ "city": "doha",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hilton Doha The Pearl",
+   "name_ar": "هيلتون الدوحة اللؤلؤة",
+   "stars": 5,
+   "lat": 25.3747,
+   "lng": 51.5395,
+   "area": "the-pearl",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "apartments"
+   ]
+  },
+  {
+   "name": "Waldorf Astoria Doha West Bay",
+   "name_ar": "والدورف أستوريا الخليج الغربي",
+   "stars": 5,
+   "lat": 25.3277,
+   "lng": 51.5332,
+   "area": "west-bay",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "The Chedi Katara Hotel & Resort",
+   "name_ar": "شيدي كتارا",
+   "stars": 5,
+   "lat": 25.3638,
+   "lng": 51.5295,
+   "area": "katara",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach"
+   ]
+  },
+  {
+   "name": "Marsa Malaz Kempinski The Pearl",
+   "name_ar": "مرسى ملاذ كمبينسكي",
+   "stars": 5,
+   "lat": 25.3756,
+   "lng": 51.5497,
+   "area": "the-pearl",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Andaz Doha",
+   "name_ar": "أنداز الدوحة",
+   "stars": 5,
+   "lat": 25.3245,
+   "lng": 51.5372,
+   "area": "west-bay",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Grand Hyatt Doha Hotel & Villas",
+   "name_ar": "جراند حياة الدوحة",
+   "stars": 5,
+   "lat": 25.377,
+   "lng": 51.5274,
+   "area": "the-pearl",
+   "tags": [
+    "5-star",
+    "family",
+    "beach"
+   ]
+  },
+  {
+   "name": "Central Inn Souq Waqif",
+   "name_ar": "سنترال إن سوق واقف",
+   "stars": 3,
+   "lat": 25.2841,
+   "lng": 51.5373,
+   "area": "souq-waqif",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Plaza Inn Hotel Doha",
+   "name_ar": "بلازا إن الدوحة",
+   "stars": 4,
+   "lat": 25.2874,
+   "lng": 51.5435,
+   "area": "souq-waqif",
+   "tags": [
+    "cheap",
+    "4-star",
+    "family"
+   ]
+  }
+ ]
+}

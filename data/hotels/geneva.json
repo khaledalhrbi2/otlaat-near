@@ -1,0 +1,80 @@
+{
+ "city": "geneva",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hotel Edelweiss Geneva",
+   "name_ar": "فندق إيدلفايس جنيف",
+   "stars": 3,
+   "lat": 46.2114,
+   "lng": 6.15,
+   "area": "paquis",
+   "tags": [
+    "cheap",
+    "3-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Rotary Hotel Geneva MGallery",
+   "name_ar": "روتاري جنيف إم غاليري",
+   "stars": 4,
+   "lat": 46.2073,
+   "lng": 6.1452,
+   "area": "cornavin",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Hotel Eastwest Geneva",
+   "name_ar": "فندق إيست ويست جنيف",
+   "stars": 4,
+   "lat": 46.2098,
+   "lng": 6.1483,
+   "area": "paquis",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Warwick Geneva",
+   "name_ar": "وارويك جنيف",
+   "stars": 4,
+   "lat": 46.2108,
+   "lng": 6.1444,
+   "area": "cornavin",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Novotel Geneve Centre",
+   "name_ar": "نوفوتيل جنيف سنتر",
+   "stars": 4,
+   "lat": 46.2114,
+   "lng": 6.1473,
+   "area": "paquis",
+   "tags": [
+    "4-star",
+    "family",
+    "cheap"
+   ]
+  },
+  {
+   "name": "Hotel Marmont Geneva",
+   "name_ar": "فندق مارمونت جنيف",
+   "stars": 4,
+   "lat": 46.2028,
+   "lng": 6.1513,
+   "area": "old-town",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  }
+ ]
+}

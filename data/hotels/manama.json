@@ -1,0 +1,82 @@
+{
+ "city": "manama",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hilton Bahrain",
+   "name_ar": "هيلتون البحرين",
+   "stars": 5,
+   "lat": 26.2238,
+   "lng": 50.6094,
+   "area": "juffair",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Swiss-Belsuites Admiral Juffair",
+   "name_ar": "سويس بل سويتس أدميرال",
+   "stars": 4,
+   "lat": 26.2117,
+   "lng": 50.6096,
+   "area": "juffair",
+   "tags": [
+    "apartments",
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Gulf Hotel Bahrain Convention & Spa",
+   "name_ar": "فندق الخليج البحرين",
+   "stars": 5,
+   "lat": 26.2165,
+   "lng": 50.5944,
+   "area": "juffair",
+   "tags": [
+    "5-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Wyndham Garden Manama",
+   "name_ar": "ويندهام جاردن المنامة",
+   "stars": 4,
+   "lat": 26.2144,
+   "lng": 50.5991,
+   "area": "juffair",
+   "tags": [
+    "4-star",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Arman Hotel Juffair",
+   "name_ar": "فندق أرمان الجفير",
+   "stars": 3,
+   "lat": 26.217,
+   "lng": 50.6078,
+   "area": "juffair",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Juffair Grand Hotel",
+   "name_ar": "جفير جراند",
+   "stars": 3,
+   "lat": 26.2129,
+   "lng": 50.6052,
+   "area": "juffair",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

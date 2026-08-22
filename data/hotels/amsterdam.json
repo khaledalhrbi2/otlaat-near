@@ -1,0 +1,79 @@
+{
+ "city": "amsterdam",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Ambassade Hotel",
+   "name_ar": "فندق أمباساد",
+   "stars": 4,
+   "lat": 52.3694,
+   "lng": 4.8872,
+   "area": "canal-ring",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "NH Collection Amsterdam Barbizon Palace",
+   "name_ar": "إن إتش كولكشن باربيزون بالاس",
+   "stars": 5,
+   "lat": 52.3765,
+   "lng": 4.9005,
+   "area": "centrum",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "NH City Centre Amsterdam",
+   "name_ar": "إن إتش سيتي سنتر أمستردام",
+   "stars": 4,
+   "lat": 52.3697,
+   "lng": 4.8889,
+   "area": "centrum",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Die Port van Cleve",
+   "name_ar": "دي بورت فان كليف",
+   "stars": 4,
+   "lat": 52.3741,
+   "lng": 4.8906,
+   "area": "centrum",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Hotel Arena Amsterdam",
+   "name_ar": "فندق أرينا أمستردام",
+   "stars": 4,
+   "lat": 52.361,
+   "lng": 4.9163,
+   "area": null,
+   "tags": [
+    "4-star",
+    "cheap",
+    "couples"
+   ]
+  },
+  {
+   "name": "Amsterdam Canal Hotel",
+   "name_ar": "أمستردام كانال هوتيل",
+   "stars": 3,
+   "lat": 52.3595,
+   "lng": 4.896,
+   "area": "canal-ring",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}

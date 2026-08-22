@@ -1,0 +1,79 @@
+{
+ "city": "milan",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "The Street Milano Duomo",
+   "name_ar": "ذا ستريت ميلانو دومو",
+   "stars": 4,
+   "lat": 45.4658,
+   "lng": 9.1917,
+   "area": "duomo",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Senato Hotel Milano",
+   "name_ar": "فندق سيناتو ميلانو",
+   "stars": 4,
+   "lat": 45.4714,
+   "lng": 9.1965,
+   "area": "duomo",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Rosa Grand Milano",
+   "name_ar": "روزا جراند ميلانو",
+   "stars": 4,
+   "lat": 45.4638,
+   "lng": 9.194,
+   "area": "duomo",
+   "tags": [
+    "4-star",
+    "family",
+    "apartments"
+   ]
+  },
+  {
+   "name": "Grand Hotel et de Milan",
+   "name_ar": "جراند هوتيل إي دي ميلان",
+   "stars": 5,
+   "lat": 45.4699,
+   "lng": 9.1925,
+   "area": "duomo",
+   "tags": [
+    "5-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "The Square Milano Duomo",
+   "name_ar": "ذا سكوير ميلانو دومو",
+   "stars": 4,
+   "lat": 45.4608,
+   "lng": 9.1893,
+   "area": "duomo",
+   "tags": [
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Room Mate Giulia",
+   "name_ar": "روم ميت جوليا",
+   "stars": 4,
+   "lat": 45.4652,
+   "lng": 9.1895,
+   "area": "duomo",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  }
+ ]
+}

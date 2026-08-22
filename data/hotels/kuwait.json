@@ -1,0 +1,135 @@
+{
+ "city": "kuwait",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Safir Marina Hotel",
+   "name_ar": "فندق سفير مارينا",
+   "stars": 5,
+   "lat": 29.3436,
+   "lng": 48.0633,
+   "area": "salmiya",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Four Seasons Hotel Kuwait at Burj Alshaya",
+   "name_ar": "فورسيزونز الكويت برج الشايع",
+   "stars": 5,
+   "lat": 29.3624,
+   "lng": 47.981,
+   "area": "kuwait-city",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Hampton by Hilton Kuwait Salmiya",
+   "name_ar": "هامبتون هيلتون السالمية",
+   "stars": 3,
+   "lat": 29.339,
+   "lng": 48.0952,
+   "area": "salmiya",
+   "tags": [
+    "cheap",
+    "3-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Millennium Hotel & Convention Centre Kuwait",
+   "name_ar": "ميلينيوم الكويت",
+   "stars": 5,
+   "lat": 29.3294,
+   "lng": 48.0422,
+   "area": "salmiya",
+   "tags": [
+    "5-star",
+    "family"
+   ]
+  },
+  {
+   "name": "ARGAN Albidaa Hotel & Resort",
+   "name_ar": "أرجان البدع",
+   "stars": 4,
+   "lat": 29.3215,
+   "lng": 48.0899,
+   "area": "salmiya",
+   "tags": [
+    "4-star",
+    "beach",
+    "family"
+   ]
+  },
+  {
+   "name": "Symphony Style Hotel Kuwait",
+   "name_ar": "سيمفوني ستايل",
+   "stars": 5,
+   "lat": 29.3463,
+   "lng": 48.0849,
+   "area": "salmiya",
+   "tags": [
+    "5-star",
+    "couples",
+    "shopping"
+   ]
+  },
+  {
+   "name": "Movenpick Hotel & Resort Al Bidaa",
+   "name_ar": "موفنبيك البدع",
+   "stars": 5,
+   "lat": 29.3194,
+   "lng": 48.0899,
+   "area": "salmiya",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "ibis Kuwait Salmiya",
+   "name_ar": "إيبيس السالمية",
+   "stars": 3,
+   "lat": 29.3428,
+   "lng": 48.0763,
+   "area": "salmiya",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Holiday Inn Kuwait Salmiya",
+   "name_ar": "هوليداي إن السالمية",
+   "stars": 4,
+   "lat": 29.3463,
+   "lng": 48.0935,
+   "area": "salmiya",
+   "tags": [
+    "4-star",
+    "cheap",
+    "pool"
+   ]
+  },
+  {
+   "name": "Kuwait Grand Hotel",
+   "name_ar": "كويت جراند",
+   "stars": 4,
+   "lat": 29.3403,
+   "lng": 48.0958,
+   "area": "salmiya",
+   "tags": [
+    "4-star",
+    "cheap"
+   ]
+  }
+ ]
+}

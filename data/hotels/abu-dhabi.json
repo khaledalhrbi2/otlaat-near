@@ -1,0 +1,138 @@
+{
+ "city": "abu-dhabi",
+ "updated": "2026-08-22",
+ "hotels": [
+  {
+   "name": "Hilton Abu Dhabi Yas Island",
+   "name_ar": "هيلتون جزيرة ياس",
+   "stars": 5,
+   "lat": 24.4594,
+   "lng": 54.6011,
+   "area": "yas-island",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Conrad Abu Dhabi Etihad Towers",
+   "name_ar": "كونراد أبراج الاتحاد",
+   "stars": 5,
+   "lat": 24.4584,
+   "lng": 54.3223,
+   "area": "corniche",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "apartments"
+   ]
+  },
+  {
+   "name": "The St. Regis Saadiyat Island Resort",
+   "name_ar": "سانت ريجيس السعديات",
+   "stars": 5,
+   "lat": 24.5392,
+   "lng": 54.4242,
+   "area": "saadiyat",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "The St. Regis Abu Dhabi",
+   "name_ar": "سانت ريجيس أبوظبي",
+   "stars": 5,
+   "lat": 24.4636,
+   "lng": 54.3276,
+   "area": "corniche",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach"
+   ]
+  },
+  {
+   "name": "W Abu Dhabi Yas Island",
+   "name_ar": "دبليو جزيرة ياس",
+   "stars": 5,
+   "lat": 24.4674,
+   "lng": 54.605,
+   "area": "yas-island",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Ritz-Carlton Abu Dhabi Grand Canal",
+   "name_ar": "ريتز كارلتون القناة الكبرى",
+   "stars": 5,
+   "lat": 24.4117,
+   "lng": 54.4849,
+   "area": null,
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Novel Hotel City Center",
+   "name_ar": "نوفل سيتي سنتر",
+   "stars": 4,
+   "lat": 24.4884,
+   "lng": 54.362,
+   "area": "city-center",
+   "tags": [
+    "cheap",
+    "4-star",
+    "pool"
+   ]
+  },
+  {
+   "name": "Villaggio Hotel & Resort Abu Dhabi",
+   "name_ar": "فيلاجيو أبوظبي",
+   "stars": 4,
+   "lat": 24.4754,
+   "lng": 54.3881,
+   "area": null,
+   "tags": [
+    "cheap",
+    "4-star",
+    "family"
+   ]
+  },
+  {
+   "name": "Emirates Plaza Hotel",
+   "name_ar": "إمارات بلازا",
+   "stars": 3,
+   "lat": 24.5012,
+   "lng": 54.3748,
+   "area": "corniche",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  },
+  {
+   "name": "Grand Continental Hotel",
+   "name_ar": "جراند كونتيننتال",
+   "stars": 3,
+   "lat": 24.4928,
+   "lng": 54.3662,
+   "area": "city-center",
+   "tags": [
+    "cheap",
+    "3-star"
+   ]
+  }
+ ]
+}
