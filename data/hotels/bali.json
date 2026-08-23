@@ -125,6 +125,304 @@
     "family",
     "beach"
    ]
+  },
+  {
+   "name": "The Apurva Kempinski Bali",
+   "name_ar": "أبورفا كمبينسكي بالي",
+   "stars": 5,
+   "lat": -8.8288,
+   "lng": 115.2323,
+   "area": "nusa-dua",
+   "tags": [
+    "5-star",
+    "couples",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Kayon Jungle Resort",
+   "name_ar": "كايون جنغل ريزورت",
+   "stars": 5,
+   "lat": -8.4224,
+   "lng": 115.275,
+   "area": "ubud",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Kayon Resort Ubud",
+   "name_ar": "كايون ريزورت أوبود",
+   "stars": 5,
+   "lat": -8.4761,
+   "lng": 115.2808,
+   "area": "ubud",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Alaya Resort Ubud",
+   "name_ar": "ألايا ريزورت أوبود",
+   "stars": 4,
+   "lat": -8.5188,
+   "lng": 115.2635,
+   "area": "ubud",
+   "tags": [
+    "4-star",
+    "couples",
+    "family",
+    "pool"
+   ]
+  },
+  {
+   "name": "Jannata Resort & Spa Ubud",
+   "name_ar": "جاناتا ريزورت أوبود",
+   "stars": 4,
+   "lat": -8.4826,
+   "lng": 115.2582,
+   "area": "ubud",
+   "tags": [
+    "4-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Lokha Ubud Resort",
+   "name_ar": "لوكا أوبود ريزورت",
+   "stars": 4,
+   "lat": -8.4925,
+   "lng": 115.2588,
+   "area": "ubud",
+   "tags": [
+    "4-star",
+    "family",
+    "cheap",
+    "pool"
+   ]
+  },
+  {
+   "name": "Ubud Valley Boutique Resort",
+   "name_ar": "أوبود فالي بوتيك",
+   "stars": 4,
+   "lat": -8.4978,
+   "lng": 115.3059,
+   "area": "ubud",
+   "tags": [
+    "4-star",
+    "family",
+    "cheap",
+    "pool"
+   ]
+  },
+  {
+   "name": "Maya Sanur Resort & Spa",
+   "name_ar": "مايا سانور ريزورت",
+   "stars": 5,
+   "lat": -8.6977,
+   "lng": 115.2642,
+   "area": "sanur",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Puri Santrian Beach Resort",
+   "name_ar": "بوري سانتريان سانور",
+   "stars": 4,
+   "lat": -8.7088,
+   "lng": 115.2585,
+   "area": "sanur",
+   "tags": [
+    "4-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Holiday Inn Bali Sanur",
+   "name_ar": "هوليداي إن سانور",
+   "stars": 4,
+   "lat": -8.7063,
+   "lng": 115.2617,
+   "area": "sanur",
+   "tags": [
+    "4-star",
+    "cheap",
+    "family",
+    "beach"
+   ]
+  },
+  {
+   "name": "Prama Sanur Beach Hotel",
+   "name_ar": "براما سانور بيتش",
+   "stars": 4,
+   "lat": -8.7094,
+   "lng": 115.2565,
+   "area": "sanur",
+   "tags": [
+    "4-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Lovina Bali Resort",
+   "name_ar": "ذا لوفينا بالي ريزورت",
+   "stars": 5,
+   "lat": -8.1548,
+   "lng": 115.0303,
+   "area": "lovina-beach",
+   "tags": [
+    "5-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Lovina Haven Boutique Resort",
+   "name_ar": "لوفينا هيفن بوتيك",
+   "stars": 4,
+   "lat": -8.1658,
+   "lng": 115.017,
+   "area": "lovina-beach",
+   "tags": [
+    "4-star",
+    "cheap",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Maua Nusa Penida",
+   "name_ar": "ماوا نوسا بينيدا",
+   "stars": 5,
+   "lat": -8.7026,
+   "lng": 115.4753,
+   "area": "nusa-penida",
+   "tags": [
+    "5-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Mambo Beach Resort Nusa Penida",
+   "name_ar": "مامبو بيتش نوسا بينيدا",
+   "stars": 4,
+   "lat": -8.6727,
+   "lng": 115.5007,
+   "area": "nusa-penida",
+   "tags": [
+    "4-star",
+    "cheap",
+    "beach",
+    "family"
+   ]
+  },
+  {
+   "name": "Sea La Vie Resort Nusa Penida",
+   "name_ar": "سي لا في نوسا بينيدا",
+   "stars": 4,
+   "lat": -8.684,
+   "lng": 115.4857,
+   "area": "nusa-penida",
+   "tags": [
+    "4-star",
+    "cheap",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Angkal Resort Nusa Penida",
+   "name_ar": "أنكال ريزورت نوسا بينيدا",
+   "stars": 4,
+   "lat": -8.7169,
+   "lng": 115.5947,
+   "area": "diamond-beach",
+   "tags": [
+    "4-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "The Tamarind Resort Nusa Lembongan",
+   "name_ar": "تاماريند ليمبونغان",
+   "stars": 4,
+   "lat": -8.68,
+   "lng": 115.447,
+   "area": "lembongan",
+   "tags": [
+    "4-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Ohana's Beachfront Resort Lembongan",
+   "name_ar": "أوهاناز ليمبونغان",
+   "stars": 4,
+   "lat": -8.6691,
+   "lng": 115.448,
+   "area": "lembongan",
+   "tags": [
+    "4-star",
+    "family",
+    "beach",
+    "pool"
+   ]
+  },
+  {
+   "name": "Batu Karang Lembongan Resort & Spa",
+   "name_ar": "باتو كارانغ ليمبونغان",
+   "stars": 4,
+   "lat": -8.6804,
+   "lng": 115.4443,
+   "area": "lembongan",
+   "tags": [
+    "4-star",
+    "couples",
+    "pool"
+   ]
+  },
+  {
+   "name": "Desa Oculus Kintamani",
+   "name_ar": "ديسا أوكولوس كينتاماني",
+   "stars": 4,
+   "lat": -8.2798,
+   "lng": 115.3695,
+   "area": "mount-batur",
+   "tags": [
+    "4-star",
+    "couples"
+   ]
+  },
+  {
+   "name": "Tribhuwana Padma Kintamani",
+   "name_ar": "تريبهوانا بادما كينتاماني",
+   "stars": 4,
+   "lat": -8.277,
+   "lng": 115.3785,
+   "area": "mount-batur",
+   "tags": [
+    "4-star",
+    "family",
+    "cheap"
+   ]
   }
  ]
 }
