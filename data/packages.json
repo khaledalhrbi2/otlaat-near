@@ -1,0 +1,19 @@
+{
+  "_source": "otlaat.com/packages — أسعار كما في 2026-08-23، حدّثها يدوياً عند التغيير",
+  "packages": {
+    "bali": {"name_ar": "باقات جزيرة بالي", "url": "https://www.otlaat.com/packages/bali", "from_sar": "5,299", "types": ["شهر عسل", "عائلية", "النخبة"]},
+    "indonesia": {"name_ar": "باقات إندونيسيا", "url": "https://www.otlaat.com/packages/indonesia", "from_sar": "5,799", "types": ["بالي وجزر إندونيسيا"]},
+    "istanbul": {"name_ar": "باقات اسطنبول", "url": "https://www.otlaat.com/packages/istanbul", "from_sar": "5,509", "types": ["شهر عسل", "عائلية"]},
+    "yasisland": {"name_ar": "باقات جزيرة ياس", "url": "https://www.otlaat.com/packages/yasisland", "from_sar": "4,400", "types": ["عائلية", "عالم فيراري وياس ووتروورلد"]},
+    "north-italy": {"name_ar": "باقات الشمال الإيطالي", "url": "https://www.otlaat.com/packages/north-italy", "from_sar": "12,300", "types": ["شهر عسل", "ميلانو والبحيرات"]},
+    "switzerland": {"name_ar": "باقات سويسرا", "url": "https://www.otlaat.com/packages/switzerland", "from_sar": "10,900", "types": ["شهر عسل", "عائلية", "الطبيعة والجبال"]}
+  },
+  "city_map": {
+    "bali": ["bali", "indonesia"],
+    "istanbul": ["istanbul"],
+    "abu-dhabi": ["yasisland"],
+    "milan": ["north-italy"],
+    "zurich": ["switzerland"],
+    "geneva": ["switzerland"]
+  }
+}

@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
 import HotelList from '../../components/HotelList.astro';
+import { cityPackages } from '../../lib/data.js';
 import { cities, loadCity, loadContent, fallbackContent, poiPath, intents, variantPath, variantContent, hotelsNear } from '../../lib/data.js';
 export function getStaticPaths(){
   return cities.flatMap(c => {
@@ -22,6 +23,8 @@ const intent = variant ? intents.variants[variant].intent : poi.intents.includes
 const tops = intents.top[city.slug] ?? [];
 const hotels = hotelsNear(city.slug, poi, { tag: variant ?? null, limit: 10 });
 const hotelsHeading = variant ? `أفضل ${intents.variants[variant].label} ${poi.name_ar}` : `أفضل 10 فنادق قريبة من ${poi.name_ar}`;
+const _pkgs = cityPackages(city.slug);
+const _pk = _pkgs[0];
 const url = `${Astro.site}${(variant ? variantPath(city,poi,variant) : poiPath(city,poi)).slice(1)}`;
 const jsonld = [
   { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -69,4 +72,5 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <h2>أسئلة شائعة</h2>
     {content.faq.map(f => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
   </section>
+  {_pk && <p class="pkg-line">تبي رحلة كاملة بدل الفندق فقط؟ <a href={`${_pk.url}?utm_source=near&utm_medium=poi&utm_campaign=${city.slug}`} rel="noopener"><b>{_pk.name_ar} الجاهزة</b></a> — طيران وفندق وتنقلات ابتداءً من {_pk.from_sar} ر.س للشخصين.</p>
 </Base>

@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
-import { cities, loadCity, poiPath, comparisons, intents } from '../../lib/data.js';
+import { cities, loadCity, poiPath, comparisons, intents, cityPackages } from '../../lib/data.js';
 export function getStaticPaths(){ return cities.map(c => ({ params:{ city:c.slug } })); }
 const city = loadCity(Astro.params.city);
 const by = t => city.pois.filter(p => p.type === t);
@@ -11,6 +11,7 @@ const hospitals = by('hospital');
 const hubs = by('intent_hub');
 const metro = by('metro');
 const cmps = comparisons.filter(c => c.city === city.slug);
+const pkgs = cityPackages(city.slug);
 const cats = Object.entries(intents.city_categories).filter(([k,v]) => !v.only || v.only.includes(city.slug));
 const districts = by('district');
 const transport = by('airport').concat(by('transport'));
@@ -31,6 +32,7 @@ const Section = ({t, list}) => null;
   </div>
   <BookingBar city={city} />
   <div class="chips" style="margin-top:14px"><a class="chip" href={`/${city.slug}/distances/`}>📏 المسافات بين المعالم</a>{metro.length > 0 && <a class="chip" href={`/${city.slug}/metro-guide/`}>🚇 دليل المترو</a>}<a class="chip" href="/budget/">💰 حاسبة الميزانية</a></div>
+  {pkgs.length > 0 && <section class="pkg-sec"><h2>باقات {city.name_ar} الجاهزة من عطلات</h2><div class="grid">{pkgs.map(p => <a class="card pkg-card" href={`${p.url}?utm_source=near&utm_medium=packages&utm_campaign=${city.slug}`} rel="noopener"><b>🧳 {p.name_ar}</b><small>طيران + فندق + تنقلات · {p.types.join(' · ')}</small><span class="pkg-price">ابتداءً من {p.from_sar} ر.س للشخصين</span></a>)}</div></section>}
   <section><h2>فنادق {city.name_ar} حسب الفئة</h2><div class="grid">{cats.map(([k,v]) => <a class="card" href={`/${city.slug}/${v.slug}/`}><b>{v.label} {city.name_ar}</b><small>{v.desc}</small></a>)}</div></section>
   {events.length > 0 && <section><h2>الأحداث والمواسم</h2><div class="grid">{events.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>{p.event ? `${p.event.start} → ${p.event.end}` : `ضمن ${p.prox_km} كم`}</small></a>)}</div></section>}
   {landmarks.length > 0 && <section><h2>قريب من المعالم</h2><div class="grid">{landmarks.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}

@@ -92,3 +92,9 @@ export function hotelsNear(citySlug, poi, { tag = null, limit = 10, maxKm = null
 export function hotelsByTag(citySlug, tag, limit = 10) {
   return loadHotels(citySlug).filter(h => h.tags.includes(tag) || (tag === '5-star' && h.stars === 5) || (tag === 'cheap' && h.stars <= 3) || (tag === '3-star' && h.stars === 3) || (tag === '4-star' && h.stars === 4)).slice(0, limit);
 }
+
+import _pk from '../../data/packages.json';
+/** باقات عطلات المرتبطة بالمدينة (قد تكون فارغة) */
+export function cityPackages(citySlug){
+  return (_pk.city_map[citySlug] || []).map(k => ({ key:k, ..._pk.packages[k] }));
+}
