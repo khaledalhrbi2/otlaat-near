@@ -72,5 +72,5 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <h2>أسئلة شائعة</h2>
     {content.faq.map(f => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
   </section>
-  {_pk && <p class="pkg-line">تبي رحلة كاملة بدل الفندق فقط؟ <a href={`${_pk.url}?utm_source=near&utm_medium=poi&utm_campaign=${city.slug}`} rel="noopener"><b>{_pk.name_ar} الجاهزة</b></a> — طيران وفندق وتنقلات ابتداءً من {_pk.from_sar} ر.س للشخصين.</p>
+  {_pk && <p class="pkg-line">تبي رحلة كاملة بدل الفندق فقط؟ <a href={`${_pk.url}?utm_source=near&utm_medium=poi&utm_campaign=${city.slug}`} target="_blank" rel="noopener"><b>{_pk.name_ar} الجاهزة</b></a> — طيران وفندق وتنقلات ابتداءً من {_pk.from_sar} ر.س للشخصين.</p>
 </Base>

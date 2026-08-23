@@ -32,7 +32,14 @@ const Section = ({t, list}) => null;
   </div>
   <BookingBar city={city} />
   <div class="chips" style="margin-top:14px"><a class="chip" href={`/${city.slug}/distances/`}>📏 المسافات بين المعالم</a>{metro.length > 0 && <a class="chip" href={`/${city.slug}/metro-guide/`}>🚇 دليل المترو</a>}<a class="chip" href="/budget/">💰 حاسبة الميزانية</a></div>
-  {pkgs.length > 0 && <section class="pkg-sec"><h2>باقات {city.name_ar} الجاهزة من عطلات</h2><div class="grid">{pkgs.map(p => <a class="card pkg-card" href={`${p.url}?utm_source=near&utm_medium=packages&utm_campaign=${city.slug}`} rel="noopener"><b>🧳 {p.name_ar}</b><small>طيران + فندق + تنقلات · {p.types.join(' · ')}</small><span class="pkg-price">ابتداءً من {p.from_sar} ر.س للشخصين</span></a>)}</div></section>}
+  {pkgs.length > 0 && <section class="pkg-sec">{pkgs.map(p => <a class="pkg-banner" href={`${p.url}?utm_source=near&utm_medium=packages&utm_campaign=${city.slug}`} target="_blank" rel="noopener">
+    <div class="pkg-banner-body">
+      <span class="pkg-badge">🧳 باقة جاهزة من عطلات</span>
+      <h2>{p.name_ar} — رحلتك كاملة بضغطة واحدة</h2>
+      <p>طيران ذهاب وعودة + فندق مختار بعناية + التنقلات والجولات · {p.types.join(' · ')} · تقسيط متاح ودعم عربي على مدار الساعة</p>
+      <div class="pkg-cta-row"><span class="pkg-price-big">ابتداءً من <b>{p.from_sar} ر.س</b> للشخصين</span><span class="pkg-btn">شاهد الباقة واحجز ←</span></div>
+    </div>
+  </a>)}</section>}
   <section><h2>فنادق {city.name_ar} حسب الفئة</h2><div class="grid">{cats.map(([k,v]) => <a class="card" href={`/${city.slug}/${v.slug}/`}><b>{v.label} {city.name_ar}</b><small>{v.desc}</small></a>)}</div></section>
   {events.length > 0 && <section><h2>الأحداث والمواسم</h2><div class="grid">{events.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>{p.event ? `${p.event.start} → ${p.event.end}` : `ضمن ${p.prox_km} كم`}</small></a>)}</div></section>}
   {landmarks.length > 0 && <section><h2>قريب من المعالم</h2><div class="grid">{landmarks.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
