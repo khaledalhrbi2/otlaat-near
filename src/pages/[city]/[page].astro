@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
 import HotelList from '../../components/HotelList.astro';
-import { cityPackages } from '../../lib/data.js';
+import { cityPackages, cityActivities } from '../../lib/data.js';
 import { cities, loadCity, loadContent, fallbackContent, poiPath, intents, variantPath, variantContent, hotelsNear } from '../../lib/data.js';
 export function getStaticPaths(){
   return cities.flatMap(c => {
@@ -24,6 +24,7 @@ const tops = intents.top[city.slug] ?? [];
 const hotels = hotelsNear(city.slug, poi, { tag: variant ?? null, limit: 10 });
 const hotelsHeading = variant ? `أفضل ${intents.variants[variant].label} ${poi.name_ar}` : `أفضل 10 فنادق قريبة من ${poi.name_ar}`;
 const _pkgs = cityPackages(city.slug);
+const _acts = cityActivities(city.slug);
 const _pk = _pkgs[0];
 const url = `${Astro.site}${(variant ? variantPath(city,poi,variant) : poiPath(city,poi)).slice(1)}`;
 const jsonld = [
@@ -68,6 +69,7 @@ if (poi.event) jsonld.push({ "@context":"https://schema.org","@type":"Event","na
     <h2>معالم قريبة من {poi.name_ar}</h2>
     <div class="grid">{nb.map(n => <a class="card" href={poiPath(city,n)}><b>{n.name_ar}</b><small>{n.km} كم · ضمن {n.prox_km} كم</small></a>)}</div>
   </section>
+  {_acts.length > 0 && <section><h2>أنشطة وتذاكر في {city.name_ar}</h2><div class="grid">{_acts.slice(0,3).map(x => <a class="card" href={x.href}><b>{x.name}</b><small>أنشطة عطلات</small></a>)}</div></section>}
   <section class="faq">
     <h2>أسئلة شائعة</h2>
     {content.faq.map(f => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}

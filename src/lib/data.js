@@ -98,3 +98,8 @@ import _pk from '../../data/packages.json';
 export function cityPackages(citySlug){
   return (_pk.city_map[citySlug] || []).map(k => ({ key:k, ..._pk.packages[k] }));
 }
+// روابط موقع الأنشطة لنفس المدينة (data/activities.json). ترجع [] للمدن اللي ما لها صفحة هناك
+const _activities = JSON.parse(fs.readFileSync(path.join(root, 'activities.json'), 'utf8'));
+export function cityActivities(citySlug){
+  return (_activities.cities[citySlug] || []).map(([p, name]) => ({ href: `${_activities.base}/${citySlug}/${p}`, name }));
+}

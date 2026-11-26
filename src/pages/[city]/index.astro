@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import BookingBar from '../../components/BookingBar.astro';
-import { cities, loadCity, poiPath, comparisons, intents, cityPackages } from '../../lib/data.js';
+import { cities, loadCity, poiPath, comparisons, intents, cityPackages, cityActivities } from '../../lib/data.js';
 export function getStaticPaths(){ return cities.map(c => ({ params:{ city:c.slug } })); }
 const city = loadCity(Astro.params.city);
 const by = t => city.pois.filter(p => p.type === t);
@@ -12,6 +12,7 @@ const hubs = by('intent_hub');
 const metro = by('metro');
 const cmps = comparisons.filter(c => c.city === city.slug);
 const pkgs = cityPackages(city.slug);
+const acts = cityActivities(city.slug);
 const cats = Object.entries(intents.city_categories).filter(([k,v]) => !v.only || v.only.includes(city.slug));
 const districts = by('district');
 const transport = by('airport').concat(by('transport'));
@@ -49,4 +50,5 @@ const Section = ({t, list}) => null;
   {hubs.length > 0 && <section><h2>حسب نوع الإقامة</h2><div class="grid">{hubs.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>كل {city.name_ar}</small></a>)}</div></section>}
   {metro.length > 0 && <section><h2>قريب من محطات المترو والقطار</h2><div class="grid">{metro.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>{p.nearest_metro}</small></a>)}</div></section>}
   {transport.length > 0 && <section><h2>المطارات والمحطات</h2><div class="grid">{transport.map(p => <a class="card" href={poiPath(city,p)}><b>{p.name_ar}</b><small>ضمن {p.prox_km} كم</small></a>)}</div></section>}
+  {acts.length > 0 && <section><h2>أنشطة وتذاكر في {city.name_ar}</h2><p class="lede">حجزت فندقك؟ هذي تذاكر المعالم والأنشطة في {city.name_ar} بأسعار بالريال وشرح بالعربي.</p><div class="grid">{acts.map(x => <a class="card" href={x.href}><b>{x.name}</b><small>أنشطة عطلات</small></a>)}</div></section>}
 </Base>
